@@ -1,0 +1,115 @@
+/* ==========================================================================
+Classes to change the feel of bulma buttons
+========================================================================== */
+
+// CTA buttons
+
+.button {
+  cursor: pointer;
+  transition: all 0.5s;
+  &.cta {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 26px 40px 26px 40px;
+  }
+  &.is-clear {
+    line-height: 0 !important;
+  }
+  &.rounded {
+    border-radius: 500px;
+  }
+  &.raised:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42),
+      0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+    opacity: 0.8;
+  }
+  &.btn-outlined {
+    background: transparent;
+  }
+  &.signup-button {
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding: 24px 26px;
+    width: 130px;
+  }
+}
+
+.button {
+  &.primary-btn {
+    outline: none;
+    border-color: $utmist;
+    background-color: $utmist;
+    color: $white;
+    transition: all 0.5s;
+    &:hover {
+      color: $white;
+    }
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba(0, 52, 159, 0.42),
+        0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(0, 52, 159, 0.2) !important;
+      opacity: 0.8;
+    }
+    &.btn-outlined {
+      border-color: $utmist;
+      color: $utmist;
+      background-color: transparent;
+      &:hover {
+        color: $white;
+        background-color: $utmist;
+      }
+    }
+  }
+  &.secondary-btn {
+    outline: none;
+    border-color: $utmist;
+    background-color: $utmist;
+    color: $white;
+    transition: all 0.5s;
+    &:hover {
+      color: $white;
+    }
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba(0, 52, 159, 0.42),
+        0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(0, 52, 159, 0.2) !important;
+      opacity: 0.8;
+    }
+    &.btn-outlined {
+      border-color: $utmist;
+      color: $white;
+      background-color: transparent;
+      &:hover {
+        color: $white;
+        background-color: $utmist;
+      }
+    }
+  }
+  &.button.accent-btn {
+    outline: none;
+    border-color: $accent;
+    background-color: $accent;
+    color: $white;
+    transition: all 0.5s;
+    &:hover {
+      color: $white;
+    }
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba(104, 187, 136, 0.42),
+        0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(104, 187, 136, 0.2) !important;
+      opacity: 0.8;
+    }
+    &.btn-outlined {
+      border-color: $accent;
+      color: $accent;
+      background-color: transparent;
+      &:hover {
+        color: $white;
+        background-color: $accent;
+      }
+    }
+  }
+}

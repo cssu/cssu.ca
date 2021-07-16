@@ -1,0 +1,58 @@
+{{- $profileIcons     := .Site.Params.profileIcons }}
+<div class="profile-container">
+    <div class="profile-single-container">
+        <center class="profile-logo-container">
+            {{ if .Get "linkedin" }}
+                <a href="{{.Get `linkedin`}}"> 
+                    <span class="profile-logo"><i class="profile-logo-size fa fa-linkedin"></i></span>
+                </a>
+            {{ end }}
+            {{ if .Get "github" }}
+                <a href="{{.Get `github`}}">
+                    <span class="profile-logo"><i class="profile-logo-size fa fa-github"></i></span>
+                </a>
+            {{ end }}
+            {{ if .Get "gitlab" }}
+                <a href="{{.Get `gitlab`}}">
+                    <span class="profile-logo"><i class="profile-logo-size fab fa-gitlab"></i></span>
+                </a>
+            {{ end }}
+            {{ if .Get "facebook" }}
+                <a href="{{.Get `facebook`}}"> 
+                    <span class="profile-logo"><i class="profile-logo-size fa fa-facebook"></i></span>
+                </a>
+            {{ end }}
+            {{ if .Get "twitter" }}
+                <a href="{{.Get `twitter`}}">
+                    <span class="profile-logo"><i class="profile-logo-size fa fa-twitter"></i></span>
+                </a>
+            {{ end }}
+            {{ if .Get "personal" }}
+                <a href="{{.Get `personal`}}">
+                    <span class="profile-logo"><i class="profile-logo-size fa fa-user"></i></span>
+                </a>
+            {{ end }}
+        </center>
+        <div class="profile-info-container">
+            <div class="profile-pic-container">
+                <div class="profile-pic-background" style="background-image: url({{ $profileIcons.defaultProfilePic }});">
+                    <img class="profile-pic" loading="lazy" src="{{.Get `profile_pic` }}" onerror="this.style.display='none'">          
+                </div>
+            </div>
+            <div class="profile-title-container">
+                {{ if .Get "nameOverflow" }}
+                    <center class="profile-name profile-name-scroll">{{.Get "name"}}</center>
+                {{ else }}
+                    <center class="profile-name">{{.Get "name"}}</center>
+                {{ end }}
+            </div>
+            <div class="profile-position-container">
+                {{ if .Get "positionOverflow" }}
+                <center class="profile-position profile-position-scroll">{{.Get "position"}}</center>
+                {{ else }}
+                <center class="profile-position">{{.Get "position"}}</center>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
