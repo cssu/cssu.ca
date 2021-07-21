@@ -67,3 +67,34 @@ showInMenu: true
 {{< profilePic/profilePic bold=true name="WICS"  position="U of T Women in Computer Science"  facebook="https://www.facebook.com/UofTWiCS/" profile_pic="./wics.png">}}
 
 {{< /profilePic/profilePicContainer >}}
+
+## Mississauga Campus (UTM)
+
+{{< profilePic/profilePicContainer >}}
+
+{{< profilePic/profilePic bold=true name="CSSC"  position="Computer Science Student Community"  personal="https://cssc.utm.utoronto.ca"  gitHub: "https://github.com/utm-cssc"  profile_pic="./cssc.png">}}
+
+{{< profilePic/profilePic bold=true name="DCS UTM"  position="Developer Student Club UTM"  personal="https://dscutm.com/" linkedin="https://www.linkedin.com/company/dscutm"  facebook="https://www.facebook.com/utmdsc"  github="https://github.com/DSC-UTMap" profile_pic="./dsc_utm.png">}}
+
+{{< profilePic/profilePic bold=true name="MCSS"  position="Mathematical and Computational Sciences Society" linkedin="https://www.linkedin.com/company/utmmcss/"  facebook="https://www.facebook.com/utmmcss/"  github="https://github.com/DSC-UTMap" profile_pic="./mcss.png">}}
+
+{{< profilePic/profilePic bold=true name="UTMSAM"  position="Society for Algorithmic Modelling"  personal="https://utmsam.sa.utoronto.ca/" linkedin="https://www.linkedin.com/company/utmsam2020/"  facebook="https://utmsam.sa.utoronto.ca/"  github="https://github.com/UTM-Society-for-Algorithmic-Modelling" profile_pic="./utmsam.png">}}
+
+
+{{< profilePic/profilePic bold=true name="UTM Robotics"  personal="https://utmrobotics.com/" linkedin="https://www.linkedin.com/company/utmrobotics/"  facebook="https://www.facebook.com/utmrobotics"  github="https://github.com/utmrobotics" profile_pic="./utmrobotics.png">}}
+
+{{< profilePic/profilePic bold=true name="WiSC"  position="Women in Science and Computing"  personal="http://www.wiscutm.com/" linkedin="https://www.linkedin.com/in/wisc-utm-5a2417199/"  facebook="https://www.facebook.com/wiscutm"  profile_pic="./wisc.png">}}
+
+{{< /profilePic/profilePicContainer >}}
+
+## Scarborough Campus (UTSC)
+
+{{< profilePic/profilePicContainer >}}
+
+{{< profilePic/profilePic bold=true name="AMACSS"  position="Association of Mathematics and Computer Science Students"  personal="https://www.amacss.org/" linkedin="https://www.linkedin.com/company/association-of-mathematical-and-computer-science-students/"  facebook="https://www.facebook.com/AMACSSUTSC"  profile_pic="./amacss.png">}}
+
+{{< profilePic/profilePic bold=true name="CSEC"  position="Computer Science Enrichment Club"  personal="https://csec.club/" linkedin="https://www.linkedin.com/company/computer-science-enrichment-club/about"  facebook="https://www.facebook.com/CSEC.UTSC"  github="https://github.com/csecutsc" profile_pic="./csec.png">}}
+
+{{< profilePic/profilePic bold=true name="UofT OSS"  position="UofT Open Source Society"  personal="https://uoft-oss.github.io/" linkedin="https://www.linkedin.com/company/uoft-open-source-society/"  facebook="https://www.facebook.com/uoft.oss/"  github="https://github.com/uoft-oss" profile_pic="./oss.png">}}
+
+{{< profilePic/profilePicContainer >}}
