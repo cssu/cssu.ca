@@ -4,8 +4,10 @@ date: 2021-01-01
 draft: false
 hideLastModified: true
 keepImageRatio: true
-showInMenu: false
+showInMenu: true
 summary: "Orientation event for incoming first year computer science students."
 ---
 
-Details coming soon!
+[Sign up to become an Orientation Leader](https://forms.gle/fG4eZpCk2D2N4npb9)
+
+[](./orientation_leader_ad.png)

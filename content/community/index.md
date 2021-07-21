@@ -34,7 +34,7 @@ showInMenu: true
 
 {{< profilePic/profilePic bold=true name="UofT Blueprint" personal="https://uoftblueprint.org/" linkedin="https://www.linkedin.com/company/uoftblueprint/"  facebook="https://www.facebook.com/uoftblueprint" profile_pic="./uoftblueprint.png">}}
 
-{{< profilePic/profilePic  bold=true name="UTADA"  position="U of T Application Development Association" personal="https://uoftada.com" github="https://github.com/UTMIST" linkedin="LinkedIn: https://www.linkedin.com/company/university-of-toronto-application-development-association" facebook="https://www.facebook.com/uoftada/" profile_pic="utada.png">}}
+{{< profilePic/profilePic  bold=true name="UTADA"  position="U of T Application Development Association" personal="https://uoftada.com" github="https://github.com/UTMIST" linkedin="https://www.linkedin.com/company/university-of-toronto-application-development-association" facebook="https://www.facebook.com/uoftada/" profile_pic="utada.png">}}
 
 {{< profilePic/profilePic  bold=true name="ACCS"  position="Association of Chinese Computer Students" profile_pic="./accs.jpg">}}
 
@@ -50,6 +50,8 @@ showInMenu: true
 
 {{< profilePic/profilePic  bold=true name="UofT Hacks" personal="https://uofthacks.com/" linkedin="https://www.linkedin.com/company/uoftorontohacks" facebook="https://www.facebook.com/UoftHacksT" profile_pic="./uofthacks.png">}}
 
+{{< profilePic/profilePic  bold=true name="iGEM Toronto" personal="http://igemtoronto.ca/" linkedin="https://www.linkedin.com/company/igem-toronto/mycompany/" github="http://igemtoronto.ca/" profile_pic="./igem.jpg">}}
+
 {{< profilePic/profilePic  bold=true name="UTMIST"  position="U of T Machine Intelligence Student Team" personal="https://utmist.gitlab.io" linkedin="https://linkedin.com/company/utmist" facebook="https://facebook.com/UofT.MIST" github="https://github.com/UTMIST" gitlab="https://gitlab.com/UTMIST" profile_pic="./utmist.png">}}
 
 {{< profilePic/profilePic  bold=true name="NeuroTechUofT"  personal="https://neurotechuoft.com/index.html" linkedin="https://www.linkedin.com/company/neurotechuoft" facebook="https://www.facebook.com/groups/neurotechUofT" github="https://github.com/neurotechuoft" profile_pic="./neurotechuoft.png">}}
@@ -60,7 +62,7 @@ showInMenu: true
 
 {{< profilePic/profilePic bold=true name="UTSDSC"  position="U of T Students Digital Society Collective"  personal="http://www.uoftdigisoc.xyz" linkedin="https://www.linkedin.com/company/uoft-digital-society-collective"  profile_pic="./utsdsc.jpg">}}
 
-{{< profilePic/profilePic  bold=true name="TURCS"  position="Toronto Undergraduate Research in Computer Science" personal="https://utmist.gitlab.io" linkedin="https://www.linkedin.com/company/turcs" facebook="https://www.facebook.com/turcsuoft"  profile_pic="./turcs.png">}}
+{{< profilePic/profilePic  bold=true name="TURCS"  position="Toronto Undergraduate Research in Computer Science" linkedin="https://www.linkedin.com/company/turcs" facebook="https://www.facebook.com/turcsuoft"  profile_pic="./turcs.png">}}
 
 {{< profilePic/profilePic bold=true name="UTWD"  position="U of T Web Dev Club"  personal="https://uoftweb.com" linkedin="https://www.linkedin.com/company/uoft-web"  facebook="https://www.facebook.com/uoftweb"  github="https://github.com/uoftweb" profile_pic="./utwd.png">}}
 
@@ -72,14 +74,13 @@ showInMenu: true
 
 {{< profilePic/profilePicContainer >}}
 
-{{< profilePic/profilePic bold=true name="CSSC"  position="Computer Science Student Community"  personal="https://cssc.utm.utoronto.ca"  gitHub: "https://github.com/utm-cssc"  profile_pic="./cssc.png">}}
+{{< profilePic/profilePic bold=true name="CSSC"  position="Computer Science Student Community"  personal="https://cssc.utm.utoronto.ca"  github= "https://github.com/utm-cssc"  profile_pic="./cssc.png">}}
 
-{{< profilePic/profilePic bold=true name="DCS UTM"  position="Developer Student Club UTM"  personal="https://dscutm.com/" linkedin="https://www.linkedin.com/company/dscutm"  facebook="https://www.facebook.com/utmdsc"  github="https://github.com/DSC-UTMap" profile_pic="./dsc_utm.png">}}
+{{< profilePic/profilePic bold=true name="DSC UTM"  position="Developer Student Club UTM"  personal="https://dscutm.com/" linkedin="https://www.linkedin.com/company/dscutm"  facebook="https://www.facebook.com/utmdsc"  github="https://github.com/DSC-UTMap" profile_pic="./dsc_utsg.png">}}
 
 {{< profilePic/profilePic bold=true name="MCSS"  position="Mathematical and Computational Sciences Society" linkedin="https://www.linkedin.com/company/utmmcss/"  facebook="https://www.facebook.com/utmmcss/"  github="https://github.com/DSC-UTMap" profile_pic="./mcss.png">}}
 
 {{< profilePic/profilePic bold=true name="UTMSAM"  position="Society for Algorithmic Modelling"  personal="https://utmsam.sa.utoronto.ca/" linkedin="https://www.linkedin.com/company/utmsam2020/"  facebook="https://utmsam.sa.utoronto.ca/"  github="https://github.com/UTM-Society-for-Algorithmic-Modelling" profile_pic="./utmsam.png">}}
-
 
 {{< profilePic/profilePic bold=true name="UTM Robotics"  personal="https://utmrobotics.com/" linkedin="https://www.linkedin.com/company/utmrobotics/"  facebook="https://www.facebook.com/utmrobotics"  github="https://github.com/utmrobotics" profile_pic="./utmrobotics.png">}}
 
