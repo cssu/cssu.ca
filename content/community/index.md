@@ -96,6 +96,5 @@ showInMenu: true
 
 {{< profilePic/profilePic bold=true name="CSEC"  position="Computer Science Enrichment Club"  personal="https://csec.club/" linkedin="https://www.linkedin.com/company/computer-science-enrichment-club/about"  facebook="https://www.facebook.com/CSEC.UTSC"  github="https://github.com/csecutsc" profile_pic="./csec.png">}}
 
-{{< profilePic/profilePic bold=true name="UofT OSS"  position="UofT Open Source Society"  personal="https://uoft-oss.github.io/" linkedin="https://www.linkedin.com/company/uoft-open-source-society/"  facebook="https://www.facebook.com/uoft.oss/"  github="https://github.com/uoft-oss" profile_pic="./oss.png">}}
 
 {{< profilePic/profilePicContainer >}}
