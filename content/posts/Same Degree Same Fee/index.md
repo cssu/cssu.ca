@@ -54,12 +54,18 @@ December 2020 -- The CSSU and the other members of the *Same Degree, Same Fee* c
 October 2020 -- The *Same Degree, Same Fee* is founded and our campaign committee is struck, consisting of representatives from the BCBSU, UTSU, and ASSU, and chaired by the CSSU.
 
 ## In The News
+[*The Varsity*: Undergraduate international tuition fees to increase by an average of 2.1 per cent next year](https://thevarsity.ca/2021/05/15/undergraduate-international-tuition-fees-to-increase-by-an-average-of-2-1-per-cent-next-year/)
+</br>
+May 15, 2021 - *The Varsity* covers the SDSF campaign's advocacy in the UofT Governance process.
 
 [*The Varsity*: Op-ed: Students are missing from U of T’s budget process](https://thevarsity.ca/2021/02/14/op-ed-students-are-missing-from-u-of-ts-budget-process/)</br>
 February 14, 2021
 
 [*The Varsity*: Tuition town halls highlight high fees for students in formerly deregulated programs](https://thevarsity.ca/2021/01/31/tuition-town-halls-highlight-high-fees-for-students-in-formerly-deregulated-programs/)</br>
 January 31, 2021
+
+[*The Varsity*: Students find university’s financial aid insufficient to help with increasing tuition](https://thevarsity.ca/2021/01/24/students-find-universitys-financial-aid-insufficient-to-help-with-increasing-tuition/) </br>
+January 24, 2021 - *The Varsity* discusses why a tuition reduction is necessary to alleviate the impact of increasing tuition for students in programs with higher fees, like Computer Science, Bioinformatics, and Data Science.
 
 [*The Varsity*: Same degree, same fee: CSSU campaigns to lower Computer Science, Bioinformatics, Data Science tuition](https://thevarsity.ca/2021/01/10/same-degree-same-fee-cssu-campaigns-to-lower-computer-science-bioinformatics-data-science-tuition/)</br>
 January 10, 2021
