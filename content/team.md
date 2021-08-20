@@ -11,8 +11,8 @@ showInMenu: true
 ### Executive Council
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Jason Liu"  position="President"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421"   profile_pic="/images/people/jason.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Rupert Wu"  position="Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Jason Liu"  position="President"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Rupert Wu"  position="Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
 {{< profilePic/profilePic  bold=true name="Aditya Goyal"  position="Treasurer"  linkedin="https://www.linkedin.com/in/adi-goyal/"  profile_pic="/images/people/adi.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" >}}
 {{< profilePic/profilePic  bold=true name="Omri Daniel"  position="Dir. External Relations"  linkedin="https://www.linkedin.com/in/omri-daniel/" profile_pic="/images/people/omri.jfif" >}}
