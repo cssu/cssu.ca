@@ -1,14 +1,15 @@
 ---
 title: "Community"
-date: 2021-01-01
+date: 2021-08-27
 draft: false
-hideLastModified: true
 keepImageRatio: true
 summary: "CS-related clubs and student groups."
 showInMenu: true
 ---
 
 ## University Entities
+
+The CSSU enjoys the support of partner course unions and the Department of Computer Science.
 
 {{< profilePic/profilePicContainer >}}
 
@@ -22,11 +23,11 @@ showInMenu: true
 
 {{< profilePic/profilePic bold=true name="DCSIL" position="Department of Computer Science Innovation Lab " personal="https://dcsil.ca" github="https://github.com/dcsil" profile_pic="dcsil.png">}}
 
-{{< profilePic/profilePic bold=true name="TLI" position="Technology Leadership Initiative" personal="https://www.technologyleadershipinitiative.com" linkedin="https://www.linkedin.com/groups/13649500" profile_pic="./tli.png">}}
-
 {{< /profilePic/profilePicContainer >}}
 
 ## Recognized Campus Groups
+
+Recognized campus groups (RSGs) -- not to be confused with recognized study groups -- are clubs recognized by ULife that provide students with extracurricular activities to have fun, get exercise, and/or develop their careers. The following are those relevant to computer science. Please reach out on Discord or email to request your club to be listed.
 
 {{< profilePic/profilePicContainer >}}
 
@@ -45,6 +46,12 @@ showInMenu: true
 {{< profilePic/profilePic  bold=true name="DST"  position="Data Science Toronto" personal="https://datasciencetoronto.wixsite.com/home" linkedin="https://www.linkedin.com/company/data-science-toronto" facebook="https://www.facebook.com/uoftdatasciencetoronto" github="https://github.com/UTMIST" profile_pic="./dst.png">}}
 
 {{< profilePic/profilePic  bold=true name="DSC UTSG"  position="Developer Student Clubs" personal="https://sites.google.com/view/dscutsg/home" linkedin="https://www.linkedin.com/company/dscutsg" facebook="https://www.facebook.com/Developer-Student-Club-University-of-Toronto-105026347541094" github="https://github.com/Developer-Student-Club-UofT"  profile_pic="./dsc_utsg.png">}}
+
+{{< profilePic/profilePic  bold=true name="RUCS"  position="Review of Undergraduate Computer Science" personal=" https://rucs.ca" facebook="https://www.facebook.com/RUCSjournal"  profile_pic="./rucs.png">}}
+
+{{< profilePic/profilePic  bold=true name="aUToronto"  position="U of T Self-Driving Car Team" personal="https://www.autodrive.utoronto.ca" linkedin="https://www.linkedin.com/company/autoronto/" facebook="https://www.facebook.com/aUToronto/" profile_pic="./autoronto.jpg">}}
+
+{{< profilePic/profilePic  bold=true name="UTCSSA"  position="U of T Chinese Students and Scholars Association" personal="https://www.utcssa.ca/" linkedin="https://www.linkedin.com/company/utcssa/" facebook="https://www.facebook.com/UTCSSA" profile_pic="./cssa.png">}}
 
 {{< profilePic/profilePic  bold=true name="UTGDDC"  position="U of T Game Design & Development Club" personal="http://www.utgddc.com" linkedin="https://www.linkedin.com/company/u-of-t-game-design-design-and-development-club" facebook="https://www.facebook.com/utGDDC" profile_pic="./gddc.jpg">}}
 
@@ -95,6 +102,5 @@ showInMenu: true
 {{< profilePic/profilePic bold=true name="AMACSS"  position="Association of Mathematics and Computer Science Students"  personal="https://www.amacss.org/" linkedin="https://www.linkedin.com/company/association-of-mathematical-and-computer-science-students/"  facebook="https://www.facebook.com/AMACSSUTSC"  profile_pic="./amacss.png">}}
 
 {{< profilePic/profilePic bold=true name="CSEC"  position="Computer Science Enrichment Club"  personal="https://csec.club/" linkedin="https://www.linkedin.com/company/computer-science-enrichment-club/about"  facebook="https://www.facebook.com/CSEC.UTSC"  github="https://github.com/csecutsc" profile_pic="./csec.png">}}
-
 
 {{< profilePic/profilePicContainer >}}

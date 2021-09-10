@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-date: 2021-01-01
+date: 2021-08-27
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -12,8 +12,9 @@ Last updated 09/05/2021
 
 ## Official Student Resources Lists
 
+- [**Department of Computer Science Student Resources**](https://web.cs.toronto.edu/undergraduate/current)
+  - The department provides many useful resources for undergraduate students. This page is a must-see for students looking to explore and succeed in computer science.
 - [Faculty of Arts and Science Student Resources](https://www.artsci.utoronto.ca/current/academic-advising-and-support/online-resources-students)
-- [Department of Computer Science Student Resources](https://web.cs.toronto.edu/undergraduate/current)
 
 ## CSSU-maintained Resources
 
@@ -44,7 +45,7 @@ Last updated 09/05/2021
 - [UofT Discord Student Hub - central hub for links to numerous UofT Discord servers](https://discord.gg/2yNfRKXCvq)
   - [CSSU Discord Server](https://discord.gg/R9hneMaafD)
   - [Unofficial UofT CS Discord Server](https://discord.gg/QrT4w8Qyx2)
-- [CSSU Student Lounge - hopefully re-opening soon!](https://www.cssu.ca/lounge/)
+- [CSSU Student Lounge - hopefully re-opening soon!](/about)
 
 ## Free Food
 
