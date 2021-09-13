@@ -51,7 +51,7 @@ Recognized campus groups (RSGs) -- not to be confused with recognized study grou
 
 {{< profilePic/profilePic  bold=true name="aUToronto"  position="U of T Self-Driving Car Team" personal="https://www.autodrive.utoronto.ca" linkedin="https://www.linkedin.com/company/autoronto/" facebook="https://www.facebook.com/aUToronto/" profile_pic="./autoronto.jpg">}}
 
-{{< profilePic/profilePic  bold=true name="UTCSSA"  position="U of T Chinese Students and Scholars Association" personal="https://www.utcssa.ca/" linkedin="https://www.linkedin.com/company/utcssa/" facebook="https://www.facebook.com/UTCSSA" profile_pic="./cssa.png">}}
+{{< profilePic/profilePic  bold=true name="CSSA"  position="UofT Cybersecurity Student Association" facebook="https://www.facebook.com/uoftcssa" profile_pic="./cssa.jpg>}}
 
 {{< profilePic/profilePic  bold=true name="UTGDDC"  position="U of T Game Design & Development Club" personal="http://www.utgddc.com" linkedin="https://www.linkedin.com/company/u-of-t-game-design-design-and-development-club" facebook="https://www.facebook.com/utGDDC" profile_pic="./gddc.jpg">}}
 
