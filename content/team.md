@@ -9,7 +9,7 @@ showInMenu: true
 
 ### Executive Council
 
-Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support support undergraduate students.
+Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Jason Liu"  position="President"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
@@ -29,8 +29,12 @@ Members of the Executive Council are elected by the student body to serve one-ye
 General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community. To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform).
 
 {{< profilePic/profilePicContainer >}}
+{{< profilePic/profilePic  bold=true name="Alamgir Khan"  position=""  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg">}}
 {{< profilePic/profilePic  bold=true name="Elliot Ford"  position="Technical Advisor"  linkedin="https://www.linkedin.com/in/elliotcford/" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" >}}
+{{< profilePic/profilePic  bold=true name="Yujin Shim"  position=""  >}}
+
 {{< /profilePic/profilePicContainer >}}
 
 ### Office Operations
