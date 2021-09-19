@@ -4,7 +4,7 @@ date: 2021-01-01
 draft: false
 hideLastModified: true
 keepImageRatio: true
-showInMenu: true
+showInMenu: false
 summary: "Orientation event for incoming first year computer science students."
 ---
 
