@@ -20,7 +20,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Ekagra Luthra"  position="Dir. Social Events"  linkedin="https://www.linkedin.com/in/ekagra-luthra/" profile_pic="/images/people/ekagra.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Rachel Kim"  position="Dir. Academic Events"  linkedin="https://www.linkedin.com/in/rachelm-kim/" profile_pic="/images/people/rachel.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" >}}
+{{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" personal="https://joannepan.netlify.app">}}
 {{< profilePic/profilePic  bold=true name="Akiki Liang"  position="(Acting) Dir. External Relations"  linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
 {{< /profilePic/profilePicContainer >}}
 
