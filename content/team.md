@@ -21,7 +21,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< profilePic/profilePic  bold=true name="Ekagra Luthra"  position="Dir. Social Events"  linkedin="https://www.linkedin.com/in/ekagra-luthra/" profile_pic="/images/people/ekagra.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Rachel Kim"  position="Dir. Academic Events"  linkedin="https://www.linkedin.com/in/rachelm-kim/" profile_pic="/images/people/rachel.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" personal="https://joannepan.netlify.app">}}
-{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="(Acting) Dir. External Relations"  linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="Dir. External Relations (Interim)"  linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
 {{< /profilePic/profilePicContainer >}}
 
 ### General Council
@@ -29,11 +29,18 @@ Members of the Executive Council are elected by the student body to serve one-ye
 General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community. To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform).
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Alamgir Khan"  position=""  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg">}}
+
 {{< profilePic/profilePic  bold=true name="Elliot Ford"  position="Technical Advisor"  linkedin="https://www.linkedin.com/in/elliotcford/" >}}
+
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
-{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" >}}
-{{< profilePic/profilePic  bold=true name="Yujin Shim"  position=""  >}}
+
+{{< profilePic/profilePic  bold=true name="Alamgir Khan"  position="External Relations"  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg">}}
+
+{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
+
+{{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations"  >}}
+
+{{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)"  linkedin="" >}}
 
 {{< /profilePic/profilePicContainer >}}
 
