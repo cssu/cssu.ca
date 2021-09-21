@@ -27,7 +27,7 @@ The CSSU enjoys the support of partner course unions and the Department of Compu
 
 ## Recognized Campus Groups
 
-Recognized campus groups (RSGs) -- not to be confused with recognized study groups -- are clubs recognized by ULife that provide students with extracurricular activities to have fun, get exercise, and/or develop their careers. The following are those relevant to computer science. Please reach out on Discord or email to request your club to be listed.
+Recognized campus groups (RCGs) are student groups ("clubs") recognized by [**ULife**](https://ulife.utoronto.ca/organizations) that provide students with extracurricular activities to have fun, get exercise, and/or develop their careers. The following are those relevant to computer science. Please reach out on Discord or email to request your club to be listed.
 
 {{< profilePic/profilePicContainer >}}
 
