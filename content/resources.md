@@ -39,6 +39,7 @@ Last updated 09/05/2021
 - [UofT Writing Centers](https://writing.utoronto.ca/writing-centres/)
 - [Free Courses on Coursera](https://www.coursera.org/for-university-and-college-students/?utm_campaign=header-for-students&utm_content=corp-to-landing-for-students&utm_medium=coursera&utm_source=header-for-students-link)
 - [Free Courses on Lynda/class central](https://www.classcentral.com/university/utoronto)
+- [UofTHub - information about courses](https://uofthub.ca/)
 
 ## Community
 
