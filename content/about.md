@@ -35,7 +35,9 @@ Members of the Executive Council are elected by the student body to serve one-ye
 
 ## General Council
 
-General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community. To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform).
+General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community.
+
+<!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
 
