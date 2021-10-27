@@ -18,17 +18,17 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 
 Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
 
-| Time/Day | Mon               | Tue             | Wed                  | Thu                    | Fri             |
-| -------- | ----------------- | --------------- | -------------------- | ---------------------- | --------------- |
-| 9:00 AM  |                   |                 |                      |                        |                 |
-| 10:00 AM | Dhruvaa Saravanan |                 | Dhruvaa Saravanan    | Joshua Ong             | Akiki Liang     |
-| 11:00 AM | Louis Scheffer    | Rachel Kim      | Joshua Ong           | Rupert Wu              | Akiki Liang     |
-| 12:00 PM | Louis Scheffer    | Rachel Kim      | Owen Wang            | Mahathi Gandhamaneni   | Supriya Vasanth |
-| 1:00 PM  | Arjun Pandher     | Aditya Mehrotra | Mahathi Gandhamaneni | Supriya Vasanth        | Ekagra Luthra   |
-| 2:00 PM  | Arjun Pandher     | Aditya Mehrotra | Arjun Pandher        | Kaylee Chen            | Ekagra Luthra   |
-| 3:00 PM  | Minh Le           | Mogtaba Alim    | Joanne Pan           | Joanne Pan             | Alamgir Khan    |
-| 4:00 PM  | Minh Le           | Mogtaba Alim    | Arjun Pandher        | Rupert Wu              | Kaylee Chen     |
-| 5:00 PM  | Jason Liu         |                 | Arjun Pandher        | Alamgir Khan           | Arjun Pandher   |
-| 6:00 PM  | Jason Liu         |                 | Rupert Wu            | Owen Wang              |                 |
-| 7:00 PM  | Jason Liu         |                 | Aditya Goyal         | Jessica Wang (on Zoom) |                 |
-| 8:00 PM  |                   |                 | Aditya Goyal         | Jessica Wang (on Zoom) |                 |
+| Time/Day | Mon               | Tue             | Wed                  | Thu                                                                                | Fri             |
+| -------- | ----------------- | --------------- | -------------------- | ---------------------------------------------------------------------------------- | --------------- |
+| 9:00 AM  |                   |                 |                      |                                                                                    |                 |
+| 10:00 AM | Dhruvaa Saravanan |                 | Dhruvaa Saravanan    | Joshua Ong                                                                         | Akiki Liang     |
+| 11:00 AM | Louis Scheffer    | Rachel Kim      | Joshua Ong           | Rupert Wu                                                                          | Akiki Liang     |
+| 12:00 PM | Louis Scheffer    | Rachel Kim      | Owen Wang            | Mahathi Gandhamaneni                                                               | Supriya Vasanth |
+| 1:00 PM  | Arjun Pandher     | Aditya Mehrotra | Mahathi Gandhamaneni | Supriya Vasanth                                                                    | Ekagra Luthra   |
+| 2:00 PM  | Arjun Pandher     | Aditya Mehrotra | Arjun Pandher        | Kaylee Chan                                                                        | Ekagra Luthra   |
+| 3:00 PM  | Minh Le           | Mogtaba Alim    | Joanne Pan           | Joanne Pan                                                                         | Alamgir Khan    |
+| 4:00 PM  | Minh Le           | Mogtaba Alim    | Arjun Pandher        | Rupert Wu                                                                          | Kaylee Chan     |
+| 5:00 PM  | Jason Liu         |                 | Arjun Pandher        | Alamgir Khan                                                                       | Arjun Pandher   |
+| 6:00 PM  | Jason Liu         |                 | Rupert Wu            | Owen Wang                                                                          |                 |
+| 7:00 PM  | Jason Liu         |                 | Aditya Goyal         | [Jessica Wang (on Zoom)](https://utoronto.zoom.us/j/84270268517); passcode: 969876 |                 |
+| 8:00 PM  |                   |                 | Aditya Goyal         | [Jessica Wang (on Zoom)](https://utoronto.zoom.us/j/84270268517); passcode: 969876 |                 |

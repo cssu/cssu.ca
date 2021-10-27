@@ -26,12 +26,11 @@ To get the most out of our events, attend each one as they're all essential part
 ### Nov 1: Resume/Portfolio Workshop
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Shardul Bansal"  position="Amazon Web Services (AWS)"  linkedin="https://www.linkedin.com/in/shardul-bansal/" profile_pic="/images/people/shardul.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Angela Bi"  position="Microsoft"  linkedin="https://www.linkedin.com/in/angela-bi-/" profile_pic="/images/people/angela.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Eric Hasegawa"  position="Capital One"  linkedin="https://www.linkedin.com/in/eric-h-900b4b139/" profile_pic="/images/people/eric.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Muhammad Khattak"  position="Intel"  linkedin="https://www.linkedin.com/in/muhammad-khattak/" profile_pic="/images/people/muhammad.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jennifer Liu"  position="Snap"  linkedin="https://www.linkedin.com/in/jen-liu/" profile_pic="/images/people/jennifer.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Rhys Rustad-Elliott"  position="Elastic"  linkedin="https://www.linkedin.com/in/rhysrustadelliott/" github="http://github.com/GunshipPenguin" profile_pic="/images/people/rhys.jpeg" personal="https://rhysre.net/" >}}
-{{< profilePic/profilePic  bold=true name="Tales Scopinho"  position="Microsoft"  linkedin="https://www.linkedin.com/in/tales-scopinho/" profile_pic="/images/people/tales.jpeg" >}}
 {{< /profilePic/profilePicContainer >}}
 
 | Time      | Agenda Item                                        |

@@ -3,11 +3,11 @@ title: "About"
 date: 2021-09-10
 draft: false
 keepImageRatio: true
-summary: "Relevant Courses at the University of Toronto"
+summary: "About the Computer Science Student Union"
 showInMenu: true
 ---
 
-The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science POSt at the University of Toronto St. George campus. We are a student governed body that receives funding from the Arts and Sciences' Student Union, the Department of Computer Science, and our union store. The description of the structure, rules, and processes of the union are described in our [**constitution**](https://drive.google.com/file/d/1BtoaF5GL-9pxtXPqgN0domckNSJyOE3V/view?usp=sharing). The primary goal for the CSSU team is to improve the academic, social, and professional lives of computer science students. To do so, we intend to focus on the following:
+The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science POSt at the University of Toronto St. George campus. We are a student governed body that receives funding from the Arts and Sciences' Student Union, the Department of Computer Science, and our union store. The description of the structure, rules, and processes of the union are described in our [**constitution**](/constitution.pdf). The primary goal for the CSSU team is to improve the academic, social, and professional lives of computer science students. To do so, we intend to focus on the following:
 
 - **Social Activities**: organize social events to help students in making friends in their program and form networks of mutual support.
 - **Professional Development**: provide students with networking and professional skill development opportunities students to facilitate success in their careers.
@@ -32,7 +32,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< profilePic/profilePic  bold=true name="Ekagra Luthra"  position="Dir. Social Events"  linkedin="https://www.linkedin.com/in/ekagra-luthra/" profile_pic="/images/people/ekagra.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Rachel Kim"  position="Dir. Academic Events"  linkedin="https://www.linkedin.com/in/rachelm-kim/" profile_pic="/images/people/rachel.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" personal="https://joannepan.com/">}}
-{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="Dir. External Relations (Interim)"  linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Alamgir Khan"  position="Dir. External Relations"  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg" >}}
 {{< /profilePic/profilePicContainer >}}
 
 ## General Council
@@ -42,20 +42,18 @@ General Council members are volunteers appointed by the Executive Council to ass
 <!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" >}}
-{{< profilePic/profilePic  bold=true name="Kaylee Chen"  position="First Year Student Liaison"  linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" profile_pic="/images/people/mogtaba.png" >}}
+{{< profilePic/profilePic  bold=true name="Kaylee Chan"  position="First Year Student Liaison" linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" >}}
-{{< profilePic/profilePic  bold=true name="Jason Liu"  position="Social Events"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
-{{< profilePic/profilePic  bold=true name="Alamgir Khan"  position="External Relations"  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg">}}
-
-<!-- {{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}} -->
-
+{{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" profile_pic="/images/people/minh.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Jason Liu"  position="Administration"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Arjun Pandher"  position="Social Events"  linkedin="https://www.linkedin.com/in/arjun-pandher/" github="https://github.com/ArjunPandher"  profile_pic="/images/people/arjun.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Dhruvaa Saravanan"  position="Academic Events"  linkedin="https://www.linkedin.com/in/dhruvaa/" profile_pic="/images/people/dhruvaa.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations"  >}}
-{{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)"  linkedin="" >}}
-{{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations" profile_pic="/images/people/yujin.png" >}}
+{{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
+{{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
 {{< /profilePic/profilePicContainer >}}
 
