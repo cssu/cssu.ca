@@ -14,6 +14,8 @@ The Computer Science Student Union, or CSSU for short, represents over 1200 Comp
 - **Academic Opportunities**: present adequate resources and opportunities to help them embed themselves in the world of academic computer science and share their work with their peers.
 - **Undergrad and Department Liaison**: assist students in studies and advocate for their interests at a departmental, faculty, and university level.
 
+You can visit us at BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7) or email us at [utcssu@gmail.com](mailto:utcssu@gmail.com). **[See Office Hours.](/ba2250)**
+
 ---
 
 ## Executive Council
@@ -21,8 +23,8 @@ The Computer Science Student Union, or CSSU for short, represents over 1200 Comp
 Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Jason Liu"  position="President"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Rupert Wu"  position="Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
+{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="President (Interim) & Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
+{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Vice-President (Interim) & Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
 {{< profilePic/profilePic  bold=true name="Aditya Goyal"  position="Treasurer"  linkedin="https://www.linkedin.com/in/adi-goyal/"  profile_pic="/images/people/adi.jfif" >}}
 {{< /profilePic/profilePicContainer >}}
 
@@ -40,29 +42,31 @@ General Council members are volunteers appointed by the Executive Council to ass
 <!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
-
-{{< profilePic/profilePic  bold=true name="Elliot Ford"  position="Technical Advisor"  linkedin="https://www.linkedin.com/in/elliotcford/" >}}
-
+{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" >}}
+{{< profilePic/profilePic  bold=true name="Kaylee Chen"  position="First Year Student Liaison"  linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" >}}
+{{< profilePic/profilePic  bold=true name="Jason Liu"  position="Social Events"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
-
 {{< profilePic/profilePic  bold=true name="Alamgir Khan"  position="External Relations"  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg">}}
 
-{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
+<!-- {{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}} -->
 
+{{< profilePic/profilePic  bold=true name="Dhruvaa Saravanan"  position="Academic Events"  linkedin="https://www.linkedin.com/in/dhruvaa/" profile_pic="/images/people/dhruvaa.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations"  >}}
-
 {{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)"  linkedin="" >}}
-
+{{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
 {{< /profilePic/profilePicContainer >}}
 
 ## Office Operations
 
-Office operations volunteers help manage the lounge, the store/stockroom, kitchen, gaming centre, and study spaces in the student loung in BA 2250. They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
+The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. Office operations volunteers help manage the lounge, the store/stockroom, kitchen, gaming centre, and study spaces. They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
 
-_As the lounge is currently closed, we do not have an office operations team. Applications are expected to be posted in late-September._
-
----
+_Office operations are set to resume on a limited basis. As such, only members of the Executive and General Councils will be holding office hours in the lounge. **[See Office Hours.](/ba2250)**_
 
 ## Feedback Form
 
-At the CSSU, we strive to represent Computer Science students as best as possible, and to create an inclusive and welcoming community. As part of this effort, we are committed to listening to the feedback of CSSU members. Using this always-open form, you can submit feedback to us about any aspect of our activities, past or present. If you would like, you can provide your name or contact email so we can follow up with you directly. You may also remain anonymous. All feedback is welcome! [**CSSU Feedback Form**](https://forms.gle/bb4JXfWYkqW7Ewhh8)
+At the CSSU, we strive to represent Computer Science students as best as possible, and to create an inclusive and welcoming community. As part of this effort, we are committed to listening to the feedback of CSSU members. Using this always-open form, you can submit feedback to us about any aspect of our activities, past or present. If you would like, you can provide your name or contact email so we can follow up with you directly. You may also remain anonymous. All feedback is welcome! [**Share your thoughts!**](https://forms.gle/bb4JXfWYkqW7Ewhh8)
+
+---
