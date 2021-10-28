@@ -27,6 +27,7 @@ To get the most out of our events, attend each one as they're all essential part
 
 {{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Angela Bi"  position="Microsoft"  linkedin="https://www.linkedin.com/in/angela-bi-/" profile_pic="/images/people/angela.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Raymond Chen"  position="Microsoft"  linkedin="https://www.linkedin.com/in/raycxn" github="https://github.com/Sizbei" profile_pic="/images/people/raymond.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Eric Hasegawa"  position="Capital One"  linkedin="https://www.linkedin.com/in/eric-h-900b4b139/" profile_pic="/images/people/eric.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Muhammad Khattak"  position="Intel"  linkedin="https://www.linkedin.com/in/muhammad-khattak/" profile_pic="/images/people/muhammad.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jennifer Liu"  position="Snap"  linkedin="https://www.linkedin.com/in/jen-liu/" profile_pic="/images/people/jennifer.jpeg" >}}
