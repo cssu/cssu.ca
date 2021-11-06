@@ -8,11 +8,15 @@ summary: "The Undergraduate Computer Science Lounge"
 showInMenu: true
 ---
 
-The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. Office operations volunteers help manage the lounge, the store/stockroom, kitchen, gaming centre, and study spaces. They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
+_Due to the ongoing Coronavirus pandemic, the student lounge will be operating in a limited capacity. See below..._
+
+---
+
+The CSSU proudly maintains a student lounge in BA 2250 in which students can ~~hang out, network, play games~~ (limited by COVID-19) and ask questions. Office operations volunteers help manage the lounge, the store/stockroom, ~~kitchenette, gaming centre, and study spaces~~ (limited by COVID-19). They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
 
 ## Store
 
-We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using cash (unavailable due to COVID-19) or card (for purchases of $1 or more). Please be kind to the person assisting you with your purchase at the desk; they are a volunteer! A full list of store items will be uploaded here soon.
+We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using ~~cash or~~ (unavailable due to COVID-19) debit/credit card (for purchases of $1 or more). Please be kind to the person assisting you with your purchase at the desk; they are a volunteer! A full list of store items will be uploaded here soon.
 
 ## Schedule (November/December 2021)
 
@@ -32,3 +36,12 @@ Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Ce
 | 6:00 PM  | Jason Liu         |                 | Rupert Wu            | Owen Wang                                                                          |                 |
 | 7:00 PM  | Jason Liu         |                 | Aditya Goyal         | [Jessica Wang (on Zoom)](https://utoronto.zoom.us/j/84270268517); passcode: 969876 |                 |
 | 8:00 PM  |                   |                 | Aditya Goyal         | [Jessica Wang (on Zoom)](https://utoronto.zoom.us/j/84270268517); passcode: 969876 |                 |
+
+---
+
+## COVID-19 Precautions in the Student Lounge
+
+Due to the ongoing Coronavirus pandemic, the student lounge will be operating with the following limitations.
+
+- BA2250 will maintain a maximum capacity of four (4) people, including the office manager.
+- The kitchentte, refrigerator, entertainment centre will be strictly off-limits.

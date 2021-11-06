@@ -31,6 +31,7 @@ To get the most out of our events, attend each one as they're all essential part
 {{< profilePic/profilePic  bold=true name="Eric Hasegawa"  position="Capital One"  linkedin="https://www.linkedin.com/in/eric-h-900b4b139/" profile_pic="/images/people/eric.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Muhammad Khattak"  position="Intel"  linkedin="https://www.linkedin.com/in/muhammad-khattak/" profile_pic="/images/people/muhammad.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jennifer Liu"  position="Snap"  linkedin="https://www.linkedin.com/in/jen-liu/" profile_pic="/images/people/jennifer.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Jason Pham" position="Google, Wish, Airbnb" website="https://jasonpham.ca/" linkedin="https://www.linkedin.com/in/jason-pham/" github="http://github.com/suchaHassle" profile_pic="/images/people/jason.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Rhys Rustad-Elliott"  position="Elastic"  linkedin="https://www.linkedin.com/in/rhysrustadelliott/" github="http://github.com/GunshipPenguin" profile_pic="/images/people/rhys.jpeg" personal="https://rhysre.net/" >}}
 {{< /profilePic/profilePicContainer >}}
 
@@ -44,11 +45,19 @@ To get the most out of our events, attend each one as they're all essential part
 
 ### Nov 8: How to Apply + Resume Roast
 
+{{< profilePic/profilePicContainer >}}
+{{< profilePic/profilePic  bold=true name="Neil Gupta"  position="Nvidia"  linkedin="https://www.linkedin.com/in/neilpgupta/" profile_pic="/images/people/neil.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="Honeybee Hub, Google" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Jenna (Zhan) Lu"  position="Huawei, Microsoft"  linkedin="https://www.linkedin.com/in/jenna-zhan-lu/" profile_pic="/images/people/jenna.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Jason Pham" position="Google, Wish, Airbnb" website="https://jasonpham.ca/" linkedin="https://www.linkedin.com/in/jason-pham/" github="http://github.com/suchaHassle" profile_pic="/images/people/jason.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Piyush Sharma"  position="Microsoft" linkedin="https://www.linkedin.com/in/piyush19sha/" profile_pic="/images/people/piyush.jpeg" >}}
+{{< /profilePic/profilePicContainer >}}
+
 | Time      | Agenda Item                          |
 | --------- | ------------------------------------ |
 | 6:00-6:05 | Introduction of Speakers & Panelists |
-| 6:05-6:15 | Presentation on Job Applications     |
-| 6:15-7:00 | Random Resume Critiques              |
+| 6:05-6:30 | Presentation on Job Applications     |
+| 6:30-7:00 | Random Resume Critiques              |
 | 7:00-7:25 | Networking Breakout Groups           |
 | 7:25-7:30 | Closing Remarks                      |
 
