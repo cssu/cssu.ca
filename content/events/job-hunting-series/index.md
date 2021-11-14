@@ -30,6 +30,9 @@ To get the most out of our events, attend each one as they're all essential part
 {{< profilePic/profilePic  bold=true name="Raymond Chen"  position="Microsoft"  linkedin="https://www.linkedin.com/in/raycxn" github="https://github.com/Sizbei" profile_pic="/images/people/raymond.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Eric Hasegawa"  position="Capital One"  linkedin="https://www.linkedin.com/in/eric-h-900b4b139/" profile_pic="/images/people/eric.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Muhammad Khattak"  position="Intel"  linkedin="https://www.linkedin.com/in/muhammad-khattak/" profile_pic="/images/people/muhammad.jpeg" >}}
+{{< /profilePic/profilePicContainer >}}
+
+{{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Jennifer Liu"  position="Snap"  linkedin="https://www.linkedin.com/in/jen-liu/" profile_pic="/images/people/jennifer.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jason Pham" position="Google, Wish, Airbnb" website="https://jasonpham.ca/" linkedin="https://www.linkedin.com/in/jason-pham/" github="http://github.com/suchaHassle" profile_pic="/images/people/jason.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Rhys Rustad-Elliott"  position="Elastic"  linkedin="https://www.linkedin.com/in/rhysrustadelliott/" github="http://github.com/GunshipPenguin" profile_pic="/images/people/rhys.jpeg" personal="https://rhysre.net/" >}}
@@ -63,12 +66,20 @@ To get the most out of our events, attend each one as they're all essential part
 
 ### Nov 15: Interview + LeetCode Workshop
 
-| Time      | Agenda Item                                  |
-| --------- | -------------------------------------------- |
-| 6:00-6:05 | Introduction of Speakers & Panelists         |
-| 6:05-6:30 | Presentation on Technical Interviews (Jason) |
-| 6:30-7:30 | Mock Interviews (x2)                         |
-| 7:30-7:55 | Networking Breakout Groups                   |
-| 7:55-8:00 | Closing Remarks                              |
+{{< profilePic/profilePicContainer >}}
+{{< profilePic/profilePic  bold=true name="Shardul Bansal"  position="Amazon Web Services (AWS)" linkedin="https://www.linkedin.com/in/shardul-bansal/" profile_pic="/images/people/shardul.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="Honeybee Hub, Google" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< profilePic/profilePic  bold=true name="Jason Liu"  position="Huawei" linkedin="https://www.linkedin.com/in/jasonliu2000/" profile_pic="/images/people/jason.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="Amazon Web Services (AWS)"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
+{{< profilePic/profilePic  bold=true name="Ziyi (Jenny) Xu"  position="SickKids" linkedin="https://www.linkedin.com/in/jenny-ziyi-xu/" profile_pic="/images/people/jenny.jpeg" >}}
+{{< /profilePic/profilePicContainer >}}
+
+| Time      | Agenda Item                                                                                                                                                                                  |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6:00-6:05 | Introduction of Speakers & Panelists                                                                                                                                                         |
+| 6:05-6:30 | Presentation on Technical Interviews (**[Slides](https://docs.google.com/presentation/d/11ajVQEa0J5LkotutQ-QSND2mvBygRGH8/edit?usp=sharing&ouid=106759472795522965850&rtpof=true&sd=true)**) |
+| 6:30-7:30 | Mock Interviews (x2)                                                                                                                                                                         |
+| 7:30-7:55 | Networking Breakout Groups                                                                                                                                                                   |
+| 7:55-8:00 | Closing Remarks                                                                                                                                                                              |
 
 ---
