@@ -1,36 +1,26 @@
 ---
 title: "First Year's Guide to CS"
-date: 2020-07-25
+date: 2021-07-25
 datetime: 2020-07-25T04:00:00.000Z
 draft: false
 hideLastModified: true
 keepImageRatio: true
 showInMenu: false
 summary: "A Guide for First Year CS Students!"
-summaryImage: "first_year.jpg" 
-tags: ["events", "project-matchmaking-day", "2020-2021"]
-# years: 2020-2021
-cover: "images/uploads/first_year.jpg"
+summaryImage: "first_year.jpg"
 ---
 
-
-<!-- ---
-title: First Year's Guide to CS
-date: 2020-07-25T04:00:00.000Z
-description: A Guide for First Year CS Students!
-cover: /uploads/first_year.jpg
---- -->
 2020 Edition Version 1.1 - Last Edit July 18, 2020
 
 By: Anujan M - Class of 2020, Computer Science Specialist, Host of Room 2250 S3
 
-Author's Note:  
+Author's Note:
 
-> After the huge success of the original version of the guide I thought it was a good idea to go through a full edit of the guide and bring it up to date with new content (especially since there has been a lot of changes in the program and that made the old guide almost irrelevant). (That also includes GIFs and links to Podcast Episodes hosted by yours truly).  
+> After the huge success of the original version of the guide I thought it was a good idea to go through a full edit of the guide and bring it up to date with new content (especially since there has been a lot of changes in the program and that made the old guide almost irrelevant). (That also includes GIFs and links to Podcast Episodes hosted by yours truly).
 >
-> As much as I would like to say this guide is accurate (yes, disclaimer time) this is by no means an "official" guide and is written solely from the perspective of students like myself with sources to official documentation. You should make sure to consult with the Undergrad Office or your college registrar to confirm your understanding of these topics and to verify your plans.  
+> As much as I would like to say this guide is accurate (yes, disclaimer time) this is by no means an "official" guide and is written solely from the perspective of students like myself with sources to official documentation. You should make sure to consult with the Undergrad Office or your college registrar to confirm your understanding of these topics and to verify your plans.
 >
-> This is also a **WORK IN PROGRESS**, myself and others will be adding and editing content throughout the summer as new information comes to light.  
+> This is also a **WORK IN PROGRESS**, myself and others will be adding and editing content throughout the summer as new information comes to light.
 >
 > Also for the first time there is an audio version of the guide with writer's commentary from yours truly. I explain the story behind the guide as well as personal anecdotes from my time in CS. It will not be continuously updated.
 >
@@ -40,14 +30,14 @@ Author's Note:
 
 ## Audio Version with Writer's Commentary (recorded on June 29, 2020)
 
-[Youtube](https://www.youtube.com/watch?v=TkC2dLz30NU)  
+[Youtube](https://www.youtube.com/watch?v=TkC2dLz30NU)
 
-[Spotify](https://open.spotify.com/episode/0HF43I3QWW4psRRjYyCjq7)  
+[Spotify](https://open.spotify.com/episode/0HF43I3QWW4psRRjYyCjq7)
 
 Original Credits for 2018 Version (from which a lot of the content is sourced from)
 By: Anujan M, Clara S, and the CSSU Team
 
-- - -
+---
 
 ![helloGif](https://media.giphy.com/media/kiIzRA15EpUsOuiK9J/giphy.gif)
 
@@ -73,17 +63,17 @@ University can be exciting, but also daunting, especially in your first-year. Th
 
 ## What Is The CSSU?
 
-So since this guide is made in coordination with the CSSU, we would like to introduce you to them. The Computer Science Student Union (or CSSU in short) represents all Computer Science students who are either taking a Computer Science course, or are a part of the Computer Science program (Minor/Major/Specialist) at the U of T St. George campus. They offer a variety of services, and sell drinks and snacks (and ice cream sandwiches!) out of their office in **BA2250** (Bahen Centre for Information Technology, 40 St. George Street, 2nd floor) when it eventually reopens. 
+So since this guide is made in coordination with the CSSU, we would like to introduce you to them. The Computer Science Student Union (or CSSU in short) represents all Computer Science students who are either taking a Computer Science course, or are a part of the Computer Science program (Minor/Major/Specialist) at the U of T St. George campus. They offer a variety of services, and sell drinks and snacks (and ice cream sandwiches!) out of their office in **BA2250** (Bahen Centre for Information Technology, 40 St. George Street, 2nd floor) when it eventually reopens.
 
 ![ice-cream sandwich GIF](https://media.giphy.com/media/7FDtvM9nIN6Cs/giphy.gif)
 
-CSSU also hosts a variety of events, including game nights, pancake breakfasts, town halls, and academic events, where students have the opportunity to socialize with each other over pancakes, video games and stuff that they're interested in. They also have lots of video games and consoles in the office, from the Gamecube (for Smash Bros.) to the Switch (Super Smash Bros Ultimate) and an Xbox One and Playstation 3 for you to play with your friends, or make new ones. Feel free to drop by, say hello, and introduce yourself! You can sign-up for their email newsletter that will contain information on upcoming events [here](https://cssu.us10.list-manage.com/subscribe/post?u=987f258df56af54075e2c9696&id=6217e7727d)  
+CSSU also hosts a variety of events, including game nights, pancake breakfasts, town halls, and academic events, where students have the opportunity to socialize with each other over pancakes, video games and stuff that they're interested in. They also have lots of video games and consoles in the office, from the Gamecube (for Smash Bros.) to the Switch (Super Smash Bros Ultimate) and an Xbox One and Playstation 3 for you to play with your friends, or make new ones. Feel free to drop by, say hello, and introduce yourself! You can sign-up for their email newsletter that will contain information on upcoming events [here](https://cssu.us10.list-manage.com/subscribe/post?u=987f258df56af54075e2c9696&id=6217e7727d)
 
 ![smash bros](https://media.giphy.com/media/m8XguqDisAIgag7oqT/giphy.gif)
 
 They also support CS Orientation, which happens at the beginning of the year for students to get to know each other and to be introduced to some great info. Stay tuned for more details later this summer on how its being reworked for 2020!!
 
-- - -
+---
 
 ## Common Terms That You Should Know
 
@@ -91,29 +81,29 @@ They also support CS Orientation, which happens at the beginning of the year for
 
 [ACORN](https://acorn.utoronto.ca) is your one stop shop for all the official things you need to do. From enrolling in courses and accessing your final grades to finding your tuition bills, ACORN is your go to site.
 
-***ProTip***: You can plan your courses on ACORN and save them to your "cart", from which you can quickly enrol when it's time to enrol in courses.
+**_ProTip_**: You can plan your courses on ACORN and save them to your "cart", from which you can quickly enrol when it's time to enrol in courses.
 
 **QUERCUS** (A.K.A. Portal, or the most unpronounceable name on campus)
 
-[QUERCUS](https://q.utoronto.ca) is the new system (migration from PORTAL happened in 2018) which most courses use to provide lecture slides, important dates, and course updates (previously, it was called Blackboard and some people still do call it that). You can also submit your assignments, and sometimes access your term marks (tests, quizzes, assignments etc.) through this system. CS courses tend to use their own sites in conjunction with MarkUs (see below), but most other courses are adamant on using it (though some courses use other tools as well, so you should make sure to check the syllabus of each one of your courses to see what they are using). If you've used D2L or Blackboard, then you'll find that QUERCUS is a bit familiar. 
+[QUERCUS](https://q.utoronto.ca) is the new system (migration from PORTAL happened in 2018) which most courses use to provide lecture slides, important dates, and course updates (previously, it was called Blackboard and some people still do call it that). You can also submit your assignments, and sometimes access your term marks (tests, quizzes, assignments etc.) through this system. CS courses tend to use their own sites in conjunction with MarkUs (see below), but most other courses are adamant on using it (though some courses use other tools as well, so you should make sure to check the syllabus of each one of your courses to see what they are using). If you've used D2L or Blackboard, then you'll find that QUERCUS is a bit familiar.
 
 **MarkUs**
 
 [MarkUs](https://markus.teach.cs.toronto.edu) is where you'll be submitting your work and getting feedback and marks for most (if not all) CS courses. Make sure that you can login to the site as soon as it’s available in order to avoid hassles which will undoubtedly arise if you can't login on the day your assignments are due.
 
-***ProTip***: Always submit assignments early, since the system tends to get overloaded and is known to get extremely slow or even crash during the last few minutes before the deadline. It’s your personal responsibility to submit early, and you should keep in mind that multiple submissions are allowed for most courses. This means only your final submission will be graded, even if you submit various drafts of your work prior to the deadline. This allows you to edit and submit your work as many times as you see fit until the deadline.
+**_ProTip_**: Always submit assignments early, since the system tends to get overloaded and is known to get extremely slow or even crash during the last few minutes before the deadline. It’s your personal responsibility to submit early, and you should keep in mind that multiple submissions are allowed for most courses. This means only your final submission will be graded, even if you submit various drafts of your work prior to the deadline. This allows you to edit and submit your work as many times as you see fit until the deadline.
 
 **Piazza**
 
 Piazza is what many courses use as a course forum, where people can post questions and get answers from classmates and even professors/TAs. Some courses, however, don’t use Piazza and instead use Discourse or the Quercus discussion boards. These are good resources for finding answers to frequently sought out clarifications. Note that email notifications are set on by default for every post and they can be pretty annoying. Go into the settings and pick email settings that fit you.
 
-***ProTip***: Remember to search your question before posting it on Piazza, because it is very likely that one of your classmates will have already asked that question earlier. Also profs really don't want to answer the same question 5 million times.
+**_ProTip_**: Remember to search your question before posting it on Piazza, because it is very likely that one of your classmates will have already asked that question earlier. Also profs really don't want to answer the same question 5 million times.
 
 **Teaching Labs**
 
-The teaching labs refer to not only the actual labs in Bahen, but also to the whole online system through which you are interacting with the department (MarkUs, SSH (*Remote Lab Connections*), PCRS). At the beginning of the year, you'll get an email asking you to set up your Teaching Labs account. It is very important that you: 
+The teaching labs refer to not only the actual labs in Bahen, but also to the whole online system through which you are interacting with the department (MarkUs, SSH (_Remote Lab Connections_), PCRS). At the beginning of the year, you'll get an email asking you to set up your Teaching Labs account. It is very important that you:
 
-1. don't lose the email  
+1. don't lose the email
 2. don't forget the password you set it with.
    This is the most used login you'll need at U of T (after your UTORid login for ACORN). Also know that as a CS student you get access to the labs (and Bahen) 24/7 with your T-Card. For more information about the labs visit [their site](https://www.teach.cs.toronto.edu/), this contains [room numbers for the labs](https://www.teach.cs.toronto.edu/faq.html#GS1) and [status/uptime pages for UofT, teach servers and Markus](https://status.teach.cs.toronto.edu/).
 
@@ -123,13 +113,13 @@ As one of the best places for you to get official help in first and second year 
 
 **Undergraduate Office aka “UGO”**
 
-For all your official program questions and concerns, make your way up to the 4th floor of Bahen to visit the undergrad office for CS. You can ask them questions ranging from program admission to financial situations, or anything to do with the CS program at all, and they will be willing to help you out. If you need any CS advice, the office is a great place to get the official answers to all/most of your questions. 
+For all your official program questions and concerns, make your way up to the 4th floor of Bahen to visit the undergrad office for CS. You can ask them questions ranging from program admission to financial situations, or anything to do with the CS program at all, and they will be willing to help you out. If you need any CS advice, the office is a great place to get the official answers to all/most of your questions.
 
-- - -
+---
 
 ## Course Enrollment
 
-So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrollment works and on great tips for University, we are just going to link them here. (These were made 2 years ago but the advice still holds) These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars 2020's John H. Moss Scholar, Former CSSU General Council Member, TA, and Orientation Organizer **Lana**; Former CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**. 
+So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrollment works and on great tips for University, we are just going to link them here. (These were made 2 years ago but the advice still holds) These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars 2020's John H. Moss Scholar, Former CSSU General Council Member, TA, and Orientation Organizer **Lana**; Former CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**.
 
 Click on the title to watch the video on Youtube (It does have subtitles so yay)
 
@@ -151,7 +141,7 @@ For more important videos with more tips and information about university and co
 
 Visit [here](https://web.cs.toronto.edu/a-new-first-year-experience) for more information about the new courses and the new first year experience.
 
-For students in-stream there is a special course selection note that is different from past years. (Technically its the first time that a course like this has been offered in a fall semester). CSC110Y1 is a 1 semester course but its a full credit course. This means that its the equivalent of 2 normal *half year* courses, there will be double the amount of lecture time and you'll earn a full credit on completion of the course. CSC111 is a normal half year credit course that you'll take in the winter semester.
+For students in-stream there is a special course selection note that is different from past years. (Technically its the first time that a course like this has been offered in a fall semester). CSC110Y1 is a 1 semester course but its a full credit course. This means that its the equivalent of 2 normal _half year_ courses, there will be double the amount of lecture time and you'll earn a full credit on completion of the course. CSC111 is a normal half year credit course that you'll take in the winter semester.
 
 This means that you must plan your course load accordingly. If your following a typical 5 credit per year full-time course load you would split that as 2.5 credits per term. That is 5 half-year courses per term. (Full Year courses such as MAT137/MAT157 take a half credit per term) CSC110 would take 2 of those 5 spots leaving 3 electives (1 which would be taken up by MAT137/MAT157). In the spring semester 1 spot is taken by CSC111 and 1 by the math course leaving 3 electives. Below is a sample look at a timetable that summarizes this.
 
@@ -163,7 +153,7 @@ There are a lot of areas in CS and a lot of courses that range from theory to ne
 
 ##### Whats a Focus?
 
-Focuses are available for students in the specialist (for designation). Major students use these as a guide for seeing what area's exist and relevant courses that relate to certain areas. They are not mandatory and can be added at any time as long as your in the specialist and have taken the required courses. 
+Focuses are available for students in the specialist (for designation). Major students use these as a guide for seeing what area's exist and relevant courses that relate to certain areas. They are not mandatory and can be added at any time as long as your in the specialist and have taken the required courses.
 
 ##### Breadth Courses
 
@@ -183,12 +173,12 @@ The good news is that Category 5 is automatically covered by your mandatory CS c
 
 These seminars are small group courses that focus on specific topics and interests. You can find a full list [here](https://fas.calendar.utoronto.ca/section/First-Year-Foundations). But here are some of the courses that jumped out to me (Note I haven't taken any of these so don't take it as a endorsement, find one that fits your interests).
 
-* WDW153H1 - Popular Culture Today I: Issues and Perspectives and  WDW154H1 - Popular Culture Today II: Special Topics 
-* WDW196H1 - From Rayguns to Light Sabers: Science Fiction in Contemporary Culture 
-* VIC112H1 - Puzzles, Discovery and the Human Imagination 
-* SMC198H1 - How to Study Video Games 
-* NEW103H1 - Digital Technology and Society
-* CSC197H1 - What, Who, How: Privacy in the Age of Big Data Collection 
+- WDW153H1 - Popular Culture Today I: Issues and Perspectives and WDW154H1 - Popular Culture Today II: Special Topics
+- WDW196H1 - From Rayguns to Light Sabers: Science Fiction in Contemporary Culture
+- VIC112H1 - Puzzles, Discovery and the Human Imagination
+- SMC198H1 - How to Study Video Games
+- NEW103H1 - Digital Technology and Society
+- CSC197H1 - What, Who, How: Privacy in the Age of Big Data Collection
 
 Who knows from taking a course outside your field you might find something that interests you enough for further study.
 
@@ -204,14 +194,14 @@ Visit [here](https://web.cs.toronto.edu/a-new-first-year-experience) for more in
 
 ##### CSC108 vs CSC148
 
-So many students ask whether they can skip CSC108 and just do CSC148. The answer is really dependent on you and your abilities, and you won’t be favored for admission to the program if you take CSC148 during first semester instead of second semester. 
+So many students ask whether they can skip CSC108 and just do CSC148. The answer is really dependent on you and your abilities, and you won’t be favored for admission to the program if you take CSC148 during first semester instead of second semester.
 
-* If you’re new to programming, you should take CSC108 since it’s for beginners, and will give you the required preparation for CSC148. 
-* If you’re experienced with programming, you might want to talk with someone at the Undergraduate Office to see if you will benefit from skipping CSC108. If you do end up directly progressing to CSC148, there are ramp-up sessions held during the beginning of the semester to help you brush up on the contents of 108. 
+- If you’re new to programming, you should take CSC108 since it’s for beginners, and will give you the required preparation for CSC148.
+- If you’re experienced with programming, you might want to talk with someone at the Undergraduate Office to see if you will benefit from skipping CSC108. If you do end up directly progressing to CSC148, there are ramp-up sessions held during the beginning of the semester to help you brush up on the contents of 108.
 
-Alternatively, you could also take a look at a [past final](http://www.cs.toronto.edu/dcs/ugdocs/csc108.pdf) from 108, or look at the ramp up slides online to get an overview of CSC108. If you feel like you don’t understand it completely, you might want to take CSC108. (Think about the best thing for you as a student – it’s about learning the material to the best of your abilities, not about ‘saving’ a half credit). Both courses are in Python, so even if you’re familiar in Java, you might want to take CSC108 just to get familiar with Python. Consider your options well. 
+Alternatively, you could also take a look at a [past final](http://www.cs.toronto.edu/dcs/ugdocs/csc108.pdf) from 108, or look at the ramp up slides online to get an overview of CSC108. If you feel like you don’t understand it completely, you might want to take CSC108. (Think about the best thing for you as a student – it’s about learning the material to the best of your abilities, not about ‘saving’ a half credit). Both courses are in Python, so even if you’re familiar in Java, you might want to take CSC108 just to get familiar with Python. Consider your options well.
 
-Note that even if you take CSC148 and then decide that you're not ready for it after taking a few classes, you can drop down to CSC108 if spaces are still available in that course. 
+Note that even if you take CSC148 and then decide that you're not ready for it after taking a few classes, you can drop down to CSC108 if spaces are still available in that course.
 
 Also look on the department’s [page](https://web.cs.toronto.edu/undergraduate/first-year-courses) for more info on how to choose your first-year CS courses (This doesn't mention the new in-stream version refer to the above section for more on the in-stream site).
 
@@ -219,17 +209,17 @@ Also look on the department’s [page](https://web.cs.toronto.edu/undergraduate/
 
 ![math](https://media.giphy.com/media/dJ4vNQ7r72pb4nDhN5/giphy.gif)
 
-So yes, you’re thinking  – this is a CS guide! Why is it talking about math courses? Well, Mathematics and Computer Science go hand-in-hand (in particular, CSC165 and all the theory courses have a very mathematical approach). We are very much like our math counterparts on the theoretical side. This is the reason why you will have to pick a calculus course in your first-year, and your options are highly varied. 
+So yes, you’re thinking – this is a CS guide! Why is it talking about math courses? Well, Mathematics and Computer Science go hand-in-hand (in particular, CSC165 and all the theory courses have a very mathematical approach). We are very much like our math counterparts on the theoretical side. This is the reason why you will have to pick a calculus course in your first-year, and your options are highly varied.
 
 The courses offered are MAT135/136, MAT137, and MAT157. Either of these will satisfy the program requirements if you are entering from out of stream, but 137 and 157 are more theoretically heavy (and mandatory for those in-stream or wishing to do the Data Science Specialist), and great proof preparatory materials. If you are considering a math specialist, you should take MAT157 since the math specialist only accepts MAT157. Otherwise MAT137 will also prepare you for the level of proof material in CSC165 compared to MAT135/136 which do not cover proofs. MAT137 is also the calculus course which is recommended by the CS department (and is mandatory unless taking 157 for in-stream students). MAT135/136 are more computationally heavy courses which do not help you with proof practice, but they fulfill the program requirements nonetheless.
 
-While we talk about the Math Specialist if your interested in taking a Math Major or Specialist you must take MAT223(Major)/MAT240(Major or Specialist) and MAT224(Major)/MAT247(Major or Specialist) (Linear Algebra I and II) in your first year. For everyone else it is not mandatory to do in first year (Edit: The department has made it that MAT223 is recommend to take in first year but this is still not mandatory) but you must take at least MAT223 as part of the CS program requirements (most do it in their 2nd year), and some CS 3rd and 4th year courses require it. For more info check out the [math section in the calendar](https://fas.calendar.utoronto.ca/section/Mathematics) for full details.  
+While we talk about the Math Specialist if your interested in taking a Math Major or Specialist you must take MAT223(Major)/MAT240(Major or Specialist) and MAT224(Major)/MAT247(Major or Specialist) (Linear Algebra I and II) in your first year. For everyone else it is not mandatory to do in first year (Edit: The department has made it that MAT223 is recommend to take in first year but this is still not mandatory) but you must take at least MAT223 as part of the CS program requirements (most do it in their 2nd year), and some CS 3rd and 4th year courses require it. For more info check out the [math section in the calendar](https://fas.calendar.utoronto.ca/section/Mathematics) for full details.
 
 Do your due diligence and remember that if you take a more advanced course, you can normally try it out and drop down to the comparatively less dense math courses in the first 2 weeks (or more) with no penalty (the same doesn’t apply going up in difficulty). If you have any concerns, contact the math department. They have also provided some good prep work for first year calculus [here](https://www.math.toronto.edu/preparing-for-calculus/).
 
 #### How Should I Take Notes?
 
-There's no real definitive answer to this question. Many people prefer writing with pen and paper, and it does benefit you in math and theory courses, where there are lots of complex formulas and mathematical notations to jot down (you probably wouldn’t want to type them out). Lots of people swear by the fact that writing by hand is better, though some people also like typing everything out instead. For programming courses, coding along with the professor is sometimes a great idea to see the lessons in action, though those courses normally have slides which you can read afterwards to catch up as well. Whichever style fits you is the one you should adopt. 
+There's no real definitive answer to this question. Many people prefer writing with pen and paper, and it does benefit you in math and theory courses, where there are lots of complex formulas and mathematical notations to jot down (you probably wouldn’t want to type them out). Lots of people swear by the fact that writing by hand is better, though some people also like typing everything out instead. For programming courses, coding along with the professor is sometimes a great idea to see the lessons in action, though those courses normally have slides which you can read afterwards to catch up as well. Whichever style fits you is the one you should adopt.
 
 ![Notetaking](https://media.giphy.com/media/yBvndlpq8aCvS/giphy.gif)
 
@@ -237,7 +227,7 @@ There's no real definitive answer to this question. Many people prefer writing w
 
 Before the pandemic this was a question with no definitive answer. Technically, you didn't need one, since you have 24-hour access to the Bahen labs, and can write all of your assignments there. But since COVID-19 has resulted in classes being online (or with limited in-person sessions) for the most part you will need access to a computer. It's recommended that you should get a laptop, since you probably don’t want be stuck in the labs all the time and you can use it when you get on campus. You don’t need the most advanced system in the market, and you should get something that fits your needs and budget. The university has provide a list of minimum and recommended specs for doing remote learning [here](https://www.viceprovoststudents.utoronto.ca/covid-19/tech-requirements-online-learning/) which also include having a webcam available. If you are attending classes from outside of Canada the site also provides important information about VPN access if necessary.
 
-***ProTip***: You get free software/benefits from UofT for being a student like Amazon Prime 6 Month Trial and reduced Prime, free movie streaming (in SD) [here click on criterion or Audio Cine Films which contain a lot of recent films](https://mediacommons.library.utoronto.ca/streaming-video). **Free** MS Office [instructions here](https://onesearch.library.utoronto.ca/ic-faq-categories/office-365-proplus), Windows 10 Education aka Windows 10 Pro for students [register here](https://uoft.onthehub.com/WebStore/Security/Signin.aspx?rurl=%2fWebStore%2fOfferingDetails.aspx%3fo%3d499fe89c-cb3a-e511-940f-b8ca3a5db7a1).
+**_ProTip_**: You get free software/benefits from UofT for being a student like Amazon Prime 6 Month Trial and reduced Prime, free movie streaming (in SD) [here click on criterion or Audio Cine Films which contain a lot of recent films](https://mediacommons.library.utoronto.ca/streaming-video). **Free** MS Office [instructions here](https://onesearch.library.utoronto.ca/ic-faq-categories/office-365-proplus), Windows 10 Education aka Windows 10 Pro for students [register here](https://uoft.onthehub.com/WebStore/Security/Signin.aspx?rurl=%2fWebStore%2fOfferingDetails.aspx%3fo%3d499fe89c-cb3a-e511-940f-b8ca3a5db7a1).
 
 #### Online Learning
 
@@ -254,7 +244,7 @@ Due to the pandemic this is a new reality. You may decide (or be forced to) take
 4. Make use of the university's online programming\
    [Hart House](https://harthouse.ca) offers online fitness classes on Zoom, and also writing and art community activities. When campus is open they have a gym and host lots of activities.\
    On [CLNX](clnx.utoronto.ca), you can register for Virtual Study Hub so that you know that you are not alone studying. This can also increase your motivation and concentration. VIrtual Study Hubs take place from Monday to Sunday from morning to afternoon.\
-   Look in your college's newsletters there may be virtual programming for their members.  
+   Look in your college's newsletters there may be virtual programming for their members.
 
 #### Tips
 
@@ -263,36 +253,40 @@ So you’ve gotten into the courses you like, and you’ve planned out your time
 1. **Attend Lectures**
 
    Lectures are the main way you are taught the course content, and you shouldn’t be afraid to ask questions during lecture or even before or after the lectures if you don’t understand something. If there are multiple lecturers teaching the same course, try to attend 1 lecture of each lecturer, to see whose style resonates with you best (and fits your schedule). However, you should read the syllabus carefully to see if the course is designed in such a way that auditing different lecture sections doesn’t negatively impact your grade (some courses have lecture section specific midterms, or participation marks which you can only earn in your own lecture section).
+
 2. **Attend Tutorials**
 
    As former TAs, we truly believe that tutorials are the best way to check if you know what you’re doing. During tutorials, you can get lots of practice, ask questions, and get instant feedback from your TA and your peers in a smaller group setting. Waiting for the TA to ask you questions or find your gaps is going to waste you time. You should take advantage of your TA, in any of the courses that have them. They are paid to help and support you to do your best. They also give great advice (cough cough).
+
 3. **Office Hours**
 
    While Office Hours may sound daunting, they are not. Most (if not all) professors love it when students come to office hours with good questions and concerns. Also, if they’re not too busy, you can ask them questions about their research or general CS questions – they are some of the most experienced in the field, and this is a great way to build up a great prof/student relationship which can help you later on (references for grad school or research opportunities, for example).
+
 4. **The Help Centre**
 
    As mentioned above, the help centre is a great place to ask TAs and profs questions that you may have about the course content and assignments. Keep it in mind that it can get very crowded near a deadline (procrastination at its finest). However, it's still a great way to get help (also, Piazza is an excellent resource if you need any questions answered).
+
 5. **Assignments**
 
-   When it comes to assignments, don’t start the day before – this doesn’t only make you extremely stressed, but also gives you no time to ask questions about the assignments if you get stuck. Start early, make a list of questions to ask, and go to office hours to get those questions cleared up. Starting early gives you the opportunity to slowly clear up learning gaps and assumptions. Also, don’t copy off of other students – plagiarism is bad, like – it's [serious business](https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity). The department has very high-tech tools to catch you, and they will. It's never worth it. If something comes up and you need help, talk to your prof and they will try their best to help you. 
+   When it comes to assignments, don’t start the day before – this doesn’t only make you extremely stressed, but also gives you no time to ask questions about the assignments if you get stuck. Start early, make a list of questions to ask, and go to office hours to get those questions cleared up. Starting early gives you the opportunity to slowly clear up learning gaps and assumptions. Also, don’t copy off of other students – plagiarism is bad, like – it's [serious business](https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity). The department has very high-tech tools to catch you, and they will. It's never worth it. If something comes up and you need help, talk to your prof and they will try their best to help you.
 
    Also, make sure that your code runs on the lab computers (this may sound crazy, but people have submitted assignments that error out because of the following two things):
 
    1. They didn’t submit the right file or it had an error, or
-   2. Their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run. 
+   2. Their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run.
    3. The Teach CS machines are Linux. If you write your code on a Mac or Windows machine, or even a Linux machine with a different configuration your code may depend on libraries or encoding that do not match the teach.cs machines and will not run.
 
    So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
 
    Another important thing to keep in mind is the ethics of copyright and code sharing. Most students think that after they have completed their assignments, they can post it on their Githubs and add it to their portfolios. The reason why this might not be such a good idea is because these assignments have a lot of starter code prepared by your professors. You should always ask for the permission of your professors before posting your assignments on public platforms like Github. Otherwise, you could be held accountable for plagiarism even if you didn't commit it yourself - as a student taking the same course in later years might find your assignment and copy it or worse doing your work on Github but not making it a private repo.
 
-- - -
+---
 
 ## Admission to a program
 
-Ok, now for the big CS elephant in the room – admission to the program, which is declaring your Minor, Major or Specialist in Computer Science in second-year. 
+Ok, now for the big CS elephant in the room – admission to the program, which is declaring your Minor, Major or Specialist in Computer Science in second-year.
 
-Here at St. George, the Faculty of Arts & Science has this policy in which it encourages the exploration of different fields, and makes it easy for students to switch majors and subjects after their first-year. This is the reason why you can’t choose your Majors/Minors until the end of first-year. The issue with Computer Science admission is that there are not enough resources/spaces to give every student who wants to choose CS after their first-year a spot, so the department has to institute a certain cut-off average as a requirement for students to get into the program. 
+Here at St. George, the Faculty of Arts & Science has this policy in which it encourages the exploration of different fields, and makes it easy for students to switch majors and subjects after their first-year. This is the reason why you can’t choose your Majors/Minors until the end of first-year. The issue with Computer Science admission is that there are not enough resources/spaces to give every student who wants to choose CS after their first-year a spot, so the department has to institute a certain cut-off average as a requirement for students to get into the program.
 
 There are two separate set of requirements depending on wether you are in stream or not. (In stream meaning you have been admitted to computer science from high school). **THIS IS BRAND NEW FOR THE 2020-2021 ACADEMIC YEAR** and represents a significant change from years prior.
 
@@ -302,21 +296,22 @@ Listen to the Room 2250 Podcast Episode with Undergrad Chair Michelle Craig to t
 
 Requirements as quoted from the ArtSci Calendar are:
 
-> * Completion of at least 4.0 FCEs
-> * Complete the following Courses with the minimum grade
+> - Completion of at least 4.0 FCEs
+> - Complete the following Courses with the minimum grade
 >
->   * CSC110Y1 (70%)
->   * CSC111H1 (77%)
-> * Take and Pass either of MAT137Y1 or MAT157Y1
+>   - CSC110Y1 (70%)
+>   - CSC111H1 (77%)
+>
+> - Take and Pass either of MAT137Y1 or MAT157Y1
 
 This is a huge change from prior years where the variable cutoff exists. This new format is here to provide a sense of stability and allows you to set a clear goal and focus on the course content.
 
-* There is no reason to be scared that you will not meet these requirements, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well. 
-* These two courses (CSC110 and CSC111) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well. These requirements are not there to cut down the number of people, it is hoped that all students in the stream are able to meet the cutoff and proceed in the program if they choose.
+- There is no reason to be scared that you will not meet these requirements, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well.
+- These two courses (CSC110 and CSC111) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well. These requirements are not there to cut down the number of people, it is hoped that all students in the stream are able to meet the cutoff and proceed in the program if they choose.
 
 To quote from the department itself:
 
-> We anticipate that the vast majority of the students will meet the requirements of the guarantee after first-year and will be admitted to a Computer Science Specialist, Major or Minor.  In fact, if every student meets the admission guarantee conditions then every student will be admitted.
+> We anticipate that the vast majority of the students will meet the requirements of the guarantee after first-year and will be admitted to a Computer Science Specialist, Major or Minor. In fact, if every student meets the admission guarantee conditions then every student will be admitted.
 
 #### Out of Stream
 
@@ -327,7 +322,7 @@ The requirements as quoted from the ArtSci Calendar are:
 >
 > Variable Minimum Grade:\
 > A minimum grade is needed for entry, and this minimum changes each year depending on available spaces and the number of applicants. The following courses must be completed:
-> CSC148H1 and (CSC165H1 or CSC240H1)  
+> CSC148H1 and (CSC165H1 or CSC240H1)
 >
 > To ensure that students admitted to the program will be successful, applicants with a grade below 70% will not be considered for admission. Obtaining this minimum grade does not guarantee admission to the program.
 >
@@ -336,29 +331,29 @@ The requirements as quoted from the ArtSci Calendar are:
 > Due to the limited enrolment nature of this program, students are strongly advised to plan to enroll in backup programs.
 > Students admitted to the program after second or third year will be required to pay retroactive deregulated program fees.
 
-So after reading this, most students panic and ask: “What's the cutoff?” Well, we wish we could give you an answer, and we wish that the department could give an answer, but it’s not that easy. 
+So after reading this, most students panic and ask: “What's the cutoff?” Well, we wish we could give you an answer, and we wish that the department could give an answer, but it’s not that easy.
 
-* The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x number of student averages from 148 and 165 that have applied to the CS program who are not in-stream, where x is the number of spots in the program for that year after in- streams have been admitted. 
-* The specialist/major cutoff for 2018 was 83 for in stream students and 86 for out of stream students. For the CS minor, the cutoff was 80 for both in stream and out of stream students. This may go up or down in the upcoming years depending on future circumstances. 
-* This is high. Is it impossible, no. So is it doable? Yes, but only if you put a lot of work and effort into the required courses. 
-* The number of program spaces has remained relatively constant over the last two years, and there are more program spaces available than the number of students in the first-year computer science admission stream.
-* There is no reason to be scared, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well. 
-* These two courses (CSC148 and CSC165) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well. 
-* Always keep your options open. As mentioned in course enrolment section, take some breadth courses, and maybe you'll enjoy them and will want to pursue them further. The great thing about U of T is that it has a plethora of awesome programs which you can choose from.
+- The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x number of student averages from 148 and 165 that have applied to the CS program who are not in-stream, where x is the number of spots in the program for that year after in- streams have been admitted.
+- The specialist/major cutoff for 2018 was 83 for in stream students and 86 for out of stream students. For the CS minor, the cutoff was 80 for both in stream and out of stream students. This may go up or down in the upcoming years depending on future circumstances.
+- This is high. Is it impossible, no. So is it doable? Yes, but only if you put a lot of work and effort into the required courses.
+- The number of program spaces has remained relatively constant over the last two years, and there are more program spaces available than the number of students in the first-year computer science admission stream.
+- There is no reason to be scared, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well.
+- These two courses (CSC148 and CSC165) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well.
+- Always keep your options open. As mentioned in course enrolment section, take some breadth courses, and maybe you'll enjoy them and will want to pursue them further. The great thing about U of T is that it has a plethora of awesome programs which you can choose from.
 
 They also ask whats the supplementary given information from what happened the past year its basically a way for the department to get to know you. It will ask about your experiences and gets to know you. They will do random interviews so make sure your truthful.
 
 For more info visit the [CS Department Admissions Page](http://web.cs.toronto.edu/program/ugrad/admission.htm)
 
-#### *NEW* What if I want to pursue Data Science?
+#### _NEW_ What if I want to pursue Data Science?
 
 Data Science is a recently added specialty that is co-offered by the Department of Statistics and Computer Science. As quoted from the [calendar](https://fas.calendar.utoronto.ca/section/Computer-Science#programs_view-block_2-0) The Data Science Specialist program prepares students for work in the Data Science industry or government and for graduate studies in Data Science, Computer Science, or Statistics. Students in the program will benefit from a range of advanced courses in Computer Science and Statistics offered by the University of Toronto, as well as from a sequence of three integrative courses designed especially for the program.
 
-There are specific admission requirements that first years must complete on top of the existing CS requirements.  
+There are specific admission requirements that first years must complete on top of the existing CS requirements.
 
->    CSC110Y1 and CSC111H1 or CSC148 and CSC165\
->    MAT137Y1 or​ MAT157Y1\
->    **STA130H1** *  
+> CSC110Y1 and CSC111H1 or CSC148 and CSC165\
+>  MAT137Y1 or​ MAT157Y1\
+>  **STA130H1** \*
 
 \* This course is the additional course requirement that differentiates CS and Data Science you must take the course in your first year to qualify for the stream benefits
 
@@ -368,13 +363,13 @@ If you were admitted as an in-stream computer science student you have an additi
 
 **NOTE** At program enrollment time you can apply for multiple specialists/majors/minors. Depending on which ones you get you can choose the set you want to continue with. Backups are important.
 
-- - -
+---
 
 ## Mental Health
 
 Mental health is extremely important, and taking care of yourself should be your first priority. A lot of students find program admission to be extremely stressful, and university in general is a giant leap from high school. Taking a reduced course load, or dropping down from hard courses to easier exclusions isn't something to be ashamed of, and you should definitely do it if you feel like it will benefit your mental health. On the same note, Accessibility Services is something you should check out if you are having any mental/physical health related problems which are getting in the way of your studies. It provides amazing support to those who are registered within it. You can get exam accommodations, extensions on assignments, and peer note takers (amongst many other things), and you will also get your own advisor whom you can go to if you are having problems coping with various aspects of University. They will direct you to many resources, and will help you out the best they can. You can check out their website [here](https://www.studentlife.utoronto.ca/as). Also, the [Health and Wellness Center](https://studentlife.utoronto.ca/hwc) has medical and mental health services to help students academically and personally if you need them. Make sure to make the most of the services which you have access to. The UofT Reddit has a set of [Health and Wellness Resources](https://www.reddit.com/r/UofT/comments/6yxq87/health_wellness_resources/) as well.
 
-Something that I believe in when things get tough is hope. Sometimes things don't work out exactly as we expect. Things go wrong, bad stuff happens but you should never give up on hope, hope that things will be better someday. Keep being true to your self, work towards your goals and never give up.  
+Something that I believe in when things get tough is hope. Sometimes things don't work out exactly as we expect. Things go wrong, bad stuff happens but you should never give up on hope, hope that things will be better someday. Keep being true to your self, work towards your goals and never give up.
 
 ![hope](https://media1.tenor.com/images/4b843218cff5cb57ac61fc1881f47ba1/tenor.gif?itemid=12862483)
 
@@ -384,29 +379,29 @@ Another thing which we want to mention is that collaboration and teamwork can he
 
 ### Finding your community
 
-The University of Toronto is a diverse campus with students from around the world and from every walk of life. People are unique and share different beliefs and values. There is a community for everyone. No matter your race, sexuality or religion you should feel like you belong. This is a two way street. Treat people with respect, accept opposing views, show compassion and kindness. The actions you take make our community more inclusive and more diverse. Being good to each other comes with action. That means not attacking each other in comments/piazza posts when you disagree or angry, that means not harassing women (or anyone for that matter) in our community, and that even means calling out others when you do see this kind of bad behavior and course correcting.  
+The University of Toronto is a diverse campus with students from around the world and from every walk of life. People are unique and share different beliefs and values. There is a community for everyone. No matter your race, sexuality or religion you should feel like you belong. This is a two way street. Treat people with respect, accept opposing views, show compassion and kindness. The actions you take make our community more inclusive and more diverse. Being good to each other comes with action. That means not attacking each other in comments/piazza posts when you disagree or angry, that means not harassing women (or anyone for that matter) in our community, and that even means calling out others when you do see this kind of bad behavior and course correcting.
 
-> We all need to work together and listen to each other. Listen, empathize, and act.  
+> We all need to work together and listen to each other. Listen, empathize, and act.
 
-Unfortunately, racism and prejudice exists, even at an academic institution like UofT. I hope that people reading this will think about these statements and their actions. If you feel like you don't belong remember that there are groups, communities and good people on campus that can help you. Never lose faith in humanity.  
+Unfortunately, racism and prejudice exists, even at an academic institution like UofT. I hope that people reading this will think about these statements and their actions. If you feel like you don't belong remember that there are groups, communities and good people on campus that can help you. Never lose faith in humanity.
 
 ![inspiration](https://media1.tenor.com/images/57d309947d1ce3cd90a26d136d0a3372/tenor.gif?itemid=17385373)
 
-- - -
+---
 
 ## How to Get Involved
 
-Having a school/life balance is especially important when you’re in university. While there may be an immense pressure from academics, you should make sure you give time to yourself as well. You can check out this huge list of clubs and student groups which you can join [check this link](https://www.ulife.utoronto.ca/), or visit the clubs fair during the first week of classes. For more CS related clubs, do check our list of CS clubs [here](https://github.com/cssu/cssu.ca/tree/2efa9bf9a1ab898d6305d3253be58a6994505201/_posts/clubs) (it will be updated soon). 
+Having a school/life balance is especially important when you’re in university. While there may be an immense pressure from academics, you should make sure you give time to yourself as well. You can check out this huge list of clubs and student groups which you can join [check this link](https://www.ulife.utoronto.ca/), or visit the clubs fair during the first week of classes. For more CS related clubs, do check our list of CS clubs [here](https://github.com/cssu/cssu.ca/tree/2efa9bf9a1ab898d6305d3253be58a6994505201/_posts/clubs) (it will be updated soon).
 
 To hear about experiences from two clubs WICS and UTCG take a listen to these two episodes of Room 2250:\
 [WICS](https://open.spotify.com/episode/0miTXJpfrMTo1XsnRjh4yQ?si=xC03o9NUSb-U-eBb4gnapg)\
-[UTCG](https://open.spotify.com/episode/1r9rMTmdCu3GRcFFSDAQfr)  
+[UTCG](https://open.spotify.com/episode/1r9rMTmdCu3GRcFFSDAQfr)
 
 You might also want to consider joining a FLC (First Year Learning Community). Basically, you get a group of other students who are taking the same Computer Science courses as you, and you get an upper-year mentor along with department members who will help guide you though your courses, uni, and life in general. It helps you make some friends, be in the know, and get some real mentorship. Check out more info and apply [here](https://learningcommunities.utoronto.ca/index.php/ex-1/find-your-flc/computer-science/).
 
 Also, do take a look at applying to be a First-year Representative here at the CSSU. You will be responsible for presenting your interests and issues to the CSSU, and for spreading information and updates to your classmates. Alternatively, you can also be a General Council member – check out the main page for more details on how to apply!
 
-There are also lots of events which you can attend and participate in – follow us on Facebook and Instagram to get updates on all the events which the CSSU runs! 
+There are also lots of events which you can attend and participate in – follow us on Facebook and Instagram to get updates on all the events which the CSSU runs!
 
 ##### Hackathons
 
@@ -414,7 +409,7 @@ For those of you who don’t know what a hackathon is, it’s basically a 1-3 da
 
 ![if your not making moves](https://media1.tenor.com/images/b52e33167d9104c39219c9d9ba90b2b2/tenor.gif?itemid=16684096)
 
-- - -
+---
 
 ## Jobs, Internships and PEY Co-op
 
@@ -426,7 +421,7 @@ For more information on undergrad research listen to Room 2250's Episode on [Res
 
 The Professional Experience Year Co-op Program, administered by the Engineering Career Centre, is another option which you can consider after your second-year, or after your third-year of studies. It's basically a 12-16 month paid position where you work at a company (you do have to apply and interview for a position, one won’t be given to you), and get some experience before you complete your studies. For more information about PEY Co-op for computer science, visit [the department page](https://web.cs.toronto.edu/undergraduate/pey) and [the Engineering Career Centre site](http://engineeringcareers.utoronto.ca/work-experience-programs/professional-experience-year-co-op-program-pey-co-op/) for more information and stats.
 
-- - -
+---
 
 ## Important Links
 
@@ -434,20 +429,20 @@ Click on any of the links to go there:
 
 <!-- - \\[CS Community Team]() (Use your UofT Email to make an account on the page) Coming Soon-->
 
-* [Department Discourse Page](https://bb.teach.cs.toronto.edu/)
-* [Room 2250 Podcast](https://open.spotify.com/show/3dNTFMwEqbXO7fosklIP0m)
-* [ArtSci Site](http://www.artsci.utoronto.ca/current)
-* [ArtSci Guide to First Year](https://newstudentguide.artsci.utoronto.ca/)
-* [Services and Resources](https://newstudentguide.artsci.utoronto.ca/resources/)
-* [CSSU Resources Github](https://github.com/cssu/)
-* [UofT Reddit](https://www.reddit.com/r/UofT/)
-* [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
-* [Signup for the CSSU Newsletter](https://cssu.us10.list-manage.com/subscribe/post?u=987f258df56af54075e2c9696&id=6217e7727d)
-* Also, read the department emails that you get as they have awesome information.
+- [Department Discourse Page](https://bb.teach.cs.toronto.edu/)
+- [Room 2250 Podcast](https://open.spotify.com/show/3dNTFMwEqbXO7fosklIP0m)
+- [ArtSci Site](http://www.artsci.utoronto.ca/current)
+- [ArtSci Guide to First Year](https://newstudentguide.artsci.utoronto.ca/)
+- [Services and Resources](https://newstudentguide.artsci.utoronto.ca/resources/)
+- [CSSU Resources Github](https://github.com/cssu/)
+- [UofT Reddit](https://www.reddit.com/r/UofT/)
+- [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
+- [Signup for the CSSU Newsletter](https://cssu.us10.list-manage.com/subscribe/post?u=987f258df56af54075e2c9696&id=6217e7727d)
+- Also, read the department emails that you get as they have awesome information.
 
-***Disclaimer***: On Reddit (and any other social media platform to be honest), the most vocal accounts often tend to be those of students who are misinformed. You can still find lots of good information and discussions on the UofT subreddit (or any platform), but you need to learn how to filter through the misinformed comments and avoid the trolls. Always make sure you are well informed and practice good judgement. You win or you learn.
+**_Disclaimer_**: On Reddit (and any other social media platform to be honest), the most vocal accounts often tend to be those of students who are misinformed. You can still find lots of good information and discussions on the UofT subreddit (or any platform), but you need to learn how to filter through the misinformed comments and avoid the trolls. Always make sure you are well informed and practice good judgement. You win or you learn.
 
-- - -
+---
 
 ## Finances
 
@@ -455,17 +450,17 @@ Click on any of the links to go there:
 
 So CS is a deregulated fee program, so it’s more expensive then "regulated" tuition. Since you’re not considered a “Computer Science Student” in first year, you don’t have to pay the deregulated fees. Instead, you pay regular regulated “Arts Science” Fees. However, once you are accepted into the program, you will face the brunt of CS and deregulated fees. Starting from the summer after your first year, your fees are about double the regular tuition fees. These deregulated fees aren't because U of T wants to take all your money, but rather because the government believes that you can get a job out of undergrad, in high demand, pay any student loans faster, so you can afford it (just like engineers and business students), wether thats true or not depends on your point of view (this decision was made in 1998 at the height of the DOT-COM era).
 
-However, you can still get loans, such as the Ontario Student Assistance Program (OSAP), which is open to Ontario residents who are Canadian citizens or permanent residents. 
+However, you can still get loans, such as the Ontario Student Assistance Program (OSAP), which is open to Ontario residents who are Canadian citizens or permanent residents.
 
 You can apply for it and plan out your finances with their financial calculator [here](https://www.ontario.ca/page/osap-ontario-student-assistance-program).
 
-Also this is a great time to learn and apply financial literacy principals. Proper financial management skills will help support you during and after your time in university. Making a budget, reading your bills (like your tuition bill on Acorn) and saving will set you up for success. (And even be debt free by the time you graduate). UofT provides a starter article [here](https://undergrad.engineering.utoronto.ca/fees-financial-aid/financial-aid/financial-planning/) and you can find more resources just by searching for it. Also McGill provides a free online courseware for you to learn all about sound financial planning [here](https://mcgillpersonalfinance.com/). 
+Also this is a great time to learn and apply financial literacy principals. Proper financial management skills will help support you during and after your time in university. Making a budget, reading your bills (like your tuition bill on Acorn) and saving will set you up for success. (And even be debt free by the time you graduate). UofT provides a starter article [here](https://undergrad.engineering.utoronto.ca/fees-financial-aid/financial-aid/financial-planning/) and you can find more resources just by searching for it. Also McGill provides a free online courseware for you to learn all about sound financial planning [here](https://mcgillpersonalfinance.com/).
 
-The good news is that you can qualify for University of Toronto Financial Aid (UTAPS), and the great thing about this program is that you don’t have to do anything after your first-year – it justs uses your OSAP data including your family income and other things (if you are from another province/country check the UTAPS site for instructions on how to apply and criteria). If your OSAP data is low enough, you can get extra money (free money) paid towards your tuition. However, you won’t know this magical amount till late September/early October, though it can be pretty substantial in certain cases ($4,000+ depending on need). 
+The good news is that you can qualify for University of Toronto Financial Aid (UTAPS), and the great thing about this program is that you don’t have to do anything after your first-year – it justs uses your OSAP data including your family income and other things (if you are from another province/country check the UTAPS site for instructions on how to apply and criteria). If your OSAP data is low enough, you can get extra money (free money) paid towards your tuition. However, you won’t know this magical amount till late September/early October, though it can be pretty substantial in certain cases ($4,000+ depending on need).
 
 There are also lots of scholarships available for you, so you should definitely check if you qualify for them (check Google’s scholarships, or visit the UGO for more details on computer science undergraduate scholarships. Alternatively, you can also visit [here](http://www.artsci.utoronto.ca/current/scholarships/scholarships-by-department/undergraduate-scholarships-computer-science) for more details). Also, consider checking out your college registrar for more financial aid options (bursaries and scholarships!).
 
-- - -
+---
 
 ## Parting Words
 
@@ -475,7 +470,7 @@ Well, you made it to the end of the guide! If you read all of it, congratulation
 
 We would like to thank all of the people who helped contribute to this guide, making this a possibility.
 
-We hope this guide is informative to you, and if you think your peers would benefit from it too, please feel free to share it with them. If you have any suggestions or comments, feel free to email the CSSU [here](cssu@teach.cs.toronto.edu) or make a pull request/issue on the page in Github [here](https://github.com/cssu/first-year-guide)  
+We hope this guide is informative to you, and if you think your peers would benefit from it too, please feel free to share it with them. If you have any suggestions or comments, feel free to email the CSSU [here](cssu@teach.cs.toronto.edu) or make a pull request/issue on the page in Github [here](https://github.com/cssu/first-year-guide)
 
 Also please fill out [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdrkUHiOre3J1g1213M7fAM9MNT5SPGd8VUNVgyZmujAnyKAA/viewform?usp=sf_link) to give us valuable feedback.
 
@@ -484,9 +479,9 @@ We wish you all the best in your first year, and we hope you make the most out o
 Reviewers/Contributors for the 2020 Version:\
 Lana El Sanyoura: Class of 2020, John H. Moss Scholar, Hello Girl Co-founder\
 Chloe Nguyen: 2020 CSSU Treasurer\
-Alex Kozin: 2020 CSSU President  
+Alex Kozin: 2020 CSSU President
 
 Original Credits Follow:\
-Lead author Anujan M for coming up with the idea of building this guide, and for researching and writing it in a informative, approachable and enjoyable way. Thanks to Nina from the CS Communications Office and Francois Pitt, Associate Professor, Teaching Stream and Associate   Chair, Undergraduate for reviewing this guide for accuracy and correctness, though as much as we like to say this guide is accurate (yes, disclaimer time) this is by no means an official guide and is written solely from the perspective of students. You should make sure to consult with the UGO or your college registrar to confirm your understanding of these topics and to verify your plans. Also, a special thank you to the 2018-2019 CSSU President David Ansermino for his acceptance of this idea, and for letting Anujan run with it. Also, a huge thanks to co-author Clara S for her fantastic editing of this guide, for sharing real first hand tips and experiences, and for making this guide as comprehensive and grammatically correct as it can be. Without her, this guide would not be as nicely written as it is.  
+Lead author Anujan M for coming up with the idea of building this guide, and for researching and writing it in a informative, approachable and enjoyable way. Thanks to Nina from the CS Communications Office and Francois Pitt, Associate Professor, Teaching Stream and Associate Chair, Undergraduate for reviewing this guide for accuracy and correctness, though as much as we like to say this guide is accurate (yes, disclaimer time) this is by no means an official guide and is written solely from the perspective of students. You should make sure to consult with the UGO or your college registrar to confirm your understanding of these topics and to verify your plans. Also, a special thank you to the 2018-2019 CSSU President David Ansermino for his acceptance of this idea, and for letting Anujan run with it. Also, a huge thanks to co-author Clara S for her fantastic editing of this guide, for sharing real first hand tips and experiences, and for making this guide as comprehensive and grammatically correct as it can be. Without her, this guide would not be as nicely written as it is.
 
 We wish you all the best in your first year, and we hope you make the most out of your time here at U of T. We hope to see you at CS Orientation this year!

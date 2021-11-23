@@ -1,6 +1,6 @@
 ---
 title: "General Meeting (November 2021)"
-date: 2021-11-14
+date: 2021-11-22
 draft: false
 hideLastModified: false
 keepImageRatio: true
@@ -13,7 +13,7 @@ Be sure to attend our November General Meeting as we present our upcoming events
 ## Details
 
 - Time: Thursday, November 25 @ 6-7pm.
-- Location: Online on [Zoom](https://utoronto.zoom.us/j/2551406755); passcode: `052569`.
+- Location: Online on [Zoom](https://utoronto.zoom.us/j/88396113462).
 - Sign-up [here](https://docs.google.com/forms/d/e/1FAIpQLSdAodi066TMWaZsDgT9mJ-6bB_NUJXuOu_DEWOZsSHQDBv4CA/viewform) for a reminder.
 
 ### Agenda
@@ -31,7 +31,9 @@ If you wish to run for either position, please follow these instructions.
 
 1. Read over the **[CSSU Constitution](https://drive.google.com/file/d/1BtoaF5GL-9pxtXPqgN0domckNSJyOE3V/view)** to understand the requirements and responsibilities for the position.
 2. Prepare a 2-min live pitch during the meeting or a 2-min video.
-3. Sign up using this **[form](https://docs.google.com/forms/d/e/1FAIpQLSdnBS37xEk_B40fXCrrHQSlHmzwasoznfsFJg6IwcJ1owD6aQ/viewform)** by **November 19th at 6PM (Eastern)**. Candidates may register and run for either or both President and Vice-President (if the incumbent Vice-President is elected President). Please see below for more details.
+3. Sign up using this **[form](https://docs.google.com/forms/d/e/1FAIpQLSdnBS37xEk_B40fXCrrHQSlHmzwasoznfsFJg6IwcJ1owD6aQ/viewform)** by **November 19th at 6PM (Eastern)**. Candidates may register and run for either or both President and Vice-President (if the incumbent Vice-President is elected President). Please see below for more details.~~
+
+**The candidates for President are Robert (Rupert) Wu and Ziyi (Jenny) Xu. The candidate for Vice-President is Joshua Ong.**
 
 #### Rules & Eligibility
 
@@ -43,5 +45,13 @@ If you wish to run for either position, please follow these instructions.
 #### Voting Procedure
 
 Voters will be able to select up to one candidate each for President and Vice-President; the latter vote will only be counted if the position of Vice-President is vacated by the incumbent upon potential election as President.
+
+#### Candidates
+
+{{< profilePic/profilePicContainer >}}
+{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="Candidate for President"profile_pic="/images/people/rupert.jpg">}}
+{{< profilePic/profilePic  bold=true name="Ziyi (Jenny) Xu" position="Candidate for President" profile_pic="/images/people/jenny.jpeg">}}
+{{< profilePic/profilePic  bold=true name="Joshua Ong" position="Candidate for Vice-President" profile_pic="/images/people/josh.jpeg">}}
+{{< /profilePic/profilePicContainer >}}
 
 ---

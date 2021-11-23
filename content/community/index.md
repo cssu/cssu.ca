@@ -17,9 +17,9 @@ The CSSU enjoys the support of partner course unions and the Department of Compu
 
 {{< profilePic/profilePic  bold=true name="BCBSU"  position="Bioinformatics & Computational Biology Student Union" personal="https://bcbuoft.github.io/bcbuoft" linkedin="https://linkedin.com/company/computer-science-student-union" facebook="https://www.facebook.com/BCBSU.UofT" github="https://github.com/bcbuoft" profile_pic="/images/rcgs/bcb.png" >}}
 
-{{< profilePic/profilePic  bold=true name="CSSU"  position="U of T Computer Science Student Union" personal="https://cssu.ca" linkedin="https://linkedin.com/company/computer-science-student-union" facebook="https://facebook.com/UofTCSSU" github="https://github.com/cssu">}}
+{{< profilePic/profilePic  bold=true name="CSSU"  position="Computer Science Student Union" personal="https://cssu.ca" linkedin="https://linkedin.com/company/computer-science-student-union" facebook="https://facebook.com/UofTCSSU" github="https://github.com/cssu">}}
 
-{{< profilePic/profilePic bold=true name="Dept of CS" position="U of T Department of Computer Science" personal="https://web.cs.toronto.edu" linkedin="https://www.linkedin.com/school/uoftcompsci/" profile_pic="/images/rcgs/dcs.jpeg">}}
+{{< profilePic/profilePic bold=true name="Dept of CS" position="Department of Computer Science" personal="https://web.cs.toronto.edu" linkedin="https://www.linkedin.com/school/uoftcompsci/" profile_pic="/images/rcgs/dcs.jpeg">}}
 
 {{< profilePic/profilePic bold=true name="DCSIL" position="Department of Computer Science Innovation Lab " personal="https://dcsil.ca" github="https://github.com/dcsil" profile_pic="/images/rcgs/dcsil.png">}}
 
