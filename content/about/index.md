@@ -23,8 +23,8 @@ You can visit us at BA2250 in the [Bahen Centre for Information Technology](http
 Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="President (Interim) & Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
-{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Vice-President (Interim)" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
+{{< profilePic/profilePic  bold=true name="Ziyi (Jenny) Xu"  position="President" linkedin="https://www.linkedin.com/in/jenny-ziyi-xu/" profile_pic="/images/people/jenny.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
 {{< profilePic/profilePic  bold=true name="Aditya Goyal"  position="Treasurer"  linkedin="https://www.linkedin.com/in/adi-goyal/"  profile_pic="/images/people/adi.jfif" >}}
 {{< /profilePic/profilePicContainer >}}
 

@@ -58,16 +58,16 @@ Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Ce
 | Time/Day | Mon                   | Tue              | Wed                      | Thu                                                         | Fri                 |
 | -------- | --------------------- | ---------------- | ------------------------ | ----------------------------------------------------------- | ------------------- |
 | 9:00 AM  |                       |                  |                          |                                                             |                     |
-| 10:00 AM | Dhruvaa Saravanan (G) |                  | Dhruvaa Saravanan (G)    | Joshua Ong (X)                                              | Akiki Liang (G)     |
-| 11:00 AM | Loukos Scheffer       | Rachel Kim (X)   | Joshua Ong (X)           | Joshua Ong (X)                                              | Akiki Liang (G)     |
+| 10:00 AM | Dhruvaa Saravanan (G) |                  | Dhruvaa Saravanan (G)    | Joshua Ong (G)                                              | Akiki Liang (G)     |
+| 11:00 AM | Loukos Scheffer       | Rachel Kim (X)   | Joshua Ong (G)           | Joshua Ong (G)                                              | Akiki Liang (G)     |
 | 12:00 PM | Loukos Scheffer       | Rachel Kim (X)   | Owen Wang (G)            | Mahathi Gandhamaneni (G)                                    | Supriya Vasanth (G) |
-| 1:00 PM  | Arjun Pandher (G)     | Aditya Mehrotra  | Mahathi Gandhamaneni (G) | Supriya Vasanth (G)                                         |                     |
-| 2:00 PM  | Arjun Pandher (G)     | Aditya Mehrotra  | Arjun Pandher (G)        | Kaylee Chan (G)                                             |                     |
+| 1:00 PM  | Arjun Pandher (X)     | Aditya Mehrotra  | Mahathi Gandhamaneni (G) | Supriya Vasanth (G)                                         |                     |
+| 2:00 PM  | Arjun Pandher (X)     | Aditya Mehrotra  | Arjun Pandher (X)        | Kaylee Chan (G)                                             |                     |
 | 3:00 PM  | Minh Le (G)           | Mogtaba Alim (G) | Joanne Pan (X)           | Joanne Pan (X)                                              |                     |
-| 4:00 PM  | Minh Le (G)           | Mogtaba Alim (G) | Arjun Pandher (G)        | Alamgir Khan (X)                                            | Kaylee Chan (G)     |
-| 5:00 PM  | Jason Liu (G)         |                  | Arjun Pandher (G)        | Alamgir Khan (X)                                            | Arjun Pandher (G)   |
-| 6:00 PM  | Jason Liu (G)         |                  | Rupert Wu (X)            | Owen Wang (G)                                               |                     |
-| 7:00 PM  | Jason Liu (G)         |                  | Rupert Wu (X)            | [\*Jessica Wang](https://utoronto.zoom.us/j/4910041355) (G) |                     |
+| 4:00 PM  | Minh Le (G)           | Mogtaba Alim (G) | Arjun Pandher (X)        | Alamgir Khan (X)                                            | Kaylee Chan (G)     |
+| 5:00 PM  | Jason Liu (G)         |                  | Arjun Pandher (X)        | Alamgir Khan (X)                                            | Arjun Pandher (X)   |
+| 6:00 PM  | Jason Liu (G)         | Jenny Xu (X)     | Rupert Wu (X)            | Owen Wang (G)                                               |                     |
+| 7:00 PM  |                       | Jenny Xu (X)     | Rupert Wu (X)            | [\*Jessica Wang](https://utoronto.zoom.us/j/4910041355) (G) |                     |
 | 8:00 PM  |                       |                  |                          | [\*Jessica Wang](https://utoronto.zoom.us/j/4910041355) (G) |                     |
 
 - \* Jessica holds virtual office hours on [Zoom](https://utoronto.zoom.us/j/4910041355). Join with passcode `969876`.
