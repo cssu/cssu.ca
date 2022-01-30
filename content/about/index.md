@@ -42,7 +42,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 <!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" profile_pic="/images/people/mogtaba.png" >}}
+{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" linkedin="https://www.linkedin.com/in/mogtaba-alim/" github="https://github.com/Mogtaba-Alim" profile_pic="/images/people/mogtaba.png" >}}
 {{< profilePic/profilePic  bold=true name="Kaylee Chan"  position="First Year Student Liaison" linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
