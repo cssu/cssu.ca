@@ -51,26 +51,25 @@ Over the years, we've collected many books from generous (or forgetful!) student
 
 ---
 
-## Schedule (November/December 2021)
+## Schedule (Winter 2022)
 
 Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
 
-| Time/Day | Mon                   | Tue              | Wed                      | Thu                                                         | Fri                 |
-| -------- | --------------------- | ---------------- | ------------------------ | ----------------------------------------------------------- | ------------------- |
-| 9:00 AM  |                       |                  |                          |                                                             |                     |
-| 10:00 AM | Dhruvaa Saravanan (G) |                  | Dhruvaa Saravanan (G)    | Joshua Ong (G)                                              | Akiki Liang (G)     |
-| 11:00 AM | Loukos Scheffer       | Rachel Kim (X)   | Joshua Ong (G)           | Joshua Ong (G)                                              | Akiki Liang (G)     |
-| 12:00 PM | Loukos Scheffer       | Rachel Kim (X)   | Owen Wang (G)            | Mahathi Gandhamaneni (G)                                    | Supriya Vasanth (G) |
-| 1:00 PM  | Arjun Pandher (X)     | Aditya Mehrotra  | Mahathi Gandhamaneni (G) | Supriya Vasanth (G)                                         |                     |
-| 2:00 PM  | Arjun Pandher (X)     | Aditya Mehrotra  | Arjun Pandher (X)        | Kaylee Chan (G)                                             |                     |
-| 3:00 PM  | Minh Le (G)           | Mogtaba Alim (G) | Joanne Pan (X)           | Joanne Pan (X)                                              |                     |
-| 4:00 PM  | Minh Le (G)           | Mogtaba Alim (G) | Arjun Pandher (X)        | Alamgir Khan (X)                                            | Kaylee Chan (G)     |
-| 5:00 PM  | Jason Liu (G)         |                  | Arjun Pandher (X)        | Alamgir Khan (X)                                            | Arjun Pandher (X)   |
-| 6:00 PM  | Jason Liu (G)         | Jenny Xu (X)     | Rupert Wu (X)            | Owen Wang (G)                                               |                     |
-| 7:00 PM  |                       | Jenny Xu (X)     | Rupert Wu (X)            | [\*Jessica Wang](https://utoronto.zoom.us/j/4910041355) (G) |                     |
-| 8:00 PM  |                       |                  |                          | [\*Jessica Wang](https://utoronto.zoom.us/j/4910041355) (G) |                     |
+| Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
+| -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
+| 9:00 AM  |                |                |               |                |                |
+| 10:00 AM |                | Supriya V. (G) |               | Jessica C.     | Sacha G.       |
+| 11:00 AM |                | Supriya V. (G) | Michael N.    | Jessica C.     | Sacha G.       |
+| 12:00 PM | Mogtaba A. (X) | Sacha G.       | Michael N.    | Louis S.       | Akiki L. (G)   |
+| 1:00 PM  | Akiki L. (G)   | Rupert W. (X)  | Aditya M.     | Louis S.       | Louis S.       |
+| 2:00 PM  | Kaylee C. (G)  | Rupert W. (X)  | Aditya M.     | Alamgir K. (X) | Mahathi G. (G) |
+| 3:00 PM  | Kush A.        | Rupert W. (X)  | Rachel K. (X) | Nealon S.      | Mahathi G. (G) |
+| 4:00 PM  | Kush A.        | Kaylee C. (G)  | Rachel K. (X) | Nealon S.      | Jason L. (G)   |
+| 5:00 PM  | Alamgir K. (X) | Dhruvaa S. (G) | Minh L. (G)   | Aditya G. (X)  | Jason L. (G)   |
+| 6:00 PM  | Owen W. (G)    | Dhruvaa S. (G) | Minh L. (G)   | Aditya G. (X)  | Mogtaba A. (X) |
+| 7:00 PM  | Owen W. (G)    | Shirley W.     | Arjun P. (G)  | Angela Z.      | Jenny X. (X)   |
+| 8:00 PM  |                | Shirley W.     | Arjun P. (G)  | Angela Z.      | Jenny X. (X)   |
 
-- \* Jessica holds virtual office hours on [Zoom](https://utoronto.zoom.us/j/4910041355). Join with passcode `969876`.
 - (G) indicates a member of the [General Council](/about).
 - (X) indicates a member of the [Executive (and General) Council](/about).
 

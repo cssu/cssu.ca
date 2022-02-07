@@ -29,7 +29,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< /profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Arjun Pandher"  position="Dir. Social Events (Interim)"  linkedin="https://www.linkedin.com/in/arjun-pandher/" github="https://github.com/ArjunPandher"  profile_pic="/images/people/arjun.jpeg" >}}
+{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Dir. Social Events" linkedin="https://www.linkedin.com/in/mogtaba-alim/" github="https://github.com/Mogtaba-Alim" profile_pic="/images/people/mogtaba.png" >}}
 {{< profilePic/profilePic  bold=true name="Rachel Kim"  position="Dir. Academic Events"  linkedin="https://www.linkedin.com/in/rachelm-kim/" profile_pic="/images/people/rachel.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Joanne Pan"  position="Dir. Internal Relations"  linkedin="https://www.linkedin.com/in/panjoanne/" profile_pic="/images/people/joanne.png" personal="https://joannepan.com/">}}
 {{< profilePic/profilePic  bold=true name="Alamgir Khan"  position="Dir. External Relations"  linkedin="https://www.linkedin.com/in/kalamgir/" github="https://github.com/Alamgir-K" profile_pic="/images/people/alamgir.jpg" >}}
@@ -42,17 +42,22 @@ General Council members are volunteers appointed by the Executive Council to ass
 <!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="Mogtaba Alim"  position="Administration" linkedin="https://www.linkedin.com/in/mogtaba-alim/" github="https://github.com/Mogtaba-Alim" profile_pic="/images/people/mogtaba.png" >}}
 {{< profilePic/profilePic  bold=true name="Kaylee Chan"  position="First Year Student Liaison" linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" profile_pic="/images/people/minh.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Akiki Liang"  position="External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
+{{< /profilePic/profilePicContainer >}}
+
+{{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Jason Liu"  position="Administration"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
 {{< profilePic/profilePic  bold=true name="Arjun Pandher"  position="Social Events"  linkedin="https://www.linkedin.com/in/arjun-pandher/" github="https://github.com/ArjunPandher"  profile_pic="/images/people/arjun.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Dhruvaa Saravanan"  position="Academic Events"  linkedin="https://www.linkedin.com/in/dhruvaa/" profile_pic="/images/people/dhruvaa.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations" profile_pic="/images/people/yujin.png" >}}
+{{< /profilePic/profilePicContainer >}}
+
+{{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
 {{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
