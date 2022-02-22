@@ -24,8 +24,8 @@ Members of the Executive Council are elected by the student body to serve one-ye
 
 {{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Ziyi (Jenny) Xu"  position="President" linkedin="https://www.linkedin.com/in/jenny-ziyi-xu/" profile_pic="/images/people/jenny.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Robert (Rupert) Wu"  position="Vice President"  linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
-{{< profilePic/profilePic  bold=true name="Aditya Goyal"  position="Treasurer"  linkedin="https://www.linkedin.com/in/adi-goyal/"  profile_pic="/images/people/adi.jfif" >}}
+{{< profilePic/profilePic bold=true name="Robert (Rupert) Wu"  position="Vice President" linkedin="https://www.linkedin.com/in/wu-robert/" github="https://github.com/rusbridger/" gitlab="https://gitlab.com/rusbridger" profile_pic="/images/people/rupert.jpg" personal="https://www.cs.toronto.edu/~rupert/">}}
+{{< profilePic/profilePic bold=true name="Aditya Goyal"  position="Treasurer" linkedin="https://www.linkedin.com/in/adi-goyal/"  profile_pic="/images/people/adi.jfif" >}}
 {{< /profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePicContainer >}}
@@ -47,17 +47,11 @@ General Council members are volunteers appointed by the Executive Council to ass
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
 {{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" profile_pic="/images/people/minh.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Akiki Liang"  position="External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
-{{< /profilePic/profilePicContainer >}}
-
-{{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Jason Liu"  position="Administration"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
 {{< profilePic/profilePic  bold=true name="Arjun Pandher"  position="Social Events"  linkedin="https://www.linkedin.com/in/arjun-pandher/" github="https://github.com/ArjunPandher"  profile_pic="/images/people/arjun.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Dhruvaa Saravanan"  position="Academic Events"  linkedin="https://www.linkedin.com/in/dhruvaa/" profile_pic="/images/people/dhruvaa.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations" profile_pic="/images/people/yujin.png" >}}
-{{< /profilePic/profilePicContainer >}}
-
-{{< profilePic/profilePicContainer >}}
 {{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
 {{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}

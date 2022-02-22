@@ -29,12 +29,12 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 | Item                     | Price | Flavour(s)/Variation(s)                          |
 | ------------------------ | ----- | ------------------------------------------------ |
 | Bottled Water            | $1.00 | Kirkland Signature                               |
-| Sparkling Water          | $1.50 | San Pelligrino, Perrier                          |
-| Rougemont Juice          | $1.00 | Fruit Punch, Peach, Apple-Berry                  |
-| Pop/Soda                 | $1.00 | Pepsi                                            |
-| Gatorade                 | $1.75 | Blue, Orange                                     |
-| Vita Coco                | $1.50 | Original                                         |
-| Chips                    | $1.00 | Crunchy Cheetos, Doritos, Lays (Classic/Ketchup) |
+| Sparkling Water          | $1.25 | San Pelligrino, Perrier                          |
+| Rougemont Juice          | $0.75 | Fruit Punch, Peach, Apple-Berry                  |
+| Pop/Soda                 | $1.00 | Coca Cola                                        |
+| Gatorade                 | $1.75 | Blue, Orange, Red, Yellow                        |
+| Arizona                  | $1.75 | Green Tea                                        |
+| Chips                    | $0.75 | Crunchy Cheetos, Doritos, Lays (Classic/Ketchup) |
 | Nestle Chocolate Candies | $1.50 | Kitkat, Aero, Coffee Crisps, Smarties            |
 | Mars Chocolate Candies   | $1.50 | Mars, M&M, Snickers, Twix                        |
 | Kinder Bueno             | $1.75 | Wafers (x2)                                      |
@@ -44,6 +44,7 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 | Whiteboard Markers       | $1.50 | Red, Green, Blue, Purple                         |
 
 _Updated 2021/11/14 - If any price here is inconsistent with the desk price, the latter is to be followed._
+_Updated 2022/02/21 - In order to purchase items that are less than \$1, please combine multiple items such that your card transaction can be made._
 
 ### Library
 

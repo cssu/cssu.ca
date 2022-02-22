@@ -1,5 +1,5 @@
 ---
-title: "Tea Time With Profs"
+title: "Tea Time With Profs (Fall 2021)"
 date: 2021-10-18
 draft: false
 hideLastModified: false
