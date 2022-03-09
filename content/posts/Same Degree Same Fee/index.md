@@ -28,7 +28,7 @@ Since fall of 2020, the CSSU has worked closely with the Bioinformatics and Comp
 
 We recently prepared **[this report](/SDSF.pdf)** which outlines our rationale for our _Same Degree, Same Fee_ proposal.
 
-The report includes detailed analysis of the results of a survey and consultation process we held. If you would like to download the survey and consultation results alone, _without_ the attached _Same Degree, Same Fee_ report, [click here](/uploads/Survey%20Analysis.pdf).
+The report includes detailed analysis of the results of a survey and consultation process we held. If you would like to download the survey and consultation results alone, _without_ the attached _Same Degree, Same Fee_ report, [click here](/Survey_Analysis.pdf).
 
 ## You can help -- sign the petition
 

@@ -26,22 +26,22 @@ The CSSU proudly maintains a student lounge in BA 2250 in which students can ~~h
 
 We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using ~~cash or~~ (unavailable due to COVID-19) debit/credit card (for purchases of $1 or more). Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
-| Item                     | Price | Flavour(s)/Variation(s)                          |
-| ------------------------ | ----- | ------------------------------------------------ |
-| Bottled Water            | $1.00 | Kirkland Signature                               |
-| Sparkling Water          | $1.25 | San Pelligrino, Perrier                          |
-| Rougemont Juice          | $0.75 | Fruit Punch, Peach, Apple-Berry                  |
-| Pop/Soda                 | $1.00 | Coca Cola                                        |
-| Gatorade                 | $1.75 | Blue, Orange, Red, Yellow                        |
-| Arizona                  | $1.75 | Green Tea                                        |
-| Chips                    | $0.75 | Crunchy Cheetos, Doritos, Lays (Classic/Ketchup) |
-| Nestle Chocolate Candies | $1.50 | Kitkat, Aero, Coffee Crisps, Smarties            |
-| Mars Chocolate Candies   | $1.50 | Mars, M&M, Snickers, Twix                        |
-| Kinder Bueno             | $1.75 | Wafers (x2)                                      |
-| Pocky                    | $2.00 | Chocolate                                        |
-| Ferrero Rocher           | $2.00 | Hazelnut                                         |
-| Wrigley's 5 (Gum)        | $1.50 | Wintermint, Spearmint, Peppermint                |
-| Whiteboard Markers       | $1.50 | Red, Green, Blue, Purple                         |
+| Item                     | Price           | Flavour(s)/Variation(s)                          |
+| ------------------------ | --------------- | ------------------------------------------------ |
+| Bottled Water            | $1.00           | Kirkland Signature                               |
+| Sparkling Water          | ~~$1.25~~ $1.00 | San Pelligrino, Perrier                          |
+| Rougemont Juice          | ~~$0.75~~ $0.50 | Fruit Punch, Peach, Apple-Berry                  |
+| Pop/Soda                 | $1.00           | Coca Cola                                        |
+| Gatorade                 | $1.75           | Blue, Orange, Red, Yellow                        |
+| Arizona                  | $1.75           | Green Tea                                        |
+| Chips                    | $0.75           | Crunchy Cheetos, Doritos, Lays (Classic/Ketchup) |
+| Nestle Chocolate Candies | $1.50           | Kitkat, Aero, Coffee Crisps, Smarties            |
+| Mars Chocolate Candies   | $1.50           | Mars, M&M, Snickers, Twix                        |
+| Kinder Bueno             | $1.75           | Wafers (x2)                                      |
+| Pocky                    | $2.00           | Chocolate                                        |
+| Ferrero Rocher           | $2.00           | Hazelnut                                         |
+| Wrigley's 5 (Gum)        | $1.50           | Wintermint, Spearmint, Peppermint                |
+| Whiteboard Markers       | $1.50           | Red, Green, Blue, Purple                         |
 
 _Updated 2021/11/14 - If any price here is inconsistent with the desk price, the latter is to be followed._
 _Updated 2022/02/21 - In order to purchase items that are less than \$1, please combine multiple items such that your card transaction can be made._
@@ -61,13 +61,13 @@ Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Ce
 | 9:00 AM  |                |                |               |                |                |
 | 10:00 AM |                | Supriya V. (G) |               | Jessica C.     | Sacha G.       |
 | 11:00 AM |                | Supriya V. (G) | Michael N.    | Jessica C.     | Sacha G.       |
-| 12:00 PM | Mogtaba A. (X) | Sacha G.       | Michael N.    | Louis S.       | Akiki L. (G)   |
-| 1:00 PM  | Akiki L. (G)   | Rupert W. (X)  | Aditya M.     | Louis S.       | Louis S.       |
+| 12:00 PM | Mogtaba A. (X) | Sacha G.       | Michael N.    | Josh O. (G)    | Akiki L. (G)   |
+| 1:00 PM  | Akiki L. (G)   | Rupert W. (X)  | Aditya M.     | Josh O. (G)    | Louis S.       |
 | 2:00 PM  | Kaylee C. (G)  | Rupert W. (X)  | Aditya M.     | Alamgir K. (X) | Mahathi G. (G) |
 | 3:00 PM  | Kush A.        | Rupert W. (X)  | Rachel K. (X) | Nealon S.      | Mahathi G. (G) |
 | 4:00 PM  | Kush A.        | Kaylee C. (G)  | Rachel K. (X) | Nealon S.      | Jason L. (G)   |
-| 5:00 PM  | Alamgir K. (X) | Dhruvaa S. (G) | Minh L. (G)   | Aditya G. (X)  | Jason L. (G)   |
-| 6:00 PM  | Owen W. (G)    | Dhruvaa S. (G) | Minh L. (G)   | Aditya G. (X)  | Mogtaba A. (X) |
+| 5:00 PM  | Alamgir K. (X) | Dhruvaa S. (G) | Minh L. (G)   | Louis S.       | Jason L. (G)   |
+| 6:00 PM  | Owen W. (G)    | Dhruvaa S. (G) | Minh L. (G)   | Louis S.       | Mogtaba A. (X) |
 | 7:00 PM  | Owen W. (G)    | Shirley W.     | Arjun P. (G)  | Angela Z.      | Jenny X. (X)   |
 | 8:00 PM  |                | Shirley W.     | Arjun P. (G)  | Angela Z.      | Jenny X. (X)   |
 
