@@ -1,6 +1,6 @@
 ---
 title: "BA2250"
-date: 2021-09-10
+date: 2022-04-29
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -8,23 +8,26 @@ summary: "The Undergraduate Computer Science Lounge"
 showInMenu: true
 ---
 
-_Due to the ongoing Coronavirus pandemic, the student lounge will be operating in a limited capacity. See below..._
+_Due to the ongoing Coronavirus pandemic, the student lounge will be operating with precautions. See below..._
 
 ---
 
-The CSSU proudly maintains a student lounge in BA 2250 in which students can ~~hang out, network, play games~~ (limited by COVID-19) and ask questions. We have a snack store, gaming centre, study spaces and more! Office operations volunteers manage the lounge, assist in answering questions, and directing students to appropriate resources.
+The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. We have a snack store, gaming centre, study spaces and more! Office operations volunteers manage the lounge, assist in answering questions, and directing students to appropriate resources.
+
+## Code of Conduct
+
+
 
 ## What we Have
 
 - Store stocked with common snacks for student purchase. We also half a free/loan shelf.
-- Workspace with tables, chairs and a sofa. (please limit due to COVID-19)
-- ~~Kitchenette with sink, microwave, kettle, and basic utensils/tools.~~ (restricted due to COVID-19)
-- ~~Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games.~~ (restricted due to COVID-19)
+- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools. (restricted due to COVID-19)
+- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games. (restricted due to COVID-19)
 - Library shelf lined with books in topics such as mathematics, algorithms/data structures, programming, philosophy. Books can be loaned with a piece of UofT/government ID.
 
 ### Store
 
-We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using ~~cash or~~ (unavailable due to COVID-19) debit/credit card (for purchases of $1 or more). Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
+We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
 | Item                     | Price           | Flavour(s)/Variation(s)                          |
 | ------------------------ | --------------- | ------------------------------------------------ |
@@ -44,7 +47,7 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 | Whiteboard Markers       | $1.50           | Red, Green, Blue, Purple                         |
 
 _Updated 2021/11/14 - If any price here is inconsistent with the desk price, the latter is to be followed._
-_Updated 2022/02/21 - In order to purchase items that are less than \$1, please combine multiple items such that your card transaction can be made._
+_Updated 2022/02/21 - In order to purchase items that are less than \$1, please use cash or combine multiple items such that your card transaction can be made._
 
 ### Library
 
@@ -54,7 +57,7 @@ Over the years, we've collected many books from generous (or forgetful!) student
 
 ## Schedule (Winter 2022)
 
-Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
+Office hours will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
 
 | Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
 | -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
@@ -80,6 +83,6 @@ Unless otherwise specified, office hours will be held in BA2250 in the [Bahen Ce
 
 Due to the ongoing Coronavirus pandemic, the student lounge will be operating with the following limitations.
 
-- BA2250 will maintain a maximum capacity of four (4) people, including the office manager.
 - Social-distancing shall be observed in and around the lounge.
-- The kitchenette, refrigerator, entertainment centre will be strictly off-limits. No person aside from the office manager shall go beyond the table barriers.
+- Face masks will be required.
+- Proof of vaccination must be provided to the office manager on duty upon request.

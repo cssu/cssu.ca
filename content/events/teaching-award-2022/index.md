@@ -1,11 +1,20 @@
 ---
 title: "CSSU Teaching Awards"
-date: 2022-03-23
+date: 2022-04-11
 draft: false
 hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "It's the end of the year, and time for the yearly CSSU Teaching Awards!"
+summaryImage: summary.png
+---
+
+![cert](summary.png)
+
+---
+
+Congratulations to Professor Mario Badr on winning the CSSU Teaching Award for Winter 2022! We received a total of 101 nominations, 77 of which are for Professor Badr. To all the professors in the Computer Science Department, thank you sincerely for your efforts and your contributions to the CS community.
+
 ---
 
 It's the end of the year, and time for the yearly CSSU Teaching Awards! This past year has been exceptionally challenging for the faculty. With the remote setting and transition to in-person learning, our Computer Science faculty has been working hard trying their best to provide a good experience. The professor(s) who get the most votes in proportion to the number of students they teach this year receive a recognition award from the whole CS Undergraduate community!
