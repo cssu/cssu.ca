@@ -29,7 +29,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< /profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic bold=true name="Victor Gasnikov" position="Dir. Social Events" linkedin="https://www.linkedin.com/in/victor-gasnikov/" profile_pic="/images/people/Victor.png" >}}
+{{< profilePic/profilePic bold=true name="Nealon Soltanpour" position="Dir. Social Events" linkedin="linkedin.com/in/nealon-soltanpour" profile_pic="https://media.licdn.com/dms/image/D4E35AQFO1QT5syOGwg/profile-framedphoto-shrink_800_800/0/1637744908740?e=1674439200&v=beta&t=oAaEjy3wxax15S65M5CSBZdUkRtrkoEPfo9nlLqjQfM" >}}
 {{< profilePic/profilePic bold=true name="Jessica Wang" position="Dir. Academic Events" linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
 {{< profilePic/profilePic bold=true name="Mogtaba Alim" position="Dir. Internal Relations" linkedin="https://www.linkedin.com/in/mogtaba-alim/" github="https://github.com/Mogtaba-Alim" profile_pic="/images/people/mogtaba.png" >}}
 {{< profilePic/profilePic bold=true name="Akiki Liang" position="Dir. External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif">}}

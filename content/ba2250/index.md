@@ -25,6 +25,7 @@ The CSSU proudly maintains a student lounge in BA 2250 in which students can han
 
 We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
+<!--
 | Item                         | Price           | Flavour(s)/Variation(s)                          |
 | ---------------------------- | --------------- | ------------------------------------------------ |
 | ~~Bottled Water~~            | ~~$1.00~~       | ~~Kirkland Signature~~                           |
@@ -43,7 +44,7 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 | Whiteboard Dry-Erase Markers | $1.50           | Red, Green, Blue, Purple                         |
 
 - _Updated 2021/11/14_ - If any price here is inconsistent with the desk price, the latter is to be followed.
-- _Updated 2022/02/21_ - In order to purchase items that are less than \$1, please use cash or combine multiple items such that your card transaction can be made.
+- _Updated 2022/02/21_ - In order to purchase items that are less than \$1, please use cash or combine multiple items such that your card transaction can be made. -->
 
 ### Library & Whiteboard
 
@@ -51,9 +52,9 @@ Over the years, we've collected many books from generous (or forgetful!) student
 
 You can use the dry-erase markers/erasers at the whiteboard; to borrow one, please deposit of a piece of UofT/government ID. You can also purchase new markers at the store.
 
----
+<!-- --- -->
 
-## Schedule (Summer 2022)
+<!-- ## Schedule (Summer 2022)
 
 Office hours (starting May 16th) will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
 
@@ -74,9 +75,9 @@ Office hours (starting May 16th) will be held in BA2250 in the [Bahen Centre for
 | 8:00 PM  | Ching C.      | Danny C.   | Rupert W.   | Benjamin Z. |          |
 
 - (G) indicates a member of the [General Council](/about).
-- (X) indicates a member of the [Executive (and General) Council](/about).
+- (X) indicates a member of the [Executive (and General) Council](/about). -->
 
-Interested in volunteering? Send [Rupert](mailto:rupert.wu@mail.utoronto.ca) an email.
+<!-- Interested in volunteering? Send [Rupert](mailto:rupert.wu@mail.utoronto.ca) an email. -->
 
 ---
 
