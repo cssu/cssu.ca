@@ -95,14 +95,4 @@ btw there's a security camera in the room :)
 
 ---
 
-## COVID-19 Precautions in the Student Lounge
-
-Due to the ongoing Coronavirus pandemic, the student lounge will be operating with the following limitations.
-
-- Social-distancing shall be observed in and around the lounge.
-- Face masks will be required.
-- Proof of vaccination must be provided to the office manager on duty upon request.
-
----
-
 _If you're a volunteer, see the [guide](../ba2250-volunteering/)._
