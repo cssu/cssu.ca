@@ -23,16 +23,15 @@ You can visit us at BA2250 in the [Bahen Centre for Information Technology](http
 Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic  bold=true name="(Adi) Aditya Goyal" position="President" linkedin="https://www.linkedin.com/in/adi-goyal/" profile_pic="/images/people/adi.jfif" personal="https://adigoyal.me">}}
-{{< profilePic/profilePic bold=true name="Joshua Ong" position="Vice President" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
-{{< profilePic/profilePic bold=true name="Aditya Mehrotra" position="Treasurer" linkedin="https://www.linkedin.com/in/adi-goyal/" profile_pic="/images/people/adi_mehrotra.jpg" >}}
+{{< profilePic/profilePic bold=true name="Mogtaba Alim" position="Vice President" linkedin="https://www.linkedin.com/in/mogtaba-alim/" profile_pic="/images/people/mogtaba.png" >}}
+{{< profilePic/profilePic bold=true name="Aditya Gautam" position="Treasurer" linkedin="https://ca.linkedin.com/in/aditya-gautam-400937215" github="https://github.com/Autumn-AG" profile_pic="/images/people/adi_gautam.jpg" >}}
+{{< profilePic/profilePic bold=true name="Pratibha Thakur" position="Dir. External Relations" github="https://github.com/praticodes" linkedin="https://www.linkedin.com/in/thakur-pratibha" profile_pic="/images/people/pratibha.png">}}
 {{< /profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic bold=true name="Nealon Soltanpour" position="Dir. Social Events" linkedin="linkedin.com/in/nealon-soltanpour" profile_pic="https://media.licdn.com/dms/image/D4E35AQFO1QT5syOGwg/profile-framedphoto-shrink_800_800/0/1637744908740?e=1674439200&v=beta&t=oAaEjy3wxax15S65M5CSBZdUkRtrkoEPfo9nlLqjQfM" >}}
-{{< profilePic/profilePic bold=true name="Jessica Wang" position="Dir. Academic Events" linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
-{{< profilePic/profilePic bold=true name="Mogtaba Alim" position="Dir. Internal Relations" linkedin="https://www.linkedin.com/in/mogtaba-alim/" github="https://github.com/Mogtaba-Alim" profile_pic="/images/people/mogtaba.png" >}}
-{{< profilePic/profilePic bold=true name="Akiki Liang" position="Dir. External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif">}}
+{{< profilePic/profilePic bold=true name="Joshua Li" position="Dir. Social Events" linkedin="https://www.linkedin.com/in/ming-hin-joshua-li-99a0a0231/" github="https://github.com/tycelm" profile_pic="https://media.licdn.com/dms/image/D4E35AQFO1QT5syOGwg/profile-framedphoto-shrink_800_800/0/1637744908740?e=1674439200&v=beta&t=oAaEjy3wxax15S65M5CSBZdUkRtrkoEPfo9nlLqjQfM" >}}
+{{< profilePic/profilePic bold=true name="Mouaid Alim" position="Dir. Academic Events" linkedin="https://www.linkedin.com/in/mouaid-alim-a66762230/" profile_pic="/images/people/mouaid.jpg">}}
+{{< profilePic/profilePic  bold=true name="Felix Zhang" position="Dir. Internal Relations" linkedin="https://www.linkedin.com/in/felixfzhang/" github="https://github.com/ff-zhang" profile_pic="/images/people/felix.jpg" >}}
 {{< /profilePic/profilePicContainer >}}
 
 <!-- ## General Council
