@@ -25,6 +25,26 @@ The CSSU proudly maintains a student lounge in BA 2250 in which students can han
 
 We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
+## Schedule (Fall 2023)
+
+Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
+| -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
+| 9:00 AM  |                |                |               |                |                |
+| 10:00 AM |                |                |               |                |                |
+| 11:00 AM | Felix Z. (X)   |                | Jason L.      |                |                |
+| 12:00 PM | Felix Z. (X)   | Nathan         | Jason L.      |                |                |
+| 1:00 PM  |                | Nathan         |               |                | Louis S.       |
+| 2:00 PM  |                | Pratibha T. (X)|               |                | Louis S.       |
+| 3:00 PM  |                | Pratibha T. (X)| Mogtaba A. (X)|                | Shane W.       |
+| 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                | Shane W.       |
+| 5:00 PM  |                | Mouaid A. (X)  |               |                |                |
+| 6:00 PM  |                |                |               |                |                |
+| 7:00 PM  | Danny C.       |                | Mack Y.       |                | Aditya G. (X)  |
+| 8:00 PM  | Danny C.       |                | Mack Y.       |                | Aditya G. (X)  |
+
+- (G) indicates a member of the [General Council](/about).
+- (X) indicates a member of the [Executive (and General) Council](/about).
+
 <!--
 | Item                         | Price           | Flavour(s)/Variation(s)                          |
 | ---------------------------- | --------------- | ------------------------------------------------ |
