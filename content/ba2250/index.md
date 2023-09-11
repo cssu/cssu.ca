@@ -34,9 +34,9 @@ Time/Day | Mon            | Tue            | Wed           | Thu            | Fr
 | 11:00 AM | Felix Z. (X)   |                | Jason L.      |                |                |
 | 12:00 PM | Felix Z. (X)   | Nathan         | Jason L.      |                |                |
 | 1:00 PM  |                | Nathan         |               |                | Louis S.       |
-| 2:00 PM  |                | Pratibha T. (X)|               |                | Louis S.       |
-| 3:00 PM  |                | Pratibha T. (X)| Mogtaba A. (X)|                | Shane W.       |
-| 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                | Shane W.       |
+| 2:00 PM  | Shane W.       | Pratibha T. (X)|               |                | Louis S.       |
+| 3:00 PM  | Shane W.       | Pratibha T. (X)| Mogtaba A. (X)|                |                |
+| 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                |                |
 | 5:00 PM  |                | Mouaid A. (X)  |               |                |                |
 | 6:00 PM  |                |                |               |                |                |
 | 7:00 PM  | Danny C.       |                | Mack Y.       |                | Aditya G. (X)  |
