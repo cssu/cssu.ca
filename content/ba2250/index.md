@@ -29,13 +29,13 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 
 Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
 | -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
-| 9:00 AM  |                |                |               |                |                |
-| 10:00 AM |                |                |               |                |                |
-| 11:00 AM | Felix Z. (X)   |                | Jason L.      |                |                |
+| 9:00 AM  |                |                |Pratibha T. (X)|                |                |
+| 10:00 AM |                |                |Pratibha T. (X)|                |                |
+| 11:00 AM | Felix Z. (X)   | Nathan         | Jason L.      |                |                |
 | 12:00 PM | Felix Z. (X)   | Nathan         | Jason L.      | Louis T.       |                |
-| 1:00 PM  |                | Nathan         |               | Louis T.       | Louis S.       |
-| 2:00 PM  | Shane W.       | Pratibha T. (X)|               |                | Louis S.       |
-| 3:00 PM  | Shane W.       | Pratibha T. (X)| Mogtaba A. (X)|                |                |
+| 1:00 PM  |                |                |               | Louis T.       | Louis S.       |
+| 2:00 PM  | Shane W.       |                |               |                | Louis S.       |
+| 3:00 PM  | Shane W.       |                | Mogtaba A. (X)|                |                |
 | 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                |                |
 | 5:00 PM  |                | Mouaid A. (X)  |               |                |                |
 | 6:00 PM  |                |                |               |                |                |
