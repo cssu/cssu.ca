@@ -29,18 +29,18 @@ We sell many food items in our in-lounge store for your convenience. Anyone can 
 
 Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
 | -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
-| 9:00 AM  |                |                |Pratibha T. (X)|                |                |
-| 10:00 AM |                |                |Pratibha T. (X)|                |                |
-| 11:00 AM | Felix Z. (X)   | Nathan         | Jason L.      |                |                |
-| 12:00 PM | Felix Z. (X)   | Nathan         | Jason L.      | Louis T.       |                |
-| 1:00 PM  |                |                |               | Louis T.       | Louis S.       |
-| 2:00 PM  | Shane W.       |                |               |                | Louis S.       |
+| 9:00 AM  |                | Jamie Z.       |Pratibha T. (X)|                |                |
+| 10:00 AM | Cameron F.     | Jamie Z.       |Pratibha T. (X)|                |                |
+| 11:00 AM | Felix Z. (X)   | Nathan         | Jason B.      |                |                |
+| 12:00 PM | Felix Z. (X)   | Nathan         | Jason B.      | Louis T.       | Cameron F.     |
+| 1:00 PM  |                | Justin Y.      |               | Louis T.       | Louis S.       |
+| 2:00 PM  | Shane W.       | Justin Y.      |               | Vedang N.      | Louis S.       |
 | 3:00 PM  | Shane W.       |                | Mogtaba A. (X)|                |                |
 | 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                |                |
-| 5:00 PM  |                | Mouaid A. (X)  |               |                |                |
-| 6:00 PM  |                |                |               |                |                |
-| 7:00 PM  | Danny C.       |                | Mack Y.       |                | Aditya G. (X)  |
-| 8:00 PM  | Danny C.       |                | Mack Y.       |                | Aditya G. (X)  |
+| 5:00 PM  |                | Mouaid A. (X)  | Vedang N.     |                |                |
+| 6:00 PM  |                |                | Zach M.       |                |                |
+| 7:00 PM  | Danny C.       | Mack Y.        | Zach M.       |                | Aditya G. (X)  |
+| 8:00 PM  | Danny C.       | Mack Y.        |               |                | Aditya G. (X)  |
 
 - (G) indicates a member of the [General Council](/about).
 - (X) indicates a member of the [Executive (and General) Council](/about).
