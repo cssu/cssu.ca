@@ -38,9 +38,9 @@ Time/Day | Mon            | Tue            | Wed           | Thu            | Fr
 | 3:00 PM  | Shane W.       |                | Mogtaba A. (X)|                |                |
 | 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                |                |
 | 5:00 PM  |                | Mouaid A. (X)  | Vedang N.     |                |                |
-| 6:00 PM  |                |                | Zach M.       |                |                |
-| 7:00 PM  | Danny C.       | Mack Y.        | Zach M.       |                | Aditya G. (X)  |
-| 8:00 PM  | Danny C.       | Mack Y.        |               |                | Aditya G. (X)  |
+| 6:00 PM  | Aditya G. (X)  |                | Zach M.       |                |                |
+| 7:00 PM  | Danny C.       | Mack Y.        | Zach M.       |                |                |
+| 8:00 PM  | Danny C.       | Mack Y.        | Aditya G. (X) |                |                |
 
 - (G) indicates a member of the [General Council](/about).
 - (X) indicates a member of the [Executive (and General) Council](/about).
