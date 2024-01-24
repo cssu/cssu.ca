@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Posts"
 date: 2024-01-24
 draft: false
 keepImageRatio: true
