@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-09-10
+date: 2024-01-24
 draft: false
 keepImageRatio: true
 summary: "About the Computer Science Student Union"
