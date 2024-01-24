@@ -4,7 +4,7 @@ date: 2024-02-08
 draft: false
 hideLastModified: false
 keepImageRatio: true
-showInMenu: false
+showInMenu: true
 summary: "CSSU will be rock climbing at Basecamp Bloor West on February 8th from 6-8 PM"
 summaryImage: cssu-rock-climbing.png
 ---
