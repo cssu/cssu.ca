@@ -54,6 +54,8 @@ To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/
 {{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
 {{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
+
+{{< profilePic/profilePic  bold=true name="Gerald Wang"  position="Social Events"  linkedin="https://www.linkedin.com/in/geraldyywang/" profile_pic="/images/people/gerald.jpg" >}}
 {{< /profilePic/profilePicContainer >}} -->
 
 ## Office Operations
