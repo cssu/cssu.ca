@@ -58,7 +58,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}} -->
 
 {{< profilePic/profilePic  bold=true name="Gerald Wang"  position="Social Events"  linkedin="https://www.linkedin.com/in/geraldyywang/" profile_pic="/images/people/gerald.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.png" >}}
 {{< profilePic/profilePic  bold=true name="Elise Corbin"  position="First Year Rep"  linkedin="https://www.linkedin.com/in/elise-corbin-65919221a/" github="https://github.com/ecorbin567"  profile_pic="/images/people/ecorbin.jpg" >}}
 
 {{< /profilePic/profilePicContainer >}}
