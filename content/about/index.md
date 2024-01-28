@@ -7,7 +7,7 @@ summary: "About the Computer Science Student Union"
 showInMenu: true
 ---
 
-The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science POSt at the University of Toronto St. George campus. We are a student governed body that receives funding from the Arts and Sciences' Student Union, the Department of Computer Science, and our union store. The description of the structure, rules, and processes of the union are described in our [**constitution**](/constitution.pdf). The primary goal for the CSSU team is to improve the academic, social, and professional lives of computer science students. To do so, we intend to focus on the following:
+The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science PoSt at the University of Toronto St. George campus. We are a student governed body that receives funding from the Arts and Sciences' Student Union, the Department of Computer Science, and our union store. The description of the structure, rules, and processes of the union are described in our [**constitution**](/constitution.pdf). The primary goal for the CSSU team is to improve the academic, social, and professional lives of computer science students. To do so, we intend to focus on the following:
 
 - **Social Activities**: organize social events to help students in making friends in their program and form networks of mutual support.
 - **Professional Development**: provide students with networking and professional skill development opportunities to facilitate success in their careers.
