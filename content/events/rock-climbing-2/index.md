@@ -16,6 +16,6 @@ summaryImage: cssu-rock-climbing.png
 
 ![Come join us for a night filled of rock climbing. ](../rock-climbing/cssu-rock-climbing.png)
 
-You can purchase tickets at [EventBrite.](![Alt text](../rock-climbing/cssu-rock-climbing.png))
+You can purchase tickets at [EventBrite.](https://www.eventbrite.com/e/cssu-rock-climbing-tickets-797862096007)
 
 ---
