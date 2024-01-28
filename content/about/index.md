@@ -23,7 +23,7 @@ You can visit us at BA2250 in the [Bahen Centre for Information Technology](http
 Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic bold=true name="Cameron Fairchild" position="President" linkedin="https://www.linkedin.com/in/cameron-fairchild" github="https://github.com/camfairchild" profile_pic="/images/people/cam.jpg" >}}
+{{< profilePic/profilePic bold=true name="Cameron Fairchild" position="President" personal="https://fairchild.dev/" linkedin="https://www.linkedin.com/in/cameron-fairchild" github="https://github.com/camfairchild" profile_pic="/images/people/cam.jpg" >}}
 {{< profilePic/profilePic bold=true name="Louis Scheffer" position="Vice President" linkedin="https://www.linkedin.com/in/louis-scheffer-v" github="https://github.com/loukos-scheffer" profile_pic="/images/people/louis.jpg" >}}
 {{< profilePic/profilePic bold=true name="Aditya Gautam" position="Treasurer" linkedin="https://www.linkedin.com/in/aditya-gautam-400937215" github="https://github.com/Autumn-AG" profile_pic="/images/people/adi_gautam.jpg" >}}
 {{< profilePic/profilePic bold=true name="Pratibha Thakur" position="Dir. External Relations" github="https://github.com/praticodes" linkedin="https://www.linkedin.com/in/thakur-pratibha" profile_pic="/images/people/pratibha.png">}}
@@ -58,7 +58,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 {{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}} -->
 
 {{< profilePic/profilePic  bold=true name="Gerald Wang"  position="Social Events"  linkedin="https://www.linkedin.com/in/geraldyywang/" profile_pic="/images/people/gerald.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.png" >}}
+{{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  personal="https://jaiz183.github.io/JaizPersonalWebsite/" linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.png" >}}
 {{< profilePic/profilePic  bold=true name="Elise Corbin"  position="First Year Rep"  linkedin="https://www.linkedin.com/in/elise-corbin-65919221a/" github="https://github.com/ecorbin567"  profile_pic="/images/people/ecorbin.jpg" >}}
 
 {{< /profilePic/profilePicContainer >}}
