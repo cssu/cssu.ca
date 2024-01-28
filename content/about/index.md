@@ -23,9 +23,9 @@ You can visit us at BA2250 in the [Bahen Centre for Information Technology](http
 Members of the Executive Council are elected by the student body to serve one-year terms. These student leaders are responsible for organizing the CSSU's events and initiatives to support undergraduate students.
 
 {{< profilePic/profilePicContainer >}}
-{{< profilePic/profilePic bold=true name="Cameron Fairchild" position="President" linkedin="https://ca.linkedin.com/in/cameron-fairchild" github="https://github.com/camfairchild" profile_pic="/images/people/cam.jpg" >}}
-{{< profilePic/profilePic bold=true name="Louis Scheffer" position="Vice President" linkedin="https://ca.linkedin.com/in/louis-scheffer-v" github="https://github.com/loukos-scheffer" profile_pic="/images/people/louis.jpg" >}}
-{{< profilePic/profilePic bold=true name="Aditya Gautam" position="Treasurer" linkedin="https://ca.linkedin.com/in/aditya-gautam-400937215" github="https://github.com/Autumn-AG" profile_pic="/images/people/adi_gautam.jpg" >}}
+{{< profilePic/profilePic bold=true name="Cameron Fairchild" position="President" linkedin="https://www.linkedin.com/in/cameron-fairchild" github="https://github.com/camfairchild" profile_pic="/images/people/cam.jpg" >}}
+{{< profilePic/profilePic bold=true name="Louis Scheffer" position="Vice President" linkedin="https://www.linkedin.com/in/louis-scheffer-v" github="https://github.com/loukos-scheffer" profile_pic="/images/people/louis.jpg" >}}
+{{< profilePic/profilePic bold=true name="Aditya Gautam" position="Treasurer" linkedin="https://www.linkedin.com/in/aditya-gautam-400937215" github="https://github.com/Autumn-AG" profile_pic="/images/people/adi_gautam.jpg" >}}
 {{< profilePic/profilePic bold=true name="Pratibha Thakur" position="Dir. External Relations" github="https://github.com/praticodes" linkedin="https://www.linkedin.com/in/thakur-pratibha" profile_pic="/images/people/pratibha.png">}}
 {{< /profilePic/profilePicContainer >}}
 
