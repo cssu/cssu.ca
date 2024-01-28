@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2024-01-24
+date: 2024-01-28
 draft: false
 keepImageRatio: true
 summary: "About the Computer Science Student Union"
@@ -67,7 +67,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 
 The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. Office operations volunteers help manage the lounge, the store/stockroom, kitchen, gaming centre, and study spaces. They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
 
-_Office operations are set to resume on a limited basis. As such, only members of the Executive and General Councils will be holding office hours in the lounge. **[See Office Hours.](/ba2250)**_
+ **[Office Hours.](/ba2250)**_
 
 ## Feedback Form
 
