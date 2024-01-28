@@ -35,13 +35,14 @@ Members of the Executive Council are elected by the student body to serve one-ye
 {{< profilePic/profilePic  bold=true name="Felix Zhang" position="Dir. Internal Relations" linkedin="https://www.linkedin.com/in/felixfzhang/" github="https://github.com/ff-zhang" profile_pic="/images/people/felix.jpg" >}}
 {{< /profilePic/profilePicContainer >}}
 
-<!-- ## General Council
+## General Council
 
 General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community.
 
-To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform).
+<!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
 
 {{< profilePic/profilePicContainer >}}
+<!--
 {{< profilePic/profilePic  bold=true name="Kaylee Chan"  position="First Year Student Liaison" linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
 {{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
@@ -54,8 +55,13 @@ To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/
 {{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations" profile_pic="/images/people/yujin.png" >}}
 {{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
 {{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}}
-{{< /profilePic/profilePicContainer >}} -->
+{{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}} -->
+
+{{< profilePic/profilePic  bold=true name="Gerald Wang"  position="Social Events"  linkedin="https://www.linkedin.com/in/geraldyywang/" profile_pic="/images/people/gerald.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Elise Corbin"  position="First Year Rep"  linkedin="https://www.linkedin.com/in/elise-corbin-65919221a/" github="https://github.com/ecorbin567"  profile_pic="/images/people/ecorbin.jpg" >}}
+
+{{< /profilePic/profilePicContainer >}}
 
 ## Office Operations
 
