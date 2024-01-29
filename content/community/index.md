@@ -11,7 +11,7 @@ showInMenu: true
 
 The CSSU enjoys the support of partner course unions and the Department of Computer Science.
 
-{{< profilePic/profilePicContainer />}}
+{{< profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePic  bold=true name="ASSU"  position="Arts & Science Student Union" personal="https://assu.ca/wp" linkedin="https://www.linkedin.com/company/uoft-assu" facebook="https://www.facebook.com/assu.uoft" profile_pic="/images/rcgs/assu.jpg" >}}
 
@@ -23,13 +23,13 @@ The CSSU enjoys the support of partner course unions and the Department of Compu
 
 {{< profilePic/profilePic bold=true name="DCSIL" position="Department of Computer Science Innovation Lab " personal="https://dcsil.ca" github="https://github.com/dcsil" profile_pic="/images/rcgs/dcsil.png">}}
 
-{{< profilePic/profilePicContainer />}}
+{{</ profilePic/profilePicContainer >}}
 
 ## Recognized Campus Groups
 
 Recognized campus groups (RCGs) are student groups ("clubs") recognized by [**ULife**](https://ulife.utoronto.ca/organizations) that provide students with extracurricular activities to have fun, get exercise, and/or develop their careers. The following are those relevant to computer science. Please reach out on Discord or email to request your club to be listed.
 
-{{< profilePic/profilePicContainer />}}
+{{< profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePic  bold=true name="ACCS"  position="Association of Chinese Computer Students" profile_pic="/images/rcgs/accs.jpg">}}
 {{< profilePic/profilePic  bold=true name="UTADA"  position="U of T Application Development Association" personal="https://uoftada.com" linkedin="https://www.linkedin.com/company/university-of-toronto-application-development-association" facebook="https://www.facebook.com/uoftada/" profile_pic="/images/rcgs/utada.png">}}
@@ -54,11 +54,11 @@ Recognized campus groups (RCGs) are student groups ("clubs") recognized by [**UL
 {{< profilePic/profilePic bold=true name="UTWD"  position="U of T Web Dev Club"  personal="https://uoftweb.com" linkedin="https://www.linkedin.com/company/uoft-web"  facebook="https://www.facebook.com/uoftweb"  github="https://github.com/uoftweb" profile_pic="/images/rcgs/utwd.png">}}
 {{< profilePic/profilePic bold=true name="WICS"  position="U of T Women in Computer Science"  facebook="https://www.facebook.com/UofTWiCS/" profile_pic="/images/rcgs/wics.png">}}
 
-{{< profilePic/profilePicContainer />}}
+{{</ profilePic/profilePicContainer >}}
 
 ## Mississauga Campus (UTM)
 
-{{< profilePic/profilePicContainer />}}
+{{< profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePic bold=true name="CSSC"  position="Computer Science Student Community"  personal="https://cssc.utm.utoronto.ca"  github= "https://github.com/utm-cssc"  profile_pic="/images/rcgs/cssc.png">}}
 
@@ -72,14 +72,14 @@ Recognized campus groups (RCGs) are student groups ("clubs") recognized by [**UL
 
 {{< profilePic/profilePic bold=true name="WiSC"  position="Women in Science and Computing"  personal="http://www.wiscutm.com/" linkedin="https://www.linkedin.com/in/wisc-utm-5a2417199/"  facebook="https://www.facebook.com/wiscutm"  profile_pic="/images/rcgs/wisc.png">}}
 
-{{< profilePic/profilePicContainer />}}
+{{</ profilePic/profilePicContainer >}}
 
 ## Scarborough Campus (UTSC)
 
-{{< profilePic/profilePicContainer />}}
+{{< profilePic/profilePicContainer >}}
 
 {{< profilePic/profilePic bold=true name="AMACSS"  position="Association of Mathematics and Computer Science Students"  personal="https://www.amacss.org/" linkedin="https://www.linkedin.com/company/association-of-mathematical-and-computer-science-students/"  facebook="https://www.facebook.com/AMACSSUTSC"  profile_pic="/images/rcgs/amacss.png">}}
 
 {{< profilePic/profilePic bold=true name="CSEC"  position="Computer Science Enrichment Club"  personal="https://csec.club/" linkedin="https://www.linkedin.com/company/computer-science-enrichment-club/about"  facebook="https://www.facebook.com/CSEC.UTSC"  github="https://github.com/csecutsc" profile_pic="/images/rcgs/csec.png">}}
 
-{{< profilePic/profilePicContainer />}}
+{{</ profilePic/profilePicContainer >}}
