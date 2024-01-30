@@ -15,16 +15,16 @@ The CSSU proudly maintains a student lounge in BA 2250 in which students can han
 
 ## What we Have
 
-- Store stocked with common snacks for student purchase. We also half a free/loan shelf.
-- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools. (restricted due to COVID-19)
-- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games. (restricted due to COVID-19)
+- Store stocked with common snacks for student purchase. We also have a free/loan shelf.
+- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools.
+- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games.
 - Library shelf lined with books in topics such as mathematics, algorithms/data structures, programming, philosophy. Books can be loaned with a piece of UofT/government ID.
 
 ### Store
 
 We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
-## Schedule (Fall 2023)
+## Schedule (Winter 2024)
 
 Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
 | -------- | -------------- | -------------- | ------------- | -------------- | -------------- |

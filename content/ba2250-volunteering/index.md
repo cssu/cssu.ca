@@ -15,14 +15,14 @@ Thanks for volunteering! It will be a great opportunity to network and engage wi
 
 As of January 2024, the following is in effect.
 
-- Members of the Executive Council shall have access to the lounge (BA2250) and storage room (BA2285).
-- All other volunteers will have 8AM-9PM access on weekdays.
+- Volunteers will have 8AM-9PM access on weekdays.
+- Members of the Executive Council shall have access outside of these hours to the lounge (BA2250) and storage room (BA2285).
 
 ## Snack Store
 
 The CSSU maintains a snack store, the proceeds of which are put back into the CSSU treasury in compliance with charity regulations.
 
-- Most items are kept on the snack shelf (the white one) and the drinks cooler.
+- Most items are kept on the snack shelf (the white one) and the red fridge.
 - Ice-cream sandwiches are stored in freezer in the kitchenette.
 - Volunteers are expected to make sales on Square. Log-in to the iPad, open the app, and tap on the items they're selling.
 - Please do not accept card payments for sales totalling less than $1.00; encourage customers to pay in cash or buy multiple items.
@@ -32,8 +32,8 @@ The CSSU maintains a snack store, the proceeds of which are put back into the CS
 ## Library
 
 - Books and loose dry-erase whiteboard markers are free for use in the lounge.
-- If a student wants to loan a book, ask them to deposit some form of ID (T-Card, driver's licence, etc.).
-- Additional dry-erase markers are for sale ($1.50) on top of the cooler.
+- If a student wants to loan a book, ask them to deposit some form of ID (TCard, driver's licence, Ontario Photo Card, or passport).
+- You may accept a health card if a student offers it, but we cannot request a health card by law.
 
 ## Gaming Systems
 
@@ -43,7 +43,16 @@ The CSSU maintains a snack store, the proceeds of which are put back into the CS
 ## Kitchenette
 
 - Students are free to use the microwave, kettle, and sink.
-- The refrigerator is open for use given that the users understand they only pick up their items when there's a volunteer on duty.
+- The silver refrigerator is open for use given that the users understand they can only pick up their items when there's a volunteer on duty.
+- Please ensure students tag any items put into the fridge with a sticky note or marker. Sometimes there are freebies in here and we don't want someone to accidentally take a student's item because it wasn't labeled. This also helps with cleaning the fridge out.
+- The freezer is often full with ice cream sandwiches, but students may store things in the door if they fit.
+
+## Lost Items
+
+- Lost items found in the building are often turned into the CSSU. Please try to locate the owner using any information on if it is possible.
+- If an item is very expensive and you cannot determine the owner, please ask the student to turn it into caretaking or Campus Safety.
+- With lost TCards, you can email the student by sending an email to <their_utorid>@mail.utoronto.ca, this will alias to their UofT inbox, but it will not show up in your outlook directory.
+- When emailing a student about a lost item, please CC [utcssu@gmail.com](mailto:utcssu@gmail.com). For higher value items also post in the #office-ops channel.
 
 ## Other Things
 
@@ -52,3 +61,4 @@ The CSSU maintains a snack store, the proceeds of which are put back into the CS
 - Let the Executive Council know if you need anything from the storage room.
 - Ensure that everyone is comfortable and observing the [code of conduct](../ba2250).
 - If you can't make your shift for any reason, just let us know in #office-ops on Discord.
+- Students often come in looking for BA2270, that is the TA help centre next door. Please direct them their if they are asking where course office hours are.
