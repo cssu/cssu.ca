@@ -39,23 +39,7 @@ Members of the Executive Council are elected by the student body to serve one-ye
 
 General Council members are volunteers appointed by the Executive Council to assist with our initiatives and be leaders in the community.
 
-<!-- To join the General Council, apply [**here**](https://docs.google.com/forms/d/e/1FAIpQLSf35ZGWqknQuMd7HTs69lqa-SbcmavlsxGwVqms1KAEfoUCSA/viewform). -->
-
 {{< profilePic/profilePicContainer >}}
-<!--
-{{< profilePic/profilePic  bold=true name="Kaylee Chan"  position="First Year Student Liaison" linkedin="https://www.linkedin.com/in/kaylee-chan/" profile_pic="/images/people/kaylee.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Mahathi Gandhamaneni"  position="Communications"  linkedin="https://www.linkedin.com/in/mahathigandhamaneni/" profile_pic="/images/people/mahathi.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Evan Kanter"  position="Advocacy Lead"  linkedin="https://www.linkedin.com/in/kanterevan/" profile_pic="/images/people/evan.jfif" >}}
-{{< profilePic/profilePic  bold=true name="Minh Le"  position="First Year Student Liaison" profile_pic="/images/people/minh.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Akiki Liang"  position="External Relations" personal="https://akikiliang.com" linkedin="https://www.linkedin.com/in/akiki-liang/" profile_pic="/images/people/akiki.jfif" >}}
-{{< profilePic/profilePic  bold=true name="Jason Liu"  position="Administration"  linkedin="https://www.linkedin.com/in/jasonliu2000/" facebook="https://www.facebook.com/profile.php?id=100011461927421" github="https://github.com/jasonliu-json"  profile_pic="/images/people/jason.jpg" >}}
-{{< profilePic/profilePic  bold=true name="Joshua Ong"  position="Social Events" facebook="https://www.facebook.com/joshua.ong.1848" github="https://github.com/ArKane-6418" linkedin="https://www.linkedin.com/in/-joshua-ong/" profile_pic="/images/people/josh.jpeg">}}
-{{< profilePic/profilePic  bold=true name="Arjun Pandher"  position="Social Events"  linkedin="https://www.linkedin.com/in/arjun-pandher/" github="https://github.com/ArjunPandher"  profile_pic="/images/people/arjun.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Dhruvaa Saravanan"  position="Academic Events"  linkedin="https://www.linkedin.com/in/dhruvaa/" profile_pic="/images/people/dhruvaa.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Yujin Shim"  position="Internal Relations" profile_pic="/images/people/yujin.png" >}}
-{{< profilePic/profilePic  bold=true name="Supriya Vasanth"  position="Communications (Graphics)" profile_pic="/images/people/supriya.jpg">}}
-{{< profilePic/profilePic  bold=true name="Heyu (Owen) Wang"  position="International Student Liaison"  linkedin="https://www.linkedin.com/in/heyu-owen-wang-24a1b5222/" profile_pic="/images/people/heyu.jpeg" >}}
-{{< profilePic/profilePic  bold=true name="Jessica Wang"  position="External Relations"  linkedin="https://www.linkedin.com/in/jessica-wang-957086194/" profile_pic="/images/people/jessica.jpeg" >}} -->
 
 {{< profilePic/profilePic  bold=true name="Gerald Wang"  position="Social Events"  linkedin="https://www.linkedin.com/in/geraldyywang/" profile_pic="/images/people/gerald.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  personal="https://jaiz183.github.io/JaizPersonalWebsite/" linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.png" >}}
@@ -67,7 +51,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 
 The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. Office operations volunteers help manage the lounge, the store/stockroom, kitchen, gaming centre, and study spaces. They also assist in answering questions and directing students to appropriate resources. Members of the Executive and General Councils also generally serve shifts in office operations.
 
- **[Office Hours.](/ba2250)**_
+ **[Office Hours.](/ba2250)**
 
 ## Feedback Form
 

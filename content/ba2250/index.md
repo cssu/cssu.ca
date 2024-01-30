@@ -1,6 +1,6 @@
 ---
 title: "BA2250"
-date: 2022-04-29
+date: 2024-01-30
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -8,7 +8,6 @@ summary: "The Undergraduate Computer Science Lounge"
 showInMenu: true
 ---
 
-_Due to the ongoing Coronavirus pandemic, the student lounge will be operating with precautions. See below..._
 
 ---
 
@@ -16,31 +15,32 @@ The CSSU proudly maintains a student lounge in BA 2250 in which students can han
 
 ## What we Have
 
-- Store stocked with common snacks for student purchase. We also half a free/loan shelf.
-- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools. (restricted due to COVID-19)
-- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games. (restricted due to COVID-19)
+- Store stocked with common snacks for student purchase. We also have a free/loan shelf.
+- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools.
+- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games.
 - Library shelf lined with books in topics such as mathematics, algorithms/data structures, programming, philosophy. Books can be loaned with a piece of UofT/government ID.
 
 ### Store
 
 We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
 
-## Schedule (Fall 2023)
+## Schedule (Winter 2024)
 
 Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
 | -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
-| 9:00 AM  |                | Jamie Z.       |Pratibha T. (X)|                |                |
-| 10:00 AM | Cameron F.     | Jamie Z.       |Pratibha T. (X)|                |                |
-| 11:00 AM | Felix Z. (X)   | Nathan         | Jason B.      |                |                |
-| 12:00 PM | Felix Z. (X)   | Nathan         | Jason B.      | Louis T.       | Cameron F.     |
-| 1:00 PM  |                | Justin Y.      |               | Louis T.       | Louis S.       |
-| 2:00 PM  | Shane W.       | Justin Y.      |               | Vedang N.      | Louis S.       |
-| 3:00 PM  | Shane W.       |                | Mogtaba A. (X)|                |                |
-| 4:00 PM  |                | Mouaid A. (X)  | Mogtaba A. (X)|                |                |
-| 5:00 PM  |                | Mouaid A. (X)  | Vedang N.     |                |                |
-| 6:00 PM  | Aditya G. (X)  |                | Zach M.       |                |                |
-| 7:00 PM  | Danny C.       | Mack Y.        | Zach M.       |                |                |
-| 8:00 PM  | Danny C.       | Mack Y.        | Aditya G. (X) |                |                |
+| 8:00 AM  |                |                |               | Mary Z.        | Avery N.       |
+| 9:00 AM  | Aayush K.      | Virat T.       |               | Aayush K.      | Avery N.       |
+| 10:00 AM | Gerald W. (G)  | Alex A.        | Gerald W. (G) | Alex A.        | Nicholas A.    |
+| 11:00 AM | Felix Z. (X)   | Cameron F. (X) | Joseph Z.     | Felix Z. (X)   | Aditya G. (X)  |
+| 12:00 PM | Cameron F. (X) | Joseph Z.      | Jaiz J. (G)   | Felix Z. (X)   | Aditya G. (X)  |
+| 1:00 PM  | Mack Y.        | Charles C.     | Louis S. (X)  | Mary Z.        | Sam W.         |
+| 2:00 PM  | Mouaid A. (X)  | Nathan H.      | Jaiz J. (G)   | Jamie Z. (X)   | Louis S. (X)   |
+| 3:00 PM  | Mouaid A. (X)  | Nathan H.      | Justin Y.     | Jamie Z. (X)   | Shane W.       |
+| 4:00 PM  | Elise C. (G)   | Sam W.         | Cindy C.      | Shane W.       | Shane W.       |
+| 5:00 PM  | Elise C. (G)   | Pratibha T. (X)| Cynthia S. (G)| Jason B.       | Chong W. (G)   |
+| 6:00 PM  | Justin Y.      | Pratibha T. (X)| Cynthia S. (G)| Jason B.       | Chong W. (G)   |
+| 7:00 PM  | Alex A.        | Zach M.        | Xi Y.         | Danny C.       | Zach M.        |     
+| 8:00 PM  | Virat T.       | Zach M.        | Xi Y.         | Danny C.       | Zach M.        |
 
 - (G) indicates a member of the [General Council](/about).
 - (X) indicates a member of the [Executive (and General) Council](/about).

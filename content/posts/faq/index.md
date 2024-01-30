@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-date: 2021-11-24
+date: 2024-01-30
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -11,10 +11,6 @@ summary: "Answering your most popular questions!"
 **How do I become a member?**
 
 - Faculty of Arts & Science students enrolled in a Computer/Data Science program or course in the Department of Computer Science are automatically members, provided they have paid the ASSU student fees. This is defined in the **[our constitution](/constitution.pdf).**
-
-**Will events always be online?**
-
-- Events this semester have most been online, and because DCS is not allowing room bookings, we can only have in-person events elsewhere on campus, or off-campus.
 
 **Are events recorded?**
 
