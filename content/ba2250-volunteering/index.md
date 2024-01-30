@@ -16,8 +16,7 @@ Thanks for volunteering! It will be a great opportunity to network and engage wi
 As of January 2024, the following is in effect.
 
 - Members of the Executive Council shall have access to the lounge (BA2250) and storage room (BA2285).
-- All other volunteers, will have 8AM-9PM access on weekdays.
-- Because room access is granted strictly on the hours, aim to arrive on-time (not UofT time/10min into the hour) so that we can keep the lounge open continuously. If the next volunteer does not arrive on-time and you need to leave (without leaving another volunteer in charge), please clear and lock the room.
+- All other volunteers will have 8AM-9PM access on weekdays.
 
 ## Snack Store
 
