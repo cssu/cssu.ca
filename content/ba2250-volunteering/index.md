@@ -1,6 +1,6 @@
 ---
 title: "Volunteering in BA2250"
-date: 2022-05-11
+date: 2024-01-24
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -13,10 +13,10 @@ Thanks for volunteering! It will be a great opportunity to network and engage wi
 
 ## Room Access
 
-Since June 2021 and as of May 2022, the following access rules are in effective.
+As of January 2024, the following is in effect.
 
-- The three senior officers of the Executive Council (President, Vice-President, Treasurer) shall have weekday access (8am-9pm on Mondays-Fridays) to the lounge (BA2250) and storage room (BA2285).
-- All other volunteers, including the junior officers of the Executive Council, will shall have access to the lounge for the duration of their volunteering shifts.
+- Members of the Executive Council shall have access to the lounge (BA2250) and storage room (BA2285).
+- All other volunteers, will have 8AM-9PM access on weekdays.
 - Because room access is granted strictly on the hours, aim to arrive on-time (not UofT time/10min into the hour) so that we can keep the lounge open continuously. If the next volunteer does not arrive on-time and you need to leave (without leaving another volunteer in charge), please clear and lock the room.
 
 ## Snack Store
@@ -24,9 +24,8 @@ Since June 2021 and as of May 2022, the following access rules are in effective.
 The CSSU maintains a snack store, the proceeds of which are put back into the CSSU treasury in compliance with charity regulations.
 
 - Most items are kept on the snack shelf (the white one) and the drinks cooler.
-- Ice-cream sandwiches are stored in freezer in the kitchenette; only volunteers should be removing these for sale.
+- Ice-cream sandwiches are stored in freezer in the kitchenette.
 - Volunteers are expected to make sales on Square. Log-in to the iPad, open the app, and tap on the items they're selling.
-- Remember to apply discounts for eligible items like chips and ice-cream sandwiches.
 - Please do not accept card payments for sales totalling less than $1.00; encourage customers to pay in cash or buy multiple items.
 - If the snack shelf or cooler are running low on items, restock from the black cabinet.
 - We also have a free shelf (the grey one) with stationery, culinary, and sex supplies. Please ensure that students take things in moderation.
@@ -45,7 +44,7 @@ The CSSU maintains a snack store, the proceeds of which are put back into the CS
 ## Kitchenette
 
 - Students are free to use the microwave, kettle, and sink.
-- The refridgerator is open for use given that the users understand they only pick up their items when there's a volunteer on duty.
+- The refrigerator is open for use given that the users understand they only pick up their items when there's a volunteer on duty.
 
 ## Other Things
 
