@@ -1,11 +1,11 @@
 ---
 title: "UTism"
-date: 2024-01-28
+date: 2024-02-04
 draft: false
 hideLastModified: false
 keepImageRatio: true
 showInMenu: false
-summary: "CASA is hosting UTism"
+summary: "CASA is hosting UTism Feb 10-11"
 summaryImage: utism.png
 ---
 

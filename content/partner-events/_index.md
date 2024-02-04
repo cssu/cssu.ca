@@ -1,8 +1,8 @@
 ---
-title: "Events"
-date: 2024-01-24
+title: "Partner Events"
+date: 2024-02-04
 draft: false
 keepImageRatio: true
-summary: "Events"
+summary: "Partner Events"
 showInMenu: true
 ---
