@@ -9,8 +9,8 @@ summary: "CASA is hosting UTism Feb 10-11"
 summaryImage: utism.png
 ---
 
-- When: February 10th-11th, 11:00 AM - 5:00 PM
-- Where: Room BA1130, Bahen Centre for Information Technology
+- **When: February 10th-11th, 11:00 AM - 5:00 PM**
+- **Where: Room BA1130, Bahen Centre for Information Technology**
 
 "Imagination embraces the entire world, and all there ever will be to know and understand", as stated by Albert Einstein. It's what is able to take our minds beyond the norm, where strings of thought are spun together into a tapestry of ideas, innovations, questions and answers. While often undervalued when compared to testable knowledge, the impact of imagination in our everyday lives may be deeper than we expect.
 
