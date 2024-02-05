@@ -1,12 +1,12 @@
 ---
-title: "UTism"
-date: 2024-02-04
+title: "Summer Abroad in Germany"
+date: 2024-02-05
 draft: false
 hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "CSC396 Summer Abroad Applications are open"
-summaryImage: utism.png
+summaryImage: summerabroad.png
 ---
 
 - **When: July 20th - August 17th**
