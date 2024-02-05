@@ -10,7 +10,7 @@ summaryImage: summerabroad.png
 ---
 
 - **When: July 20th - August 17th**
-- **Where: Berlin Germany**
+- **Where: Berlin, Germany**
 
 Apply at [summerabroad.utoronto.ca](summerabroad.utoronto.ca). Applications have been extended.
 
