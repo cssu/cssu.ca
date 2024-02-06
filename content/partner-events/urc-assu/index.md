@@ -6,7 +6,7 @@ hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "ASSU's Undergraduate Research Conference on Feb 9th"
-summaryImage: urc.png
+summaryImage: urc.jpg
 ---
 
 - **When: February 9th, 10 AM - 5 PM**
@@ -20,6 +20,6 @@ Don't miss this unique opportunity to be inspired, to learn, and to celebrate th
 
 Link - https://assu.ca/wp/2024/02/06/undergrad-research-conference-2024/
 
-![ASSU's Undergraduate Research Conference on Feb 9th from 10 AM to 5 PM](../urc-assu/urc.png)
+![ASSU's Undergraduate Research Conference on Feb 9th from 10 AM to 5 PM](../urc-assu/urc.jpg)
 
 ---
