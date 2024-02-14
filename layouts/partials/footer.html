@@ -193,6 +193,30 @@
           </ul>
         </div>
       </div>
+
+
+      {{ if (isset .Site.Params.footer "github-issues") }}
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>{{ i18n "issues" }}</h3>
+          </div>
+          <ul class="link-list">
+            {{ if isset .Site.Params.footer.github-issues "link" }}
+            <li>
+              <a href="https://github.com/{{ .Site.Params.footer.github-issues.link }}" target="_blank">
+                <span class="icon"><i class="fa fa-github"></i></span>
+                {{ if isset .Site.Params.footer.github-issues "title" }}
+                {{ .Site.Params.footer.github-issues.title }}
+                {{ else }}
+                GitHub
+                {{ end }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
       {{ end }}
 
       <!-- {{ if isset .Site.Params.footer "copyright" }}
