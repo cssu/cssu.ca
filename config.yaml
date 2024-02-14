@@ -157,7 +157,7 @@ params:
       link:
 
     # this is for reporting a site issue on github
-    github-issues:
+    github_issues:
       link: cssu/cssu.github.io/issues/new?template=site-issue.md&title=[Site%20issue]%20your%20title%20goes%20here
       title: Report it on GitHub
 

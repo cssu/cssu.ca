@@ -195,19 +195,19 @@
       </div>
 
 
-      {{ if (isset .Site.Params.footer "github-issues") }}
+      {{ if (isset .Site.Params.footer "github_issues") }}
       <div class="column">
         <div class="footer-column">
           <div class="footer-header">
             <h3>{{ i18n "issues" }}</h3>
           </div>
           <ul class="link-list">
-            {{ if isset .Site.Params.footer.github-issues "link" }}
+            {{ if isset .Site.Params.footer.github_issues "link" }}
             <li>
-              <a href="https://github.com/{{ .Site.Params.footer.github-issues.link }}" target="_blank">
+              <a href="https://github.com/{{ .Site.Params.footer.github_issues.link }}" target="_blank">
                 <span class="icon"><i class="fa fa-github"></i></span>
-                {{ if isset .Site.Params.footer.github-issues "title" }}
-                {{ .Site.Params.footer.github-issues.title }}
+                {{ if isset .Site.Params.footer.github_issues "title" }}
+                {{ .Site.Params.footer.github_issues.title }}
                 {{ else }}
                 GitHub
                 {{ end }}
