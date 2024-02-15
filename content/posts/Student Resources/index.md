@@ -97,14 +97,14 @@ Contacts include on-campus and community supports during business hours and 24/7
 
 ## Students with disabilities
 
-Students with disabilities, including mental health disabilities (examples include depression, social anxiety, obsessive compulsive disorder), can reach out to [AccessAbility Services](https://www.utsc.utoronto.ca/ability/) for a broad range of accommodations services and supports, including:
+Students with disabilities, including mental health disabilities (examples include depression, social anxiety, obsessive compulsive disorder), can reach out to [accessibility services](https://studentlife.utoronto.ca/department/accessibility-services/) for a broad range of accommodations services and supports, including:
 
 - Disability related supports and strategies
 - Accommodations related to course work and in-course components
 - Test and exam accommodations and resources
 - Opportunities to engage with peers through student socials
 
-Please visit the [AccessAbility Services website](https://www.utsc.utoronto.ca/ability/) for more information about supports, services and how to register. To book an appointment, please call **416-287-7560** or email [ability.utsc@utoronto.ca](mailto:ability.utsc@utoronto.ca).
+Please visit the [accessibility services website](https://studentlife.utoronto.ca/department/accessibility-services/) for more information about supports, services and how to register. To book an appointment, please call **416-978-8060** or email [accessibility.services@utoronto.ca](mailto:accessibility.services@utoronto.ca).
 
 ## Student mental health website
 

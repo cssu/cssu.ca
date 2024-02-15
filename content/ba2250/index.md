@@ -70,7 +70,7 @@ Time/Day | Mon            | Tue            | Wed           | Thu            | Fr
 
 Over the years, we've collected many books from generous (or forgetful!) students, and we proudly maintain a new cozy home for them. We hope that our library shelf provides more accessibility to student learning and curiosity. Students can read in the study space, or loan a book out with a deposit of a piece of UofT/government ID. If you'd like to donate a book, please speak to the office manager on duty!
 
-You can use the dry-erase markers/erasers at the whiteboard; to borrow one, please deposit of a piece of UofT/government ID. You can also purchase new markers at the store.
+You can use the dry-erase markers/erasers at the whiteboard; to borrow one, please deposit of a piece of UofT/government ID.
 
 <!-- --- -->
 
