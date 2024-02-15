@@ -22,3 +22,5 @@
   translation: "Workspaces"
 - id: homepage
   translation: "Homepage"
+- id: issues
+  translation: "Site issues?"

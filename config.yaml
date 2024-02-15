@@ -138,7 +138,7 @@ params:
       link: R9hneMaafD
       title: Discord
     email:
-      link: mailto:cssu.utoronto.ca
+      link: mailto:cssu@cdf.toronto.edu
       title: Email
     # option to specify your linkedin profile in the footer
     linkedin:
@@ -155,6 +155,11 @@ params:
       title: Instagram
     mailchimp:
       link:
+
+    # this is for reporting a site issue on github
+    github_issues:
+      link: cssu/cssu.github.io/issues/new?template=site-issue.md&title=[Site%20issue]%20your%20title%20goes%20here
+      title: Report it on GitHub
 
     # copyright: CSSU - 2021
 
