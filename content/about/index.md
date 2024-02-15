@@ -48,6 +48,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 {{< profilePic/profilePic  bold=true name="Anna Nguyen"  position="Communications"  linkedin="https://www.linkedin.com/in/aanna-nguyen/"  profile_pic="/images/people/AnnaNguyen.jpg" >}}
 
 
+
 {{< /profilePic/profilePicContainer >}}
 
 ## Office Operations
