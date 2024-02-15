@@ -45,6 +45,7 @@ General Council members are volunteers appointed by the Executive Council to ass
 {{< profilePic/profilePic  bold=true name="Jaiz Jeeson"  position="Social Events"  personal="https://jaiz183.github.io/JaizPersonalWebsite/" linkedin="https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/" github="https://github.com/Jaiz183"  profile_pic="/images/people/jaiz.png" >}}
 {{< profilePic/profilePic  bold=true name="Elise Corbin"  position="First Year Rep"  linkedin="https://www.linkedin.com/in/elise-corbin-65919221a/" github="https://github.com/ecorbin567"  profile_pic="/images/people/ecorbin.jpg" >}}
 {{< profilePic/profilePic  bold=true name="Jason Barahan"  position="Webmaster"  linkedin="https://www.linkedin.com/in/JasonBarahan" github="https://github.com/JasonBarahan"  profile_pic="/images/people/JasonBarahan.jpg" >}}
+{{< profilePic/profilePic  bold=true name="Anna Nguyen"  position="Communications"  linkedin="https://www.linkedin.com/in/aanna-nguyen/"  profile_pic="/images/people/AnnaNguyen.jpg" >}}
 
 
 {{< /profilePic/profilePicContainer >}}
