@@ -14,4 +14,4 @@ summary: "CSSU Semi-Formal"
 - When: TBA
 - Where: TBA
 
-The CSSU is bringing back the semi-formal this year. Details to be annouced soon. We anticipate it happening the weekend of March 22nd-24th.
+The CSSU is bringing back the semi-formal this year. Details to be announced soon. We anticipate it happening the weekend of March 22nd-24th.
