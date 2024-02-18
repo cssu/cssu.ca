@@ -6,7 +6,7 @@ hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "Don't get hit!"
-#summaryImage:
+# summaryImage:
 ---
 
 
