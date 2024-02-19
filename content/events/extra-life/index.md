@@ -5,7 +5,7 @@ draft: false
 hideLastModified: false
 keepImageRatio: true
 showInMenu: false
-summary: "Let's play some games! All proceeds donated to SickKids."
+summary: "Let's play some games! All profits donated to SickKids."
 summaryImage: extra-life.jpg
 ---
 
