@@ -9,7 +9,7 @@ summary: "Volunteering in the Undergraduate Computer Science Lounge"
 
 The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. We have a snack store, gaming centre, study spaces and more! Office operations volunteers manage the lounge, assist in answering questions, and directing students to appropriate resources.
 
-Thanks for volunteering! It will be a great opportunity to network and engage with your fellow students. First and foremost, please join our [Discord server](https://discord.gg/R9hneMaafD). The following is a guide on managing the lounge for volunteers.
+Thanks for volunteering! It will be a great opportunity to network and engage with your fellow students. First and foremost, please join our [Discord server](https://discord.gg/R9hneMaafD). The following is a guide on managing the lounge for volunteers. Also feel free to join our [unofficial Discord server](https://discord.gg/w7hWTEkF) to connect with more UofT CS students!
 
 ## Room Access
 
