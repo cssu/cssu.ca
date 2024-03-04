@@ -1,17 +1,23 @@
 ---
 title: "Pub Night"
-date: 2024-01-28
+date: 2024-03-04
 draft: false
 hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "Pub Night"
----
+summaryImage: pubnightmarch.png
 ---
 
 ## Details
 
-- When: TBA
-- Where: TBA
+- **When: March 8th, 7pm ~ 10pm**
+- **Where: [Duke of Cornwall](https://maps.app.goo.gl/HSVxM26gFyEeY5m49)**
 
-The CSSU is planning on having a pub night this semester. Details TBA.
+Hi everyone! The CSSU will be hosting our Pub Night this Friday at the Duke of Cornwall from 7PM-10PM. Entry is free and students will have the ability to obtain FREE DRINK! Reminder that drinks will only be served to those who are **19 or older**!
+
+Please note: quantities of free drinks will be limited based on budgetary considerations.
+
+![Join us](pubnightmarch.png)
+
+---
