@@ -18,6 +18,9 @@ Hi everyone! The CSSU will be hosting our Pub Night this Friday at the Duke of C
 
 Please note: quantities of free drinks will be limited based on budgetary considerations.
 
+### Do I need to bring an ID?
+If you would like to purchase alcoholic beverages from the cash bar, you must bring a photo ID. Accepted IDs include passports and federal/provincially issued IDs.
+
 ![Join us](pubnightmarch.png)
 
 ---
