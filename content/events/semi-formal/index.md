@@ -17,7 +17,20 @@ summaryImage: 2024cssu-semi-formal-placeholder-image.jpg
 
 Tickets are available starting at 9 PM Monday March 4th on [eventbrite](https://www.eventbrite.com/e/cssu-semi-formal-tickets-856526944147?aff=oddtdtcreator). 
 
-The 2024 CSSU Semi-Formal will take place from 7:30-11:30PM at Old Vic (Victoria College) on March 23rd. Performing will be DJs Samm Du and D Rod. Please check out the FAQ for important questions.
+The 2024 CSSU Semi-Formal will take place from 7:30-11:30PM at Old Vic (Victoria College) on March 23rd. Please check out the FAQ for important questions.
+
+## DJs
+Performing will be DJs Samm Du and D Rod.
+
+### Samm Du
+Samm Du is a member of the UofT CS community, who also moonlights as a DJ.
+He specializes in House and Techno music, and performed across The Drake Hotel, classy cocktail bars, and the underground parties on Cherry Beach.
+He will be supplying electric grooves that mesmerize the dancefloor.
+
+### D Rod
+D Rod is no stranger to parties, and knows how to rock a dancefloor. 
+He has performed at nightclubs like Century and uni events at York.
+Expect a dynamic mix of party favourites from Hiphop to Pop, as he elevates the night to its peak.
 
 ## Frequently Asked Questions
 
