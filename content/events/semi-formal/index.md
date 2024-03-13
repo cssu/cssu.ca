@@ -13,9 +13,9 @@ summaryImage: cssu-semiadv3.png
 
 - **When: March 23th, 7:30-11:30 PM**
 - **Where: [Old Vic (Victoria College Building)](https://maps.app.goo.gl/JvwuEuYYLEyGgh2x9)**
-- **Admission: $22+fees for Early Bird, $28+fees for Regular Admission**
+- **Admission: ~~$22+fees for Early Bird~~ (Sold Out), $28+fees for Regular Admission**
 
-Tickets are available starting at 9 PM Monday March 4th on [eventbrite](https://www.eventbrite.com/e/cssu-semi-formal-tickets-856526944147?aff=oddtdtcreator).
+Tickets are available now on [eventbrite](https://www.eventbrite.com/e/cssu-semi-formal-tickets-856526944147?aff=oddtdtcreator).
 
 The 2024 CSSU Semi-Formal will take place from 7:30-11:30PM at Old Vic (Victoria College) on March 23rd. Please check out the FAQ for important questions.
 
