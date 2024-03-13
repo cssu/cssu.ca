@@ -6,7 +6,7 @@ hideLastModified: false
 keepImageRatio: true
 showInMenu: false
 summary: "CSSU Semi-Formal"
-summaryImage: cssu-semiadv3.jpg
+summaryImage: cssu-semiadv3.png
 ---
 
 ## Details
@@ -55,6 +55,6 @@ Unfortunately, the cash bar ONLY accepts debit/credit cards. Sorry!
 ### Will there be a coat check?
 Yes, there will be a self-serve coat check in a separate room.
 
-![Join us at Semi-Formal March 23rd 7:30-11:30PM](../semi-formal/cssu-semiadv3.jpg)
+![Join us at Semi-Formal March 23rd 7:30-11:30PM](./cssu-semiadv3.png)
 
-![Last year's semi-formal](../semi-formal/2024cssu-semi-formal-placeholder-image.jpg)
+![Last year's semi-formal](./2024cssu-semi-formal-placeholder-image.jpg)
