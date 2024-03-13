@@ -21,6 +21,9 @@ Complimentary tea and coffee are provided.
 
 The professors which are present changes throughout the duration of the event.
 You're more than welcome to stay throughout the whole duration of the event to network with our scheduled attendees!
+
+
+
 ![Join us](../tea-time-with-profs/Tea_Time_With_Profs.png)
 
 ---
