@@ -17,6 +17,6 @@ summaryImage: vday.png
 
 WiCS and the CSSU are bringing back the valentines social this year due to popular demand. Come on up to BA3200 for a night of games, snacks, and socializing!
 
-![Come join us for our february social from 6-9 in BA3200. ](../valentines-day/vday.png)
+![Come join us for our february social from 6-9 in BA3200. ](vday.png)
 
 ---
