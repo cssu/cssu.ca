@@ -13,7 +13,7 @@ summaryImage: cssu-semiadv3.png
 
 - **When: March 23th, 7:30-11:30 PM**
 - **Where: [Old Vic (Victoria College Building)](https://maps.app.goo.gl/JvwuEuYYLEyGgh2x9)**
-- **Admission: $28 (excluding fees) for Regular Admission, $32 (excluding fees) for At-the-Door Sales**
+- **Admission: $28 (excluding fees) for Regular Admission, $32 (including fees) for At-the-Door Sales**
 
 Tickets are available now on [eventbrite](https://www.eventbrite.com/e/cssu-semi-formal-tickets-856526944147?aff=oddtdtcreator).
 
