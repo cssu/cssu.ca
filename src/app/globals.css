@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply grow relative w-auto mx-auto my-0 lg:max-w-[960px];
+}
+@media screen and (min-width: 1216px) {
+    .container {
+        @apply max-w-6xl;
+    }
+}
+@media screen and (min-width: 1408px) {
+    .container {
+        @apply max-w-[1344px];
+    }
+}
+
+/* .icon {
+    @apply items-center inline-flex justify-center h-6 w-6;
+} */
+.select.is-white:not(:hover)::after {
+    @apply border-white;
+}
+.select.is-black:not(:hover)::after {
+    @apply border-[#0a0a0a];
+}
+.select.is-light:not(:hover)::after {
+    @apply border-neutral-100;
+}
+.select.is-dark:not(:hover)::after {
+    @apply border-[#363636];
+}
+.select.is-primary:not(:hover)::after {
+    @apply border-[#00329e];
+}
+.select.is-link:not(:hover)::after {
+    @apply border-[#3273dc];
+}
+.select.is-info:not(:hover)::after {
+    @apply border-[#209cee];
+}
+.select.is-success:not(:hover)::after {
+    @apply border-[#23d160];
+}
+.select.is-warning:not(:hover)::after {
+    @apply border-[#ffdd57];
+}
+.select.is-danger:not(:hover)::after {
+    @apply border-[#ff3860];
+}
+@media screen and (min-width: 1024px) {
+    a.navbar-item.is-active:not(:focus):not(:hover),
+    .navbar-link.is-active:not(:focus):not(:hover) {
+        @apply bg-[rgba(0,0,0,0)];
+    }
+}
+.column {
+    @apply block basis-0 grow shrink p-3;
+}
+.columns {
+    @apply ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem];
+}
+@media screen and (min-width: 769px), print {
+    .columns:not(.is-desktop) {
+        @apply flex;
+    }
+}
+.footer {
+    @apply bg-neutral-50 pt-12 pb-24 px-6 block;
+}
+footer.footer-dark {
+    @apply text-white;
+    background: #000;
+}
+footer.footer-dark .columns {
+    @apply mt-[35px];
+}
+footer.footer-dark .footer-column .footer-header h3 {
+    @apply font-medium text-base uppercase tracking-[1px] mb-5;
+}
+footer.footer-dark .footer-column ul.link-list {
+    @apply leading-10 text-[1.1rem];
+}
+footer.footer-dark .footer-column ul.link-list a {
+    @apply text-[#98a9c3] font-normal transition-all duration-[0.5s];
+}
+footer.footer-dark .footer-column ul.link-list :hover {
+    @apply text-[#fcfcfc];
+}
+.button {
+    @apply cursor-pointer transition-all duration-[0.5s];
+}
+@media (max-width: 767px) {
+    footer.footer-dark .columns {
+        @apply mt-0;
+    }
+}
+/* ::-webkit-input-placeholder {
+    @apply text-[#cecece];
+}
+::-moz-placeholder {
+    @apply text-[#cecece];
+}
+:-ms-input-placeholder {
+    @apply text-[#cecece];
+}
+:-moz-placeholder {
+    @apply text-[#cecece];
+} */
+/* .fab {
+    @apply font-normal;
+}
+.fa {
+    @apply inline-block text-[inherit];
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-facebook:before {
+    @apply content-["\f09a"];
+}
+.fa-github:before {
+    @apply content-["\f09b"];
+}
+.fa-envelope:before {
+    @apply content-["\f0e0"];
+}
+.fa-linkedin:before {
+    @apply content-["\f0e1"];
+}
+.fa-instagram:before {
+    @apply content-["\f16d"];
+}
+.fa-discord:before {
+    @apply content-["\f392"] not-italic;
+} */
+.footer-title {
+    @apply font-medium text-base uppercase tracking-[1px] mr-5;
+}
+#subscribe_title {
+    @apply tracking-[2px] text-2xl mb-2.5;
+}
+#mc_embed_signup {
+    @apply clear-left w-full;
+    background: #000000;
+}
+#mc_embed_signup form {
+    @apply text-center px-0 py-2.5;
+}
+#mc_embed_signup input.email {
+    @apply text-[15px] border text-[#343434] bg-white box-border h-8 inline-block w-[350px] align-top m-0 px-[0.4em] py-0 rounded-[3px] border-solid border-[#abb0b2];
+    font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#mc_embed_signup .clear {
+    @apply inline-block;
+}
+#mc_embed_signup .button {
+    @apply tracking-[normal] normal-case bg-white text-black box-border h-8 leading-8 inline-block transition-all duration-[0.23s] ease-[ease-in-out] delay-[0s] m-0 px-[18px] py-0 rounded-[3px] border-[none] hover:bg-[#e8e8e8] hover:cursor-pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#mc_embed_signup_scroll {
+    @apply align-middle;
+}
+@media (max-width: 768px) {
+    #mc_embed_signup input.email {
+        @apply w-full mb-[5px];
+    }
+    #mc_embed_signup .clear {
+        @apply block w-full;
+    }
+    #mc_embed_signup .button {
+        @apply w-full m-0;
+    }
+}

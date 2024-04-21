@@ -1,0 +1,134 @@
+import React from "react"
+import Image from "next/image"
+import Link from "next/link"
+import {
+    FaEnvelope,
+    FaFacebookF,
+    FaInstagram,
+    FaLinkedinIn,
+    FaGithub,
+    FaDiscord,
+} from "react-icons/fa"
+
+type IconHolderProps = {
+    icon: React.ReactNode
+    text: string
+    href: string
+}
+
+function IconHolder({ icon, text, href }: IconHolderProps) {
+    return (
+        <li>
+            <a href={href} target="_blank" className="inline-flex items-center space-x-1">
+                <span className="flex justify-center items-center h-6 w-6">{icon}</span>
+                <span className="flex text-base">{text}</span>
+            </a>
+        </li>
+    )
+}
+
+
+export default function Footer() {
+    return (
+        <footer className="footer footer-dark">
+            <div className="container">
+                <div id="mc_embed_signup">
+                    <form
+                        action=""
+                        method="post"
+                        id="mc-embedded-subscribe-form"
+                        name="mc-embedded-subscribe-form"
+                        className="validate"
+                        target="_blank"
+                        noValidate
+                    >
+                        <div id="mc_embed_signup_scroll">
+                            <h3 className="footer-title" id="subscribe_title">
+                                Join Our Mailing List!
+                            </h3>
+
+                            <input
+                                type="email"
+                                value=""
+                                name="EMAIL"
+                                className="email"
+                                id="mce-EMAIL"
+                                placeholder="email address"
+                                required
+                                control-id="ControlID-1"
+                            />
+
+                            <div className="absolute -left-[5000px]" aria-hidden="true">
+                                <input
+                                    type="text"
+                                    name="b_c7b34cca67c5aa62532130cbe_e5040d3cd0"
+                                    tabIndex={-1}
+                                    value=""
+                                    control-id="ControlID-2"
+                                />
+                            </div>
+
+                            <div className="clear">
+                                <input
+                                    type="submit"
+                                    value="Subscribe"
+                                    name="subscribe"
+                                    id="mc-embedded-subscribe"
+                                    className="footer-title button"
+                                    control-id="ControlID-3"
+                                />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div className="columns">
+                    <div className="column">
+                        <img src="/cssu_logo.png" alt="" />
+                    </div>
+
+                    <div className="column">
+                        <div className="footer-column">
+                            <div className="footer-header">
+                                <h3>Social Media</h3>
+                            </div>
+                            <ul className="link-list">
+                                <IconHolder icon={<FaEnvelope />} text="Email" href="mailto:cssu@cdf.toronto.edu" />
+                                <IconHolder icon={<FaFacebookF />} text="Facebook" href="https://facebook.com/UofTCSSU" />
+                                <IconHolder icon={<FaInstagram />} text="Instagram" href="https://instagram.com/uoftcssu" />
+                                <IconHolder
+                                    icon={<FaLinkedinIn />}
+                                    text="LinkedIn"
+                                    href="https://linkedin.com/company/computer-science-student-union"
+                                />
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div className="footer-column">
+                            <div className="footer-header">
+                                <h3>Workspaces</h3>
+                            </div>
+                            <ul className="link-list">
+                                <IconHolder icon={<FaDiscord />} text="Discord" href="https://discord.gg/R9hneMaafD" />
+                                <IconHolder icon={<FaGithub />} text="Github" href="https://github.com/cssu" />
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div className="footer-column">
+                            <div className="footer-header">
+                                <h3>Site issues?</h3>
+                            </div>
+                            <ul className="link-list">
+                                <IconHolder icon={<FaGithub />} text="Report it on GitHub" href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.md&amp;title=[Site%20issue]%20your%20title%20goes%20here" />
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    )
+}
