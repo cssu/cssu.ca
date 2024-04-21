@@ -249,7 +249,7 @@ footer.footer-dark .footer-column ul.link-list :hover {
     @apply hidden;
 }
 .navbar-item {
-    @apply text-[#4a4a4a] block leading-normal relative px-3 py-2 block grow-0 shrink-0;
+    @apply text-[#4a4a4a] block leading-normal relative px-3 py-2 grow-0 shrink-0;
 }
 a.navbar-item {
     @apply cursor-pointer;
@@ -290,7 +290,7 @@ a.navbar-item:hover {
         @apply bg-transparent;
     }
     .navbar-item {
-        @apply items-center flex flex;
+        @apply items-center flex;
     }
     .navbar-menu {
         @apply grow shrink-0;
@@ -558,7 +558,7 @@ a.navbar-item:hover {
     }
 }
 .hero.is-fullheight {
-    @apply min-h-[95vh];
+    @apply min-h-screen;
 }
 .hero {
     @apply items-stretch flex flex-col justify-between;
