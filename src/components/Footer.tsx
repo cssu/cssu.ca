@@ -27,11 +27,10 @@ function IconHolder({ icon, text, href }: IconHolderProps) {
     )
 }
 
-
 export default function Footer() {
     return (
         <footer className="footer footer-dark">
-            <div className="container">
+            <div className="footer-container">
                 <div id="mc_embed_signup">
                     <form
                         action=""
@@ -43,7 +42,10 @@ export default function Footer() {
                         noValidate
                     >
                         <div id="mc_embed_signup_scroll">
-                            <h3 className="footer-title" id="subscribe_title">
+                            <h3
+                                className="font-medium text-base uppercase tracking-[1px] mr-5"
+                                id="subscribe_title"
+                            >
                                 Join Our Mailing List!
                             </h3>
 
@@ -74,7 +76,7 @@ export default function Footer() {
                                     value="Subscribe"
                                     name="subscribe"
                                     id="mc-embedded-subscribe"
-                                    className="footer-title button"
+                                    className="font-medium text-base mr-5 cursor-pointer transition-all duration-[0.5s] tracking-[normal] normal-case bg-white text-black box-border h-8 leading-8 inline-block ease-[ease-in-out] delay-[0s] m-0 px-[18px] py-0 rounded-[3px] border-[none] hover:bg-[#e8e8e8] hover:cursor-pointer"
                                     control-id="ControlID-3"
                                 />
                             </div>
@@ -83,19 +85,38 @@ export default function Footer() {
                 </div>
 
                 <div className="columns">
-                    <div className="column">
-                        <img src="/cssu_logo.png" alt="" />
+                    <div className="block basis-0 grow shrink p-3">
+                        <Image
+                            src="/cssu_logo.png"
+                            alt="CSSU Logo"
+                            width={400}
+                            height={400}
+                            objectFit="contain"
+                            layout="fixed"
+                        />
                     </div>
 
-                    <div className="column">
+                    <div className="block basis-0 grow shrink p-3">
                         <div className="footer-column">
                             <div className="footer-header">
                                 <h3>Social Media</h3>
                             </div>
                             <ul className="link-list">
-                                <IconHolder icon={<FaEnvelope />} text="Email" href="mailto:cssu@cdf.toronto.edu" />
-                                <IconHolder icon={<FaFacebookF />} text="Facebook" href="https://facebook.com/UofTCSSU" />
-                                <IconHolder icon={<FaInstagram />} text="Instagram" href="https://instagram.com/uoftcssu" />
+                                <IconHolder
+                                    icon={<FaEnvelope />}
+                                    text="Email"
+                                    href="mailto:cssu@cdf.toronto.edu"
+                                />
+                                <IconHolder
+                                    icon={<FaFacebookF />}
+                                    text="Facebook"
+                                    href="https://facebook.com/UofTCSSU"
+                                />
+                                <IconHolder
+                                    icon={<FaInstagram />}
+                                    text="Instagram"
+                                    href="https://instagram.com/uoftcssu"
+                                />
                                 <IconHolder
                                     icon={<FaLinkedinIn />}
                                     text="LinkedIn"
@@ -105,25 +126,37 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className="column">
+                    <div className="block basis-0 grow shrink p-3">
                         <div className="footer-column">
                             <div className="footer-header">
                                 <h3>Workspaces</h3>
                             </div>
                             <ul className="link-list">
-                                <IconHolder icon={<FaDiscord />} text="Discord" href="https://discord.gg/R9hneMaafD" />
-                                <IconHolder icon={<FaGithub />} text="Github" href="https://github.com/cssu" />
+                                <IconHolder
+                                    icon={<FaDiscord />}
+                                    text="Discord"
+                                    href="https://discord.gg/R9hneMaafD"
+                                />
+                                <IconHolder
+                                    icon={<FaGithub />}
+                                    text="Github"
+                                    href="https://github.com/cssu"
+                                />
                             </ul>
                         </div>
                     </div>
 
-                    <div className="column">
+                    <div className="block basis-0 grow shrink p-3">
                         <div className="footer-column">
                             <div className="footer-header">
                                 <h3>Site issues?</h3>
                             </div>
                             <ul className="link-list">
-                                <IconHolder icon={<FaGithub />} text="Report it on GitHub" href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.md&amp;title=[Site%20issue]%20your%20title%20goes%20here" />
+                                <IconHolder
+                                    icon={<FaGithub />}
+                                    text="Report it on GitHub"
+                                    href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.md&amp;title=[Site%20issue]%20your%20title%20goes%20here"
+                                />
                             </ul>
                         </div>
                     </div>
