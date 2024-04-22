@@ -11,10 +11,6 @@ export const metadata: Metadata = {
     description: "Computer Science Student Union at the University of Toronto",
 }
 
-// <html lang="en">
-//     <body className={openSasFont.className}>{children}</body>
-// </html>
-
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -22,12 +18,17 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`min-h-screen ${openSans.className}`}>
-                <div className="min-h-screen flex flex-col">
-                    <header>
-                        <Navbar />
-                    </header>
-                    <div className="flex-grow">{children}</div>
+            <body className={openSans.className}>
+                <div className="flex flex-col">
+                    <div className="min-h-screen">
+                        <header className="static-header" id="static-header">
+                            <Navbar />
+                        </header>
+                        <header className="sticky top-0 z-50 sticky-header" id="sticky-header">
+                            <Navbar />
+                        </header>
+                        <div className="flex-grow -mt-16">{children}</div>
+                    </div>
                     <Footer />
                 </div>
             </body>

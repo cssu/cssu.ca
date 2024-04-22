@@ -202,36 +202,7 @@ footer.footer-dark .footer-column ul.link-list :hover {
         @apply max-w-[1344px];
     }
 }
-.select.is-white:not(:hover)::after {
-    @apply border-white;
-}
-.select.is-black:not(:hover)::after {
-    @apply border-[#0a0a0a];
-}
-.select.is-light:not(:hover)::after {
-    @apply border-neutral-100;
-}
-.select.is-dark:not(:hover)::after {
-    @apply border-[#363636];
-}
-.select.is-primary:not(:hover)::after {
-    @apply border-[#00329e];
-}
-.select.is-link:not(:hover)::after {
-    @apply border-[#3273dc];
-}
-.select.is-info:not(:hover)::after {
-    @apply border-[#209cee];
-}
-.select.is-success:not(:hover)::after {
-    @apply border-[#23d160];
-}
-.select.is-warning:not(:hover)::after {
-    @apply border-[#ffdd57];
-}
-.select.is-danger:not(:hover)::after {
-    @apply border-[#ff3860];
-}
+
 .navbar {
     @apply bg-white min-h-[3.25rem] relative z-30;
 }
@@ -378,11 +349,32 @@ a.navbar-item:hover {
     }
 }
 
+/* Sticky navbar logic */
+.static-header {
+    position: relative;
+    z-index: 40;
+}
+
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sticky-header.scrolled {
+    transform: translateY(0%);
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
+}
+
 /* =========================== */
 /* ======== Homepage ========= */
-/* =========================== */
-/* =========================== */
-/* ======== Hero Body ======== */
 /* =========================== */
 @keyframes fadeIn {
     from {
@@ -397,114 +389,18 @@ a.navbar-item:hover {
     animation: fadeIn 500ms ease-out forwards;
 }
 
-.button:focus:not(:active),
-.button.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(50,115,220,0.25)];
-}
-.button.is-white:focus:not(:active),
-.button.is-white.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(255,255,255,0.25)];
-}
-.button.is-black:focus:not(:active),
-.button.is-black.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(10,10,10,0.25)];
-}
-.button.is-light:focus:not(:active),
-.button.is-light.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(245,245,245,0.25)];
-}
-.button.is-dark:focus:not(:active),
-.button.is-dark.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(54,54,54,0.25)];
-}
-.button.is-primary:focus:not(:active),
-.button.is-primary.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(0,50,158,0.25)];
-}
-.button.is-link:focus:not(:active),
-.button.is-link.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(50,115,220,0.25)];
-}
-.button.is-info:focus:not(:active),
-.button.is-info.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(32,156,238,0.25)];
-}
-.button.is-success:focus:not(:active),
-.button.is-success.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(35,209,96,0.25)];
-}
-.button.is-warning:focus:not(:active),
-.button.is-warning.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(255,221,87,0.25)];
-}
-.button.is-danger:focus:not(:active),
-.button.is-danger.is-focused:not(:active) {
-    @apply shadow-[0_0_0_0.125em_rgba(255,56,96,0.25)];
-}
-.container {
+.hero-container {
     @apply grow relative w-auto mx-auto my-0 lg:max-w-[960px];
 }
 @media screen and (min-width: 1216px) {
-    .container {
+    .hero-container {
         @apply max-w-6xl;
     }
 }
 @media screen and (min-width: 1408px) {
-    .container {
+    .hero-container {
         @apply max-w-[1344px];
     }
-}
-.image {
-    @apply block relative;
-}
-.image img {
-    @apply block h-auto w-full;
-}
-.title,
-.subtitle {
-    word-break: break-word;
-}
-.title {
-    @apply text-[#363636] text-[2rem] font-semibold leading-[1.125];
-}
-.title.is-1 {
-    @apply text-5xl;
-}
-.subtitle {
-    @apply text-[#4a4a4a] text-xl font-normal leading-tight;
-}
-.subtitle.is-5 {
-    @apply text-xl;
-}
-.select.is-white:not(:hover)::after {
-    @apply border-white;
-}
-.select.is-black:not(:hover)::after {
-    @apply border-[#0a0a0a];
-}
-.select.is-light:not(:hover)::after {
-    @apply border-neutral-100;
-}
-.select.is-dark:not(:hover)::after {
-    @apply border-[#363636];
-}
-.select.is-primary:not(:hover)::after {
-    @apply border-[#00329e];
-}
-.select.is-link:not(:hover)::after {
-    @apply border-[#3273dc];
-}
-.select.is-info:not(:hover)::after {
-    @apply border-[#209cee];
-}
-.select.is-success:not(:hover)::after {
-    @apply border-[#23d160];
-}
-.select.is-warning:not(:hover)::after {
-    @apply border-[#ffdd57];
-}
-.select.is-danger:not(:hover)::after {
-    @apply border-[#ff3860];
 }
 @media screen and (min-width: 1024px) {
     a.navbar-item.is-active:not(:focus):not(:hover),
@@ -512,40 +408,30 @@ a.navbar-item:hover {
         @apply bg-[rgba(0,0,0,0)];
     }
 }
-.column {
+.hero-column {
     @apply block basis-0 grow shrink p-3;
 }
 @media screen and (min-width: 769px), print {
-    .column.is-offset-1 {
+    .hero-column.is-offset-1 {
         @apply ml-[8.33333333%];
     }
-    .column.is-5 {
+    .hero-column.is-5 {
         @apply flex-none w-[41.66666667%];
     }
 }
-.columns {
+.hero-columns {
     @apply ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem];
 }
-.columns.is-vcentered {
+.hero-columns.is-vcentered {
     @apply items-center;
 }
 @media screen and (min-width: 769px), print {
-    .columns:not(.is-desktop) {
+    .hero-columns:not(.is-desktop) {
         @apply flex;
     }
 }
 .hero-body {
     @apply grow shrink-0 px-6 py-24;
-}
-.hero-body .title,
-/* .hero-body .subtitle {
-    font-family: "Open Sans", serif;
-} */
-.hero-body .title.is-bold {
-    @apply font-semibold;
-}
-.hero-body .subtitle.is-muted {
-    @apply text-[#999];
 }
 @media (max-width: 767px) {
     .landing-caption {
@@ -556,10 +442,4 @@ a.navbar-item:hover {
     .landing-caption {
         @apply text-center;
     }
-}
-.hero.is-fullheight {
-    @apply min-h-screen;
-}
-.hero {
-    @apply items-stretch flex flex-col justify-between;
 }
