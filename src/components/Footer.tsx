@@ -51,8 +51,8 @@ export default function Footer() {
 
                             <input
                                 type="email"
-                                value=""
                                 name="EMAIL"
+                                defaultValue=""
                                 className="email"
                                 id="mce-EMAIL"
                                 placeholder="email address"
@@ -65,7 +65,7 @@ export default function Footer() {
                                     type="text"
                                     name="b_c7b34cca67c5aa62532130cbe_e5040d3cd0"
                                     tabIndex={-1}
-                                    value=""
+                                    defaultValue=""
                                     control-id="ControlID-2"
                                 />
                             </div>
@@ -91,8 +91,7 @@ export default function Footer() {
                             alt="CSSU Logo"
                             width={400}
                             height={400}
-                            objectFit="contain"
-                            layout="fixed"
+                            className="object-contain"
                         />
                     </div>
 

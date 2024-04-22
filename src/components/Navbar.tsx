@@ -47,7 +47,7 @@ export default function Navbar() {
                             alt="CSSU Logo"
                             width={128}
                             height={32}
-                            quality={100}
+                            priority
                         />
                     </Link>
                     <div className="navbar-item is-expanded"></div>
