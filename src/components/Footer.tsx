@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import Link from "next/link"
+
 import {
     FaEnvelope,
     FaFacebookF,
@@ -41,7 +41,7 @@ export default function Footer() {
                         target="_blank"
                         noValidate
                     >
-                        <div id="mc_embed_signup_scroll">
+                        <div id="mc_embed_signup_scroll" className="space-x-1">
                             <h3
                                 className="font-medium text-base uppercase tracking-[1px] mr-5"
                                 id="subscribe_title"

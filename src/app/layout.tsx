@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import BackToTop from "@/components/BackToTop"
 
 const openSans = Open_Sans({ subsets: ["latin"] })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
                         </header>
                         <div className="flex-grow -mt-16">{children}</div>
                     </div>
+                    <BackToTop />
                     <Footer />
                 </div>
             </body>

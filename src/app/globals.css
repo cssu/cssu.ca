@@ -360,10 +360,10 @@ a.navbar-item:hover {
     position: sticky;
     top: 0;
     z-index: 50;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transform: translateY(-200%);
+    transition: transform 0.5s ease-in-out;
     visibility: hidden;
-    opacity: 0;
+    will-change: transform, opacity;
 }
 
 .sticky-header.scrolled {
@@ -442,4 +442,26 @@ a.navbar-item:hover {
     .landing-caption {
         @apply text-center;
     }
+}
+
+#backtotop {
+    position: fixed;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 25px;
+    margin: 0 25px 0 0;
+    z-index: 9999;
+    transition: 0.35s;
+    transform: scale(0.7);
+    transition: all 0.5s;
+}
+
+#backtotop button:after {
+    outline: none;
+    position: relative;
+    display: block;
+    top: 50%;
+    -webkit-transform: translateY(-55%);
+    transform: translateY(-55%);
 }
