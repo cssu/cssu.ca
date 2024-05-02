@@ -1,6 +1,6 @@
 ---
 title: "BA2250"
-date: 2024-01-30
+date: 2024-04-06
 draft: false
 hideLastModified: true
 keepImageRatio: true
@@ -11,18 +11,24 @@ showInMenu: true
 
 ---
 
-The CSSU proudly maintains a student lounge in BA 2250 in which students can hang out, network, play games and ask questions. We have a snack store, gaming centre, study spaces and more! Office operations volunteers manage the lounge, assist in answering questions, and directing students to appropriate resources.
+The CSSU proudly maintains a student lounge in [BA2250](https://map.utoronto.ca/?id=1809#!m/494470) in which students can hang out, network, play games, and ask questions. We have a snack store, a gaming centre, study spaces, and more! Office operations volunteers manage the lounge, answer questions, and direct students to appropriate resources.
 
-## What we Have
+## What We Have
 
 - Store stocked with common snacks for student purchase. We also have a free/loan shelf.
-- Kitchenette with fridge, sink, microwave, kettle, and basic utensils/tools.
+- Kitchenette with fridge, sink, microwave, kettle, and basic utensils and tools.
 - Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games.
-- Library shelf lined with books in topics such as mathematics, algorithms/data structures, programming, philosophy. Books can be loaned with a piece of UofT/government ID.
+- Library shelf lined with books on topics such as mathematics, algorithms and data structures, programming, and philosophy. Students can borrow a book by depositing a piece of UofT or government ID with the lounge volunteer.
 
 ### Store
 
-We sell many food items in our in-lounge store for your convenience. Anyone can come by during open hours and purchase a snack or beverage using debit/credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
+For your convenience, we sell a variety of food items in the lounge. Anyone can come by during open hours and purchase a snack or beverage using a debit or credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
+
+### Library and Whiteboard
+
+Over the years, we've collected many books from generous (or forgetful!) students, and we proudly maintain a new cozy home for them. We hope that our library shelf provides more accessibility to student learning and curiosity. Students can read in the study space or loan a book out with a deposit of a piece of UofT or government ID. If you'd like to donate a book, please speak to the office manager on duty!
+
+You can use the dry-erase markers or erasers at the whiteboard; to borrow one, please deposit a piece of UofT or government ID with the lounge volunteer.
 
 ## Schedule (Winter 2024)
 
@@ -66,12 +72,6 @@ Time/Day | Mon            | Tue            | Wed           | Thu            | Fr
 - _Updated 2021/11/14_ - If any price here is inconsistent with the desk price, the latter is to be followed.
 - _Updated 2022/02/21_ - In order to purchase items that are less than \$1, please use cash or combine multiple items such that your card transaction can be made. -->
 
-### Library & Whiteboard
-
-Over the years, we've collected many books from generous (or forgetful!) students, and we proudly maintain a new cozy home for them. We hope that our library shelf provides more accessibility to student learning and curiosity. Students can read in the study space, or loan a book out with a deposit of a piece of UofT/government ID. If you'd like to donate a book, please speak to the office manager on duty!
-
-You can use the dry-erase markers/erasers at the whiteboard; to borrow one, please deposit of a piece of UofT/government ID.
-
 <!-- --- -->
 
 <!-- ## Schedule (Summer 2022)
@@ -103,15 +103,15 @@ Office hours (starting May 16th) will be held in BA2250 in the [Bahen Centre for
 
 ## Code of Conduct
 
-1. Be **respectful** and **inclusive**: no racism, sexism, ageism, elitism, homophobia, ableism, etc. (there are also guidelines in the [UofT Student Code of Conduct](https://governingcouncil.utoronto.ca/secretariat/policies/code-student-conduct-december-13-2019))
-2. Do not remove any lounge property like games, books, dry-erase markers/erasers without Executive Council permission; in cases of emergency, please deposite a form of ID to the lounge volunteer.
-3. Clean the microwave and counter (and other kitchen utensils) after use.
+1. Be **respectful** and **inclusive**: no racism, sexism, ageism, elitism, homophobia, ableism, etc. Students are expected to follow the [UofT Code of Student Conduct](https://governingcouncil.utoronto.ca/secretariat/policies/code-student-conduct-december-13-2019).
+2. Do not remove any lounge property like games, books, or dry-erase markers or erasers without Executive Council permission. To borrow one in an emergency, please deposit a form of ID with the lounge volunteer.
+3. Clean the microwave, counter, and other kitchen utensils after you use them.
 4. Do not leave controllers lying loosely; please put them back on the shelf or boxes.
-5. Report issues (spills, broken things, bad behaviour, lost belongings, etc.) to the office volunteer.
-6. Do not sleep in the lounge in any way that prevents normal use of the space. Do not take up more chairs than one, do not sleep in front of the whiteboard or the gaming centre.
-7. Respect the office volunteer on-duty and report any issues to the [CSSU](mailto:utcssu@gmail.com).
+5. Report issues (spills, broken things, bad behaviour, lost belongings, etc.) to the lounge volunteer.
+6. Do not sleep in the lounge in any way that prevents normal use of the space. Do not take up more chairs than one, and do not sleep in front of the whiteboard or the gaming centre.
+7. Respect the office volunteer on-duty and report any issues to the [CSSU](mailto:cssu@cdf.toronto.edu).
 
-btw there's a security camera in the room :)
+BTW, there's a security camera in the room.
 
 ---
 
