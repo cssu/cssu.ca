@@ -14,7 +14,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: reprosteps
+    id: reproduction_steps
     attributes:
       label: Reproduction steps
       description: "How did you encounter the bug? State the device you are using, the browser you are using, and what you did that triggered the bug."
@@ -22,19 +22,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Additional details
+    id: details
     attributes:
-      label: details
+      label: additional_details
       description: "OPTIONAL. Add any more details you wish to share."
       placeholder: "I was on the subway when I tried doing this... that shouldn't affect anything, right?"
     validations:
       required: false
 ---
-
-## Description
-
-### Reproduction steps
-[[ How did you encounter the bug? State the steps you took. ]]
-
-## Additional details
-[[ Add any more details you wish to share. ]]
