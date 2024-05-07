@@ -4,6 +4,7 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import BackToTop from "@/components/BackToTop"
+import StickyNavbar from "@/components/StickyNavbar"
 
 const openSans = Open_Sans({ subsets: ["latin"] })
 
@@ -26,7 +27,7 @@ export default function RootLayout({
                             <Navbar />
                         </header>
                         <header className="sticky top-0 z-50 sticky-header" id="sticky-header">
-                            <Navbar />
+                            <StickyNavbar />
                         </header>
                         <div className="flex-grow -mt-16">{children}</div>
                     </div>
