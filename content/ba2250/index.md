@@ -1,0 +1,118 @@
+---
+title: "BA2250"
+date: 2024-04-06
+draft: false
+hideLastModified: true
+keepImageRatio: true
+summary: "The Undergraduate Computer Science Lounge"
+showInMenu: true
+---
+
+
+---
+
+The CSSU proudly maintains a student lounge in [BA2250](https://map.utoronto.ca/?id=1809#!m/494470) in which students can hang out, network, play games, and ask questions. We have a snack store, a gaming centre, study spaces, and more! Office operations volunteers manage the lounge, answer questions, and direct students to appropriate resources.
+
+## What We Have
+
+- Store stocked with common snacks for student purchase. We also have a free/loan shelf.
+- Kitchenette with fridge, sink, microwave, kettle, and basic utensils and tools.
+- Entertainment/gaming centre, with a variety of modern, arcade, retro, and party games.
+- Library shelf lined with books on topics such as mathematics, algorithms and data structures, programming, and philosophy. Students can borrow a book by depositing a piece of UofT or government ID with the lounge volunteer.
+
+### Store
+
+For your convenience, we sell a variety of food items in the lounge. Anyone can come by during open hours and purchase a snack or beverage using a debit or credit card (for purchases of $1 or more) or cash. Please be kind to the person assisting you with your purchase at the desk; they are a volunteer!
+
+### Library and Whiteboard
+
+Over the years, we've collected many books from generous (or forgetful!) students, and we proudly maintain a new cozy home for them. We hope that our library shelf provides more accessibility to student learning and curiosity. Students can read in the study space or loan a book out with a deposit of a piece of UofT or government ID. If you'd like to donate a book, please speak to the office manager on duty!
+
+You can use the dry-erase markers or erasers at the whiteboard; to borrow one, please deposit a piece of UofT or government ID with the lounge volunteer.
+
+## Schedule (Winter 2024)
+
+Time/Day | Mon            | Tue            | Wed           | Thu            | Fri            |
+| -------- | -------------- | -------------- | ------------- | -------------- | -------------- |
+| 8:00 AM  |                |                |               | Mary Z.        | Avery N.       |
+| 9:00 AM  | Aayush K.      | Virat T.       |               | Aayush K.      | Avery N.       |
+| 10:00 AM | Gerald W. (G)  | Alex A.        | Gerald W. (G) | Alex A.        | Nicholas A.    |
+| 11:00 AM | Felix Z. (X)   | Cameron F. (X) | Joseph Z.     | Felix Z. (X)   | Aditya G. (X)  |
+| 12:00 PM | Cameron F. (X) | Joseph Z.      | Jaiz J. (G)   | Felix Z. (X)   | Aditya G. (X)  |
+| 1:00 PM  | Mack Y.        | Charles C.     | Louis S. (X)  | Mary Z.        | Sam W.         |
+| 2:00 PM  | Mouaid A. (X)  | Nathan H.      | Jaiz J. (G)   | Jamie Z. (X)   | Louis S. (X)   |
+| 3:00 PM  | Mouaid A. (X)  | Nathan H.      | Justin Y.     | Jamie Z. (X)   | Shane W.       |
+| 4:00 PM  | Elise C. (G)   | Sam W.         | Cindy C.      | Shane W.       | Shane W.       |
+| 5:00 PM  | Elise C. (G)   | Pratibha T. (X)| Cynthia S. (G)| Jason B.       | Chong W. (G)   |
+| 6:00 PM  | Justin Y.      | Pratibha T. (X)| Cynthia S. (G)| Jason B.       | Chong W. (G)   |
+| 7:00 PM  | Alex A.        | Zach M.        | Xi Y.         | Danny C.       | Zach M.        |     
+| 8:00 PM  | Virat T.       | Zach M.        | Xi Y.         | Danny C.       | Zach M.        |
+
+- (G) indicates a member of the [General Council](/about).
+- (X) indicates a member of the [Executive (and General) Council](/about).
+
+<!--
+| Item                         | Price           | Flavour(s)/Variation(s)                          |
+| ---------------------------- | --------------- | ------------------------------------------------ |
+| ~~Bottled Water~~            | ~~$1.00~~       | ~~Kirkland Signature~~                           |
+| Sparkling Water              | ~~$1.25~~ $1.00 | San Pelligrino, Perrier                          |
+| Rougemont Juice              | ~~$0.75~~ $0.50 | Fruit Punch, Peach, Apple-Berry                  |
+| Pop/Soda                     | $1.00           | Coca Cola                                        |
+| Gatorade                     | $1.75           | Blue, Orange, Red, Yellow                        |
+| Arizona                      | $1.75           | Green Tea                                        |
+| Chips                        | $0.75           | Crunchy Cheetos, Doritos, Lays (Classic/Ketchup) |
+| Nestle Chocolate Candies     | $1.50           | Kitkat, Aero, Coffee Crisps, Smarties            |
+| Mars Chocolate Candies       | $1.50           | Mars, M&M, Snickers, Twix                        |
+| Kinder Bueno                 | $1.75           | Wafers (x2)                                      |
+| Pocky                        | $2.00           | Chocolate                                        |
+| Ferrero Rocher               | $2.00           | Hazelnut                                         |
+| Wrigley's 5 (Gum)            | $1.50           | Wintermint, Spearmint, Peppermint                |
+| Whiteboard Dry-Erase Markers | $1.50           | Red, Green, Blue, Purple                         |
+
+- _Updated 2021/11/14_ - If any price here is inconsistent with the desk price, the latter is to be followed.
+- _Updated 2022/02/21_ - In order to purchase items that are less than \$1, please use cash or combine multiple items such that your card transaction can be made. -->
+
+<!-- --- -->
+
+<!-- ## Schedule (Summer 2022)
+
+Office hours (starting May 16th) will be held in BA2250 in the [Bahen Centre for Information Technology](https://goo.gl/maps/16JTD3pr2KKMkCTE7).
+
+| Time/Day | Mon           | Tue        | Wed         | Thu         | Fri      |
+| -------- | ------------- | ---------- | ----------- | ----------- | -------- |
+| 8:00 AM  |               |            |             |             |          |
+| 9:00 AM  |               |            |             |             |          |
+| 10:00 AM | Zeling Z.     | Zeling Z.  | Daniel D.   | Ching C.    |          |
+| 11:00 AM | Michael N.    | Elyse A.   | Daniel D.   | Ching C.    |          |
+| 12:00 PM | Michael N.    | Elyse A.   |             | Sarah X.    | Asma A.  |
+| 1:00 PM  | Prahlad R.    | Jessica K. | Angelina C. | Sarah X.    | Asma A.  |
+| 2:00 PM  | Prahlad R.    | Jessica K. | Angelina C. | Michael N.  | Howie Y. |
+| 3:00 PM  | Owen W.       | Jason L.   | Ruilin P.   | Michael N.  | Howie Y. |
+| 4:00 PM  | Owen W.       | Jason L.   | Ruilin P.   | Madhav T.   | Ching C. |
+| 5:00 PM  | Aditya G. (X) | Chaerin S. | Ching C.    | Madhav T.   | Ching C. |
+| 6:00 PM  | Aditya G. (X) | Chaerin S. | Ching C.    | Sayan F.    | Ching C. |
+| 7:00 PM  | Ching C.      | Danny C.   | Rupert W.   | Sayan F.    |          |
+| 8:00 PM  | Ching C.      | Danny C.   | Rupert W.   | Benjamin Z. |          |
+
+- (G) indicates a member of the [General Council](/about).
+- (X) indicates a member of the [Executive (and General) Council](/about). -->
+
+<!-- Interested in volunteering? Send [Rupert](mailto:rupert.wu@mail.utoronto.ca) an email. -->
+
+---
+
+## Code of Conduct
+
+1. Be **respectful** and **inclusive**: no racism, sexism, ageism, elitism, homophobia, ableism, etc. Students are expected to follow the [UofT Code of Student Conduct](https://governingcouncil.utoronto.ca/secretariat/policies/code-student-conduct-december-13-2019).
+2. Do not remove any lounge property like games, books, or dry-erase markers or erasers without Executive Council permission. To borrow one in an emergency, please deposit a form of ID with the lounge volunteer.
+3. Clean the microwave, counter, and other kitchen utensils after you use them.
+4. Do not leave controllers lying loosely; please put them back on the shelf or boxes.
+5. Report issues (spills, broken things, bad behaviour, lost belongings, etc.) to the lounge volunteer.
+6. Do not sleep in the lounge in any way that prevents normal use of the space. Do not take up more chairs than one, and do not sleep in front of the whiteboard or the gaming centre.
+7. Respect the office volunteer on-duty and report any issues to the [CSSU](mailto:cssu@cdf.toronto.edu).
+
+BTW, there's a security camera in the room.
+
+---
+
+_If you're a volunteer, see the [guide](../ba2250-volunteering/)._
