@@ -321,23 +321,6 @@ a.navbar-item:hover {
 .menu-icon-wrapper svg {
     @apply absolute top-[-18px] left-[-18px] origin-[0_0] scale-[0.07];
 }
-.menu-icon-wrapper svg path {
-    @apply stroke-black stroke-[40px] fill-transparent transition-[stroke-dasharray] duration-[0.5s];
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-.menu-icon-wrapper svg path.path1 {
-    stroke-dashoffset: 5803.15px;
-    stroke-dasharray: 2901.57px, 2981.57px, 240px;
-}
-.menu-icon-wrapper svg path.path2 {
-    stroke-dashoffset: 800px;
-    stroke-dasharray: 400px, 480px, 240px;
-}
-.menu-icon-wrapper svg path.path3 {
-    stroke-dashoffset: 6993.11px;
-    stroke-dasharray: 3496.56px, 3576.56px, 240px;
-}
 .menu-icon-wrapper .menu-icon-trigger {
     @apply relative w-full h-full cursor-pointer pointer-events-auto m-0 p-0 border-[none];
     background: none;

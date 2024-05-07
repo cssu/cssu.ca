@@ -11,26 +11,44 @@ type NavbarHrefProps = {
 
 function MobileNavbarCloseSvg() {
     return (
-        <svg width="1000px" height="1000px">
-            <path className="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-            <path className="path2" d="M 300 500 L 700 500"></path>
-            <path className="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-          </svg>
+        <svg
+            width="48px"
+            height="48px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <g stroke-width="0" />
+            <g strokeLinecap="round" strokeLinejoin="round" />
+            <path
+                d="m16 8-8 8m0-8 8 8"
+                stroke="#000"
+                stroke-width="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
     )
 }
 
 function MobileNavbarOpenSvg() {
     return (
-        <svg width="1000px" height="1000px">
+        <svg
+            width="48px"
+            height="48px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <g strokeWidth="0" />
+            <g strokeLinecap="round" strokeLinejoin="round" />
             <path
-                className="path1"
-                d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"
-            ></path>
-            <path className="path2" d="M 300 500 L 700 500"></path>
-            <path
-                className="path3"
-                d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"
-            ></path>
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke="#000"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
         </svg>
     )
 }
@@ -64,21 +82,24 @@ export default function Navbar() {
                         />
                     </Link>
                     <div className="navbar-item is-expanded"></div>
-                    <button className="navbar-item is-hidden-desktop">
-                        <div
-                            data-target="navbar-menu"
-                            className="menu-icon-wrapper right-menu-icon-wrapper visible"
+                    <div className="flex m-auto items-center justify-center navbar-item is-hidden-desktop">
+                        <button
+                            onClick={() => setMobileMenuIsOpen(isOpen => !isOpen)}
+                            id="menu-icon-trigger"
+                            className="menu-icon-trigger"
                         >
                             {mobileMenuIsOpen ? <MobileNavbarCloseSvg /> : <MobileNavbarOpenSvg />}
-                            <button
-                                onClick={() => setMobileMenuIsOpen(isOpen => !isOpen)}
-                                id="menu-icon-trigger"
-                                className="menu-icon-trigger"
-                            ></button>{" "}
-                        </div>
-                    </button>
+                        </button>
+                    </div>
                 </div>
-                <div id="navbar-menu" className={mobileMenuIsOpen ? `flex flex-col text-center justify-center shadow-md` : `navbar-menu is-static`}>
+                <div
+                    id="navbar-menu"
+                    className={
+                        mobileMenuIsOpen
+                            ? `flex flex-col text-center justify-center shadow-md`
+                            : `navbar-menu is-static`
+                    }
+                >
                     <div className="navbar-end">
                         <NavbarHref href="/ba2250/" text="BA2250" />
                         <NavbarHref href="/about/" text="About" />
