@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-white
+    @apply bg-white;
 }
 
 /* =========================== */
@@ -351,30 +351,6 @@ a.navbar-item:hover {
     .navbar-menu .navbar-item {
         text-align: center !important;
     }
-}
-
-/* Sticky navbar logic */
-.static-header {
-    position: relative;
-    z-index: 40;
-}
-
-.sticky-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    transform: translateY(-200%);
-    transition: transform 0.5s ease-in-out;
-    visibility: hidden;
-    will-change: transform, opacity;
-}
-
-.sticky-header.scrolled {
-    transform: translateY(0%);
-    visibility: visible;
-    opacity: 1;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
 }
 
 /* =========================== */

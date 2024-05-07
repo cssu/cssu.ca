@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import Sticky from "./Sticky"
 import { useState } from "react"
 
 type NavbarHrefProps = {
@@ -49,11 +48,10 @@ export default function Navbar() {
 
     return (
         <nav
-            className="navbar is-fresh is-transparent is-active"
+            className="navbar is-fresh is-transparent is-active sticky"
             role="navigation"
             aria-label="main navigation"
         >
-            <Sticky />
             <div className="navbar-container">
                 <div className="navbar-brand">
                     <Link className="navbar-item" href="/">
