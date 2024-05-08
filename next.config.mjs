@@ -1,4 +1,5 @@
 import remarkGfm from "remark-gfm"
+import rehypeMdxImportMedia from "rehype-mdx-import-media"
 import createMDX from "@next/mdx"
 
 /** @type {import('next').NextConfig} */
@@ -11,7 +12,14 @@ const nextConfig = {
 const withMDX = createMDX({
     // Add markdown plugins here
     options: {
-        remarkPlugins: [remarkGfm],
+        remarkPlugins: [
+            // Github flavoured markdown
+            remarkGfm,
+            // Used to map image paths in MDX - see the comment of @altano in
+            // - https://mmazzarolo.com/blog/2023-07-30-nextjs-mdx-image-source/
+            // The package remark-mdx-images is deprecated, this is the suggested one.
+            rehypeMdxImportMedia
+        ],
         rehypePlugins: [],
     },
 })

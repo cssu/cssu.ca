@@ -1,13 +1,18 @@
 import { existsSync, readFileSync, readdirSync } from "fs"
 import { join } from "path"
-import { compileMDX, type MDXRemoteSerializeResult } from "next-mdx-remote/rsc"
+// import { compileMDX } from "next-mdx-remote/rsc"
 import { notFound } from "next/navigation"
 import InformationPage from "@/components/InformationPage"
+// import rehypeMdxImportMedia from "rehype-mdx-import-media"
+import remarkMdxImages from "remark-mdx-images"
+import remarkGfm from "remark-gfm"
+import { bundleMDX } from "mdx-bundler"
+import { getMDXComponent } from "mdx-bundler/client"
 
 function getEventPaths(): string[] {
     const files = []
 
-    const dir = "./content/events/"
+    const dir = join(process.cwd(), "./content/events/")
 
     for (const subdirectory of readdirSync(dir)) {
         files.push(subdirectory)
@@ -16,7 +21,7 @@ function getEventPaths(): string[] {
 }
 
 async function getMdxSource(eventName: string): Promise<string | undefined> {
-    const filePath = join("./content/events/", eventName, "index.mdx")
+    const filePath = join(process.cwd(), "./content/events/", eventName, "index.mdx")
     if (!existsSync(filePath)) {
         return undefined
     }
@@ -28,7 +33,7 @@ async function getMdxSource(eventName: string): Promise<string | undefined> {
         console.error(
             `No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${eventName} folder to index.mdx`
         )
-        const dir = join("./content/events/", eventName)
+        const dir = join(process.cwd(), "./content/events/", eventName)
 
         for (const file of readdirSync(dir)) {
             if (file.endsWith(".mdx")) {
@@ -53,7 +58,6 @@ export function generateStaticParams() {
 }
 
 type EventProps = {
-    mdxSource: MDXRemoteSerializeResult
     eventName: string
 }
 
@@ -67,12 +71,41 @@ export default async function Event({ params }: { params: EventProps }) {
         return notFound()
     }
 
-    const { content, frontmatter } = await compileMDX({
+    // const { content, frontmatter } = await compileMDX({
+    //     source: mdxSource,
+    //     options: { parseFrontmatter: true },
+    // })
+    // const { code, frontmatter } = await bundleMDX(mdxSource);
+    // }
+
+    const { code, frontmatter } = await bundleMDX({
         source: mdxSource,
-        options: { parseFrontmatter: true },
+        cwd: join(process.cwd(), "./content/events/", eventName),
+        mdxOptions: options => ({
+            ...options,
+            remarkPlugins: [...(options.remarkPlugins || []), remarkGfm, remarkMdxImages],
+        }),
+        esbuildOptions: options => ({
+            ...options,
+            outdir: join(process.cwd(), "./public/build-post-images/content/posts/", eventName),
+            loader: {
+                ...options.loader,
+                ".png": "file",
+                ".jpeg": "file",
+                ".jpg": "file",
+            },
+            publicPath: `/build-post-images/content/posts/${eventName}`,
+            write: true,
+        }),
     })
 
-    return <InformationPage metadata={frontmatter}>{content}</InformationPage>
+    const MdxComponent = getMDXComponent(code)
+
+    return (
+        <InformationPage metadata={frontmatter}>
+            <MdxComponent />
+        </InformationPage>
+    )
 }
 
 /*
@@ -90,3 +123,6 @@ the page (optimization). If this happens to be problematic remove the revalidate
 https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 */
 export const dynamicParams = false
+
+// https://nextjs.org/docs/messages/app-static-to-dynamic-error
+export const dynamic = "force-static"

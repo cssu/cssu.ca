@@ -1,7 +1,9 @@
 import type { MDXComponents } from "mdx/types"
 import Link from "next/link"
+// import Image from "next/image"
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
+    console.log(components)
     return {
         a: ({ children, href }) =>
             href && (href.startsWith("/") || href.startsWith(".")) ? (
@@ -15,6 +17,18 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
                     {children}
                 </a>
             ),
+        // eslint-disable-next-line jsx-a11y/alt-text
+        // img: props => <Image {...props} />,
+        // eslint-disable-next-line jsx-a11y/alt-text
+        // Image: props => <Image {...props} />,
+        // img: ({src, alt}) => (
+        //     <p>
+        //         <img
+        //         alt={alt}
+        //         src={require('./content/' + components + '/' + src).default}
+        //         />
+        //     </p>
+        // ),
         // p: ({ children }) => <p className=" text-base">{children}</p>,
         // a: ({ children, href }) => (
         //     <a
