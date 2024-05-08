@@ -158,7 +158,7 @@ params:
 
     # this is for reporting a site issue on github
     github_issues:
-      link: cssu/cssu.github.io/issues/new?template=site-issue.yml&assignees=JasonBarahan&abels=bug&title=[Site%20issue]%20your%20title%20goes%20here
+      link: cssu/cssu.github.io/issues/new?template=site-issue.yml&assignees=JasonBarahan,bbayazit16&labels=bug&title=[Site%20issue]%20your%20title%20goes%20here
       title: Report it on GitHub
 
     # copyright: CSSU - 2021
