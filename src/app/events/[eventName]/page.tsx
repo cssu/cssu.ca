@@ -1,11 +1,10 @@
-import { existsSync, readFileSync, readdirSync } from "fs"
-import { join } from "path"
-// import { compileMDX } from "next-mdx-remote/rsc"
-import { notFound } from "next/navigation"
 import InformationPage from "@/components/InformationPage"
-// import rehypeMdxImportMedia from "rehype-mdx-import-media"
 import remarkMdxImages from "remark-mdx-images"
 import remarkGfm from "remark-gfm"
+
+import { existsSync, readFileSync, readdirSync } from "fs"
+import { join } from "path"
+import { notFound } from "next/navigation"
 import { bundleMDX } from "mdx-bundler"
 import { getMDXComponent } from "mdx-bundler/client"
 
@@ -70,13 +69,6 @@ export default async function Event({ params }: { params: EventProps }) {
     if (!mdxSource) {
         return notFound()
     }
-
-    // const { content, frontmatter } = await compileMDX({
-    //     source: mdxSource,
-    //     options: { parseFrontmatter: true },
-    // })
-    // const { code, frontmatter } = await bundleMDX(mdxSource);
-    // }
 
     const { code, frontmatter } = await bundleMDX({
         source: mdxSource,
