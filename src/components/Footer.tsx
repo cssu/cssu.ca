@@ -154,7 +154,7 @@ export default function Footer() {
                                 <IconHolder
                                     icon={<FaGithub />}
                                     text="Report it on GitHub"
-                                    href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.md&amp;title=[Site%20issue]%20your%20title%20goes%20here"
+                                    href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.yml&assignees=JasonBarahan,bbayazit16&labels=bug&title=[Site%20issue]%20your%20title%20goes%20here"
                                 />
                             </ul>
                         </div>
