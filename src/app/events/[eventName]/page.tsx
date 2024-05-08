@@ -2,34 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "fs"
 import { join } from "path"
 import { compileMDX, type MDXRemoteSerializeResult } from "next-mdx-remote/rsc"
 import { notFound } from "next/navigation"
-
-// async function readMdxFiles(): Promise<
-//     {
-//         eventName: string
-//         mdxSource: MDXRemoteSerializeResult
-//     }[]
-// > {
-//     const files = []
-
-//     const dir = "./content/events/"
-
-//     for (const subdirectory of readdirSync(dir)) {
-//         const subDirPath = join(dir, subdirectory)
-
-//         for (const file of readdirSync(subDirPath)) {
-//             const filePath = join(subDirPath, file)
-//             if (filePath.endsWith(".mdx")) {
-//                 const content = readFileSync(filePath, "utf8")
-//                 const mdxSource = await serialize(content, { parseFrontmatter: true })
-//                 files.push({
-//                     eventName: subdirectory,
-//                     mdxSource: mdxSource,
-//                 })
-//             }
-//         }
-//     }
-//     return files
-// }
+import InformationPage from "@/components/InformationPage"
 
 function getEventPaths(): string[] {
     const files = []
@@ -51,7 +24,6 @@ async function getMdxSource(eventName: string): Promise<string | undefined> {
     try {
         const content = readFileSync(filePath, "utf8")
         return content
-        // return await serialize(content, { parseFrontmatter: true })
     } catch (e) {
         console.error(
             `No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${eventName} folder to index.mdx`
@@ -100,7 +72,7 @@ export default async function Event({ params }: { params: EventProps }) {
         options: { parseFrontmatter: true },
     })
 
-    return <>{content}</>
+    return <InformationPage metadata={frontmatter}>{content}</InformationPage>
 }
 
 /*
@@ -111,6 +83,10 @@ This means that we are not going to perform an FS call. The above code with the 
 check is mostly to display what is going on. It won't be called, and not found will be automatically
 returned as a missing event will not be rendered in generateStaticParams.
 
+If, for some reason, the content is now managed dynamically, remove the dynamicParams export
+(or set it to true; that is more explicit!) and export const revalidate = [number] to revalide
+the page (optimization). If this happens to be problematic remove the revalidate export as well.
+
 https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 */
-export const dynamicParams = false;
+export const dynamicParams = false
