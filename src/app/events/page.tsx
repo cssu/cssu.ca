@@ -56,6 +56,8 @@ type EventCardProps = {
     image: string
 }
 
+// TODO: Generate dynamic sitemap
+
 function EventCard({ title, summary, eventDirectory, image }: EventCardProps) {
     // TODO: Convert img to next/Image
     return (

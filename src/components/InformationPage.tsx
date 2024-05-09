@@ -16,6 +16,31 @@ export default function InformationPage({ metadata, children }: InformationPageP
                     </div>
                 </div>
             </div>
+            {!metadata.hideLastModified && (
+                <div className="section-container">
+                    <div className="columns">
+                        <div className="column has-text-right is-centered-tablet-portrait">
+                            <span className="font-mono">
+                                Last modified:&nbsp;
+                                {
+                                    metadata.lastModified
+                                        ? new Date(metadata.lastModified).toLocaleDateString(
+                                              "en-US",
+                                              {
+                                                  year: "numeric",
+                                                  month: "long",
+                                                  day: "numeric",
+                                              }
+                                          )
+                                        : "Unknown" // This likely won't be the case, but always best to handle.
+                                    // TODO: ^ It is indeed the case for exam-study-sessions. Need to add
+                                    // a lastDateModified field to the frontmatter.
+                                }
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            )}
         </section>
     )
 }
