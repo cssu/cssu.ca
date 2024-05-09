@@ -6,7 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "clean": "rm -rf .next ./public/build-images",
+        "clean": "rm -rf ./.next ./public/build-images && ./out",
         "lint": "next lint"
     },
     "dependencies": {
