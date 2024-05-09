@@ -11,8 +11,11 @@ function getEventPaths(): string[] {
     const dir = join(process.cwd(), "./content/events/")
 
     for (const subdirectory of readdirSync(dir)) {
-        files.push(subdirectory)
+        if (lstatSync(join(dir, subdirectory)).isDirectory()) {
+            files.push(subdirectory)
+        }
     }
+
     return files
 }
 
