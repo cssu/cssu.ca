@@ -1,58 +1,8 @@
-import InformationPage from "@/components/InformationPage"
+import cardPageFactory from "@/lib/cardPageFactory"
 
-import { existsSync, lstatSync, readFileSync, readdirSync } from "fs"
-import { join } from "path"
-import { notFound } from "next/navigation"
-import { compileMDX } from "next-mdx-remote/rsc"
+const { componentBody, generateStaticParams } = cardPageFactory("./content/events/", "eventName")
 
-function getEventPaths(): string[] {
-    const files = []
-
-    const dir = join(process.cwd(), "./content/events/")
-
-    for (const subdirectory of readdirSync(dir)) {
-        if (lstatSync(join(dir, subdirectory)).isDirectory()) {
-            files.push(subdirectory)
-        }
-    }
-
-    return files
-}
-
-function getMdxSource(eventName: string): string | undefined {
-    const filePath = join(process.cwd(), "./content/events/", eventName, "index.mdx")
-    if (existsSync(filePath)) {
-        const content = readFileSync(filePath, "utf8")
-        return content
-    } else {
-        console.warn(
-            `Warning: No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${eventName} folder to index.mdx`
-        )
-
-        const dir = join(process.cwd(), "./content/events/", eventName)
-        if (!lstatSync(dir).isDirectory()) {
-            return undefined
-        }
-
-        for (const file of readdirSync(dir)) {
-            if (file.endsWith(".mdx")) {
-                const content = readFileSync(join(dir, file), "utf8")
-                return content
-            }
-        }
-
-        return undefined
-    }
-}
-
-export function generateStaticParams() {
-    const paths = getEventPaths()
-    return paths.map(path => {
-        return {
-            eventName: path,
-        }
-    })
-}
+export { generateStaticParams }
 
 type EventProps = {
     eventName: string
@@ -61,28 +11,7 @@ type EventProps = {
 export default async function Event({ params }: { params: EventProps }) {
     const { eventName } = params
 
-    const mdxSource = getMdxSource(eventName)
-
-    // See the end of file for comments on this.
-    if (!mdxSource) {
-        return notFound()
-    }
-
-    const { content, frontmatter } = await compileMDX({
-        source: mdxSource,
-        options: { parseFrontmatter: true },
-        components: {
-            img: ({ src, alt }) => (
-                // Modify the src so that it is mapped to /build-images/events/<eventName>/<src>.
-                // The images in content are copied to public/build-images by webpack.
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={`/build-images/events/${eventName}/${src}`} alt={alt} />
-                // TODO: Convert img to next/Image
-            ),
-        },
-    })
-
-    return <InformationPage metadata={frontmatter}>{content}</InformationPage>
+    return componentBody(eventName)
 }
 
 /*
