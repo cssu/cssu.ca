@@ -18,13 +18,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
                     {children}
                 </a>
             ),
-        img: ({ src, alt }) =>
-            src ? (
-                <Image className="object-contain" src={src} alt={alt || ""} fill />
-            ) : (
+        img: ({ src, alt }) => (
+            src ? 
+                <Image className="object-contain" src={src} alt={alt || ""} fill /> 
+                : 
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={src} alt={alt} />
-            ),
+        ),
         ...components,
     }
 }

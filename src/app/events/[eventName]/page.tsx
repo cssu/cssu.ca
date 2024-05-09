@@ -2,11 +2,12 @@ import InformationPage from "@/components/InformationPage"
 import remarkMdxImages from "remark-mdx-images"
 import remarkGfm from "remark-gfm"
 
-import { existsSync, readFileSync, readdirSync } from "fs"
+import { existsSync, lstatSync, readFileSync, readdirSync } from "fs"
 import { join } from "path"
 import { notFound } from "next/navigation"
 import { bundleMDX } from "mdx-bundler"
 import { getMDXComponent } from "mdx-bundler/client"
+import { compileMDX } from "next-mdx-remote/rsc"
 
 function getEventPaths(): string[] {
     const files = []
@@ -19,20 +20,20 @@ function getEventPaths(): string[] {
     return files
 }
 
-async function getMdxSource(eventName: string): Promise<string | undefined> {
+function getMdxSource(eventName: string): string | undefined {
     const filePath = join(process.cwd(), "./content/events/", eventName, "index.mdx")
-    if (!existsSync(filePath)) {
-        return undefined
-    }
-
-    try {
+    if (existsSync(filePath)) {
         const content = readFileSync(filePath, "utf8")
         return content
-    } catch (e) {
-        console.error(
-            `No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${eventName} folder to index.mdx`
+    } else {
+        console.warn(
+            `Warning: No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${eventName} folder to index.mdx`
         )
+
         const dir = join(process.cwd(), "./content/events/", eventName)
+        if (!lstatSync(dir).isDirectory()) {
+            return undefined
+        }
 
         for (const file of readdirSync(dir)) {
             if (file.endsWith(".mdx")) {
@@ -63,41 +64,56 @@ type EventProps = {
 export default async function Event({ params }: { params: EventProps }) {
     const { eventName } = params
 
-    const mdxSource = await getMdxSource(eventName)
+    const mdxSource = getMdxSource(eventName)
 
     // See the end of file for comments on this.
     if (!mdxSource) {
         return notFound()
     }
 
-    const { code, frontmatter } = await bundleMDX({
+    const { content, frontmatter } = await compileMDX({
         source: mdxSource,
-        cwd: join(process.cwd(), "./content/events/", eventName),
-        mdxOptions: options => ({
-            ...options,
-            remarkPlugins: [...(options.remarkPlugins || []), remarkGfm, remarkMdxImages],
-        }),
-        esbuildOptions: options => ({
-            ...options,
-            outdir: join(process.cwd(), "./public/build-post-images/content/posts/", eventName),
-            loader: {
-                ...options.loader,
-                ".png": "file",
-                ".jpeg": "file",
-                ".jpg": "file",
-            },
-            publicPath: `/build-post-images/content/posts/${eventName}`,
-            write: true,
-        }),
+        options: { parseFrontmatter: true },
+        components: {
+            img: ({ src, alt }) => (
+                // Modify the src so that it is mapped to /build-images/events/<eventName>/<src>.
+                // The images in content are copied to public/build-images by webpack.
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={`/build-images/events/${eventName}/${src}`} alt={alt} />
+            ),
+        }
     })
 
-    const MdxComponent = getMDXComponent(code)
+    return <InformationPage metadata={frontmatter}>{content}</InformationPage>
 
-    return (
-        <InformationPage metadata={frontmatter}>
-            <MdxComponent />
-        </InformationPage>
-    )
+    // const { code, frontmatter } = await bundleMDX({
+    //     source: mdxSource,
+    //     cwd: join(process.cwd(), "./content/events/", eventName),
+    //     mdxOptions: options => ({
+    //         ...options,
+    //         remarkPlugins: [...(options.remarkPlugins || []), remarkGfm, remarkMdxImages],
+    //     }),
+    //     esbuildOptions: options => ({
+    //         ...options,
+    //         outdir: join(process.cwd(), "./public/build-post-images/content/posts/", eventName),
+    //         loader: {
+    //             ...options.loader,
+    //             ".png": "file",
+    //             ".jpeg": "file",
+    //             ".jpg": "file",
+    //         },
+    //         publicPath: `/build-post-images/content/posts/${eventName}`,
+    //         write: true,
+    //     }),
+    // })
+
+    // const MdxComponent = getMDXComponent(code)
+
+    // return (
+    //     <InformationPage metadata={frontmatter}>
+    //         <MdxComponent />
+    //     </InformationPage>
+    // )
 }
 
 /*

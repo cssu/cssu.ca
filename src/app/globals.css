@@ -739,3 +739,138 @@ table th {
 section:focus {
     outline: none !important;
 }
+
+/* =========================== */
+/* ======== Event Card ======= */
+/* =========================== */
+.box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.column.is-4 {
+    flex: none;
+    width: 33.33333333%;
+}
+
+.title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.title.is-5 {
+    font-size: 1.25rem;
+}
+
+.has-text-right {
+    text-align: right !important;
+}
+
+.refresh-summary {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 4.5em;
+    text-overflow: ellipsis;
+}
+
+.refresh-summary-title {
+    position: relative;
+    margin: 10px 0 0 0;
+    margin-bottom: 10px !important;
+    padding: 0 0 5px 0;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.button.is-primary {
+    background-color: #00329e;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.is-primary:hover {
+    background-color: #002e91;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.is-primary:focus {
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.is-primary:focus:not(:active),
+.button.is-primary.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em rgba(0, 50, 158, 0.25);
+}
+
+.button.is-primary:active {
+    background-color: #002a85;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 6px;
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+}
+
+.button:hover {
+    border-color: #b5b5b5;
+    color: #363636;
+}
+
+.button:focus {
+    border-color: #3273dc;
+    color: #363636;
+}
+
+.button:focus:not(:active),
+.button.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+}
+
+.button:active {
+    border-color: #4a4a4a;
+    color: #363636;
+}
+
+.image {
+    display: block;
+    position: relative;
+    padding-top: 66.6666%;
+}
+
+.image img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
