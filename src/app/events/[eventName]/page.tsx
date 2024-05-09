@@ -46,9 +46,7 @@ export function generateStaticParams() {
     const paths = getEventPaths()
     return paths.map(path => {
         return {
-            params: {
-                eventName: path,
-            },
+            eventName: path,
         }
     })
 }
