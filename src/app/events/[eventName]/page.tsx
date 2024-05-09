@@ -1,12 +1,8 @@
 import InformationPage from "@/components/InformationPage"
-import remarkMdxImages from "remark-mdx-images"
-import remarkGfm from "remark-gfm"
 
 import { existsSync, lstatSync, readFileSync, readdirSync } from "fs"
 import { join } from "path"
 import { notFound } from "next/navigation"
-import { bundleMDX } from "mdx-bundler"
-import { getMDXComponent } from "mdx-bundler/client"
 import { compileMDX } from "next-mdx-remote/rsc"
 
 function getEventPaths(): string[] {
@@ -80,40 +76,12 @@ export default async function Event({ params }: { params: EventProps }) {
                 // The images in content are copied to public/build-images by webpack.
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={`/build-images/events/${eventName}/${src}`} alt={alt} />
+                // TODO: Convert img to next/Image
             ),
-        }
+        },
     })
 
     return <InformationPage metadata={frontmatter}>{content}</InformationPage>
-
-    // const { code, frontmatter } = await bundleMDX({
-    //     source: mdxSource,
-    //     cwd: join(process.cwd(), "./content/events/", eventName),
-    //     mdxOptions: options => ({
-    //         ...options,
-    //         remarkPlugins: [...(options.remarkPlugins || []), remarkGfm, remarkMdxImages],
-    //     }),
-    //     esbuildOptions: options => ({
-    //         ...options,
-    //         outdir: join(process.cwd(), "./public/build-post-images/content/posts/", eventName),
-    //         loader: {
-    //             ...options.loader,
-    //             ".png": "file",
-    //             ".jpeg": "file",
-    //             ".jpg": "file",
-    //         },
-    //         publicPath: `/build-post-images/content/posts/${eventName}`,
-    //         write: true,
-    //     }),
-    // })
-
-    // const MdxComponent = getMDXComponent(code)
-
-    // return (
-    //     <InformationPage metadata={frontmatter}>
-    //         <MdxComponent />
-    //     </InformationPage>
-    // )
 }
 
 /*
