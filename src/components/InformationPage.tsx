@@ -22,20 +22,13 @@ export default function InformationPage({ metadata, children }: InformationPageP
                         <div className="column has-text-right is-centered-tablet-portrait">
                             <span className="font-mono">
                                 Last modified:&nbsp;
-                                {
-                                    metadata.lastModified
-                                        ? new Date(metadata.lastModified).toLocaleDateString(
-                                              "en-US",
-                                              {
-                                                  year: "numeric",
-                                                  month: "long",
-                                                  day: "numeric",
-                                              }
-                                          )
-                                        : "Unknown" // This likely won't be the case, but always best to handle.
-                                    // TODO: ^ It is indeed the case for exam-study-sessions. Need to add
-                                    // a lastDateModified field to the frontmatter.
-                                }
+                                {new Date(
+                                    metadata.lastModified ? metadata.lastModified : metadata.date
+                                ).toLocaleDateString("en-GB", {
+                                    year: "numeric",
+                                    month: "long",
+                                    day: "numeric",
+                                })}
                             </span>
                         </div>
                     </div>
