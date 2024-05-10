@@ -7,9 +7,28 @@ import CopyWebpackPlugin from "copy-webpack-plugin"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    async redirects() {
+        return [
+            {
+                source: "/clubs",
+                destination: "/community",
+                permanent: true,
+            },
+            {
+                source: "/lounge",
+                destination: "/ba2250",
+                permanent: true,
+            },
+            {
+                source: "/team",
+                destination: "/about",
+                permanent: true,
+            },
+        ]
+    },
     // Remove the next 2 lines if you want the full Next.js experience with SSR and image optimization :) !
-    output: "export",
-    images: { unoptimized: true },
+    // output: "export",
+    // images: { unoptimized: true },
     // Accept MD and MDX files
     pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
     // Do not remove the unused parameters. They are explicitly stated here for clarity.
