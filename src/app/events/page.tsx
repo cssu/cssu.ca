@@ -4,9 +4,10 @@ import groupBy from "@/lib/groupBy"
 import { getAllFrontMatter } from "@/lib/collectContent"
 
 // TODO: Generate dynamic sitemap
+const PAGE_TYPE = "events"
 
 export default function Events() {
-    const frontMatters = getAllFrontMatter("events")
+    const frontMatters = getAllFrontMatter(PAGE_TYPE)
 
     const groupedFrontMatters = groupBy(frontMatters, 3)
 
@@ -22,7 +23,7 @@ export default function Events() {
                             {group.map((event, innerIndex) => (
                                 <ContentCard
                                     key={`${index}${innerIndex}${event.title}`}
-                                    contentType="events"
+                                    contentType={PAGE_TYPE}
                                     title={event.title}
                                     summary={event.summary}
                                     contentSubdirectory={event.eventDirectory}
