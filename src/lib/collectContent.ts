@@ -1,9 +1,9 @@
 import { existsSync, lstatSync, readFileSync, readdirSync } from "fs"
-import { join } from "path"
 import { compileMDX } from "next-mdx-remote/rsc"
+import { createElement } from "react"
+import { join } from "path"
 
 import EventPageImage from "@/components/mdx/EventPageImage"
-import { createElement } from "react"
 import matter from "gray-matter"
 
 export function getContentPaths(contentType: string): string[] {
