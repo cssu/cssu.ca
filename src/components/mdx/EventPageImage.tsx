@@ -1,6 +1,6 @@
 type EventPageImageProps = {
-    src: string | undefined
-    alt: string | undefined
+    src?: string
+    alt?: string
     contentType: string
     contentName: string
 }

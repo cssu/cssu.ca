@@ -21,11 +21,13 @@ export default function RootLayout({
         <html lang="en">
             <body className={openSans.className}>
                 <div className="flex flex-col">
-                    <div className="min-h-screen">
-                        <header className="top-0 z-50 sticky">
-                            <Navbar />
-                        </header>
-                        <div className="flex-grow">{children}</div>
+                    <div>
+                        <div className="min-h-screen">
+                            <header className="top-0 z-50 sticky">
+                                <Navbar />
+                            </header>
+                            <div className="flex-grow">{children}</div>
+                        </div>
                         <Footer />
                     </div>
                     <BackToTop />
