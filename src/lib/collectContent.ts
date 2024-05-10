@@ -6,7 +6,7 @@ import EventPageImage from "@/components/mdx/EventPageImage"
 import { createElement } from "react"
 import matter from "gray-matter"
 
-export function getEventPaths(contentType: string): string[] {
+export function getContentPaths(contentType: string): string[] {
     const files = []
 
     const dir = join(process.cwd(), `./content/${contentType}/`)

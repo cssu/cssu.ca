@@ -3,32 +3,32 @@ import InformationPage from "@/components/InformationPage"
 import { notFound } from "next/navigation"
 import { compilePostMDX, getContentPaths, getMdxSource } from "@/lib/collectContent"
 
-const PAGE_TYPE = "events"
+const PAGE_TYPE = "partner-events"
 
 export function generateStaticParams() {
     const paths = getContentPaths(PAGE_TYPE)
     return paths.map(path => {
         return {
-            eventName: path,
+            partnerEventName: path,
         }
     })
 }
 
 type EventProps = {
-    eventName: string
+    partnerEventName: string
 }
 
-export default async function Event({ params }: { params: EventProps }) {
-    const { eventName } = params
+export default async function PartnerEvent({ params }: { params: EventProps }) {
+    const { partnerEventName } = params
 
-    const mdxSource = getMdxSource(PAGE_TYPE, eventName)
+    const mdxSource = getMdxSource(PAGE_TYPE, partnerEventName)
 
     // See the end of file for comments on this.
     if (!mdxSource) {
         return notFound()
     }
 
-    const { content, frontmatter } = await compilePostMDX(PAGE_TYPE, eventName, mdxSource)
+    const { content, frontmatter } = await compilePostMDX(PAGE_TYPE, partnerEventName, mdxSource)
 
     return <InformationPage metadata={frontmatter}>{content}</InformationPage>
 }

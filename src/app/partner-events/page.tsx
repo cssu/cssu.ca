@@ -4,10 +4,10 @@ import groupBy from "@/lib/groupBy"
 import { getAllFrontMatter } from "@/lib/collectContent"
 
 // TODO: Generate dynamic sitemap
-const PAGE_TYPE = "events"
-const PAGE_TITLE = "Events"
+const PAGE_TYPE = "partner-events"
+const PAGE_TITLE = "Partner Events"
 
-export default function Events() {
+export default function PartnerEvents() {
     const frontMatters = getAllFrontMatter(PAGE_TYPE)
 
     const groupedFrontMatters = groupBy(frontMatters, 3)
