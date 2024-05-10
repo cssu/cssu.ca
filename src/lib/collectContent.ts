@@ -5,6 +5,7 @@ import { join } from "path"
 
 import EventPageImage from "@/components/mdx/EventPageImage"
 import matter from "gray-matter"
+import MDXLink from "@/components/mdx/MDXLink"
 
 export function getContentPaths(contentType: string): string[] {
     const files = []
@@ -68,6 +69,14 @@ export async function compilePostMDX(
                     contentType: contentType,
                     contentName: contentName,
                 }),
+            a: ({ children, href }) =>
+                createElement(
+                    MDXLink,
+                    {
+                        href,
+                    },
+                    children
+                ),
         },
     })
 }

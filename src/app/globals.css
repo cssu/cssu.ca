@@ -437,8 +437,44 @@ a.navbar-item:hover {
     margin-bottom: 1.5rem;
 }
 
+ul {
+    list-style: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+    text-align: left;
+}
+
 section {
     display: block;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
 }
 
 .content blockquote {
@@ -475,6 +511,10 @@ hr {
 strong {
     color: #363636;
     font-weight: 700;
+}
+
+a strong {
+    color: currentColor;
 }
 
 table td,
@@ -543,11 +583,11 @@ table th {
     color: #363636;
     font-weight: 600;
     line-height: 1.125;
+    margin-bottom: 0.8888em;
 }
 
 .content h2 {
     font-size: 1.5em;
-    margin-bottom: 0.5714em;
 }
 
 .content h2:not(:first-child) {
@@ -567,6 +607,11 @@ table th {
     display: inline-block;
     font-size: 1.1em;
     margin-bottom: 0.8em;
+}
+
+.content h5 {
+    font-size: 1em;
+    margin-bottom: 0.8888em;
 }
 
 .content ol {
