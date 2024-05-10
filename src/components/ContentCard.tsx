@@ -5,7 +5,7 @@ type ContentCardProps = {
     title: string
     summary: string
     contentSubdirectory: string
-    image: string
+    image: string | undefined
 }
 
 export default function ContentCard({
@@ -22,8 +22,16 @@ export default function ContentCard({
                 <figure className="image is-3by2">
                     <Link href={`/${contentType}/${contentSubdirectory}`}>
                         <img
-                            src={`/build-images/${contentType}/${contentSubdirectory}/${image}`}
-                            style={{ width: "auto", margin: "auto" }}
+                            src={
+                                image
+                                    ? `/build-images/${contentType}/${contentSubdirectory}/${image}`
+                                    : "/horizontal_logo_black.png"
+                            }
+                            style={
+                                image
+                                    ? { width: "auto", margin: "auto" }
+                                    : { height: "auto", margin: "auto" }
+                            }
                             alt=""
                         />
                         {/* <Image
