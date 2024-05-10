@@ -206,7 +206,10 @@ footer.footer-dark .footer-column ul.link-list :hover {
         @apply max-w-[1344px];
     }
 }
-
+.shadow-active {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+}
 .navbar {
     @apply bg-white min-h-[3.25rem] relative z-30;
 }

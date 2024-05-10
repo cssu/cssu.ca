@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 type NavbarHrefProps = {
     href: string
@@ -12,8 +12,8 @@ type NavbarHrefProps = {
 function MobileNavbarCloseSvg() {
     return (
         <svg
-            width="48px"
-            height="48px"
+            width="32px"
+            height="32px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -34,8 +34,8 @@ function MobileNavbarCloseSvg() {
 function MobileNavbarOpenSvg() {
     return (
         <svg
-            width="48px"
-            height="48px"
+            width="32px"
+            height="32px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -63,15 +63,31 @@ function NavbarHref({ href, text }: NavbarHrefProps) {
 
 export default function Navbar() {
     const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false)
+    const [hasShadow, setHasShadow] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setHasShadow(true)
+            } else {
+                setHasShadow(false)
+            }
+        }
+
+        window.addEventListener("scroll", handleScroll)
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [])
 
     return (
         <nav
-            className="navbar is-fresh is-transparent is-active sticky"
+            className={`navbar is-fresh is-transparent ${hasShadow ? "shadow-active" : ""}`}
             role="navigation"
             aria-label="main navigation"
         >
             <div className="navbar-container">
-                <div className="navbar-brand">
+                <div className="navbar-brand pr-2 md:pr-0">
                     <Link className="navbar-item" href="/">
                         <Image
                             src="/horizontal_logo_black.png"
