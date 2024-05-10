@@ -1,8 +1,16 @@
-import cardPageFactory from "@/lib/cardPageFactory"
+import InformationPage from "@/components/InformationPage"
 
-const { componentBody, generateStaticParams } = cardPageFactory("./content/events/", "eventName")
+import { notFound } from "next/navigation"
+import { compilePostMDX, getEventPaths, getMdxSource } from "@/lib/collectContent"
 
-export { generateStaticParams }
+export function generateStaticParams() {
+    const paths = getEventPaths("events")
+    return paths.map(path => {
+        return {
+            eventName: path,
+        }
+    })
+}
 
 type EventProps = {
     eventName: string
@@ -11,7 +19,16 @@ type EventProps = {
 export default async function Event({ params }: { params: EventProps }) {
     const { eventName } = params
 
-    return componentBody(eventName)
+    const mdxSource = getMdxSource("events", eventName)
+
+    // See the end of file for comments on this.
+    if (!mdxSource) {
+        return notFound()
+    }
+
+    const { content, frontmatter } = await compilePostMDX("events", eventName, mdxSource)
+
+    return <InformationPage metadata={frontmatter}>{content}</InformationPage>
 }
 
 /*
