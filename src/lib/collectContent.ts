@@ -5,8 +5,9 @@ import matter from 'gray-matter'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { createElement } from 'react'
 
-import EventPageImage from '@/components/mdx/EventPageImage'
-import MDXLink from '@/components/mdx/MDXLink'
+import EventPageImage from '@/components/EventPageImage'
+import SmartImage from '@/components/mdx/SmartImage'
+import MDXLink from '@/components/MDXLink'
 
 export function getContentPaths(contentType: string): string[] {
     const files = []
@@ -62,15 +63,25 @@ export async function compilePostMDX(
         source: mdxSource,
         options: { parseFrontmatter: true },
         components: {
-            img: ({ src, alt }) =>
+            SmartImage: (props) =>
                 // I didn't want to mark this a `tsx` file. So, the code:
+                // <SmartImage {...props}
+                //      overriddenContentType={contentType}
+                //      overriddenContentSubdirectory={contentName}
+                //  />
+                // is equal to:
+                createElement(SmartImage, {
+                    ...props,
+                    overriddenContentType: contentType,
+                    overriddenContentSubdirectory: contentName,
+                }),
+            img: ({ src, alt }) =>
                 // <EventPageImage
                 //     src={src}
                 //     alt={alt}
                 //     contentType={contentType}
                 //     contentName={contentName}
                 //  />
-                // is equal to:
                 createElement(EventPageImage, {
                     src: src, // normalization is handled in the component
                     alt: alt,

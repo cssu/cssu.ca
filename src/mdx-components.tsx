@@ -1,4 +1,4 @@
-import MDXLink from '@/components/mdx/MDXLink'
+import MDXLink from '@/components/MDXLink'
 
 import type { MDXComponents } from 'mdx/types'
 

@@ -37,7 +37,8 @@ export default async function EventPageImage({
             '\x1b[33m[Warning]\x1b[0m %s',
             `Image ${src} in ${contentType}/${contentName} is remote. ` +
                 'This is not recommended! Consider downloading the image and adding ' +
-                'it to the content directory.'
+                'it to the content directory, or wrapping the image in a SmartImage component ' +
+                'to disable image optimization and still use the image remotely.'
         )
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />
