@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 type ContentCardProps = {
     contentType: string
@@ -15,32 +16,26 @@ export default function ContentCard({
     contentSubdirectory,
     image,
 }: ContentCardProps) {
-    // TODO: Convert img to next/Image
     return (
         <div className="column is-4">
             <div className="box">
                 <figure className="image is-3by2">
-                    <Link href={`/${contentType}/${contentSubdirectory}`}>
-                        <img
-                            src={
-                                image
-                                    ? `/build-images/${contentType}/${contentSubdirectory}/${image}`
-                                    : "/horizontal_logo_black.png"
-                            }
-                            style={
-                                image
-                                    ? { width: "auto", margin: "auto" }
-                                    : { height: "auto", margin: "auto" }
-                            }
-                            alt=""
-                        />
-                        {/* <Image
-                            src={`/build-images/${contentType}/${contentSubdirectory}/${image}`}
-                            alt={title}
-                            layout="fill"
-                            objectFit="cover"
-                            className="w-auto m-auto"
-                        /> */}
+                    <Link className="w-full h-full" href={`/${contentType}/${contentSubdirectory}`}>
+                        {image ? (
+                            <Image
+                                src={`/build-images/${contentType}/${contentSubdirectory}/${image}`}
+                                className="w-auto h-full m-auto object-contain"
+                                alt={`Image describing ${title}`}
+                                fill
+                            />
+                        ) : (
+                            <Image
+                                src="/horizontal_logo_black.png"
+                                className="h-auto m-auto object-contain"
+                                alt="CSSU placeholder logo"
+                                fill
+                            />
+                        )}
                     </Link>
                 </figure>
                 <h3 className="title is-5 refresh-summary-title">{title}</h3>
