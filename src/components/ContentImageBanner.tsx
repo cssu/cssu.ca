@@ -1,8 +1,8 @@
-import Image from "next/image"
+import { readFileSync } from 'fs'
+import { join } from 'path'
 
-import { readFileSync } from "fs"
-import { getPlaiceholder } from "plaiceholder"
-import { join } from "path"
+import Image from 'next/image'
+import { getPlaiceholder } from 'plaiceholder'
 
 type ContentImageProps = {
     contentType: string

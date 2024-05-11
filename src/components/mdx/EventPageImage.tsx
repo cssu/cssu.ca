@@ -1,10 +1,11 @@
-import Image from "next/image"
-import sizeOf from "image-size"
-import calculateImageDimensions from "@/lib/calculateImageDimensions"
+import { readFileSync } from 'fs'
+import { join, normalize } from 'path'
 
-import { join, normalize } from "path"
-import { readFileSync } from "fs"
-import { getPlaiceholder } from "plaiceholder"
+import sizeOf from 'image-size'
+import Image from 'next/image'
+import { getPlaiceholder } from 'plaiceholder'
+
+import calculateImageDimensions from '@/lib/calculateImageDimensions'
 
 const DEFAULT_IMAGE_HEIGHT = 512
 
@@ -22,16 +23,21 @@ export default async function EventPageImage({
     contentName,
 }: EventPageImageProps) {
     if (!src) {
-        console.error(`Image source not provided in ${contentType}/${contentName}`)
+        console.error(
+            '\x1b[31m[Error]\x1b[0m %s',
+            `Image source not provided in ${contentType}/${contentName}`
+        )
         throw new Error(`Image source not provided in ${contentType}/${contentName}`)
     }
 
-    const isRemote = src.startsWith("http")
+    const isRemote = src.startsWith('http')
 
     if (isRemote) {
         console.warn(
-            "\x1b[33m[Warning]\x1b[0m %s",
-            `Image ${src} in ${contentType}/${contentName} is remote. This is not recommended! Consider downloading the image and adding it to the content directory.`
+            '\x1b[33m[Warning]\x1b[0m %s',
+            `Image ${src} in ${contentType}/${contentName} is remote. ` +
+                'This is not recommended! Consider downloading the image and adding ' +
+                'it to the content directory.'
         )
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />
@@ -45,7 +51,10 @@ export default async function EventPageImage({
         const { base64 } = await getPlaiceholder(buffer)
 
         if (!width || !height) {
-            console.error(`Image ${src} not found in ${contentType}/${contentName}`)
+            console.error(
+                '\x1b[31m[Error]\x1b[0m %s',
+                `Image ${src} not found in ${contentType}/${contentName}`
+            )
             throw new Error(`Image ${src} not found in ${contentType}/${contentName}`)
         }
 
@@ -61,7 +70,7 @@ export default async function EventPageImage({
         return (
             <Image
                 src={normalize(`/build-images/${contentType}/${contentName}/${src}`)}
-                alt={alt || "Event image"}
+                alt={alt || 'Event image'}
                 height={newHeight}
                 width={newWidth}
                 placeholder="blur"

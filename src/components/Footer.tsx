@@ -1,14 +1,13 @@
-import React from "react"
-import Image from "next/image"
-
+import Image from 'next/image'
+import React from 'react'
 import {
+    FaDiscord,
     FaEnvelope,
     FaFacebookF,
+    FaGithub,
     FaInstagram,
     FaLinkedinIn,
-    FaGithub,
-    FaDiscord,
-} from "react-icons/fa"
+} from 'react-icons/fa'
 
 type IconHolderProps = {
     icon: React.ReactNode
@@ -76,7 +75,12 @@ export default function Footer() {
                                     value="Subscribe"
                                     name="subscribe"
                                     id="mc-embedded-subscribe"
-                                    className="font-medium text-base mr-5 cursor-pointer transition-all duration-[0.5s] tracking-[normal] normal-case bg-white text-black box-border h-8 leading-8 inline-block ease-[ease-in-out] delay-[0s] m-0 px-[18px] py-0 rounded-[3px] border-[none] hover:bg-[#e8e8e8] hover:cursor-pointer"
+                                    className="font-medium text-base mr-5 cursor-pointer
+                                    transition-all duration-[0.5s] tracking-[normal]
+                                    normal-case bg-white text-black box-border h-8 leading-8
+                                    inline-block ease-[ease-in-out] delay-[0s] m-0 px-[18px]
+                                    py-0 rounded-[3px] border-[none] hover:bg-[#e8e8e8]
+                                    hover:cursor-pointer"
                                     control-id="ControlID-3"
                                 />
                             </div>
@@ -119,7 +123,10 @@ export default function Footer() {
                                 <IconHolder
                                     icon={<FaLinkedinIn />}
                                     text="LinkedIn"
-                                    href="https://linkedin.com/company/computer-science-student-union"
+                                    href={
+                                        'https://linkedin.com/company/' +
+                                        'computer-science-student-union'
+                                    }
                                 />
                             </ul>
                         </div>
@@ -154,7 +161,13 @@ export default function Footer() {
                                 <IconHolder
                                     icon={<FaGithub />}
                                     text="Report it on GitHub"
-                                    href="https://github.com/cssu/cssu.github.io/issues/new?template=site-issue.yml&assignees=JasonBarahan,bbayazit16&labels=bug&title=[Site%20issue]%20your%20title%20goes%20here"
+                                    href={
+                                        'https://github.com/cssu/cssu.github.io/issues/new' +
+                                        '?template=site-issue.yml' +
+                                        '&assignees=JasonBarahan,bbayazit16' +
+                                        '&labels=bug' +
+                                        '&title=[Site%20issue]%20your%20title%20goes%20here'
+                                    }
                                 />
                             </ul>
                         </div>

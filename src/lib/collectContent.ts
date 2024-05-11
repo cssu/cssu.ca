@@ -1,11 +1,12 @@
-import { existsSync, lstatSync, readFileSync, readdirSync } from "fs"
-import { compileMDX } from "next-mdx-remote/rsc"
-import { createElement } from "react"
-import { join } from "path"
+import { existsSync, lstatSync, readFileSync, readdirSync } from 'fs'
+import { join } from 'path'
 
-import EventPageImage from "@/components/mdx/EventPageImage"
-import matter from "gray-matter"
-import MDXLink from "@/components/mdx/MDXLink"
+import matter from 'gray-matter'
+import { compileMDX } from 'next-mdx-remote/rsc'
+import { createElement } from 'react'
+
+import EventPageImage from '@/components/mdx/EventPageImage'
+import MDXLink from '@/components/mdx/MDXLink'
 
 export function getContentPaths(contentType: string): string[] {
     const files = []
@@ -22,13 +23,15 @@ export function getContentPaths(contentType: string): string[] {
 }
 
 export function getMdxSource(contentType: string, contentName: string): string | undefined {
-    const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, "index.mdx")
+    const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, 'index.mdx')
     if (existsSync(filePath)) {
-        const content = readFileSync(filePath, "utf8")
+        const content = readFileSync(filePath, 'utf8')
         return content
     } else {
         console.warn(
-            `Warning: No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${contentName} folder to index.mdx`
+            '\x1b[33m[Warning]\x1b[0m %s',
+            `Warning: No index.mdx file found in ${filePath}. ` +
+                `Consider renaming the MDX file in ${contentName} folder to index.mdx.`
         )
 
         const dir = join(process.cwd(), `./content/${contentType}/`, contentName)
@@ -37,8 +40,8 @@ export function getMdxSource(contentType: string, contentName: string): string |
         }
 
         for (const file of readdirSync(dir)) {
-            if (file.endsWith(".mdx")) {
-                const content = readFileSync(join(dir, file), "utf8")
+            if (file.endsWith('.mdx')) {
+                const content = readFileSync(join(dir, file), 'utf8')
                 return content
             }
         }
@@ -61,7 +64,12 @@ export async function compilePostMDX(
         components: {
             img: ({ src, alt }) =>
                 // I didn't want to mark this a `tsx` file. So, the code:
-                // <EventPageImage src={src} alt={alt} contentType={contentType} contentName={contentName} />,
+                // <EventPageImage
+                //     src={src}
+                //     alt={alt}
+                //     contentType={contentType}
+                //     contentName={contentName}
+                //  />
                 // is equal to:
                 createElement(EventPageImage, {
                     src: src, // normalization is handled in the component
@@ -98,9 +106,9 @@ export function getAllFrontMatter(contentType: string) {
 }
 
 function getFrontMatter(contentType: string, contentName: string) {
-    const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, "index.mdx")
+    const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, 'index.mdx')
     if (existsSync(filePath)) {
-        const content = readFileSync(filePath, "utf8")
+        const content = readFileSync(filePath, 'utf8')
         const { data } = matter(content)
         return data
     } else {
@@ -111,12 +119,14 @@ function getFrontMatter(contentType: string, contentName: string) {
         }
 
         console.warn(
-            `Warning: No index.mdx file found in ${filePath}. Consider renaming the MDX file in ${contentName} folder to index.mdx`
+            '\x1b[33m[Warning]\x1b[0m %s',
+            `Warning: No index.mdx file found in ${filePath}. ` +
+                `Consider renaming the MDX file in ${contentName} folder to index.mdx.`
         )
 
         for (const file of readdirSync(dir)) {
-            if (file.endsWith(".mdx")) {
-                const content = readFileSync(join(dir, file), "utf8")
+            if (file.endsWith('.mdx')) {
+                const content = readFileSync(join(dir, file), 'utf8')
                 const { data } = matter(content)
                 return data
             }

@@ -24,10 +24,10 @@ export default function InformationPage({ metadata, children }: InformationPageP
                                 Last modified:&nbsp;
                                 {new Date(
                                     metadata.lastModified ? metadata.lastModified : metadata.date
-                                ).toLocaleDateString("en-GB", {
-                                    year: "numeric",
-                                    month: "long",
-                                    day: "numeric",
+                                ).toLocaleDateString('en-GB', {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric',
                                 })}
                             </span>
                         </div>

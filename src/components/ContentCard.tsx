@@ -1,5 +1,6 @@
-import Link from "next/link"
-import ContentImageBanner from "./ContentImageBanner"
+import Link from 'next/link'
+
+import ContentImageBanner from './ContentImageBanner'
 
 type ContentCardProps = {
     contentType: string

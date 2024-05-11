@@ -1,13 +1,13 @@
-import InformationPage from "@/components/InformationPage"
+import { notFound } from 'next/navigation'
 
-import { notFound } from "next/navigation"
-import { compilePostMDX, getContentPaths, getMdxSource } from "@/lib/collectContent"
+import InformationPage from '@/components/InformationPage'
+import { compilePostMDX, getContentPaths, getMdxSource } from '@/lib/collectContent'
 
-const PAGE_TYPE = "events"
+const PAGE_TYPE = 'events'
 
 export function generateStaticParams() {
     const paths = getContentPaths(PAGE_TYPE)
-    return paths.map(path => {
+    return paths.map((path) => {
         return {
             eventName: path,
         }
@@ -50,4 +50,4 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 export const dynamicParams = false
 
 // https://nextjs.org/docs/messages/app-static-to-dynamic-error
-export const dynamic = "force-static"
+export const dynamic = 'force-static'

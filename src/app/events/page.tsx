@@ -1,11 +1,11 @@
-import ContentCard from "@/components/ContentCard"
-import groupBy from "@/lib/groupBy"
+import ContentCard from '@/components/ContentCard'
+import { getAllFrontMatter } from '@/lib/collectContent'
+import groupBy from '@/lib/groupBy'
 
-import { getAllFrontMatter } from "@/lib/collectContent"
 
 // TODO: Generate dynamic sitemap
-const PAGE_TYPE = "events"
-const PAGE_TITLE = "Events"
+const PAGE_TYPE = 'events'
+const PAGE_TITLE = 'Events'
 
 export default function Events() {
     const frontMatters = getAllFrontMatter(PAGE_TYPE)

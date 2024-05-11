@@ -1,8 +1,8 @@
-"use client"
+'use client'
 
-import Link from "next/link"
-import Image from "next/image"
-import { useEffect, useState } from "react"
+import Image from 'next/image'
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 type NavbarHrefProps = {
     href: string
@@ -74,15 +74,15 @@ export default function Navbar() {
             }
         }
 
-        window.addEventListener("scroll", handleScroll)
+        window.addEventListener('scroll', handleScroll)
         return () => {
-            window.removeEventListener("scroll", handleScroll)
+            window.removeEventListener('scroll', handleScroll)
         }
     }, [])
 
     return (
         <nav
-            className={`navbar is-fresh is-transparent ${hasShadow ? "shadow-active" : ""}`}
+            className={`navbar is-fresh is-transparent ${hasShadow ? 'shadow-active' : ''}`}
             role="navigation"
             aria-label="main navigation"
         >
@@ -98,9 +98,12 @@ export default function Navbar() {
                         />
                     </Link>
                     <div className="navbar-item is-expanded"></div>
-                    <div className="flex m-auto items-center justify-center navbar-item is-hidden-desktop">
+                    <div
+                        className="flex m-auto items-center
+                        justify-center navbar-item is-hidden-desktop"
+                    >
                         <button
-                            onClick={() => setMobileMenuIsOpen(isOpen => !isOpen)}
+                            onClick={() => setMobileMenuIsOpen((isOpen) => !isOpen)}
                             id="menu-icon-trigger"
                             className="menu-icon-trigger"
                             aria-label="menu"
@@ -113,8 +116,8 @@ export default function Navbar() {
                     id="navbar-menu"
                     className={
                         mobileMenuIsOpen
-                            ? `flex flex-col text-center justify-center shadow-md`
-                            : `navbar-menu is-static`
+                            ? 'flex flex-col text-center justify-center shadow-md'
+                            : 'navbar-menu is-static'
                     }
                 >
                     <div className="navbar-end">

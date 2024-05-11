@@ -1,5 +1,5 @@
-import { FaFacebook, FaGithub, FaLinkedin, FaUser } from "react-icons/fa"
-import Image from "next/image"
+import Image from 'next/image'
+import { FaFacebook, FaGithub, FaLinkedin, FaUser } from 'react-icons/fa'
 
 function ProfileUrl({ href, children }: { href: string; children: React.ReactNode }) {
     return (
@@ -61,15 +61,20 @@ export default function ProfileCard({
                     )}
                 </center>
                 <div className="relative top-0">
-                    <div className="border-[thin] border-[darkblue] rounded-[50%] border-solid w-[150px] h-[150px] max-w-[300px] ml-[25px] mr-[25px] my-0 bg-[#000000]">
+                    <div
+                        className="border-[thin] border-[darkblue] rounded-[50%] border-solid
+                    w-[150px] h-[150px] max-w-[300px] ml-[25px] mr-[25px] my-0 bg-[#000000]"
+                    >
                         <div
-                            className="rounded-[50%] border-none w-[148px] h-[148px] object-cover bg-[#000000] bg-center [background-size:105px] bg-no-repeat"
-                            style={{ backgroundImage: "url(/cssu_logo.png)" }}
+                            className="rounded-[50%] border-none w-[148px] h-[148px] object-cover
+                            bg-[#000000] bg-center [background-size:105px] bg-no-repeat"
+                            style={{ backgroundImage: 'url(/cssu_logo.png)' }}
                         >
                             {imageUrl && (
                                 <div className="min-w-full min-h-full rounded-[50%]">
                                     <Image
-                                        className="rounded-[50%] border-none object-cover w-[148px] h-[148px]"
+                                        className="rounded-[50%] border-none object-cover
+                                        w-[148px] h-[148px]"
                                         src={imageUrl}
                                         alt={fullName}
                                         height={148}

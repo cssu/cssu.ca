@@ -1,6 +1,6 @@
-import MDXLink from "@/components/mdx/MDXLink"
+import MDXLink from '@/components/mdx/MDXLink'
 
-import type { MDXComponents } from "mdx/types"
+import type { MDXComponents } from 'mdx/types'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
     return {
