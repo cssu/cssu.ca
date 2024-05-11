@@ -1,3 +1,11 @@
+import Image from "next/image"
+import sizeOf from "image-size"
+import calculateImageDimensions from "@/lib/calculateImageDimensions"
+
+import { join } from "path"
+
+const DEFAULT_IMAGE_HEIGHT = 512
+
 type EventPageImageProps = {
     src?: string
     alt?: string
@@ -11,15 +19,45 @@ export default function EventPageImage({
     contentType,
     contentName,
 }: EventPageImageProps) {
-    const imageSource = src?.startsWith("http")
-        ? src
-        : `/build-images/${contentType}/${contentName}/${src}`
+    if (!src) {
+        console.error(`Image source not provided in ${contentType}/${contentName}`)
+        throw new Error(`Image source not provided in ${contentType}/${contentName}`)
+    }
 
-    return (
+    const isRemote = src.startsWith("http")
+
+    if (isRemote) {
+        console.warn(
+            `Image ${src} in ${contentType}/${contentName} is remote. This is not recommended! Please consider downloading the image and adding it to the content directory.`
+        )
+        // eslint-disable-next-line @next/next/no-img-element
+        return <img src={src} alt={alt} />
+    } else {
+        const { width, height } = sizeOf(
+            join(process.cwd(), `./public/build-images/${contentType}/${contentName}/${src}`)
+        )
+
+        if (!width || !height) {
+            console.error(`Image ${src} not found in ${contentType}/${contentName}`)
+            throw new Error(`Image ${src} not found in ${contentType}/${contentName}`)
+        }
+
+        const { newWidth, newHeight } = calculateImageDimensions(
+            width,
+            height,
+            DEFAULT_IMAGE_HEIGHT
+        )
         // Modify the src so that it is mapped to /build-images/<contentType>/<contentName>/<src>.
         // For example, this could be `/build-images/events/ai-and-ethics/aiethics.png`.
         // The images in content are copied to public/build-images by webpack.
-        <img src={imageSource} alt={alt} />
-        // TODO: Convert img to next/Image
-    )
+        return (
+            <Image
+                src={`/build-images/${contentType}/${contentName}/${src}`}
+                alt={alt || "Event image"}
+                height={newHeight}
+                width={newWidth}
+                className="m-auto"
+            />
+        )
+    }
 }
