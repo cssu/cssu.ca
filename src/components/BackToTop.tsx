@@ -29,10 +29,11 @@ export default function BackToTop() {
         <button
             onClick={scrollToTop}
             className={`fixed flex justify-center items-center right-6 bottom-6 w-[46px] h-[46px] bg-[#66676b] text-white rounded-full cursor-pointer hover:bg-black transition-all duration-500 ease-in-out transform ${
-                isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
+                isVisible ? "scale-100 opacity-100" : "scale-0 opacity-0"
             } z-50`}
+            aria-label="Back to top"
         >
             <FaAngleUp size={18} />
         </button>
-    );
+    )
 }

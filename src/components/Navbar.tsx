@@ -103,6 +103,7 @@ export default function Navbar() {
                             onClick={() => setMobileMenuIsOpen(isOpen => !isOpen)}
                             id="menu-icon-trigger"
                             className="menu-icon-trigger"
+                            aria-label="menu"
                         >
                             {mobileMenuIsOpen ? <MobileNavbarCloseSvg /> : <MobileNavbarOpenSvg />}
                         </button>

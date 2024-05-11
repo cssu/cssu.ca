@@ -10,7 +10,7 @@ export default function Home() {
                             <h1 className="text-[#363636] font-semibold leading-[1.125] text-5xl is-spaced">
                                 CSSU @ UofT
                             </h1>
-                            <h2 className="text-xl font-light leading-tight text-[#999] break-words">
+                            <h2 className="text-xl font-light leading-tight text-[#656565] break-words">
                                 U of T Computer Science Student Union
                             </h2>
                         </div>
