@@ -3,6 +3,8 @@ import sizeOf from "image-size"
 import calculateImageDimensions from "@/lib/calculateImageDimensions"
 
 import { join } from "path"
+import { readFileSync } from "fs"
+import { getPlaiceholder } from "plaiceholder"
 
 const DEFAULT_IMAGE_HEIGHT = 512
 
@@ -13,7 +15,7 @@ type EventPageImageProps = {
     contentName: string
 }
 
-export default function EventPageImage({
+export default async function EventPageImage({
     src,
     alt,
     contentType,
@@ -28,14 +30,18 @@ export default function EventPageImage({
 
     if (isRemote) {
         console.warn(
-            `Image ${src} in ${contentType}/${contentName} is remote. This is not recommended! Please consider downloading the image and adding it to the content directory.`
+            `Image ${src} in ${contentType}/${contentName} is remote. This is not recommended! Consider downloading the image and adding it to the content directory.`
         )
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />
     } else {
-        const { width, height } = sizeOf(
-            join(process.cwd(), `./public/build-images/${contentType}/${contentName}/${src}`)
+        const imageUri = join(
+            process.cwd(),
+            `./public/build-images/${contentType}/${contentName}/${src}`
         )
+        const { width, height } = sizeOf(imageUri)
+        const buffer = readFileSync(imageUri)
+        const { base64 } = await getPlaiceholder(buffer)
 
         if (!width || !height) {
             console.error(`Image ${src} not found in ${contentType}/${contentName}`)
@@ -56,6 +62,8 @@ export default function EventPageImage({
                 alt={alt || "Event image"}
                 height={newHeight}
                 width={newWidth}
+                placeholder="blur"
+                blurDataURL={base64}
                 className="m-auto"
             />
         )
