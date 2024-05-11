@@ -2,7 +2,7 @@ import Image from "next/image"
 import sizeOf from "image-size"
 import calculateImageDimensions from "@/lib/calculateImageDimensions"
 
-import { join } from "path"
+import { join, normalize } from "path"
 import { readFileSync } from "fs"
 import { getPlaiceholder } from "plaiceholder"
 
@@ -58,7 +58,7 @@ export default async function EventPageImage({
         // The images in content are copied to public/build-images by webpack.
         return (
             <Image
-                src={`/build-images/${contentType}/${contentName}/${src}`}
+                src={normalize(`/build-images/${contentType}/${contentName}/${src}`)}
                 alt={alt || "Event image"}
                 height={newHeight}
                 width={newWidth}

@@ -64,7 +64,7 @@ export async function compilePostMDX(
                 // <EventPageImage src={src} alt={alt} contentType={contentType} contentName={contentName} />,
                 // is equal to:
                 createElement(EventPageImage, {
-                    src: src,
+                    src: src, // normalization is handled in the component
                     alt: alt,
                     contentType: contentType,
                     contentName: contentName,
