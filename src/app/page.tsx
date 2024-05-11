@@ -21,6 +21,7 @@ export default function Home() {
                                     alt="CSSU Logo"
                                     width={400}
                                     height={400}
+                                    priority
                                     className="block h-auto w-full object-contain"
                                 />
                             </figure>

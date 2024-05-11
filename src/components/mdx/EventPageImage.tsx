@@ -30,6 +30,7 @@ export default async function EventPageImage({
 
     if (isRemote) {
         console.warn(
+            "\x1b[33m[Warning]\x1b[0m %s",
             `Image ${src} in ${contentType}/${contentName} is remote. This is not recommended! Consider downloading the image and adding it to the content directory.`
         )
         // eslint-disable-next-line @next/next/no-img-element
@@ -53,6 +54,7 @@ export default async function EventPageImage({
             height,
             DEFAULT_IMAGE_HEIGHT
         )
+
         // Modify the src so that it is mapped to /build-images/<contentType>/<contentName>/<src>.
         // For example, this could be `/build-images/events/ai-and-ethics/aiethics.png`.
         // The images in content are copied to public/build-images by webpack.
