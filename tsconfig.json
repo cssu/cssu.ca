@@ -19,7 +19,8 @@
         ],
         "paths": {
             "@/*": ["./src/*"],
-            "$/*": ["./content/*"]
+            "$/*": ["./content/*"],
+            "#/*": ["./src/components/mdx/*"]
         }
     },
     "include": [
