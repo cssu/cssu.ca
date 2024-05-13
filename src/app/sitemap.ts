@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const subDirectory of readdirSync('./content')) {
         const subDirectoryPath = `./content/${subDirectory}`
-        // if index.mdx exists inside the subdirectory
+
         const isSubdirectory = lstatSync(subDirectoryPath).isDirectory()
         if (isSubdirectory && readdirSync(subDirectoryPath).includes('index.mdx')) {
             const { data: frontMatter } = matter.read(`${subDirectoryPath}/index.mdx`)
