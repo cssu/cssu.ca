@@ -29,25 +29,13 @@ export function getMdxSource(contentType: string, contentName: string): string |
         const content = readFileSync(filePath, 'utf8')
         return content
     } else {
-        console.warn(
-            '\x1b[33m[Warning]\x1b[0m %s',
-            `Warning: No index.mdx file found in ${filePath}. ` +
+        console.error(
+            '\x1b[31m[Error]\x1b[0m %s',
+            `Error: No index.mdx file found in ${filePath}. ` +
                 `Consider renaming the MDX file in ${contentName} folder to index.mdx.`
         )
 
-        const dir = join(process.cwd(), `./content/${contentType}/`, contentName)
-        if (!lstatSync(dir).isDirectory()) {
-            return undefined
-        }
-
-        for (const file of readdirSync(dir)) {
-            if (file.endsWith('.mdx')) {
-                const content = readFileSync(join(dir, file), 'utf8')
-                return content
-            }
-        }
-
-        return undefined
+        throw new Error(`No index.mdx file found in ${filePath}`)
     }
 }
 
