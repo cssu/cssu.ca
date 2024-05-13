@@ -1,9 +1,17 @@
-import AboutMDX, { metadata } from '$/about/index.mdx'
+// @ts-expect-error
+import AboutMDX, { frontMatter } from '$/about/index.mdx'
 import InformationPage from '@/components/InformationPage'
+
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: frontMatter.title,
+    description: frontMatter.summary || frontMatter.title || '',
+}
 
 export default function About() {
     return (
-        <InformationPage metadata={metadata}>
+        <InformationPage metadata={frontMatter}>
             <AboutMDX />
         </InformationPage>
     )

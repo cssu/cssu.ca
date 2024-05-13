@@ -11,7 +11,10 @@ import './globals.css'
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'CSSU @ UofT',
+    title: {
+        template: '%s | CSSU @ UofT',
+        default: 'CSSU @ UofT',
+    },
     description: 'Computer Science Student Union at the University of Toronto',
 }
 

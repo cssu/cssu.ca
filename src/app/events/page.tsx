@@ -2,10 +2,15 @@ import ContentCard from '@/components/ContentCard'
 import { getAllFrontMatter } from '@/lib/collectContent'
 import groupBy from '@/lib/groupBy'
 
+import type { Metadata } from 'next'
 
-// TODO: Generate dynamic sitemap
 const PAGE_TYPE = 'events'
 const PAGE_TITLE = 'Events'
+
+export const metadata: Metadata = {
+    title: 'Events',
+    description: 'Events hosted by the CSSU',
+}
 
 export default function Events() {
     const frontMatters = getAllFrontMatter(PAGE_TYPE)

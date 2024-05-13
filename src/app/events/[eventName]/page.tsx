@@ -1,3 +1,4 @@
+import matter from 'gray-matter'
 import { notFound } from 'next/navigation'
 
 import InformationPage from '@/components/InformationPage'
@@ -12,6 +13,24 @@ export function generateStaticParams() {
             eventName: path,
         }
     })
+}
+
+export async function generateMetadata({ params }: { params: { eventName: string } }) {
+    const mdxSource = getMdxSource(PAGE_TYPE, params.eventName)
+
+    if (!mdxSource) {
+        return {
+            title: 'Not Found',
+            description: 'The event you are looking for does not exist.',
+        }
+    }
+
+    const frontMatter = matter(mdxSource).data
+
+    return {
+        title: frontMatter.title,
+        description: frontMatter.summary || frontMatter.title || '',
+    }
 }
 
 type EventProps = {
@@ -34,7 +53,7 @@ export default async function Event({ params }: { params: EventProps }) {
 }
 
 /*
-Straight from Next.js docs:
+From Next.js docs:
 
 false: Dynamic segments not included in generateStaticParams will return a 404.
 This means that we are not going to perform an FS call. The above code with the notFoud()
