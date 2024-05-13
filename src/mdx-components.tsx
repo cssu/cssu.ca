@@ -1,3 +1,4 @@
+// TODO: Remove remark image plugins and use next/image in MDX files
 import MDXLink from '@/components/MDXLink'
 
 import type { MDXComponents } from 'mdx/types'

@@ -3,8 +3,12 @@ import path from 'path'
 import createMDX from '@next/mdx'
 // eslint-disable-next-line import/default
 import CopyWebpackPlugin from 'copy-webpack-plugin'
+import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
+import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 import remarkMdxImages from 'remark-mdx-images'
+
+import remarkDefaultExport from './src/lib/mdxFrontmatter.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -72,12 +76,16 @@ const nextConfig = {
 const withMDX = createMDX({
     // Add markdown plugins here
     options: {
+        jsx: true,
         remarkPlugins: [
+            remarkFrontmatter,
+            remarkMdxFrontmatter,
+            remarkDefaultExport,
             // Github flavoured markdown
             remarkGfm,
             // Used to map image paths in MDX - see the comment of @altano in
             // - https://mmazzarolo.com/blog/2023-07-30-nextjs-mdx-image-source/
-            remarkMdxImages,
+            // remarkMdxImages,
         ],
         rehypePlugins: [],
     },
