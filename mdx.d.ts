@@ -1,4 +1,6 @@
-// Mofified version of https://stackoverflow.com/a/71009332/18363657
 declare module '*.mdx' {
-    export const metadata: any
+    import { MDXProps } from 'mdx/types'
+    const MDXComponent: (props: MDXProps) => JSX.Element
+    export const frontMatter: { [key: string]: any }
+    export default MDXComponent
 }

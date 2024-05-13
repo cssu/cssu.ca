@@ -1,4 +1,3 @@
-// @ts-expect-error
 import CommunityMDX, { frontMatter } from '$/community/index.mdx'
 import InformationPage from '@/components/InformationPage'
 

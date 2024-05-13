@@ -1,4 +1,3 @@
-// @ts-expect-error
 import BA2250MDX, { frontMatter } from '$/ba2250/index.mdx'
 import InformationPage from '@/components/InformationPage'
 
