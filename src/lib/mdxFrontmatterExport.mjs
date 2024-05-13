@@ -10,20 +10,19 @@
  * and not included in the TypeScript build process.
  *
  */
-import AST from 'abstract-syntax-tree'
 import matter from 'gray-matter'
+
+import parsedExportAst from './parsedExportAST.mjs'
 
 export default function remarkDefaultExport() {
     return (tree, file) => {
         const { data } = matter(file.value)
-        const exportString = `export const frontMatter = JSON.parse(\`${JSON.stringify(data)}\`)`
 
         tree.children.unshift({
             type: 'mdxjsEsm',
-            value: exportString,
+            value: `export const frontMatter = JSON.parse(\`${JSON.stringify(data)}\`)`,
             data: {
-                // TODO: Parse the AST
-                estree: AST.parse(exportString),
+                estree: parsedExportAst(JSON.stringify(data)),
             },
         })
     }

@@ -23,7 +23,6 @@
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",
-        "abstract-syntax-tree": "^2.22.0",
         "copy-webpack-plugin": "^12.0.2",
         "esbuild": "^0.21.1",
         "eslint": "^8",
