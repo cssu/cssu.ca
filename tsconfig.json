@@ -23,6 +23,9 @@
             "#/*": ["./src/components/mdx/*"]
         }
     },
+    "mdx": {
+        "plugins": ["remark-frontmatter", "remark-frontmatter-mdx"]
+    },
     "include": [
         "next-env.d.ts",
         "**/*.ts",

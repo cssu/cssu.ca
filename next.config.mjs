@@ -8,7 +8,7 @@ import remarkGfm from 'remark-gfm'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 import remarkMdxImages from 'remark-mdx-images'
 
-import remarkDefaultExport from './src/lib/mdxFrontmatter.mjs'
+import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -80,7 +80,7 @@ const withMDX = createMDX({
         remarkPlugins: [
             remarkFrontmatter,
             remarkMdxFrontmatter,
-            remarkDefaultExport,
+            mdxFrontmatterExport,
             // Github flavoured markdown
             remarkGfm,
             // Used to map image paths in MDX - see the comment of @altano in
