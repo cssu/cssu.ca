@@ -6,7 +6,6 @@ import CopyWebpackPlugin from 'copy-webpack-plugin'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
-import remarkMdxImages from 'remark-mdx-images'
 
 import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
@@ -83,9 +82,6 @@ const withMDX = createMDX({
             mdxFrontmatterExport,
             // Github flavoured markdown
             remarkGfm,
-            // Used to map image paths in MDX - see the comment of @altano in
-            // - https://mmazzarolo.com/blog/2023-07-30-nextjs-mdx-image-source/
-            // remarkMdxImages,
         ],
         rehypePlugins: [],
     },
