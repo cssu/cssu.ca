@@ -352,7 +352,7 @@ a.navbar-item:hover {
 }
 
 .fadeIn {
-    animation: fadeIn 500ms ease-out forwards;
+    animation: fadeIn 150ms ease-out forwards;
 }
 
 .hero-container {

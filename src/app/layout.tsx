@@ -26,18 +26,14 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={openSans.className}>
-                <div className="flex flex-col">
-                    <div>
-                        <div className="min-h-screen">
-                            <header className="top-0 z-50 sticky">
-                                <Navbar />
-                            </header>
-                            <div className="flex-grow">{children}</div>
-                        </div>
-                        <Footer />
-                    </div>
-                    <BackToTop />
+                <div className="flex flex-col min-h-screen">
+                    <header className="top-0 z-50 sticky">
+                        <Navbar />
+                    </header>
+                    <div className="flex-grow flex flex-col justify-center">{children}</div>
                 </div>
+                <Footer />
+                <BackToTop />
             </body>
         </html>
     )

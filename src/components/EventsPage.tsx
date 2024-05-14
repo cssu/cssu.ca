@@ -3,18 +3,18 @@ import { getAllFrontMatter } from '@/lib/collectContent'
 import groupBy from '@/lib/groupBy'
 import mapToImage from '@/lib/mapToImage'
 
-type ContentCollectionProps = {
+type EventsPageProps = {
     pageType: string
     pageTitle: string
 }
 
-export default function ContentCollection({ pageType, pageTitle }: ContentCollectionProps) {
+export default function EventsPage({ pageType, pageTitle }: EventsPageProps) {
     const frontMatters = getAllFrontMatter(pageType)
 
     const groupedFrontMatters = groupBy(frontMatters, 3)
 
     return (
-        <section className="section is-medium">
+        <section className="section is-medium fadeIn">
             <div className="section-container">
                 <h1 className="title section-title">{pageTitle}</h1>
                 <div className="subtitle is-5 is-muted"></div>

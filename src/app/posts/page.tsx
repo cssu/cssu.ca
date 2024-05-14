@@ -1,4 +1,4 @@
-import ContentCollection from '@/components/ContentCollection'
+import EventsPage from '@/components/EventsPage'
 
 const PAGE_TYPE = 'posts'
 const PAGE_TITLE = 'Posts'
@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 }
 
 export default function Posts() {
-    return <ContentCollection pageTitle={PAGE_TITLE} pageType={PAGE_TYPE} />
+    return <EventsPage pageTitle={PAGE_TITLE} pageType={PAGE_TYPE} />
 }

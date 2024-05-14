@@ -4,12 +4,12 @@ export default function Home() {
     return (
         <section
             className="items-stretch flex flex-col justify-between
-            is-default font-semibold fadeIn z-50"
+            is-default font-semibold fadeIn"
         >
             <div className="hero-body mt-2">
                 <div className="hero-container">
                     <div className="hero-columns is-vcentered">
-                        <div className="hero-column space-y-4 text-xl is-offset-1 landing-caption">
+                        <div className="hero-column space-y-5 text-xl is-offset-1 landing-caption">
                             <h1
                                 className="text-[#363636] font-semibold
                                 leading-[1.125] text-5xl is-spaced"
@@ -24,7 +24,7 @@ export default function Home() {
                             </h2>
                         </div>
                         <div className="hero-column text-xl is-offset-1">
-                            <figure className="block relative">
+                            <figure className="block relative p-2 md:p-4">
                                 <Image
                                     src="/cssu_square.png"
                                     alt="CSSU Logo"

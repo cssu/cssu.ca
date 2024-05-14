@@ -1,4 +1,4 @@
-import ContentCollection from '@/components/ContentCollection'
+import EventsPage from '@/components/EventsPage'
 
 import type { Metadata } from 'next'
 
@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 }
 
 export default function Events() {
-    return <ContentCollection pageTitle={PAGE_TITLE} pageType={PAGE_TYPE} />
+    return <EventsPage pageTitle={PAGE_TITLE} pageType={PAGE_TYPE} />
 }

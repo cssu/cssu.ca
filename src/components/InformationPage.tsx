@@ -5,7 +5,7 @@ type InformationPageProps = {
 
 export default function InformationPage({ metadata, children }: InformationPageProps) {
     return (
-        <section className="section is-medium">
+        <section className="section is-medium fadeIn">
             <div className="section-container">
                 <div className="columns">
                     <div className="column is-centered-tablet-portrait">
