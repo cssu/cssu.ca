@@ -9,13 +9,13 @@ import mapToImage from '@/lib/mapToImage'
 
 const DEFAULT_IMAGE_HEIGHT = 512
 
-type EventPageImageProps = {
+type MDXImageProps = {
     src?: string
     alt?: string
     mdxFolderPath: string
 }
 
-export default async function EventPageImage({ src, alt, mdxFolderPath }: EventPageImageProps) {
+export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProps) {
     if (!src) {
         console.error('\x1b[31m[Error]\x1b[0m %s', `Image source not provided in ${src}`)
         throw new Error(`Image source not provided in ${src}`)

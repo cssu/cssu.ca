@@ -5,8 +5,8 @@ import matter from 'gray-matter'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { createElement } from 'react'
 
-import EventPageImage from '@/components/EventPageImage'
 import SmartImage from '@/components/mdx/SmartImage'
+import MDXImage from '@/components/MDXImage'
 import MDXLink from '@/components/MDXLink'
 
 export function getContentPaths(contentType: string): string[] {
@@ -69,13 +69,13 @@ export async function compilePostMDX(
                     overriddenMDXFolderPath: props.overriddenMDXFolderPath || mdxFolderPath,
                 }),
             img: ({ src, alt }) =>
-                // <EventPageImage
+                // <MDXImageImage
                 //     src={src}
                 //     alt={alt}
                 //     contentType={contentType}
                 //     contentName={contentName}
                 //  />
-                createElement(EventPageImage, {
+                createElement(MDXImage, {
                     src: src, // normalization is handled in the component
                     mdxFolderPath: mdxFolderPath,
                     alt: alt,
