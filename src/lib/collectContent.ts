@@ -117,20 +117,12 @@ function getFrontMatter(contentType: string, contentName: string) {
             return undefined
         }
 
-        console.warn(
-            '\x1b[33m[Warning]\x1b[0m %s',
-            `Warning: No index.mdx file found in ${filePath}. ` +
+        console.error(
+            '\x1b[31m[Warning]\x1b[0m %s',
+            `Error: No index.mdx file found in ${filePath}. ` +
                 `Consider renaming the MDX file in ${contentName} folder to index.mdx.`
         )
 
-        for (const file of readdirSync(dir)) {
-            if (file.endsWith('.mdx')) {
-                const content = readFileSync(join(dir, file), 'utf8')
-                const { data } = matter(content)
-                return data
-            }
-        }
-
-        return undefined
+        throw new Error(`No index.mdx file found in ${filePath}`)
     }
 }
