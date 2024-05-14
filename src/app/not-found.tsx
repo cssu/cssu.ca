@@ -4,7 +4,7 @@ export default function NotFound() {
     return (
         <section
             className="items-stretch flex flex-col justify-between
-        is-default font-semibold fadeIn z-50"
+        is-default font-semibold fadeIn"
         >
             <div className="hero-body mt-2">
                 <div className="hero-container">
@@ -24,7 +24,7 @@ export default function NotFound() {
                             </h2>
                         </div>
                         <div className="hero-column text-xl is-offset-1">
-                            <figure className="block relative">
+                            <figure className="block relative p-2 md:p-4">
                                 <Image
                                     src="/cssu_square.png"
                                     alt="CSSU Logo"
