@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import ContentImageBanner from './ContentImageBanner'
+import EventBanner from './EventBanner'
 
-type ContentCardProps = {
+type EventCardProps = {
     contentType: string
     title: string
     summary: string
@@ -11,20 +11,20 @@ type ContentCardProps = {
     absoluteImagePath?: string
 }
 
-export default async function ContentCard({
+export default async function EventCard({
     contentType,
     title,
     summary,
     contentSubdirectory,
     image,
     absoluteImagePath,
-}: ContentCardProps) {
+}: EventCardProps) {
     return (
         <div className="column is-4">
             <div className="box">
                 <figure className="image is-3by2">
                     <Link className="w-full h-full" href={`/${contentType}/${contentSubdirectory}`}>
-                        <ContentImageBanner
+                        <EventBanner
                             image={image}
                             absoluteImagePath={absoluteImagePath}
                             title={title}

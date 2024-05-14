@@ -79,6 +79,7 @@ export default function ProfileCard({
                                         alt={fullName}
                                         height={148}
                                         width={148}
+                                        priority
                                     />
                                 </div>
                             )}

@@ -62,6 +62,7 @@ export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProp
                 placeholder="blur"
                 blurDataURL={base64}
                 className="m-auto"
+                priority
             />
         )
     }

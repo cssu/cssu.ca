@@ -3,17 +3,13 @@ import { readFileSync } from 'fs'
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
-type ContentImageProps = {
+type EventBannerProps = {
     title: string
     image?: string
     absoluteImagePath?: string
 }
 
-export default async function ContentImageBanner({
-    title,
-    image,
-    absoluteImagePath,
-}: ContentImageProps) {
+export default async function EventBanner({ title, image, absoluteImagePath }: EventBannerProps) {
     if (image && absoluteImagePath) {
         const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)

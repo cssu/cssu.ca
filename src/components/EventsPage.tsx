@@ -1,4 +1,4 @@
-import ContentCard from '@/components/ContentCard'
+import EventCard from '@/components/EventCard'
 import { getAllFrontMatter } from '@/lib/collectContent'
 import groupBy from '@/lib/groupBy'
 import mapToImage from '@/lib/mapToImage'
@@ -31,7 +31,7 @@ export default function EventsPage({ pageType, pageTitle }: EventsPageProps) {
                                         )
                                         : { nextImagePath: undefined, absoluteImagePath: undefined }
                                 return (
-                                    <ContentCard
+                                    <EventCard
                                         key={`${index}${innerIndex}${event.frontMatter.title}`}
                                         contentType={pageType}
                                         title={event.frontMatter.title}
