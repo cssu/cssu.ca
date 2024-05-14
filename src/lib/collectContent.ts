@@ -118,8 +118,7 @@ export function getAllFrontMatter(contentType: string): {
 function getFrontMatter(contentType: string, contentName: string) {
     const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, 'index.mdx')
     if (existsSync(filePath)) {
-        const content = readFileSync(filePath, 'utf8')
-        const { data } = matter(content)
+        const { data } = matter.read(filePath)
         return data
     } else {
         const dir = join(process.cwd(), `./content/${contentType}/`, contentName)
