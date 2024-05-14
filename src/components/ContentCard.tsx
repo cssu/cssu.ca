@@ -8,6 +8,7 @@ type ContentCardProps = {
     summary: string
     contentSubdirectory: string
     image?: string
+    absoluteImagePath?: string
 }
 
 export default async function ContentCard({
@@ -16,6 +17,7 @@ export default async function ContentCard({
     summary,
     contentSubdirectory,
     image,
+    absoluteImagePath,
 }: ContentCardProps) {
     return (
         <div className="column is-4">
@@ -23,9 +25,8 @@ export default async function ContentCard({
                 <figure className="image is-3by2">
                     <Link className="w-full h-full" href={`/${contentType}/${contentSubdirectory}`}>
                         <ContentImageBanner
-                            contentType={contentType}
-                            contentSubdirectory={contentSubdirectory}
                             image={image}
+                            absoluteImagePath={absoluteImagePath}
                             title={title}
                         />
                     </Link>

@@ -23,11 +23,18 @@ export function getContentPaths(contentType: string): string[] {
     return files
 }
 
-export function getMdxSource(contentType: string, contentName: string): string | undefined {
-    const filePath = join(process.cwd(), `./content/${contentType}/`, contentName, 'index.mdx')
+export function getMdxSource(
+    contentType: string,
+    contentName: string
+): {
+    mdxSource?: string
+    mdxFolderPath?: string
+} {
+    const mdxFolderPath = join(process.cwd(), `./content/${contentType}/`, contentName)
+    const filePath = join(mdxFolderPath, 'index.mdx')
     if (existsSync(filePath)) {
         const content = readFileSync(filePath, 'utf8')
-        return content
+        return { mdxSource: content, mdxFolderPath }
     } else {
         console.error(
             '\x1b[31m[Error]\x1b[0m %s',
@@ -40,9 +47,8 @@ export function getMdxSource(contentType: string, contentName: string): string |
 }
 
 export async function compilePostMDX(
-    contentType: string,
-    contentName: string,
-    mdxSource: string
+    mdxSource: string,
+    mdxFolderPath: string
 ): Promise<{
     content: React.ReactElement<any, string | React.JSXElementConstructor<any>>
     frontmatter: any
@@ -60,8 +66,7 @@ export async function compilePostMDX(
                 // is equal to:
                 createElement(SmartImage, {
                     ...props,
-                    overriddenContentType: contentType,
-                    overriddenContentSubdirectory: contentName,
+                    overriddenMDXFolderPath: props.overriddenMDXFolderPath || mdxFolderPath,
                 }),
             img: ({ src, alt }) =>
                 // <EventPageImage
@@ -72,9 +77,8 @@ export async function compilePostMDX(
                 //  />
                 createElement(EventPageImage, {
                     src: src, // normalization is handled in the component
+                    mdxFolderPath: mdxFolderPath,
                     alt: alt,
-                    contentType: contentType,
-                    contentName: contentName,
                 }),
             a: ({ children, href }) =>
                 createElement(
@@ -88,19 +92,26 @@ export async function compilePostMDX(
     })
 }
 
-export function getAllFrontMatter(contentType: string) {
-    const frontMatters = []
+export function getAllFrontMatter(contentType: string): {
+    frontMatter: any
+    mdxFolderPath: string
+    eventDirectory: string
+}[] {
+    const frontMattersAndPaths = []
     const dir = join(process.cwd(), `./content/${contentType}/`)
 
     for (const subdirectory of readdirSync(dir)) {
         const frontMatter = getFrontMatter(contentType, subdirectory)
         if (frontMatter) {
-            frontMatter.eventDirectory = subdirectory
-            frontMatters.push(frontMatter)
+            frontMattersAndPaths.push({
+                frontMatter,
+                mdxFolderPath: join(dir, subdirectory),
+                eventDirectory: subdirectory,
+            })
         }
     }
-    return frontMatters.sort((a, b) => {
-        return new Date(b.date).getTime() - new Date(a.date).getTime()
+    return frontMattersAndPaths.sort((a, b) => {
+        return new Date(b.frontMatter.date).getTime() - new Date(a.frontMatter.date).getTime()
     })
 }
 

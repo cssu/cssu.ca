@@ -11,18 +11,18 @@
  *
  * @example
  * // Downscale example
- * const dimensions = resizeImage(1000, 2000, 200);
- * console.log(dimensions); // { newWidth: 100, newHeight: 200 }
+ * const dimensions = resizeImage(1000, 2000, 200)
+ * console.log(dimensions) // { newWidth: 100, newHeight: 200 }
  *
  * @example
  * // Upscale example
- * const dimensions = resizeImage(50, 100, 200);
- * console.log(dimensions); // { newWidth: 100, newHeight: 200 }
+ * const dimensions = resizeImage(50, 100, 200)
+ * console.log(dimensions) // { newWidth: 100, newHeight: 200 }
  *
  * @example
  * // Same dimensions example
- * const dimensions = resizeImage(100, 200, 200);
- * console.log(dimensions); // { newWidth: 100, newHeight: 200 }
+ * const dimensions = resizeImage(100, 200, 200)
+ * console.log(dimensions) // { newWidth: 100, newHeight: 200 }
  */
 export default function calculateImageDimensions(
     originalWidth: number,

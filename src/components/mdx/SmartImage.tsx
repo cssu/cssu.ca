@@ -1,18 +1,17 @@
 import { readFileSync } from 'fs'
-import { join, normalize } from 'path'
 
 import sizeOf from 'image-size'
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
 import calculateImageDimensions from '@/lib/calculateImageDimensions'
+import mapToImage from '@/lib/mapToImage'
 
 type SmartImageProps = {
     src: string
     alt: string
     centered?: boolean
-    overriddenContentType?: string
-    overriddenContentSubdirectory?: string
+    overriddenMDXFolderPath?: string
     scaleTo?: number
     noSpace?: boolean
     unoptimized?: boolean
@@ -22,8 +21,7 @@ export default async function SmartImage({
     src,
     alt,
     centered = false,
-    overriddenContentType,
-    overriddenContentSubdirectory,
+    overriddenMDXFolderPath,
     scaleTo,
     noSpace = false,
     unoptimized = false,
@@ -66,12 +64,21 @@ export default async function SmartImage({
             )
         }
 
-        const imageUri = join(
-            process.cwd(),
-            `./public/build-images/${overriddenContentType}/${overriddenContentSubdirectory}/${src}`
-        )
-        const { width, height } = sizeOf(imageUri)
-        const buffer = readFileSync(imageUri)
+        if (!overriddenMDXFolderPath) {
+            console.error(
+                '\x1b[31m[Error]\x1b[0m %s',
+                'The overriddenMDXFolderPath prop is required for SmartImage components.'
+            )
+            throw new Error(
+                'The overriddenMDXFolderPath prop is required for SmartImage components. ' +
+                    'In most of the cases, this is handled in the compilation process. ' +
+                    'If you encounter this error, please open an issue.'
+            )
+        }
+
+        const { nextImagePath, absoluteImagePath } = mapToImage(overriddenMDXFolderPath, src)
+        const { width, height } = sizeOf(absoluteImagePath)
+        const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)
 
         if (!width || !height) {
@@ -87,14 +94,10 @@ export default async function SmartImage({
             newHeight = result.newHeight
         }
 
-        const publicImagePath = normalize(
-            `/build-images/${overriddenContentType}/${overriddenContentSubdirectory}/${src}`
-        )
-
         return (
             <>
                 <Image
-                    src={publicImagePath}
+                    src={nextImagePath}
                     alt={alt}
                     width={newWidth}
                     height={newHeight}

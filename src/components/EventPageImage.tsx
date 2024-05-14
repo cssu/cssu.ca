@@ -1,33 +1,24 @@
 import { readFileSync } from 'fs'
-import { join, normalize } from 'path'
 
 import sizeOf from 'image-size'
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
 import calculateImageDimensions from '@/lib/calculateImageDimensions'
+import mapToImage from '@/lib/mapToImage'
 
 const DEFAULT_IMAGE_HEIGHT = 512
 
 type EventPageImageProps = {
     src?: string
     alt?: string
-    contentType: string
-    contentName: string
+    mdxFolderPath: string
 }
 
-export default async function EventPageImage({
-    src,
-    alt,
-    contentType,
-    contentName,
-}: EventPageImageProps) {
+export default async function EventPageImage({ src, alt, mdxFolderPath }: EventPageImageProps) {
     if (!src) {
-        console.error(
-            '\x1b[31m[Error]\x1b[0m %s',
-            `Image source not provided in ${contentType}/${contentName}`
-        )
-        throw new Error(`Image source not provided in ${contentType}/${contentName}`)
+        console.error('\x1b[31m[Error]\x1b[0m %s', `Image source not provided in ${src}`)
+        throw new Error(`Image source not provided in ${src}`)
     }
 
     const isRemote = src.startsWith('http')
@@ -35,28 +26,25 @@ export default async function EventPageImage({
     if (isRemote) {
         console.warn(
             '\x1b[33m[Warning]\x1b[0m %s',
-            `Image ${src} in ${contentType}/${contentName} is remote. ` +
+            `Image ${src} in ${mdxFolderPath} is remote. ` +
                 'This is not recommended! Consider downloading the image and adding ' +
                 'it to the content directory, or wrapping the image in a SmartImage component ' +
-                'to disable image optimization and still use the image remotely.'
+                'to disable image optimization explicitly and still use the image remotely.'
         )
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />
     } else {
-        const imageUri = join(
-            process.cwd(),
-            `./public/build-images/${contentType}/${contentName}/${src}`
-        )
-        const { width, height } = sizeOf(imageUri)
-        const buffer = readFileSync(imageUri)
+        const { nextImagePath, absoluteImagePath } = mapToImage(mdxFolderPath, src)
+        const { width, height } = sizeOf(absoluteImagePath)
+        const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)
 
         if (!width || !height) {
             console.error(
                 '\x1b[31m[Error]\x1b[0m %s',
-                `Image ${src} not found in ${contentType}/${contentName}`
+                `Image ${src} not found in ${absoluteImagePath}.`
             )
-            throw new Error(`Image ${src} not found in ${contentType}/${contentName}`)
+            throw new Error(`Image ${src} not found in ${absoluteImagePath}.`)
         }
 
         const { newWidth, newHeight } = calculateImageDimensions(
@@ -65,12 +53,9 @@ export default async function EventPageImage({
             DEFAULT_IMAGE_HEIGHT
         )
 
-        // Modify the src so that it is mapped to /build-images/<contentType>/<contentName>/<src>.
-        // For example, this could be `/build-images/events/ai-and-ethics/aiethics.png`.
-        // The images in content are copied to public/build-images by webpack.
         return (
             <Image
-                src={normalize(`/build-images/${contentType}/${contentName}/${src}`)}
+                src={nextImagePath}
                 alt={alt || 'Event image'}
                 height={newHeight}
                 width={newWidth}

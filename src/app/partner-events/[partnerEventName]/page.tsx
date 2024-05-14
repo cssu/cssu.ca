@@ -16,7 +16,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { partnerEventName: string } }) {
-    const mdxSource = getMdxSource(PAGE_TYPE, params.partnerEventName)
+    const { mdxSource } = getMdxSource(PAGE_TYPE, params.partnerEventName)
 
     if (!mdxSource) {
         return {
@@ -40,14 +40,14 @@ type EventProps = {
 export default async function PartnerEvent({ params }: { params: EventProps }) {
     const { partnerEventName } = params
 
-    const mdxSource = getMdxSource(PAGE_TYPE, partnerEventName)
+    const { mdxSource, mdxFolderPath } = getMdxSource(PAGE_TYPE, partnerEventName)
 
     // See the end of file for comments on this.
-    if (!mdxSource) {
+    if (!mdxSource || !mdxFolderPath) {
         return notFound()
     }
 
-    const { content, frontmatter } = await compilePostMDX(PAGE_TYPE, partnerEventName, mdxSource)
+    const { content, frontmatter } = await compilePostMDX(mdxSource, mdxFolderPath)
 
     return <InformationPage metadata={frontmatter}>{content}</InformationPage>
 }

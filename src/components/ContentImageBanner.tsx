@@ -1,34 +1,26 @@
 import { readFileSync } from 'fs'
-import { join } from 'path'
 
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
 type ContentImageProps = {
-    contentType: string
-    contentSubdirectory: string
-    image?: string
     title: string
+    image?: string
+    absoluteImagePath?: string
 }
 
 export default async function ContentImageBanner({
-    contentType,
-    contentSubdirectory,
-    image,
     title,
+    image,
+    absoluteImagePath,
 }: ContentImageProps) {
-    if (image) {
-        const imageUri = join(
-            process.cwd(),
-            `./public/build-images/${contentType}/${contentSubdirectory}/${image}`
-        )
-
-        const buffer = readFileSync(imageUri)
+    if (image && absoluteImagePath) {
+        const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)
 
         return (
             <Image
-                src={`/build-images/${contentType}/${contentSubdirectory}/${image}`}
+                src={image}
                 className="w-auto h-full m-auto object-contain"
                 alt={`Image describing ${title}`}
                 placeholder="blur"
