@@ -13,8 +13,9 @@ type SmartImageProps = {
     centered?: boolean
     overriddenMDXFolderPath?: string
     scaleTo?: number
-    noSpace?: boolean
+    noLinebreak?: boolean
     unoptimized?: boolean
+    priority?: boolean
 }
 
 export default async function SmartImage({
@@ -23,8 +24,9 @@ export default async function SmartImage({
     centered = false,
     overriddenMDXFolderPath,
     scaleTo,
-    noSpace = false,
+    noLinebreak = false,
     unoptimized = false,
+    priority = false,
 }: SmartImageProps) {
     // While alt is a required attribute, it is still possible to forget it in the MDX file.
     if (!alt) {
@@ -41,12 +43,16 @@ export default async function SmartImage({
     const isRemote = src.startsWith('http')
 
     if (isRemote) {
-        // eslint-disable-next-line @next/next/no-img-element
         return (
             <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt={alt} className={centered ? 'm-auto' : ''} />
-                {!noSpace && <br />}
+                <img
+                    src={src}
+                    alt={alt}
+                    className={centered ? 'm-auto' : ''}
+                    fetchPriority={priority ? 'high' : 'auto'}
+                />
+                {!noLinebreak && <br />}
             </>
         )
     } else {
@@ -105,8 +111,9 @@ export default async function SmartImage({
                     blurDataURL={base64}
                     className={centered ? 'm-auto' : ''}
                     unoptimized={unoptimized}
+                    priority={priority}
                 />
-                {!noSpace && <br />}
+                {!noLinebreak && <br />}
             </>
         )
     }
