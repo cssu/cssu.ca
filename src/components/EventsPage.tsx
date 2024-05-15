@@ -23,7 +23,8 @@ export default function EventsPage({ pageType, pageTitle }: EventsPageProps) {
                     {groupedFrontMatters.map((group, index) => (
                         <div
                             key={index}
-                            className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem] md:flex"
+                            className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem]
+                            last:mb-[-0.75rem] md:flex"
                         >
                             {group.map((event, innerIndex) => {
                                 const { nextImagePath, absoluteImagePath } =

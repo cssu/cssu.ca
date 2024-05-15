@@ -21,7 +21,8 @@ function IconHolder({ icon, text, href }: IconHolderProps) {
             <a
                 href={href}
                 target="_blank"
-                className="inline-flex items-center space-x-1 hover:text-[#fcfcfc] text-[#98a9c3] font-normal transition-all duration-300"
+                className="inline-flex items-center space-x-1 hover:text-[#fcfcfc]
+                text-[#98a9c3] font-normal transition-all duration-300"
             >
                 <span className="flex justify-center items-center h-6 w-6">{icon}</span>
                 <span className="flex text-base">{text}</span>
@@ -93,7 +94,7 @@ export default function Footer() {
                     </form>
                 </div>
 
-                <div className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] mt-0 last:mb-[-0.75rem] md:flex mt-[35px]">
+                <div className="ml-[-0.75rem] mr-[-0.75rem] last:mb-[-0.75rem] md:flex mt-[35px]">
                     <div className="block basis-0 grow shrink p-3">
                         <Image
                             src="/cssu_logo.png"
