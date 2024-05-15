@@ -7,6 +7,7 @@ import rehypeSlug from 'rehype-slug'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
+import remarkUnwrapImages from 'remark-unwrap-images'
 
 import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
@@ -78,9 +79,13 @@ const withMDX = createMDX({
     options: {
         jsx: true,
         remarkPlugins: [
+            // Plugins helping with frontmatter extraction
             remarkFrontmatter,
             remarkMdxFrontmatter,
+            // Custom plugin to export frontmatter, see src/lib/mdxFrontmatterExport.mjs
             mdxFrontmatterExport,
+            // Unwrap images from p tags
+            remarkUnwrapImages,
             // Github flavoured markdown
             remarkGfm,
         ],

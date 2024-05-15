@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
+import remarkUnwrapImages from 'remark-unwrap-images'
 
 import getMDXComponents, { getImgComponent, getFigureComponent } from './getMDXComponents'
 
@@ -57,8 +58,8 @@ export async function compilePostMDX(
         options: {
             parseFrontmatter: true,
             mdxOptions: {
+                remarkPlugins: [remarkUnwrapImages, remarkGfm],
                 rehypePlugins: [rehypeSlug],
-                remarkPlugins: [remarkGfm],
             },
         },
         components: {
