@@ -31,7 +31,7 @@ const nextConfig = {
         ]
     },
     // Remove the next 2 lines if you want the full Next.js experience
-    // with SSR and image optimization :) !
+    // with SSR and image optimization!
     // output: "export",
     // images: { unoptimized: true },
     // Accept MD and MDX files

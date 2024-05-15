@@ -6,7 +6,8 @@ const config: Config = {
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
         './content/**/*.{js,ts,jsx,tsx,mdx}',
-        './src/mdx-components.tsx'
+        './src/lib/getMDXComponents.tsx',
+        './src/mdx-components.tsx',
     ],
     theme: {
         extend: {

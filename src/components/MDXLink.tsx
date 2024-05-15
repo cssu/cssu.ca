@@ -6,9 +6,11 @@ type MDXLinkProps = {
 }
 
 export default function MDXLink({ href, children }: MDXLinkProps) {
-    return href && (href.startsWith('/') || href.startsWith('.')) ? (
-        <Link href={href}> {children} </Link>
-    ) : (
+    if (href && (href.startsWith('/') || href.startsWith('.'))) {
+        return <Link href={href}> {children} </Link>
+    }
+
+    return (
         <a
             href={href}
             target={href?.startsWith('mailto:') ? '_self' : '_blank'}

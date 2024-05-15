@@ -4,11 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-type NavbarHrefProps = {
-    href: string
-    text: string
-}
-
 function MobileNavbarCloseSvg() {
     return (
         <svg
@@ -53,11 +48,19 @@ function MobileNavbarOpenSvg() {
     )
 }
 
-function NavbarHref({ href, text }: NavbarHrefProps) {
+type NavbarHrefProps = {
+    href: string
+    text: string
+    setMobileMenuIsOpen: (isOpen: boolean) => void
+}
+
+// TODO: Make hamburger menu work without CSS
+function NavbarHref({ href, text, setMobileMenuIsOpen }: NavbarHrefProps) {
     return (
         <Link
             href={href}
             className="text-[#999] block leading-normal relative px-3 py-2 grow-0 shrink-0 hover:text-black lg:items-center lg:flex"
+            onClick={() => setMobileMenuIsOpen(false)}
         >
             {text}
         </Link>
@@ -131,13 +134,41 @@ export default function Navbar() {
                     }
                 >
                     <div className="items-center lg:items-stretch lg:flex lg:justify-end lg:ml-auto">
-                        <NavbarHref href="/ba2250/" text="BA2250" />
-                        <NavbarHref href="/about/" text="About" />
-                        <NavbarHref href="/community/" text="Community" />
-                        <NavbarHref href="/posts/student-resources/" text="Resources" />
-                        <NavbarHref href="/partner-events/" text="Partner Events" />
-                        <NavbarHref href="/events/" text="Events" />
-                        <NavbarHref href="/posts/" text="Posts" />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/ba2250/"
+                            text="BA2250"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/about/"
+                            text="About"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/community/"
+                            text="Community"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/posts/student-resources/"
+                            text="Resources"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/partner-events/"
+                            text="Partner Events"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/events/"
+                            text="Events"
+                        />
+                        <NavbarHref
+                            setMobileMenuIsOpen={setMobileMenuIsOpen}
+                            href="/posts/"
+                            text="Posts"
+                        />
                     </div>
                 </div>
             </div>
