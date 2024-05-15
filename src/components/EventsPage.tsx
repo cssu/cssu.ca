@@ -14,14 +14,17 @@ export default function EventsPage({ pageType, pageTitle }: EventsPageProps) {
     const groupedFrontMatters = groupBy(frontMatters, 3)
 
     return (
-        <section className="section is-medium fadeIn">
+        <section className="block py-12 px-6 lg:py-36 lg:px-6 fadeIn">
             <div className="section-container">
                 <h1 className="title section-title">{pageTitle}</h1>
-                <div className="subtitle is-5 is-muted"></div>
-                <div className="divider"></div>
-                <div className="section">
+                <div className="subtitle text-xl text-[#999]"></div>
+                <div className="h-[3px] rounded-[50px] bg-black w-[60px]"></div>
+                <div className="block py-12 px-6">
                     {groupedFrontMatters.map((group, index) => (
-                        <div key={index} className="columns">
+                        <div
+                            key={index}
+                            className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem] md:flex"
+                        >
                             {group.map((event, innerIndex) => {
                                 const { nextImagePath, absoluteImagePath } =
                                     event.mdxFolderPath && event.frontMatter.summaryImage

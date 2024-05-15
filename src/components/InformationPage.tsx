@@ -5,21 +5,21 @@ type InformationPageProps = {
 
 export default function InformationPage({ metadata, children }: InformationPageProps) {
     return (
-        <section className="section is-medium fadeIn">
+        <section className="block py-12 px-6 lg:py-36 lg:px-6 fadeIn">
             <div className="section-container">
-                <div className="columns">
-                    <div className="column is-centered-tablet-portrait">
+                <div className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem] md:flex">
+                    <div className="block basis-0 grow shrink p-3 text-left md:text-center lg:text-left">
                         <h1 className="title is-2 section-title">{metadata.title}</h1>
-                        <div className="subtitle is-5 is-muted"></div>
-                        <div className="divider"></div>
-                        <section className="section content has-text-left">{children}</section>
+                        <div className="subtitle text-xl text-[#999]"></div>
+                        <div className="h-[3px] rounded-[50px] bg-black w-[60px] md:mx-auto !md:my-0 lg:mx-0"></div>
+                        <section className="block py-12 px-6 content text-left">{children}</section>
                     </div>
                 </div>
             </div>
             {!metadata.hideLastModified && (
                 <div className="section-container">
-                    <div className="columns">
-                        <div className="column has-text-right is-centered-tablet-portrait">
+                    <div className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] last:mb-[-0.75rem] md:flex">
+                        <div className="block basis-0 grow shrink p-3 text-right md:text-center lg:text-right">
                             <span className="font-mono">
                                 Last modified:&nbsp;
                                 {new Date(

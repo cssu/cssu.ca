@@ -18,7 +18,11 @@ type IconHolderProps = {
 function IconHolder({ icon, text, href }: IconHolderProps) {
     return (
         <li>
-            <a href={href} target="_blank" className="inline-flex items-center space-x-1">
+            <a
+                href={href}
+                target="_blank"
+                className="inline-flex items-center space-x-1 hover:text-[#fcfcfc] text-[#98a9c3] font-normal transition-all duration-300"
+            >
                 <span className="flex justify-center items-center h-6 w-6">{icon}</span>
                 <span className="flex text-base">{text}</span>
             </a>
@@ -28,10 +32,11 @@ function IconHolder({ icon, text, href }: IconHolderProps) {
 
 export default function Footer() {
     return (
-        <footer className="footer footer-dark">
+        <footer className="pt-12 pb-24 px-6 block text-white bg-black">
             <div className="footer-container">
                 <div id="mc_embed_signup">
                     <form
+                        // TODO: Clean up this form and make it functional
                         action=""
                         method="post"
                         id="mc-embedded-subscribe-form"
@@ -88,7 +93,7 @@ export default function Footer() {
                     </form>
                 </div>
 
-                <div className="columns">
+                <div className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem] mt-0 last:mb-[-0.75rem] md:flex mt-[35px]">
                     <div className="block basis-0 grow shrink p-3">
                         <Image
                             src="/cssu_logo.png"
@@ -100,11 +105,11 @@ export default function Footer() {
                     </div>
 
                     <div className="block basis-0 grow shrink p-3">
-                        <div className="footer-column">
-                            <div className="footer-header">
+                        <div>
+                            <div className="font-medium text-base uppercase tracking-[1px] mb-5">
                                 <h3>Social Media</h3>
                             </div>
-                            <ul className="link-list">
+                            <ul className="leading-10 text-[1.1rem]">
                                 <IconHolder
                                     icon={<FaEnvelope />}
                                     text="Email"
@@ -133,11 +138,11 @@ export default function Footer() {
                     </div>
 
                     <div className="block basis-0 grow shrink p-3">
-                        <div className="footer-column">
-                            <div className="footer-header">
+                        <div>
+                            <div className="font-medium text-base uppercase tracking-[1px] mb-5">
                                 <h3>Workspaces</h3>
                             </div>
-                            <ul className="link-list">
+                            <ul className="leading-10 text-[1.1rem]">
                                 <IconHolder
                                     icon={<FaDiscord />}
                                     text="Discord"
@@ -153,11 +158,11 @@ export default function Footer() {
                     </div>
 
                     <div className="block basis-0 grow shrink p-3">
-                        <div className="footer-column">
-                            <div className="footer-header">
+                        <div>
+                            <div className="font-medium text-base uppercase tracking-[1px] mb-5">
                                 <h3>Site issues?</h3>
                             </div>
-                            <ul className="link-list">
+                            <ul className="leading-10 text-[1.1rem]">
                                 <IconHolder
                                     icon={<FaGithub />}
                                     text="Report it on GitHub"
