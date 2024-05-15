@@ -10,6 +10,7 @@ import './globals.css'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
+// TODO: OG Image for each page
 export const metadata: Metadata = {
     title: {
         template: '%s | CSSU @ UofT',
