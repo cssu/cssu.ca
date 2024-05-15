@@ -18,12 +18,12 @@ function MobileNavbarCloseSvg() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >
-            <g stroke-width="0" />
+            <g strokeWidth="0" />
             <g strokeLinecap="round" strokeLinejoin="round" />
             <path
                 d="m16 8-8 8m0-8 8 8"
                 stroke="#000"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
             />
@@ -55,7 +55,10 @@ function MobileNavbarOpenSvg() {
 
 function NavbarHref({ href, text }: NavbarHrefProps) {
     return (
-        <Link href={href} className="navbar-item is-secondary">
+        <Link
+            href={href}
+            className="text-[#999] block leading-normal relative px-3 py-2 grow-0 shrink-0 hover:text-black lg:items-center lg:flex"
+        >
             {text}
         </Link>
     )
@@ -82,30 +85,37 @@ export default function Navbar() {
 
     return (
         <nav
-            className={`navbar is-fresh is-transparent ${hasShadow ? 'shadow-active' : ''}`}
+            className={`bg-white min-h-[3.25rem] relative z-30 lg:items-stretch lg:flex lg:min-h-[3.25rem] relative min-h-[3.8rem] transition-all bg-transparent ${
+                hasShadow ? 'navbar-shadow-active' : ''
+            }`}
             role="navigation"
             aria-label="main navigation"
         >
-            <div className="navbar-container">
-                <div className="navbar-brand pr-2 md:pr-0">
-                    <Link className="navbar-item" href="/">
+            <div className="navbar-screen mx-auto items-stretch w-full block lg:flex min-h-[4rem]">
+                <div className="items-stretch lg:ml-[-0.75rem] shrink-0 min-h-[4rem] flex pr-2 md:pr-0">
+                    <Link
+                        className="text-[#999] block leading-normal relative px-3 py-2 grow-0 shrink-0 hover:text-black items-center flex lg:block lg:items-center lg:flex"
+                        href="/"
+                    >
                         <Image
                             src="/horizontal_logo_black.png"
                             alt="CSSU Logo"
+                            className="max-h-9 h-9"
                             width={128}
                             height={32}
                             priority
                         />
                     </Link>
-                    <div className="navbar-item is-expanded"></div>
+                    <div className="text-[#999] block leading-normal relative px-3 py-2 hover:text-black items-center flex lg:block lg:items-center lg:flex grow shrink"></div>
                     <div
-                        className="flex m-auto items-center
-                        justify-center navbar-item is-hidden-desktop"
+                        className="m-auto items-center
+                        justify-center text-[#999] block leading-normal relative px-3 py-2 grow-0 shrink-0 hover:text-black flex lg:items-center lg:hidden"
                     >
                         <button
                             onClick={() => setMobileMenuIsOpen((isOpen) => !isOpen)}
-                            id="menu-icon-trigger"
-                            className="menu-icon-trigger"
+                            // id="menu-icon-trigger"
+                            // className="menu-icon-trigger"
+                            className="relative w-full h-full cursor-pointer pointer-events-auto m-0 p-0"
                             aria-label="menu"
                         >
                             {mobileMenuIsOpen ? <MobileNavbarCloseSvg /> : <MobileNavbarOpenSvg />}
@@ -113,14 +123,14 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div
-                    id="navbar-menu"
+                    // id="navbar-menu"
                     className={
                         mobileMenuIsOpen
                             ? 'flex flex-col text-center justify-center shadow-md'
-                            : 'navbar-menu is-static'
+                            : 'hidden lg:grow lg:shrink-0 px-0 py-2 lg:px-0 lg:py-0 lg:items-stretch lg:flex lg:mr-[-0.75rem]'
                     }
                 >
-                    <div className="navbar-end">
+                    <div className="items-center lg:items-stretch lg:flex lg:justify-end lg:ml-auto">
                         <NavbarHref href="/ba2250/" text="BA2250" />
                         <NavbarHref href="/about/" text="About" />
                         <NavbarHref href="/community/" text="Community" />
