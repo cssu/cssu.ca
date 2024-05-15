@@ -13,6 +13,8 @@ This repository uses Yarn as the primary package manager. You can install it by 
 ```bash
 yarn install # Install dependencies
 yarn dev     # Start the development server
+yarn lint    # Lint the code
+yarn clean   # Clean the build files
 yarn build   # Build the website
 yarn start   # Start the production server
 ```
