@@ -2,29 +2,35 @@ import Image from 'next/image'
 
 export default function NotFound() {
     return (
-        <section
-            className="items-stretch flex flex-col justify-between
-        is-default font-semibold fadeIn"
-        >
-            <div className="hero-body mt-2">
-                <div className="hero-container">
-                    <div className="hero-columns is-vcentered">
-                        <div className="hero-column space-y-4 text-xl is-offset-1 landing-caption">
+        <section className="items-stretch flex flex-col justify-between font-semibold fadeIn">
+            <div className="grow shrink-0 px-6 py-24 mt-2">
+                <div
+                    className="grow relative w-auto mx-auto my-0
+                lg:max-w-[960px] xl:max-w-6xl 2xl:max-w-[1344px]"
+                >
+                    <div
+                        className="ml-[-0.75rem] mr-[-0.75rem] mt-[-0.75rem]
+                    last:mb-[-0.75rem] items-center md:flex"
+                    >
+                        <div
+                            className="block basis-0 grow shrink p-3 space-y-5 text-xl
+                        md:ml-[8.33333333%] text-center md:text-left"
+                        >
                             <h1
                                 className="text-[#363636] font-semibold
-                            leading-[1.125] text-5xl is-spaced"
+                                leading-[1.125] text-5xl text-center lg:text-left"
                             >
                                 404 - Page Not Found :(
                             </h1>
                             <h2
                                 className="text-xl font-light leading-tight 
-                        text-[#656565] break-words"
+                            text-[#656565] break-words text-center lg:text-left"
                             >
                                 This is not the page you were looking for...
                             </h2>
                         </div>
-                        <div className="hero-column text-xl is-offset-1">
-                            <figure className="block relative p-2 md:p-4">
+                        <div className="block basis-0 grow shrink p-3 text-xl md:ml-[8.33333333%]">
+                            <figure className="block relative">
                                 <Image
                                     src="/cssu_square.png"
                                     alt="CSSU Logo"
