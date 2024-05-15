@@ -3,11 +3,8 @@ import { join } from 'path'
 
 import matter from 'gray-matter'
 import { compileMDX } from 'next-mdx-remote/rsc'
-import { createElement } from 'react'
 
-import SmartImage from '@/components/mdx/SmartImage'
-import MDXImage from '@/components/MDXImage'
-import MDXLink from '@/components/MDXLink'
+import getMDXComponents, { getImgComponent, getFigureComponent } from './getMDXComponents'
 
 export function getContentPaths(contentType: string): string[] {
     const files = []
@@ -57,37 +54,9 @@ export async function compilePostMDX(
         source: mdxSource,
         options: { parseFrontmatter: true },
         components: {
-            SmartImage: (props) =>
-                // I didn't want to mark this a `tsx` file. So, the code:
-                // <SmartImage {...props}
-                //      overriddenContentType={contentType}
-                //      overriddenContentSubdirectory={contentName}
-                //  />
-                // is equal to:
-                createElement(SmartImage, {
-                    ...props,
-                    overriddenMDXFolderPath: props.overriddenMDXFolderPath || mdxFolderPath,
-                }),
-            img: ({ src, alt }) =>
-                // <MDXImageImage
-                //     src={src}
-                //     alt={alt}
-                //     contentType={contentType}
-                //     contentName={contentName}
-                //  />
-                createElement(MDXImage, {
-                    src: src, // normalization is handled in the component
-                    mdxFolderPath: mdxFolderPath,
-                    alt: alt,
-                }),
-            a: ({ children, href }) =>
-                createElement(
-                    MDXLink,
-                    {
-                        href,
-                    },
-                    children
-                ),
+            ...getImgComponent(mdxFolderPath),
+            ...getFigureComponent(mdxFolderPath),
+            ...getMDXComponents(),
         },
     })
 }

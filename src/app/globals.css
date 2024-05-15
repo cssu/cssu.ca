@@ -75,6 +75,7 @@ html {
 .footer-container {
     @apply grow relative w-auto mx-auto my-0 lg:max-w-[960px];
 }
+
 @media screen and (min-width: 1216px) {
     .footer-container {
         @apply max-w-6xl;
@@ -153,21 +154,6 @@ ul {
     list-style: none;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-td,
-th {
-    padding: 0;
-}
-
-td:not([align]),
-th:not([align]) {
-    text-align: left;
-}
-
 blockquote {
     display: block;
     margin-block-start: 1em;
@@ -211,18 +197,30 @@ a strong {
     color: currentColor;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+    text-align: left;
+}
+
 table td,
 table th {
     vertical-align: top;
+    color: #363636;
 }
 
 table td:not([align]),
 table th:not([align]) {
     text-align: left;
-}
-
-table th {
-    color: #363636;
 }
 
 .content li + li {

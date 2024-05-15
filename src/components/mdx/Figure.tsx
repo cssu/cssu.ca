@@ -7,7 +7,7 @@ import { getPlaiceholder } from 'plaiceholder'
 import calculateImageDimensions from '@/lib/calculateImageDimensions'
 import mapToImage from '@/lib/mapToImage'
 
-type SmartImageProps = {
+type FigureProps = {
     src: string
     alt: string
     centered?: boolean
@@ -18,7 +18,7 @@ type SmartImageProps = {
     priority?: boolean
 }
 
-export default async function SmartImage({
+export default async function Figure({
     src,
     alt,
     centered = false,
@@ -27,7 +27,7 @@ export default async function SmartImage({
     noLinebreak = false,
     unoptimized = false,
     priority = false,
-}: SmartImageProps) {
+}: FigureProps) {
     // While alt is a required attribute, it is still possible to forget it in the MDX file.
     if (!alt) {
         console.error('\x1b[31m[Error]\x1b[0m %s', `Alt text not provided for image ${src}.`)
@@ -73,10 +73,12 @@ export default async function SmartImage({
         if (!overriddenMDXFolderPath) {
             console.error(
                 '\x1b[31m[Error]\x1b[0m %s',
-                'The overriddenMDXFolderPath prop is required for SmartImage components.'
+                'The overriddenMDXFolderPath prop is required for the Figure component. ' +
+                    'In most of the cases, this is handled in the compilation process. ' +
+                    'If you encounter this error, please open an issue.'
             )
             throw new Error(
-                'The overriddenMDXFolderPath prop is required for SmartImage components. ' +
+                'The overriddenMDXFolderPath prop is required for the Figure component. ' +
                     'In most of the cases, this is handled in the compilation process. ' +
                     'If you encounter this error, please open an issue.'
             )

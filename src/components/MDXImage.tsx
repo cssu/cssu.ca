@@ -28,8 +28,8 @@ export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProp
             '\x1b[33m[Warning]\x1b[0m %s',
             `Image ${src} in ${mdxFolderPath} is remote. ` +
                 'This is not recommended! Consider downloading the image and adding ' +
-                'it to the content directory, or wrapping the image in a SmartImage component ' +
-                'to disable image optimization explicitly and still use the image remotely.'
+                'it to the content directory, or wrapping the image in a Figure component ' +
+                'to explicitly disable image optimization and use images remotely.'
         )
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />

@@ -1,6 +1,6 @@
 import AboutMDX, { frontMatter } from '$/about/index.mdx'
 import InformationPage from '@/components/InformationPage'
-import getRootComponents from '@/lib/getRootComponents'
+import { getFigureComponent, getImgComponent } from '@/lib/getMDXComponents'
 
 import type { Metadata } from 'next'
 
@@ -14,7 +14,9 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <InformationPage metadata={frontMatter}>
-            <AboutMDX components={getRootComponents(PAGE_URL)} />
+            <AboutMDX
+                components={{ ...getImgComponent(PAGE_URL), ...getFigureComponent(PAGE_URL) }}
+            />
         </InformationPage>
     )
 }

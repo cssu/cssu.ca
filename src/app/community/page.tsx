@@ -1,6 +1,6 @@
 import CommunityMDX, { frontMatter } from '$/community/index.mdx'
 import InformationPage from '@/components/InformationPage'
-import getRootComponents from '@/lib/getRootComponents'
+import { getFigureComponent, getImgComponent } from '@/lib/getMDXComponents'
 
 import type { Metadata } from 'next'
 
@@ -14,7 +14,9 @@ export const metadata: Metadata = {
 export default function CommunityVolunteering() {
     return (
         <InformationPage metadata={frontMatter}>
-            <CommunityMDX components={getRootComponents(PAGE_URL)} />
+            <CommunityMDX
+                components={{ ...getImgComponent(PAGE_URL), ...getFigureComponent(PAGE_URL) }}
+            />
         </InformationPage>
     )
 }
