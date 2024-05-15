@@ -3,6 +3,7 @@ import path from 'path'
 import createMDX from '@next/mdx'
 // eslint-disable-next-line import/default
 import CopyWebpackPlugin from 'copy-webpack-plugin'
+import rehypeSlug from 'rehype-slug'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
@@ -83,7 +84,7 @@ const withMDX = createMDX({
             // Github flavoured markdown
             remarkGfm,
         ],
-        rehypePlugins: [],
+        rehypePlugins: [rehypeSlug],
     },
 })
 

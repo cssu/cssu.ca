@@ -13,7 +13,7 @@ export default function MDXLink({ href, children }: MDXLinkProps) {
     return (
         <a
             href={href}
-            target={href?.startsWith('mailto:') ? '_self' : '_blank'}
+            target={href?.startsWith('mailto:') || href?.startsWith('#') ? '_self' : '_blank'}
             rel="noopener noreferrer"
         >
             {children}

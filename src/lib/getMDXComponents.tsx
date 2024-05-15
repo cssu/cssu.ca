@@ -6,6 +6,20 @@ import MDXLink from '@/components/MDXLink'
 
 import type { MDXComponents } from 'mdx/types'
 
+export default function getMDXComponents(): MDXComponents {
+    return {
+        a: ({ children, href }: { children: React.ReactNode; href: string }) => (
+            <MDXLink href={href}>{children}</MDXLink>
+        ),
+        table: ({ children }: { children: React.ReactNode }) => (
+            <div className="overflow-scroll">
+                <table>{children}</table>
+            </div>
+        ),
+        h1: ({ children }: { children: React.ReactNode }) => <h1 id="">{children}</h1>,
+    } as MDXComponents
+}
+
 export function getImgComponent(pagePathOrMdxFolderPath: string) {
     return {
         img: ({ src, alt }: { src?: string; alt?: string }) => (
@@ -36,17 +50,4 @@ export function getFigureComponent(pagePathOrMdxFolderPath: string) {
             />
         ),
     }
-}
-
-export default function getMDXComponents(): MDXComponents {
-    return {
-        a: ({ children, href }: { children: React.ReactNode; href: string }) => (
-            <MDXLink href={href}>{children}</MDXLink>
-        ),
-        table: ({ children }: { children: React.ReactNode }) => (
-            <div className="overflow-scroll">
-                <table>{children}</table>
-            </div>
-        ),
-    } as MDXComponents
 }

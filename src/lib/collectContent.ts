@@ -3,6 +3,8 @@ import { join } from 'path'
 
 import matter from 'gray-matter'
 import { compileMDX } from 'next-mdx-remote/rsc'
+import rehypeSlug from 'rehype-slug'
+import remarkGfm from 'remark-gfm'
 
 import getMDXComponents, { getImgComponent, getFigureComponent } from './getMDXComponents'
 
@@ -52,7 +54,13 @@ export async function compilePostMDX(
 }> {
     return await compileMDX({
         source: mdxSource,
-        options: { parseFrontmatter: true },
+        options: {
+            parseFrontmatter: true,
+            mdxOptions: {
+                rehypePlugins: [rehypeSlug],
+                remarkPlugins: [remarkGfm],
+            },
+        },
         components: {
             ...getImgComponent(mdxFolderPath),
             ...getFigureComponent(mdxFolderPath),
