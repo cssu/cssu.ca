@@ -16,7 +16,6 @@ export default function getMDXComponents(): MDXComponents {
                 <table>{children}</table>
             </div>
         ),
-        h1: ({ children }: { children: React.ReactNode }) => <h1 id="">{children}</h1>,
     } as MDXComponents
 }
 
