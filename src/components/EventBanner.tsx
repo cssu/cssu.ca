@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs'
 
+import sizeOf from 'image-size'
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
@@ -14,14 +15,19 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
         const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)
 
+        const { width, height } = sizeOf(absoluteImagePath)
+
         return (
             <Image
                 src={image}
-                className="w-auto h-full m-auto object-contain"
+                className="absolute block w-auto h-full m-auto object-contain inset-0"
                 alt={`Image describing ${title}`}
                 placeholder="blur"
                 blurDataURL={base64}
-                fill
+                width={width}
+                height={height}
+                quality={5}
+                priority
             />
         )
     } else {
@@ -30,6 +36,8 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
                 src="/horizontal_logo_black.png"
                 className="h-auto m-auto object-contain"
                 alt="CSSU placeholder logo"
+                quality={10}
+                priority
                 fill
             />
         )

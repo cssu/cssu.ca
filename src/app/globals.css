@@ -109,16 +109,6 @@ h6 {
     @apply overflow-hidden h-[4.5em] text-ellipsis;
 }
 
-.image {
-    display: block;
-    position: relative;
-    padding-top: 66.6666%;
-}
-
-.image img {
-    @apply block h-full w-full absolute inset-0;
-}
-
 .title {
     color: #363636;
     font-size: 2rem;

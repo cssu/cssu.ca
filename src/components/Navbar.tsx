@@ -4,6 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
+import CSSULogoHorizontal from '@/../public/horizontal_logo_black.png'
+
 function MobileNavbarCloseSvg() {
     return (
         <svg
@@ -106,7 +108,7 @@ export default function Navbar() {
                         href="/"
                     >
                         <Image
-                            src="/horizontal_logo_black.png"
+                            src={CSSULogoHorizontal}
                             alt="CSSU Logo"
                             className="max-h-9 h-9"
                             width={128}

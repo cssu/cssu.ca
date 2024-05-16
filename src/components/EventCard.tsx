@@ -26,7 +26,7 @@ export default async function EventCard({
             shadow-[0_2px_3px_rgba(10,10,10,0.1),0_0_0_1px_rgba(10,10,10,0.1)]
             text-[#4a4a4a] block p-5 rounded-md"
             >
-                <figure className="image">
+                <figure className="block relative pt-[66.666666%]">
                     <Link className="w-full h-full" href={`/${contentType}/${contentSubdirectory}`}>
                         <EventBanner
                             image={image}

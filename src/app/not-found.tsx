@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import CSSULogo from '@/../public/cssu_square.png'
+
 export default function NotFound() {
     return (
         <section className="items-stretch flex flex-col justify-between font-semibold fadeIn">
@@ -32,12 +34,12 @@ export default function NotFound() {
                         <div className="block basis-0 grow shrink p-3 text-xl md:ml-[8.33333333%]">
                             <figure className="block relative">
                                 <Image
-                                    src="/cssu_square.png"
+                                    src={CSSULogo}
                                     alt="CSSU Logo"
+                                    className="block h-auto w-full object-contain"
                                     width={400}
                                     height={400}
                                     priority
-                                    className="block h-auto w-full object-contain"
                                 />
                             </figure>
                         </div>

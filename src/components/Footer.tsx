@@ -9,6 +9,8 @@ import {
     FaLinkedinIn,
 } from 'react-icons/fa'
 
+import CSSULogo from '@/../public/cssu_logo.png'
+
 type IconHolderProps = {
     icon: React.ReactNode
     text: string
@@ -97,7 +99,7 @@ export default function Footer() {
                 <div className="ml-[-0.75rem] mr-[-0.75rem] last:mb-[-0.75rem] md:flex mt-[35px]">
                     <div className="block basis-0 grow shrink p-3">
                         <Image
-                            src="/cssu_logo.png"
+                            src={CSSULogo}
                             alt="CSSU Logo"
                             width={400}
                             height={400}
