@@ -4,7 +4,7 @@
 
 This repository contains the source code for the CSSU website. It is built using [Next.js](https://nextjs.org/) with the App directory, TailwindCSS, and TypeScript, and is hosted on [Netlify](https://www.netlify.com/).
 
-The website is highly customizable yet easy to maintain and compile statically. It is a re-write of the original [Hugo ReFresh theme](https://github.com/PippoRJ/hugo-refresh), which was built using Hugo and SASS and licensed under [MIT](https://github.com/PippoRJ/hugo-refresh/blob/master/LICENSE).
+The website is highly customizable yet easy to maintain and compile statically. It is a re-write of the original [Hugo ReFresh theme](https://github.com/PippoRJ/hugo-refresh), which was built using Hugo and SASS and licensed under [MIT](LICENSES/MIT).
 
 ## Getting Started
 
@@ -41,4 +41,4 @@ To learn more about the internal workings of the website, including how static p
 
 This project is licensed under the AGPL-3.0-only license. See the [LICENSE](LICENSE) file for details.
 
-This project is a re-write of the original [Hugo ReFresh theme](https://github.com/PippoRJ/hugo-refresh), licensed under the [MIT License](https://github.com/PippoRJ/hugo-refresh/blob/master/LICENSE).
+This project is a re-write of the original [Hugo ReFresh theme](https://github.com/PippoRJ/hugo-refresh), licensed under the [MIT License](LICENSES/MIT).
