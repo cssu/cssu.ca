@@ -1,4 +1,5 @@
 import { join, normalize, relative, resolve } from 'path'
+
 /**
  * Maps the image path to the correct path:
  *  - If the image source starts with '/', the image is mapped to the /public directory directly.
