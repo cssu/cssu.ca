@@ -20,13 +20,13 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
         return (
             <Image
                 src={image}
-                className="absolute block w-auto h-full m-auto object-contain inset-0"
+                className="block mx-auto w-auto h-full object-contain"
                 alt={`Image describing ${title}`}
                 placeholder="blur"
                 blurDataURL={base64}
                 width={width}
                 height={height}
-                quality={5}
+                quality={10}
                 priority
             />
         )
@@ -34,11 +34,12 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
         return (
             <Image
                 src="/horizontal_logo_black.png"
-                className="h-auto m-auto object-contain"
+                className="block mx-auto w-auto h-full object-contain"
                 alt="CSSU placeholder logo"
+                width={3990}
+                height={1110}
                 quality={10}
                 priority
-                fill
             />
         )
     }
