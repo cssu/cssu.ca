@@ -21,7 +21,7 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
             <Image
                 src={image}
                 className="block mx-auto w-auto h-full object-contain"
-                alt={`Image describing ${title}`}
+                alt={title}
                 placeholder="blur"
                 blurDataURL={base64}
                 width={width}
