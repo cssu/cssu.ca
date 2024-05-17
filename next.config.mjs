@@ -13,25 +13,6 @@ import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // async redirects() {
-    //     return [
-    //         {
-    //             source: '/clubs',
-    //             destination: '/community',
-    //             permanent: false,
-    //         },
-    //         {
-    //             source: '/lounge',
-    //             destination: '/ba2250',
-    //             permanent: false,
-    //         },
-    //         {
-    //             source: '/team',
-    //             destination: '/about',
-    //             permanent: false,
-    //         },
-    //     ]
-    // },
     output: 'export',
     images: {
         loader: 'custom',
@@ -40,7 +21,7 @@ const nextConfig = {
     },
     transpilePackages: ['next-image-export-optimizer'],
     env: {
-        nextImageExportOptimizer_imageFolderPath: 'public/build-images',
+        nextImageExportOptimizer_imageFolderPath: 'public',
         nextImageExportOptimizer_exportFolderPath: 'out',
         nextImageExportOptimizer_quality: '60',
         nextImageExportOptimizer_storePicturesInWEBP: 'true',

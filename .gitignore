@@ -2,6 +2,9 @@
 
 # Ignore images copied by webpack in build time
 /public/build-images
+# Ignore optimized images
+/public/**/next-image-export-optimizer-hashes.json
+/public/**/nextImageExportOptimizer/
 
 # dependencies
 /node_modules

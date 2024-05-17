@@ -80,19 +80,17 @@ export default function ProfileCard({
     overriddenMDXFolderPath,
 }: ProfileCardProps) {
     if (!overriddenMDXFolderPath) {
-        console.error('The overriddenMDXFolderPath prop is required for the ProfileCard component.')
-        process.exit(1)
-        // console.error(
-        //     '\x1b[31m[Error]\x1b[0m %s',
-        //     'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
-        //         'In most of the cases, this is handled in the compilation process. ' +
-        //         'If you encounter this error, please open an issue.'
-        // )
-        // throw new Error(
-        //     'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
-        //         'In most of the cases, this is handled in the compilation process. ' +
-        //         'If you encounter this error, please open an issue.'
-        // )
+        console.error(
+            '\x1b[31m[Error]\x1b[0m %s',
+            'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
+                'In most of the cases, this is handled in the compilation process. ' +
+                'If you encounter this error, please open an issue.'
+        )
+        throw new Error(
+            'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
+                'In most of the cases, this is handled in the compilation process. ' +
+                'If you encounter this error, please open an issue.'
+        )
     }
 
     return (
@@ -129,8 +127,9 @@ export default function ProfileCard({
                             className="rounded-[50%] border-none w-[148px] h-[148px] object-cover
                             bg-[#000000] bg-center [background-size:105px] bg-no-repeat"
                             style={{
-                                backgroundImage: `url(${process.env.__NEXT_ROUTER_BASEPATH || ''}
-                                    /cssu_logo.png)`,
+                                backgroundImage: `url(${
+                                    process.env.__NEXT_ROUTER_BASEPATH || ''
+                                }/cssu_logo.png)`,
                             }}
                         >
                             {imageUrl && (
