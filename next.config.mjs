@@ -34,8 +34,9 @@ const nextConfig = {
     },
     // Remove the next 2 lines if you want the full Next.js experience
     // with SSR and image optimization!
-    // output: "export",
+    // output: 'export',
     // images: { unoptimized: true },
+    // basePath: process.env.NODE_ENV === 'production' ? '/<YOUR BASE PATH HERE>' : '',
     // Accept MD and MDX files
     pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
     // Do not remove the unused parameters. They are explicitly stated here for clarity.

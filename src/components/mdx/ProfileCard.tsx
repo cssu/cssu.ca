@@ -68,7 +68,10 @@ export default function ProfileCard({
                         <div
                             className="rounded-[50%] border-none w-[148px] h-[148px] object-cover
                             bg-[#000000] bg-center [background-size:105px] bg-no-repeat"
-                            style={{ backgroundImage: 'url(/cssu_logo.png)' }}
+                            style={{
+                                backgroundImage: `url(${process.env.__NEXT_ROUTER_BASEPATH || ''}
+                                    /cssu_logo.png)`,
+                            }}
                         >
                             {imageUrl && (
                                 <div className="min-w-full min-h-full rounded-[50%]">

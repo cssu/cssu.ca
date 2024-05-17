@@ -4,6 +4,8 @@ import sizeOf from 'image-size'
 import Image from 'next/image'
 import { getPlaiceholder } from 'plaiceholder'
 
+import HorizontalLogoBlack from '@/../public/horizontal_logo_black.png'
+
 type EventBannerProps = {
     title: string
     image?: string
@@ -33,7 +35,7 @@ export default async function EventBanner({ title, image, absoluteImagePath }: E
     } else {
         return (
             <Image
-                src="/horizontal_logo_black.png"
+                src={HorizontalLogoBlack}
                 className="block mx-auto w-auto h-full object-contain"
                 alt="CSSU placeholder logo"
                 width={3990}
