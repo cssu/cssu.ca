@@ -1,6 +1,7 @@
 import { join } from 'path'
 
 import Figure from '@/components/mdx/Figure'
+import ProfileCard from '@/components/mdx/ProfileCard'
 import MDXImage from '@/components/MDXImage'
 import MDXLink from '@/components/MDXLink'
 
@@ -36,17 +37,27 @@ export function getImgComponent(pagePathOrMdxFolderPath: string) {
 }
 
 export function getFigureComponent(pagePathOrMdxFolderPath: string) {
+    // TODO: Combine with the above image component function
+    const overridenMDXFolderPath = pagePathOrMdxFolderPath.startsWith(process.cwd())
+        ? pagePathOrMdxFolderPath
+        : join(process.cwd(), 'content', pagePathOrMdxFolderPath)
+
     return {
         Figure: (props: any) => (
             <Figure
                 {...props}
-                overriddenMDXFolderPath={
-                    props.overriddenMDXFolderPath ||
-                    (pagePathOrMdxFolderPath.startsWith(process.cwd())
-                        ? pagePathOrMdxFolderPath
-                        : join(process.cwd(), 'content', pagePathOrMdxFolderPath))
-                }
+                overriddenMDXFolderPath={props.overriddenMDXFolderPath || overridenMDXFolderPath}
             />
         ),
-    }
+        ProfileCard: (props: any) => {
+            return (
+                <ProfileCard
+                    {...props}
+                    overriddenMDXFolderPath={
+                        props.overriddenMDXFolderPath || overridenMDXFolderPath
+                    }
+                />
+            )
+        },
+    } as MDXComponents
 }

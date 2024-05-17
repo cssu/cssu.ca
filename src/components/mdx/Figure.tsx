@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs'
 
 import sizeOf from 'image-size'
-import Image from 'next/image'
+import Image from 'next-image-export-optimizer'
 import { getPlaiceholder } from 'plaiceholder'
 
 import calculateImageDimensions from '@/lib/calculateImageDimensions'

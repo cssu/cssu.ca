@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next-image-export-optimizer'
 import React from 'react'
 import {
     FaDiscord,
@@ -101,9 +101,10 @@ export default function Footer() {
                         <Image
                             src={CSSULogo}
                             alt="CSSU Logo"
+                            className="object-contain"
+                            basePath={process.env.__NEXT_ROUTER_BASEPATH}
                             width={400}
                             height={400}
-                            className="object-contain"
                         />
                     </div>
 

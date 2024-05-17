@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next-image-export-optimizer'
 
 import CSSULogo from '@/../public/cssu_square.png'
 
@@ -37,6 +37,7 @@ export default function Home() {
                                     src={CSSULogo}
                                     alt="CSSU Logo"
                                     className="block h-auto w-full object-contain"
+                                    basePath={process.env.__NEXT_ROUTER_BASEPATH}
                                     width={400}
                                     height={400}
                                     priority

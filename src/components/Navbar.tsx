@@ -1,7 +1,7 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next-image-export-optimizer'
 import { useEffect, useState } from 'react'
 
 import CSSULogoHorizontal from '@/../public/horizontal_logo_black.png'
@@ -111,6 +111,7 @@ export default function Navbar() {
                             src={CSSULogoHorizontal}
                             alt="CSSU Logo"
                             className="max-h-9 h-9"
+                            basePath={process.env.__NEXT_ROUTER_BASEPATH}
                             width={128}
                             height={32}
                             priority

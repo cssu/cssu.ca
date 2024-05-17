@@ -13,29 +13,40 @@ import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async redirects() {
-        return [
-            {
-                source: '/clubs',
-                destination: '/community',
-                permanent: false,
-            },
-            {
-                source: '/lounge',
-                destination: '/ba2250',
-                permanent: false,
-            },
-            {
-                source: '/team',
-                destination: '/about',
-                permanent: false,
-            },
-        ]
+    // async redirects() {
+    //     return [
+    //         {
+    //             source: '/clubs',
+    //             destination: '/community',
+    //             permanent: false,
+    //         },
+    //         {
+    //             source: '/lounge',
+    //             destination: '/ba2250',
+    //             permanent: false,
+    //         },
+    //         {
+    //             source: '/team',
+    //             destination: '/about',
+    //             permanent: false,
+    //         },
+    //     ]
+    // },
+    output: 'export',
+    images: {
+        loader: 'custom',
+        imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+        deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     },
-    // Remove the next 2 lines if you want the full Next.js experience
-    // with SSR and image optimization!
-    // output: 'export',
-    // images: { unoptimized: true },
+    transpilePackages: ['next-image-export-optimizer'],
+    env: {
+        nextImageExportOptimizer_imageFolderPath: 'public/build-images',
+        nextImageExportOptimizer_exportFolderPath: 'out',
+        nextImageExportOptimizer_quality: '60',
+        nextImageExportOptimizer_storePicturesInWEBP: 'true',
+        nextImageExportOptimizer_exportFolderName: 'nextImageExportOptimizer',
+        nextImageExportOptimizer_generateAndUseBlurImages: 'false',
+    },
     // basePath: process.env.NODE_ENV === 'production' ? '/<YOUR BASE PATH HERE>' : '',
     // Accept MD and MDX files
     pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],

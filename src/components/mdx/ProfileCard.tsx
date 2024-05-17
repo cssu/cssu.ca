@@ -1,5 +1,11 @@
-import Image from 'next/image'
+import { readFileSync } from 'fs'
+
+import sizeOf from 'image-size'
+import Image from 'next-image-export-optimizer'
+import { getPlaiceholder } from 'plaiceholder'
 import { FaFacebook, FaGithub, FaLinkedin, FaUser } from 'react-icons/fa'
+
+import mapToImage from '@/lib/mapToImage'
 
 function ProfileUrl({ href, children }: { href: string; children: React.ReactNode }) {
     return (
@@ -16,6 +22,42 @@ function ProfileUrl({ href, children }: { href: string; children: React.ReactNod
     )
 }
 
+async function ProfileImage({
+    overriddenMDXFolderPath,
+    imageUrl,
+    fullName,
+}: {
+    overriddenMDXFolderPath: string
+    imageUrl: string
+    fullName: string
+}) {
+    const { nextImagePath, absoluteImagePath } = mapToImage(overriddenMDXFolderPath, imageUrl)
+    const { width, height } = sizeOf(absoluteImagePath)
+    const buffer = readFileSync(absoluteImagePath)
+    const { base64 } = await getPlaiceholder(buffer)
+
+    if (!width || !height) {
+        console.error('\x1b[31m[Error]\x1b[0m %s', `Image ${imageUrl} not found`)
+        throw new Error(`Image ${imageUrl} not found`)
+    }
+
+    return (
+        <div className="min-w-full min-h-full rounded-[50%]">
+            <Image
+                src={nextImagePath}
+                alt={fullName}
+                className="rounded-[50%] border-none object-cover
+                w-[148px] h-[148px]"
+                blurDataURL={base64}
+                placeholder="blur"
+                height={148}
+                width={148}
+                priority
+            />
+        </div>
+    )
+}
+
 type ProfileCardProps = {
     fullName: string
     position?: string
@@ -24,6 +66,7 @@ type ProfileCardProps = {
     github?: string
     facebook?: string
     website?: string
+    overriddenMDXFolderPath?: string
 }
 
 export default function ProfileCard({
@@ -34,7 +77,24 @@ export default function ProfileCard({
     github,
     facebook,
     website,
+    overriddenMDXFolderPath,
 }: ProfileCardProps) {
+    if (!overriddenMDXFolderPath) {
+        console.error('The overriddenMDXFolderPath prop is required for the ProfileCard component.')
+        process.exit(1)
+        // console.error(
+        //     '\x1b[31m[Error]\x1b[0m %s',
+        //     'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
+        //         'In most of the cases, this is handled in the compilation process. ' +
+        //         'If you encounter this error, please open an issue.'
+        // )
+        // throw new Error(
+        //     'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
+        //         'In most of the cases, this is handled in the compilation process. ' +
+        //         'If you encounter this error, please open an issue.'
+        // )
+    }
+
     return (
         <div className="flex flex-wrap justify-center bg-[white]">
             <div className="bg-[white] w-[200px] h-[300px]">
@@ -74,17 +134,11 @@ export default function ProfileCard({
                             }}
                         >
                             {imageUrl && (
-                                <div className="min-w-full min-h-full rounded-[50%]">
-                                    <Image
-                                        className="rounded-[50%] border-none object-cover
-                                        w-[148px] h-[148px]"
-                                        src={imageUrl}
-                                        alt={fullName}
-                                        height={148}
-                                        width={148}
-                                        priority
-                                    />
-                                </div>
+                                <ProfileImage
+                                    imageUrl={imageUrl}
+                                    fullName={fullName}
+                                    overriddenMDXFolderPath={overriddenMDXFolderPath}
+                                />
                             )}
                         </div>
                     </div>
