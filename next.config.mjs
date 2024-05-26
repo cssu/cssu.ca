@@ -13,7 +13,7 @@ import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    output: process.env.NODE_ENV === 'production' ? 'export' : 'standalone',
     images: {
         loader: 'custom',
         imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

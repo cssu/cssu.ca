@@ -1,7 +1,8 @@
 import { join } from 'path'
 
-import Figure from '@/components/mdx/Figure'
-import ProfileCard from '@/components/mdx/ProfileCard'
+import Figure from '#/Figure'
+import ProfileCard from '#/ProfileCard'
+import ProfileContainer from '#/ProfileContainer'
 import MDXImage from '@/components/MDXImage'
 import MDXLink from '@/components/MDXLink'
 
@@ -17,27 +18,11 @@ export default function getMDXComponents(): MDXComponents {
                 <table>{children}</table>
             </div>
         ),
+        ProfileContainer: ProfileContainer,
     } as MDXComponents
 }
 
-export function getImgComponent(pagePathOrMdxFolderPath: string) {
-    return {
-        img: ({ src, alt }: { src?: string; alt?: string }) => (
-            <MDXImage
-                src={src}
-                alt={alt}
-                mdxFolderPath={
-                    pagePathOrMdxFolderPath.startsWith(process.cwd())
-                        ? pagePathOrMdxFolderPath
-                        : join(process.cwd(), 'content', pagePathOrMdxFolderPath)
-                }
-            />
-        ),
-    }
-}
-
-export function getFigureComponent(pagePathOrMdxFolderPath: string) {
-    // TODO: Combine with the above image component function
+export function getComponentsRequiringPath(pagePathOrMdxFolderPath: string) {
     const overridenMDXFolderPath = pagePathOrMdxFolderPath.startsWith(process.cwd())
         ? pagePathOrMdxFolderPath
         : join(process.cwd(), 'content', pagePathOrMdxFolderPath)
@@ -59,5 +44,8 @@ export function getFigureComponent(pagePathOrMdxFolderPath: string) {
                 />
             )
         },
+        img: ({ src, alt }: { src?: string; alt?: string }) => (
+            <MDXImage src={src} alt={alt} mdxFolderPath={overridenMDXFolderPath} />
+        ),
     } as MDXComponents
 }

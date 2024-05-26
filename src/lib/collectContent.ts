@@ -7,7 +7,7 @@ import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 import remarkUnwrapImages from 'remark-unwrap-images'
 
-import getMDXComponents, { getImgComponent, getFigureComponent } from './getMDXComponents'
+import getMDXComponents, { getComponentsRequiringPath } from './getMDXComponents'
 
 export function getContentPaths(contentType: string): string[] {
     const files = []
@@ -63,8 +63,7 @@ export async function compilePostMDX(
             },
         },
         components: {
-            ...getImgComponent(mdxFolderPath),
-            ...getFigureComponent(mdxFolderPath),
+            ...getComponentsRequiringPath(mdxFolderPath),
             ...getMDXComponents(),
         },
     })

@@ -23,18 +23,30 @@
                     "object",
                     "type"
                 ],
-                "pathGroups": [
-                    {
-                        "pattern": "{.,..}/**/*.scss",
-                        "group": "index",
-                        "position": "after"
-                    }
-                ],
                 "pathGroupsExcludedImportTypes": ["builtin"],
                 "alphabetize": { "order": "asc", "caseInsensitive": true },
                 "newlines-between": "always",
                 "distinctGroup": true
             }
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.mdx"],
+            "extends": ["plugin:mdx/recommended"],
+            "plugins": ["import"],
+            "rules": {
+                "max-len": "off",
+                "react/jsx-no-undef": "off",
+                "import/order": "off",
+                "indent": "off",
+                "no-restricted-imports": [
+                    "error",
+                    {
+                        "patterns": ["*"]
+                    }
+                ]
+            }
+        }
+    ]
 }
