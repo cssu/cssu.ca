@@ -22,10 +22,10 @@ yarn start   # Start the production server
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 > [!TIP]
-> Although we recommend running the Next.js server, you can also export the website statically by setting `output: "export"` and `images: { unoptimized: true }`, and removing redirects in the `next.config.mjs` file. Refer to the [Next.js documentation](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) for more information.
+> Although the Next.js build is configured to produce a static export, we recommend running the Next.js server. To do so, remove the specified lines in `next.config.mjs` file, replace all occurances of `Image` with the import from next/Image, and edit `yarn start` in the `package.json` file to run the command `next start`.
 
 > [!NOTE]  
-> Sharp is installed as a server-side dependency to optimize images. If you encounter issues with the Sharp package, install it using `yarn install --ignore-engines`.
+> Sharp is installed as a server-side dependency to optimize images. If you encounter issues with the Sharp package, install it using `yarn install --ignore-engines`. By default, this is included in the build process to ensure the correct version is installed.
 
 ## Customization
 

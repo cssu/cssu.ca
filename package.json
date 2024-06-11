@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "yarn lint && yarn add sharp --dev --ignore-engines && next build && next-image-export-optimizer",
-        "start": "next start",
+        "start": "serve -s out",
         "clean": "rm -rf .next ./public/build-images ./out",
         "lint": "eslint ."
     },

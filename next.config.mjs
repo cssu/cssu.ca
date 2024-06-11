@@ -13,6 +13,7 @@ import mdxFrontmatterExport from './src/lib/mdxFrontmatterExport.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // Uncomment the following blocks until `End Uncomment` to disable static export.
     output: process.env.NODE_ENV === 'production' ? 'export' : 'standalone',
     images: {
         loader: 'custom',
@@ -28,7 +29,10 @@ const nextConfig = {
         nextImageExportOptimizer_exportFolderName: 'nextImageExportOptimizer',
         nextImageExportOptimizer_generateAndUseBlurImages: 'false',
     },
+    // End Uncomment
+    //
     // basePath: process.env.NODE_ENV === 'production' ? '/<YOUR BASE PATH HERE>' : '',
+    //
     // Accept MD and MDX files
     pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
     // Do not remove the unused parameters. They are explicitly stated here for clarity.
