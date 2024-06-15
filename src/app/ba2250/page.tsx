@@ -1,6 +1,6 @@
 import BA2250MDX, { frontMatter } from '$/ba2250/index.mdx'
 import InformationPage from '@/components/InformationPage'
-import { getFigureComponent, getImgComponent } from '@/lib/getMDXComponents'
+import { getComponentsRequiringPath } from '@/lib/getMDXComponents'
 
 import type { Metadata } from 'next'
 
@@ -14,9 +14,7 @@ export const metadata: Metadata = {
 export default function BA2250() {
     return (
         <InformationPage metadata={frontMatter}>
-            <BA2250MDX
-                components={{ ...getImgComponent(PAGE_URL), ...getFigureComponent(PAGE_URL) }}
-            />
+            <BA2250MDX components={{ ...getComponentsRequiringPath(PAGE_URL) }} />
         </InformationPage>
     )
 }

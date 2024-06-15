@@ -5,7 +5,7 @@ import type { MDXComponents } from 'mdx/types'
 export function useMDXComponents(components: MDXComponents): MDXComponents {
     return {
         // img component is modified in the individual imports using
-        // getImgComponent from '@/lib/getRootComponents'
+        // getImgComponent from '@/lib/getMDXComponents'
         ...getMDXComponents(),
         ...components,
     }
