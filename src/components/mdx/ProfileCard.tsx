@@ -3,7 +3,7 @@ import { readFileSync } from 'fs'
 import sizeOf from 'image-size'
 import Image from 'next-image-export-optimizer'
 import { getPlaiceholder } from 'plaiceholder'
-import { FaFacebook, FaGithub, FaLinkedin, FaUser } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaUser } from 'react-icons/fa'
 
 import mapToImage from '@/lib/mapToImage'
 
@@ -62,9 +62,10 @@ type ProfileCardProps = {
     fullName: string
     position?: string
     imageUrl?: string
-    linkedin?: string
-    github?: string
     facebook?: string
+    github?: string
+    instagram?: string
+    linkedin?: string
     website?: string
     overriddenMDXFolderPath?: string
 }
@@ -73,9 +74,10 @@ export default function ProfileCard({
     fullName,
     position,
     imageUrl,
-    linkedin,
-    github,
     facebook,
+    github,
+    instagram,
+    linkedin,
     website,
     overriddenMDXFolderPath,
 }: ProfileCardProps) {
@@ -97,9 +99,9 @@ export default function ProfileCard({
         <div className="flex flex-wrap justify-center bg-[white]">
             <div className="bg-[white] w-[200px] h-[300px]">
                 <center className="block px-0 py-[9px] h-[44px]">
-                    {linkedin && (
-                        <ProfileUrl href={linkedin}>
-                            <FaLinkedin className="text-[20px]" />
+                    {facebook && (
+                        <ProfileUrl href={facebook}>
+                            <FaFacebook className="text-[20px]" />
                         </ProfileUrl>
                     )}
                     {github && (
@@ -107,9 +109,14 @@ export default function ProfileCard({
                             <FaGithub className="text-[20px]" />
                         </ProfileUrl>
                     )}
-                    {facebook && (
-                        <ProfileUrl href={facebook}>
-                            <FaFacebook className="text-[20px]" />
+                    {instagram && (
+                        <ProfileUrl href={instagram}>
+                            <FaInstagram className="text-[20px]" />
+                        </ProfileUrl>
+                    )}
+                    {linkedin && (
+                        <ProfileUrl href={linkedin}>
+                            <FaLinkedin className="text-[20px]" />
                         </ProfileUrl>
                     )}
                     {website && (
