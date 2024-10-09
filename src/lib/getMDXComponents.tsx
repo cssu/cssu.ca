@@ -1,6 +1,8 @@
 import { join } from 'path'
 
+import ExecutiveSection from '#/ExecutiveSection'
 import Figure from '#/Figure'
+import GeneralCouncilSection from '#/GeneralCouncilSection'
 import ProfileCard from '#/ProfileCard'
 import ProfileContainer from '#/ProfileContainer'
 import MDXImage from '@/components/MDXImage'
@@ -18,7 +20,10 @@ export default function getMDXComponents(): MDXComponents {
                 <table>{children}</table>
             </div>
         ),
+        ProfileCard: ProfileCard,
         ProfileContainer: ProfileContainer,
+        ExecutiveSection: ExecutiveSection,
+        GeneralCouncilSection: GeneralCouncilSection,
     } as MDXComponents
 }
 
