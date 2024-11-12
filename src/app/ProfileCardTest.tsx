@@ -67,12 +67,10 @@ type ProfileCardProps = {
     instagram?: string
     linkedin?: string
     website?: string
-    year?: number
-    department?: string
     overriddenMDXFolderPath?: string
 }
 
-export default function ProfileCard({
+export default function ProfileCardTest({
     fullName,
     position,
     imageUrl,
@@ -81,8 +79,6 @@ export default function ProfileCard({
     instagram,
     linkedin,
     website,
-    year,
-    department,
     overriddenMDXFolderPath,
 }: ProfileCardProps) {
     if (!overriddenMDXFolderPath) {
@@ -100,9 +96,7 @@ export default function ProfileCard({
     }
 
     return (
-        <div
-            className={`flex flex-wrap justify-center bg-[white] year-${year ? year : 0} department-${department ? department : 'na'}`}
-        >
+        <div className="flex flex-wrap justify-center bg-[white]">
             <div className="bg-[white] w-[200px] h-[300px]">
                 <center className="block px-0 py-[9px] h-[44px]">
                     {facebook && (

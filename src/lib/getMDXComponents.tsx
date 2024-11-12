@@ -1,10 +1,10 @@
 import { join } from 'path'
 
-import ExecutiveSection from '#/ExecutiveSection'
+import CouncilSectionContainer from '@/components/mdx/CouncilSectionContainer'
 import Figure from '#/Figure'
-import GeneralCouncilSection from '#/GeneralCouncilSection'
 import ProfileCard from '#/ProfileCard'
 import ProfileContainer from '#/ProfileContainer'
+import Selector from '#/Selector'
 import MDXImage from '@/components/MDXImage'
 import MDXLink from '@/components/MDXLink'
 
@@ -22,8 +22,8 @@ export default function getMDXComponents(): MDXComponents {
         ),
         ProfileCard: ProfileCard,
         ProfileContainer: ProfileContainer,
-        ExecutiveSection: ExecutiveSection,
-        GeneralCouncilSection: GeneralCouncilSection,
+        CouncilSectionContainer: CouncilSectionContainer,
+        Selector: Selector,
     } as MDXComponents
 }
 
