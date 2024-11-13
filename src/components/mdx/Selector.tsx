@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 interface SelectorProps {
     selectedYear: number
     selectedDepartment: string
@@ -44,8 +42,9 @@ const Selector: React.FC<SelectorProps> = ({
         { val: 'internal', display: '🏠 Internal' },
         { val: 'external', display: '🌎 External' },
         { val: 'finance', display: '💸 Finance' },
-        { val: 'communications', display: '💬 Communications' },
+        { val: 'communications', display: '💬 Comms' },
         { val: 'web', display: '💻 Web' },
+        { val: 'firstyear', display: '👦 First-Year Rep' },
     ]
 
     return (
@@ -53,36 +52,33 @@ const Selector: React.FC<SelectorProps> = ({
             <label htmlFor="year-select" className="block mb-2 text-sm font-bold text-gray-600">
                 Filter members (click each attribute to select/unselect it)
             </label>
-            <div className="flex-shrink-0 w-full flex space-x-2">
+
+            <div className="flex flex-wrap gap-2 justify-center mb-4">
                 {years.map((year, index) => (
                     <button
                         key={index}
                         onClick={() => handleYearChange(year.val)}
                         className={`
-                            px-4 py-2 text-sm font-medium rounded-md border border-gray-300 w-1/4
-                                ${
-                                    selectedYear === year.val
-                                        ? 'bg-blue-900 text-white'
-                                        : 'bg-white text-gray-700 hover:bg-gray-100'
-                                }
-                            `}
+                            px-4 py-2 text-sm font-medium rounded-md border border-gray-300
+                            w-auto
+                            ${selectedYear === year.val ? 'bg-blue-900 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}
+                        `}
                     >
                         {year.display}
                     </button>
                 ))}
             </div>
-            <div className="flex-shrink-0 w-full py-2 flex space-x-2">
+
+            <div className="flex flex-wrap gap-2 justify-center mb-5">
                 {departments.map((department, index) => (
                     <button
                         key={index}
                         onClick={() => handleDepartmentChange(department.val)}
-                        className={`px-4 py-2 text-sm font-medium rounded-md border border-gray-300 w-1/6
-                                ${
-                                    selectedDepartment === department.val
-                                        ? 'bg-gray-600 text-white'
-                                        : 'bg-white text-gray-700 hover:bg-gray-100'
-                                }
-                            `}
+                        className={`
+                            px-4 py-2 text-sm font-medium rounded-md border border-gray-300
+                            w-auto
+                            ${selectedDepartment === department.val ? 'bg-gray-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}
+                        `}
                     >
                         {department.display}
                     </button>

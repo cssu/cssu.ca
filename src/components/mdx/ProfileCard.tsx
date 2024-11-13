@@ -99,9 +99,14 @@ export default function ProfileCard({
         )
     }
 
+    const departmentClasses = department
+        ?.split(',')
+        .map((dept) => `department-${dept ? dept : 'na'}`)
+        .join(' ')
+
     return (
         <div
-            className={`flex flex-wrap justify-center bg-[white] year-${year ? year : 0} department-${department ? department : 'na'}`}
+            className={`flex flex-wrap justify-center bg-[white] year-${year ? year : 0} ${departmentClasses}`}
         >
             <div className="bg-[white] w-[200px] h-[300px]">
                 <center className="block px-0 py-[9px] h-[44px]">
