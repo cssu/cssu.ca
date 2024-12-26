@@ -11,7 +11,11 @@ export default function CouncilSectionContainer({
     const [selectedDepartment, setSelectedDepartment] = useState<string>('')
 
     const containers = Array.isArray(children) ? children : [children]
-    const cards = containers.map((container) => container.props.children)
+    const cards = containers.map((container) =>
+        Array.isArray(container.props.children)
+            ? container.props.children
+            : [container.props.children],
+    )
 
     function shouldDisplay(child: React.ReactElement) {
         // This is janky as hell because it's just doing a find for year-${selectedYear} and
