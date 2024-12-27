@@ -106,7 +106,10 @@ export default function ProfileCard({
 
     return (
         <div
-            className={`flex flex-wrap justify-center bg-[white] year-${year ? year : 0} ${departmentClasses}`}
+            className={`
+                flex flex-wrap justify-center bg-[white]
+                year-${year ? year : 0} ${departmentClasses}
+            `}
         >
             <div className="bg-[white] w-[200px] h-[300px]">
                 <center className="block px-0 py-[9px] h-[44px]">

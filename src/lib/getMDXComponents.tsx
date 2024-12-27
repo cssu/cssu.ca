@@ -1,10 +1,10 @@
 import { join } from 'path'
 
-import CouncilSectionContainer from '@/components/mdx/CouncilSectionContainer'
 import Figure from '#/Figure'
 import ProfileCard from '#/ProfileCard'
 import ProfileContainer from '#/ProfileContainer'
 import Selector from '#/Selector'
+import CouncilSectionContainer from '@/components/mdx/CouncilSectionContainer'
 import MDXImage from '@/components/MDXImage'
 import MDXLink from '@/components/MDXLink'
 
