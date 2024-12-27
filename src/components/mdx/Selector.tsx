@@ -5,6 +5,7 @@ interface SelectorProps {
     selectedDepartment: string
     setSelectedYear: (year: number) => void
     setSelectedDepartment: (department: string) => void
+    excludedDepartments: Set<String>
 }
 
 const Selector: React.FC<SelectorProps> = ({
@@ -12,6 +13,7 @@ const Selector: React.FC<SelectorProps> = ({
     selectedDepartment,
     setSelectedYear,
     setSelectedDepartment,
+    excludedDepartments,
 }) => {
     const handleYearChange = (year: number) => {
         if (year === selectedYear) {
@@ -70,19 +72,21 @@ const Selector: React.FC<SelectorProps> = ({
             </div>
 
             <div className="flex flex-wrap gap-2 justify-center mb-5">
-                {departments.map((department, index) => (
-                    <button
-                        key={index}
-                        onClick={() => handleDepartmentChange(department.val)}
-                        className={`
+                {departments.map((department, index) =>
+                    !excludedDepartments.has(department.val) ? (
+                        <button
+                            key={index}
+                            onClick={() => handleDepartmentChange(department.val)}
+                            className={`
                             px-4 py-2 text-sm font-medium rounded-md border border-gray-300
                             w-auto
                             ${selectedDepartment === department.val ? 'bg-gray-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}
                         `}
-                    >
-                        {department.display}
-                    </button>
-                ))}
+                        >
+                            {department.display}
+                        </button>
+                    ) : null,
+                )}
             </div>
         </>
     )

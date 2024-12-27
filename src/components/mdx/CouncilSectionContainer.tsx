@@ -7,7 +7,8 @@ import Selector from '#/Selector'
 
 export default function CouncilSectionContainer({
     children,
-}: Readonly<{ children: React.ReactNode }>) {
+    excludedDepartments,
+}: Readonly<{ children: React.ReactNode; excludedDepartments?: string }>) {
     const [selectedYear, setSelectedYear] = useState<number>(0)
     const [selectedDepartment, setSelectedDepartment] = useState<string>('')
 
@@ -17,6 +18,7 @@ export default function CouncilSectionContainer({
             ? container.props.children
             : [container.props.children],
     )
+    const excludedDepartmentsSet = new Set((excludedDepartments || '').split(','))
 
     function shouldDisplay(child: React.ReactElement) {
         // This is janky as hell because it's just doing a find for year-${selectedYear} and
@@ -35,6 +37,7 @@ export default function CouncilSectionContainer({
                 selectedDepartment={selectedDepartment}
                 setSelectedYear={setSelectedYear}
                 setSelectedDepartment={setSelectedDepartment}
+                excludedDepartments={excludedDepartmentsSet}
             />
             {cards.map((container, index) => (
                 <ProfileContainer key={index}>
