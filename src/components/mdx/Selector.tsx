@@ -45,7 +45,8 @@ const Selector: React.FC<SelectorProps> = ({
         { val: 'external', display: '🌎 External' },
         { val: 'finance', display: '💸 Finance' },
         { val: 'marketing', display: '📣 Marketing' },
-        { val: 'web', display: '💻 Web' },
+        { val: 'frontend', display: '💻 Web (front-end)' },
+        { val: 'backend', display: '💻 Web (back-end)' },
         { val: 'firstyear', display: '👦 First-Year Rep' },
     ]
 
