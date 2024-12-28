@@ -72,21 +72,35 @@ const Selector: React.FC<SelectorProps> = ({
             </div>
 
             <div className="flex flex-wrap gap-2 justify-center mb-5">
-                {departments.map((department, index) =>
-                    !excludedDepartments.has(department.val) ? (
-                        <button
-                            key={index}
-                            onClick={() => handleDepartmentChange(department.val)}
-                            className={`
-                            px-4 py-2 text-sm font-medium rounded-md border border-gray-300
-                            w-auto
-                            ${selectedDepartment === department.val ? 'bg-gray-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}
-                        `}
-                        >
-                            {department.display}
-                        </button>
-                    ) : null,
-                )}
+                {departments.map((department, index) => (
+                    <button
+                        key={index}
+                        onClick={() => {
+                            if (!excludedDepartments.has(department.val)) {
+                                handleDepartmentChange(department.val)
+                            }
+                        }}
+                        disabled={excludedDepartments.has(department.val)}
+                        className={`
+                                px-4 py-2 text-sm font-medium rounded-md border border-gray-300
+                                w-auto
+                                ${
+                                    excludedDepartments.has(department.val)
+                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                                        : selectedDepartment === department.val
+                                          ? 'bg-gray-600 text-white'
+                                          : 'bg-white text-gray-700 hover:bg-gray-100'
+                                }
+                            `}
+                        title={
+                            excludedDepartments.has(department.val)
+                                ? 'No members in this category'
+                                : ''
+                        }
+                    >
+                        {department.display}
+                    </button>
+                ))}
             </div>
         </>
     )
