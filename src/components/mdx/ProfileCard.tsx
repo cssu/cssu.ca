@@ -67,6 +67,8 @@ type ProfileCardProps = {
     instagram?: string
     linkedin?: string
     website?: string
+    year?: number
+    department?: string
     overriddenMDXFolderPath?: string
 }
 
@@ -79,6 +81,8 @@ export default function ProfileCard({
     instagram,
     linkedin,
     website,
+    year,
+    department,
     overriddenMDXFolderPath,
 }: ProfileCardProps) {
     if (!overriddenMDXFolderPath) {
@@ -86,17 +90,27 @@ export default function ProfileCard({
             '\x1b[31m[Error]\x1b[0m %s',
             'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
                 'In most of the cases, this is handled in the compilation process. ' +
-                'If you encounter this error, please open an issue.'
+                'If you encounter this error, please open an issue.',
         )
         throw new Error(
             'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
                 'In most of the cases, this is handled in the compilation process. ' +
-                'If you encounter this error, please open an issue.'
+                'If you encounter this error, please open an issue.',
         )
     }
 
+    const departmentClasses = department
+        ?.split(',')
+        .map((dept) => `department-${dept ? dept : 'na'}`)
+        .join(' ')
+
     return (
-        <div className="flex flex-wrap justify-center bg-[white]">
+        <div
+            className={`
+                flex flex-wrap justify-center bg-[white]
+                year-${year ? year : 0} ${departmentClasses}
+            `}
+        >
             <div className="bg-[white] w-[200px] h-[300px]">
                 <center className="block px-0 py-[9px] h-[44px]">
                     {facebook && (

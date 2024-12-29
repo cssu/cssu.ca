@@ -23,7 +23,7 @@ import { join, normalize, relative, resolve } from 'path'
  */
 export default function mapToImage(
     mdxFolderPath: string,
-    imagePath: string
+    imagePath: string,
 ): {
     nextImagePath: string
     absoluteImagePath: string
@@ -45,7 +45,7 @@ export default function mapToImage(
                 `Mapped image path ${imagePath} is outside the public directory. ` +
                     'Is the image you are trying to access in the content or public directory? ' +
                     'If you want to access an image in the content directory, do not use the ' +
-                    '/ prefix. Only use the / prefix for images in the public directory.'
+                    '/ prefix. Only use the / prefix for images in the public directory.',
             )
         }
         const nextImagePath = `${process.env.__NEXT_ROUTER_BASEPATH || ''}${normalize(imagePath)}`
@@ -60,7 +60,7 @@ export default function mapToImage(
                 `Mapped image path ${mappedPath} is outside the public directory. ` +
                     'Is the image you are trying to access in the content or public directory? ' +
                     'If you want to access an image in the content directory, do not use the ' +
-                    '/ prefix. Only use the / prefix for images in the public directory.'
+                    '/ prefix. Only use the / prefix for images in the public directory.',
             )
         }
 
