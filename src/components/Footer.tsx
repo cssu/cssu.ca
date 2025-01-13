@@ -34,14 +34,18 @@ function IconHolder({ icon, text, href }: IconHolderProps) {
 }
 
 export default function Footer() {
+    const mailingListFormURL =
+        'https://docs.google.com/forms/d/1Qm_yQvj6yPibehfFhXCsRW6F3I3mT4jWQxh3w019bHE/viewform'
+
     return (
         <footer className="pt-12 pb-24 px-6 block text-white bg-black">
             <div className="footer-container">
                 <div id="mc_embed_signup">
                     <form
-                        // TODO: Clean up this form and make it functional
-                        action=""
-                        method="post"
+                        // We could consider embedding the form here. I've decided to link to it
+                        // because I couldn't find a way to make the embed look good.
+                        action={mailingListFormURL}
+                        method="get"
                         id="mc-embedded-subscribe-form"
                         name="mc-embedded-subscribe-form"
                         className="validate"
@@ -56,6 +60,25 @@ export default function Footer() {
                                 Join Our Mailing List!
                             </h3>
 
+                            <div className="clear">
+                                <input
+                                    type="submit"
+                                    value="Fill out this form to get added!"
+                                    name="subscribe"
+                                    id="mc-embedded-subscribe"
+                                    className="font-medium text-base mr-5 cursor-pointer
+                                    transition-all duration-[0.5s] tracking-[normal]
+                                    normal-case bg-white text-black box-border h-8 leading-8
+                                    inline-block ease-[ease-in-out] delay-[0s] m-0 px-[18px]
+                                    py-0 rounded-[3px] border-[none] hover:bg-[#e8e8e8]
+                                    hover:cursor-pointer"
+                                    control-id="ControlID-3"
+                                />
+                            </div>
+
+                            {/*
+                            Old (broken) footer mailing list form:
+                            
                             <input
                                 type="email"
                                 name="EMAIL"
@@ -92,6 +115,7 @@ export default function Footer() {
                                     control-id="ControlID-3"
                                 />
                             </div>
+                            */}
                         </div>
                     </form>
                 </div>
