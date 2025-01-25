@@ -1,6 +1,8 @@
 import Image from 'next-image-export-optimizer'
 
 import CSSULogo from '@/../public/cssu_square.png'
+import CommunityHub from '@/components/CommunityHub'
+import { FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 export default function Home() {
     return (
@@ -45,6 +47,14 @@ export default function Home() {
                             </figure>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="grow shrink-0 px-6 py-24 mt-2">
+                <div
+                    className="grow relative w-auto mx-auto my-0
+                lg:max-w-[960px] xl:max-w-6xl 2xl:max-w-[1344px]"
+                >
+                    <CommunityHub />
                 </div>
             </div>
         </section>
