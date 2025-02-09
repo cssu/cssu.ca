@@ -11,6 +11,8 @@
         "lint": "eslint ."
     },
     "dependencies": {
+        "embla-carousel": "^8.5.2",
+        "embla-carousel-react": "^8.5.2",
         "next": "14.2.3",
         "prettier": "^3.3.3",
         "react": "^18",

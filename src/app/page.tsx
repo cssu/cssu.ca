@@ -1,7 +1,8 @@
 import Image from 'next-image-export-optimizer'
 
 import CSSULogo from '@/../public/cssu_square.png'
-
+import EmblaCarousel from '@/components/Carousel'
+import './embla.css'
 export default function Home() {
     return (
         <>
@@ -90,21 +91,11 @@ export default function Home() {
                         <div className="timeline-item">Nov 10</div>
                         <div className="timeline-item">Dec 5</div>
                     </div>
-
-                    <div className="carousel">
-                        <button className="carousel-nav left">{'<'}</button>
-                        <div className="carousel-track">
-                            <div className="event-card" />
-                            <div className="event-card" />
-                            <div className="event-card" />
-                        </div>
-                        <button className="carousel-nav right">{'>'}</button>
-                    </div>
-
                     <div className="view-all-container">
                         <button>View All Events</button>
                     </div>
                 </div>
+                <EmblaCarousel slides={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}/>
             </section>
         </>
     )
