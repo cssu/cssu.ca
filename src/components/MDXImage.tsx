@@ -12,10 +12,9 @@ const DEFAULT_IMAGE_HEIGHT = 512
 type MDXImageProps = {
     src?: string
     alt?: string
-    mdxFolderPath: string
 }
 
-export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProps) {
+export default async function MDXImage({ src, alt }: MDXImageProps) {
     if (!src) {
         console.error('\x1b[31m[Error]\x1b[0m %s', `Image source not provided in ${src}`)
         throw new Error(`Image source not provided in ${src}`)
@@ -26,7 +25,7 @@ export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProp
     if (isRemote) {
         console.warn(
             '\x1b[33m[Warning]\x1b[0m %s',
-            `Image ${src} in ${mdxFolderPath} is remote. ` +
+            `Image ${src} is remote. ` +
                 'This is not recommended! Consider downloading the image and adding ' +
                 'it to the content directory, or wrapping the image in a Figure component ' +
                 'to explicitly disable image optimization and use images remotely.'
@@ -34,7 +33,7 @@ export default async function MDXImage({ src, alt, mdxFolderPath }: MDXImageProp
         // eslint-disable-next-line @next/next/no-img-element
         return <img src={src} alt={alt} />
     } else {
-        const { nextImagePath, absoluteImagePath } = mapToImage(mdxFolderPath, src)
+        const { nextImagePath, absoluteImagePath } = mapToImage(src)
         const { width, height } = sizeOf(absoluteImagePath)
         const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)

@@ -11,7 +11,6 @@ type FigureProps = {
     src: string
     alt: string
     centered?: boolean
-    overriddenMDXFolderPath?: string
     scaleTo?: number
     noLinebreak?: boolean
     unoptimized?: boolean
@@ -22,7 +21,6 @@ export default async function Figure({
     src,
     alt,
     centered = false,
-    overriddenMDXFolderPath,
     scaleTo,
     noLinebreak = false,
     unoptimized = false,
@@ -70,21 +68,7 @@ export default async function Figure({
             )
         }
 
-        if (!overriddenMDXFolderPath) {
-            console.error(
-                '\x1b[31m[Error]\x1b[0m %s',
-                'The overriddenMDXFolderPath prop is required for the Figure component. ' +
-                    'In most of the cases, this is handled in the compilation process. ' +
-                    'If you encounter this error, please open an issue.'
-            )
-            throw new Error(
-                'The overriddenMDXFolderPath prop is required for the Figure component. ' +
-                    'In most of the cases, this is handled in the compilation process. ' +
-                    'If you encounter this error, please open an issue.'
-            )
-        }
-
-        const { nextImagePath, absoluteImagePath } = mapToImage(overriddenMDXFolderPath, src)
+        const { nextImagePath, absoluteImagePath } = mapToImage(src)
         const { width, height } = sizeOf(absoluteImagePath)
         const buffer = readFileSync(absoluteImagePath)
         const { base64 } = await getPlaiceholder(buffer)

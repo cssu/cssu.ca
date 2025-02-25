@@ -23,29 +23,21 @@ export default function getMDXComponents(): MDXComponents {
 }
 
 export function getComponentsRequiringPath(pagePathOrMdxFolderPath: string) {
-    const overridenMDXFolderPath = pagePathOrMdxFolderPath.startsWith(process.cwd())
-        ? pagePathOrMdxFolderPath
-        : join(process.cwd(), 'content', pagePathOrMdxFolderPath)
-
     return {
         Figure: (props: any) => (
             <Figure
                 {...props}
-                overriddenMDXFolderPath={props.overriddenMDXFolderPath || overridenMDXFolderPath}
             />
         ),
         ProfileCard: (props: any) => {
             return (
                 <ProfileCard
                     {...props}
-                    overriddenMDXFolderPath={
-                        props.overriddenMDXFolderPath || overridenMDXFolderPath
-                    }
                 />
             )
         },
         img: ({ src, alt }: { src?: string; alt?: string }) => (
-            <MDXImage src={src} alt={alt} mdxFolderPath={overridenMDXFolderPath} />
+            <MDXImage src={src} alt={alt} />
         ),
     } as MDXComponents
 }

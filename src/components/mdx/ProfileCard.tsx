@@ -23,15 +23,13 @@ function ProfileUrl({ href, children }: { href: string; children: React.ReactNod
 }
 
 async function ProfileImage({
-    overriddenMDXFolderPath,
     imageUrl,
     fullName,
 }: {
-    overriddenMDXFolderPath: string
     imageUrl: string
     fullName: string
 }) {
-    const { nextImagePath, absoluteImagePath } = mapToImage(overriddenMDXFolderPath, imageUrl)
+    const { nextImagePath, absoluteImagePath } = mapToImage(imageUrl)
     const { width, height } = sizeOf(absoluteImagePath)
     const buffer = readFileSync(absoluteImagePath)
     const { base64 } = await getPlaiceholder(buffer)
@@ -79,22 +77,7 @@ export default function ProfileCard({
     instagram,
     linkedin,
     website,
-    overriddenMDXFolderPath,
 }: ProfileCardProps) {
-    if (!overriddenMDXFolderPath) {
-        console.error(
-            '\x1b[31m[Error]\x1b[0m %s',
-            'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
-                'In most of the cases, this is handled in the compilation process. ' +
-                'If you encounter this error, please open an issue.'
-        )
-        throw new Error(
-            'The overriddenMDXFolderPath prop is required for the ProfileCard component. ' +
-                'In most of the cases, this is handled in the compilation process. ' +
-                'If you encounter this error, please open an issue.'
-        )
-    }
-
     return (
         <div className="flex flex-wrap justify-center bg-[white]">
             <div className="bg-[white] w-[200px] h-[300px]">
@@ -143,7 +126,6 @@ export default function ProfileCard({
                                 <ProfileImage
                                     imageUrl={imageUrl}
                                     fullName={fullName}
-                                    overriddenMDXFolderPath={overriddenMDXFolderPath}
                                 />
                             )}
                         </div>

@@ -30,8 +30,7 @@ export default function EventsPage({ pageType, pageTitle }: EventsPageProps) {
                                 const { nextImagePath, absoluteImagePath } =
                                     event.mdxFolderPath && event.frontMatter.summaryImage
                                         ? mapToImage(
-                                            event.mdxFolderPath,
-                                            event.frontMatter.summaryImage
+                                            event.frontMatter.summaryImage,
                                         )
                                         : { nextImagePath: undefined, absoluteImagePath: undefined }
                                 return (

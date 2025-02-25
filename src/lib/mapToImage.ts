@@ -1,4 +1,4 @@
-import { join, normalize, relative, resolve } from 'path'
+import { join, normalize, resolve } from 'path'
 
 /**
  * Maps the image path to the correct path:
@@ -16,13 +16,11 @@ import { join, normalize, relative, resolve } from 'path'
  * If, for some reason, the image is outside of the content or public directory, or the
  * mdxFolderPath is outside the content directory, the function will throw an error.
  *
- * @param mdxFolderPath The path of the folder containing the MDX file.
  * @param imagePath The original path given in the image, where / indicates the public directory.
  *
  * @returns The mapped image path plus the __NEXT_ROUTER_BASEPATH, and the absolute image path.
  */
 export default function mapToImage(
-    mdxFolderPath: string,
     imagePath: string
 ): {
     nextImagePath: string
@@ -30,12 +28,19 @@ export default function mapToImage(
 } {
     const contentPath = resolve(process.cwd(), './content')
     const publicPath = resolve(process.cwd(), './public')
-    const pathRelativeToContentFolder = normalize(relative(contentPath, mdxFolderPath))
+    // const pathRelativeToContentFolder = normalize(relative(contentPath, imagePath))
 
-    const absoluteMdxFolderPath = resolve(mdxFolderPath)
-    if (!absoluteMdxFolderPath.startsWith(contentPath)) {
-        throw new Error(`MDX folder path ${mdxFolderPath} is outside the content directory.`)
-    }
+    // if (!(imagePath.startsWith('/') || imagePath.startsWith('content'))) {
+    //     const e = new Error(
+    //         `Image path ${imagePath} is not in the content or public directory. ` +
+    //             'Either start image url with a `/` indicating the public directory or ' +
+    //             'start without a `/` to indicate the content directory. ' +
+    //             'Note that /content points to public/content folder, and not the content directory.'
+    //     )
+    //     e.name = 'InvalidImagePathError'
+    //     console.error(e)
+    //     throw e
+    // }
 
     // If the image path starts with '/', it has to be in the public directory.
     if (imagePath.startsWith('/')) {
@@ -51,7 +56,7 @@ export default function mapToImage(
         const nextImagePath = `${process.env.__NEXT_ROUTER_BASEPATH || ''}${normalize(imagePath)}`
         return { nextImagePath, absoluteImagePath }
     } else {
-        const mappedPath = normalize(join('/build-images', pathRelativeToContentFolder, imagePath))
+        const mappedPath = normalize(join('/build-images', imagePath))
         const imageBuildsPath = resolve(publicPath, 'build-images')
         const absoluteImagePath = resolve(publicPath, mappedPath.substring(1)) // Remove leading '/'
 
