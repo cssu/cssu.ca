@@ -12,8 +12,8 @@ interface PageProps {
 
 const PAGE_TYPE = 'events'
 
-export function generateStaticParams() {
-    const paths = getContentPaths(PAGE_TYPE)
+export async function generateStaticParams(): Promise<PageProps[]> {
+    const paths = await getContentPaths(PAGE_TYPE)
     return paths.map((path) => ({
         params: { eventName: path },
     }))
@@ -37,16 +37,12 @@ export async function generateMetadata({ params }: { params: { eventName: string
     }
 }
 
-type EventProps = {
-    eventName: string
-}
-
-export default async function Event({ params }: { params: EventProps }): Promise<JSX.Element> {
+export default async function Event({ params }: PageProps): Promise<JSX.Element> {
     const { eventName } = params
 
     const { mdxSource, mdxFolderPath } = getMdxSource(PAGE_TYPE, eventName)
 
-    // See the end of file for comments on this.
+    // If content is missing, call notFound()
     if (!mdxSource || !mdxFolderPath) {
         return notFound()
     }
