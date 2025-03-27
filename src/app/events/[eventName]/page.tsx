@@ -12,6 +12,7 @@ interface PageProps {
 
 const PAGE_TYPE = 'events'
 
+// Ensure this function returns a Promise of PageProps[]
 export async function generateStaticParams(): Promise<PageProps[]> {
     const paths = await getContentPaths(PAGE_TYPE)
     return paths.map((path) => ({
@@ -37,6 +38,7 @@ export async function generateMetadata({ params }: { params: { eventName: string
     }
 }
 
+// Use the PageProps interface directly here
 export default async function Event({ params }: PageProps): Promise<JSX.Element> {
     const { eventName } = params
 
@@ -56,15 +58,12 @@ export default async function Event({ params }: PageProps): Promise<JSX.Element>
 From Next.js docs:
 
 false: Dynamic segments not included in generateStaticParams will return a 404.
-This means that we are not going to perform an FS call. The above code with the notFoud()
-check is mostly to display what is going on. It won't be called, and not found will be automatically
+This means that we are not going to perform an FS call. The above code with the notFound()
+check is mostly to display what is going on. It won't be called, and notFound will be automatically
 returned as a missing event will not be rendered in generateStaticParams.
 
 If, for some reason, the content is now managed dynamically, remove the dynamicParams export
-(or set it to true; that is more explicit!) and export const revalidate = [number] to revalide
-the page (optimization). If this happens to be problematic remove the revalidate export as well.
-
-https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+(or set it to true) and export const revalidate = [number] to revalidate the page.
 */
 export const dynamicParams = false
 
