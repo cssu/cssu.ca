@@ -37,7 +37,7 @@ type EventProps = {
     eventName: string
 }
 
-export default async function Event({ params }: { params: EventProps }) {
+export default async function Event({ params }: { params: EventProps }): Promise<JSX.Element> {
     const { eventName } = params
 
     const { mdxSource, mdxFolderPath } = getMdxSource(PAGE_TYPE, eventName)
