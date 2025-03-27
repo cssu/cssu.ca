@@ -8,11 +8,9 @@ const PAGE_TYPE = 'events'
 
 export function generateStaticParams() {
     const paths = getContentPaths(PAGE_TYPE)
-    return paths.map((path) => {
-        return {
-            eventName: path,
-        }
-    })
+    return paths.map((path) => ({
+        params: { eventName: path },
+    }))
 }
 
 export async function generateMetadata({ params }: { params: { eventName: string } }) {
