@@ -164,7 +164,7 @@ export default function Navbar() {
                             href="/community/"
                             text="Community"
                         />
-                        <NavbarHref
+                        {/* <NavbarHref
                             setMobileMenuIsOpen={setMobileMenuIsOpen}
                             href="/posts/student-resources/"
                             text="Resources"
@@ -183,7 +183,7 @@ export default function Navbar() {
                             setMobileMenuIsOpen={setMobileMenuIsOpen}
                             href="/posts/"
                             text="Posts"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>
