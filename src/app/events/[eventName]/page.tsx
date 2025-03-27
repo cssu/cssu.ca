@@ -4,6 +4,12 @@ import { notFound } from 'next/navigation'
 import InformationPage from '@/components/InformationPage'
 import { compilePostMDX, getContentPaths, getMdxSource } from '@/lib/collectContent'
 
+interface PageProps {
+    params: {
+        eventName: string
+    }
+}
+
 const PAGE_TYPE = 'events'
 
 export function generateStaticParams() {
