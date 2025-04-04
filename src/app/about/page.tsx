@@ -110,7 +110,8 @@ export default function About() {
           github="https://github.com/DojimaRyu"
           position="VP Internal"
           linkedin="https://www.linkedin.com/in/edison-yao/"
-          imageUrl="/people/EdisonYao.jpg"
+          imageUrl=""
+{/*           imageUrl="/people/EdisonYao.jpg" */}
         />
         <ProfileCard
           fullName="Aviraj Newatia"
