@@ -55,7 +55,7 @@ export default function About() {
         </li>
       </ul>
       <p>
-        You can visit us in room 2250 in the{" "}
+        You can visit us in room BA2250 in the{" "}
         <a
           href="https://goo.gl/maps/16JTD3pr2KKMkCTE7"
           target="_blank"
