@@ -78,13 +78,13 @@ export default function About() {
       <ProfileContainer>
         <ProfileCard
           fullName="Cynthia Sa"
-          position="Co-President"
+          position="President"
           github="https://github.com/praticodes"
           linkedin="https://www.linkedin.com/in/cynthia-sa-5776b0192/"
         />
         <ProfileCard
           fullName="Pratibha Thakur"
-          position="Co-President"
+          position="Vice President"
           github="https://github.com/praticodes"
           linkedin="https://www.linkedin.com/in/thakur-pratibha"
           imageUrl="/people/PratibhaThakur.png"
@@ -92,7 +92,7 @@ export default function About() {
       </ProfileContainer>
       <ProfileContainer>
         <ProfileCard
-          fullName="Aditya Gautam"
+          fullName="Aditya- I mean Jason Barahan"
           position="Treasurer"
           github=""
           linkedin=""
@@ -106,14 +106,14 @@ export default function About() {
           imageUrl="/people/YanzhenChen.jpg"
         />
         <ProfileCard
-          fullName="Edison Yao"
+          fullName="Zach Muir"
           github="https://github.com/DojimaRyu"
           position="VP Internal"
           linkedin="https://www.linkedin.com/in/edison-yao/"
           imageUrl="/people/EdisonYao.jpg"
         />
         <ProfileCard
-          fullName="Lily Phan"
+          fullName="Aviraj Newatia"
           position="VP Academic"
           github=""
           linkedin=""
@@ -122,29 +122,11 @@ export default function About() {
       </ProfileContainer>
       <ProfileContainer>
         <ProfileCard
-          fullName="Alisa Iskakova"
+          fullName="Ryan Ning"
           position="VP Social"
           github=""
           linkedin=""
           imageUrl=""
-        />
-        <ProfileCard
-          fullName="Zachary Muir"
-          position="VP Staff"
-          linkedin="https://www.linkedin.com/in/zachmuir/"
-        />
-        <ProfileCard
-          fullName="Colleen Chang"
-          position="VP Marketing"
-          github="https://github.com/chexerboxer"
-          linkedin="https://www.linkedin.com/in/colleenxychang/"
-          imageUrl="/people/ColleenChang.png"
-        />
-        <ProfileCard
-          fullName="Avery Ng"
-          position="VP Special Events"
-          github="https://github.com/avery-jingxin"
-          linkedin="https://www.linkedin.com/in/averyng128/"
         />
       </ProfileContainer>
 
