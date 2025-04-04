@@ -21,7 +21,7 @@ export default function About() {
     <InformationPage metadata={frontMatter}>
       {/* Introduction */}
       <p>
-        The Computer Science Student Union (CSSU) represents over 4300 Computer
+        The Computer Science Student Union (CSSU) represents over 5000 Computer
         Science students who are either taking a Computer Science course or are
         part of a Computer Science program at the University of Toronto St.
         George campus. We are a student-governed body that receives funding from
