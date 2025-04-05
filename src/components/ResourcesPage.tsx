@@ -1,32 +1,33 @@
-import React from "react";
-import Link from "next/link";
+import InformationPage from "@/components/InformationPage";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+const frontMatter = {
   title: "Resources",
-  description: "List of Resources for CS students",
+  date: "2024-07-05",
+  hideLastModified: false,
+  lastModified: "2024-07-05",
+  summary: "List of Resources for CS students",
+};
+
+export const metadata: Metadata = {
+  title: frontMatter.title,
+  description: frontMatter.summary || frontMatter.title || "",
 };
 
 export default function ResourcesPage() {
   return (
-    <article className="max-w-4xl mx-auto p-6">
-      <header>
-        <h1 className="text-4xl font-bold mb-4">Resources</h1>
-        <p className="mb-8">List of Resources for CS students</p>
-      </header>
-
+    <InformationPage metadata={frontMatter}>
       {/* CSSU Resources */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
-          Computer Science Student Union (CSSU)
-        </h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Computer Science Student Union (CSSU)</h2>
+        <ul>
           <li>
-            <Link legacyBehavior href="/posts/first-years-guide-to-cs">
-              <a className="text-blue-600 hover:underline">
-                CSSU First Year&apos;s Guide to CS
-              </a>
-            </Link>
+            <a
+              href="/posts/first-years-guide-to-cs"
+              className="text-indigo-600 hover:text-indigo-800"
+            >
+              CSSU First Year&apos;s Guide to CS
+            </a>
           </li>
           <li>
             <strong>Mental Health Resources</strong> (see below)
@@ -35,24 +36,22 @@ export default function ResourcesPage() {
       </section>
 
       {/* Department of Computer Science */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
-          Department of Computer Science
-        </h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Department of Computer Science</h2>
+        <ul>
           <li>
             <a
               href="https://web.cs.toronto.edu/undergraduate/current"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Department of Computer Science Student Resources
             </a>
-            <p className="ml-4">
+            <p>
               The department provides many useful resources for undergraduate
-              students. This page is a must-see for students looking to explore
-              and succeed in computer science.
+              students. This page is a must-see for those looking to explore and
+              succeed in computer science.
             </p>
           </li>
           <li>
@@ -60,7 +59,7 @@ export default function ResourcesPage() {
               href="https://courseography.cdf.toronto.edu/graph"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               CS Courseography - visualize the sequence of CSC courses
             </a>
@@ -69,15 +68,15 @@ export default function ResourcesPage() {
       </section>
 
       {/* Teaching Laboratories */}
-      <section className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">Teaching Laboratories</h3>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Teaching Laboratories</h2>
+        <ul>
           <li>
             <a
               href="https://www.teach.cs.toronto.edu/resources/introduction-for-new-students-using-the-teach-cs-labs/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               CS Teaching Labs Intro
             </a>
@@ -87,30 +86,28 @@ export default function ResourcesPage() {
               href="https://www.teach.cs.toronto.edu/using-labs/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Using Teaching Labs
             </a>
           </li>
           <li>
-            Students in CS major or specialist get Free 300 pages of printing in
-            Bahen Teaching Labs each semester.
+            Students in the CS major or specialist program get 300 pages of free
+            printing in Bahen Teaching Labs each semester.
           </li>
         </ul>
       </section>
 
       {/* Faculty of Arts & Science */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
-          Faculty of Arts &amp; Science
-        </h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Faculty of Arts &amp; Science</h2>
+        <ul>
           <li>
             <a
               href="https://www.artsci.utoronto.ca/current/academic-advising-and-support/online-resources-students"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Faculty of Arts and Science Student Resources
             </a>
@@ -120,7 +117,7 @@ export default function ResourcesPage() {
               href="https://artsci.calendar.utoronto.ca/section/Computer-Science"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Computer Science courses and programs details
             </a>
@@ -130,24 +127,24 @@ export default function ResourcesPage() {
               href="https://ttb.utoronto.ca"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              Arts &amp; Science timetable - search for course listings
+              Arts &amp; Science timetable – search for course listings
             </a>
           </li>
         </ul>
       </section>
 
       {/* University of Toronto */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">University of Toronto</h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>University of Toronto</h2>
+        <ul>
           <li>
             <a
               href="https://login.library.utoronto.ca/index.php?url=https://exams.library.utoronto.ca"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Past Exams Repository
             </a>
@@ -157,7 +154,7 @@ export default function ResourcesPage() {
               href="https://writing.utoronto.ca/writing-centres/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               UofT Writing Centers
             </a>
@@ -167,7 +164,7 @@ export default function ResourcesPage() {
               href="https://onlinelearning.utoronto.ca/coursera-sgs/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Free Courses on Coursera
             </a>
@@ -177,9 +174,9 @@ export default function ResourcesPage() {
               href="https://www.classcentral.com/university/utoronto"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              Free Courses on Lynda/class central
+              Free Courses on Lynda/Class Central
             </a>
           </li>
           <li>
@@ -187,35 +184,35 @@ export default function ResourcesPage() {
               href="https://uofthub.ca/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              UofTHub - information about courses
+              UofTHub – information about courses
             </a>
           </li>
         </ul>
       </section>
 
       {/* Community */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Community</h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Community</h2>
+        <ul>
           <li>
             <a
               href="https://discord.gg/2yNfRKXCvq"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              UofT Discord Student Hub - central hub for links to numerous UofT
+              UofT Discord Student Hub – central hub for links to various UofT
               Discord servers
             </a>
-            <ul className="list-disc pl-6">
+            <ul>
               <li>
                 <a
                   href="https://discord.gg/R9hneMaafD"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-indigo-600 hover:text-indigo-800"
                 >
                   CSSU Discord Server
                 </a>
@@ -225,7 +222,7 @@ export default function ResourcesPage() {
                   href="https://discord.gg/QrT4w8Qyx2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-indigo-600 hover:text-indigo-800"
                 >
                   Unofficial UofT CS Discord Server
                 </a>
@@ -233,32 +230,31 @@ export default function ResourcesPage() {
             </ul>
           </li>
           <li>
-            <Link legacyBehavior href="/ba2250">
-              <a className="text-blue-600 hover:underline">
-                CSSU Student Lounge - <strong>open now!</strong>
-              </a>
-            </Link>
+            <a href="/ba2250" className="text-indigo-600 hover:text-indigo-800">
+              CSSU Student Lounge – <strong>open now!</strong>
+            </a>
           </li>
           <li>
-            <Link legacyBehavior href="/community">
-              <a className="text-blue-600 hover:underline">
-                Student Groups on Campus
-              </a>
-            </Link>
+            <a
+              href="/community"
+              className="text-indigo-600 hover:text-indigo-800"
+            >
+              Student Groups on Campus
+            </a>
           </li>
         </ul>
       </section>
 
       {/* Free Software */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Free Software</h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Free Software</h2>
+        <ul>
           <li>
             <a
               href="https://education.github.com/pack"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Github Student Developer Pack: JetBrains, Azure, etc.
             </a>
@@ -268,9 +264,9 @@ export default function ResourcesPage() {
               href="https://uoft.onthehub.com/WebStore/Security/Signin.aspx?rurl=%2FWebStore%2FOfferingDetails.aspx%3Fo%3D499fe89c-cb3a-e511-940f-b8ca3a5db7a1"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              OnTheHub: Windows 10 Education, Adobe CC etc.
+              OnTheHub: Windows 10 Education, Adobe CC, etc.
             </a>
           </li>
           <li>
@@ -278,9 +274,9 @@ export default function ResourcesPage() {
               href="https://www.office.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              Microsoft Office 365 (sign in with your UofT Email)
+              Microsoft Office 365 (sign in with your UofT email)
             </a>
           </li>
           <li>
@@ -288,7 +284,7 @@ export default function ResourcesPage() {
               href="https://utoronto.zoom.us/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Zoom
             </a>
@@ -298,24 +294,24 @@ export default function ResourcesPage() {
               href="https://isea.utoronto.ca/services/vpn/utorvpn/users/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              UofT VPN - simulate UofT network
+              UofT VPN – simulate UofT network
             </a>
           </li>
         </ul>
       </section>
 
       {/* Free Media */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Free Media</h2>
-        <ul className="list-disc pl-6">
+      <section>
+        <h2>Free Media</h2>
+        <ul>
           <li>
             <a
               href="https://mediacommons.library.utoronto.ca/criterion-demand"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               UofT Criterion-on-Demand
             </a>
@@ -325,7 +321,7 @@ export default function ResourcesPage() {
               href="https://utoronto.kanopy.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Kanopy
             </a>
@@ -335,7 +331,7 @@ export default function ResourcesPage() {
               href="https://login.library.utoronto.ca/index.php?url=http://utoronto.naxosmusiclibrary.com/homepage.asp"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               Naxos music library
             </a>
@@ -343,173 +339,162 @@ export default function ResourcesPage() {
         </ul>
       </section>
 
-      <hr className="my-8" />
-
       {/* Mental Health Resources */}
-      <section className="mb-8">
-        <h1 className="text-2xl font-bold mb-4">Mental Health Resources</h1>
-        <ul className="list-disc pl-6 mb-4">
-          <li className="font-bold">Call 911 if at immediate risk.</li>
-          <li className="font-bold">
-            If you are: feeling desperate and hopeless, worried you might hurt
-            yourself, someone else or having suicidal thoughts, alone with no
-            one to talk to.
+      <section>
+        <h2>Mental Health Resources</h2>
+        <ul>
+          <li>
+            <strong>Call 911 if at immediate risk.</strong>
           </li>
-          <li className="font-bold">
-            If you have: made a plan, the means to hurt yourself or someone else
-            (e.g. pills or a weapon), attempted suicide or hurt yourself before.
+          <li>
+            <strong>
+              If you are feeling desperate, hopeless, or having suicidal
+              thoughts, please seek help immediately.
+            </strong>
+          </li>
+          <li>
+            <strong>
+              If you have made a plan or have the means to hurt yourself or
+              others, please contact emergency services.
+            </strong>
           </li>
         </ul>
-        <h2 className="text-xl font-semibold mb-2">
-          Talk to someone right NOW
-        </h2>
-        <h3 className="text-lg font-semibold mb-2">
-          24/7 Emergency counseling services
-        </h3>
-        <p className="mb-4">
+        <h3>Talk to someone right NOW</h3>
+        <h4>24/7 Emergency Counseling Services</h4>
+        <p>
           <a
             href="https://mentalhealth.utoronto.ca/my-student-support-program/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-indigo-600 hover:text-indigo-800"
           >
             U of T My Student Support Program (My SSP)
           </a>{" "}
           | <strong>1-844-451-9700</strong>. Outside of North America, call{" "}
-          <strong>001-416-380-6578</strong>. Culturally-competent mental health
-          and counseling services in 146 languages for all U of T students.
+          <strong>001-416-380-6578</strong>.
         </p>
-        <p className="mb-4">
+        <p>
           <a
             href="https://good2talk.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-indigo-600 hover:text-indigo-800"
           >
             Good2Talk Student Helpline
           </a>{" "}
           | <strong>1-866-925-5454</strong>
           <br />
-          Professional counseling, information and referrals helpline for mental
-          health, addictions and students well-being.
+          Professional counseling, information, and referrals for mental health,
+          addictions, and student well-being.
         </p>
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">
-            Contacts for different types of distress
-          </h2>
-          <p className="mb-4">
-            Life is complicated and doesn’t always go as planned. If you are in
-            distress, we can connect you to the help you need.
+        <section>
+          <h3>Contacts for Different Types of Distress</h3>
+          <p>
+            Life can be challenging. If you are in distress, we can help connect
+            you to the resources you need.
           </p>
-          <p className="mb-4">
+          <p>
             Download the{" "}
             <a
               href="https://studentlife.utoronto.ca/wp-content/uploads/Feeling-distressed.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              Feeling distressed
+              Feeling Distressed
             </a>{" "}
-            (PDF) for contacts resources to support you through different kinds
-            of distress:
+            (PDF) for contacts and resources to support you through different
+            kinds of distress:
           </p>
-          <ul className="list-disc pl-6 mb-4">
-            <li>24/7 EMERGENCY</li>
-            <li>Mental health</li>
+          <ul>
+            <li>24/7 Emergency</li>
+            <li>Mental Health</li>
             <li>Academic</li>
-            <li>Financial (difficulties due to unexpected circumstances)</li>
-            <li>Housing (temporary housing crisis)</li>
-            <li>Sexual assault/safety</li>
-            <li>Equity offices and communities of care on campus</li>
+            <li>Financial (unexpected circumstances)</li>
+            <li>Housing (temporary crisis)</li>
+            <li>Sexual Assault/Safety</li>
+            <li>Equity Offices and Communities of Care</li>
           </ul>
-          <p className="mb-4">
-            Contacts include on-campus and community supports during business
-            hours and 24/7.
+          <p>
+            Contacts include both on-campus and community supports during
+            business hours and 24/7.
           </p>
         </section>
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">
-            Students with disabilities
-          </h2>
-          <p className="mb-4">
-            Students with disabilities, including mental health disabilities
-            (examples include depression, social anxiety, obsessive compulsive
-            disorder), can reach out to{" "}
+        <section>
+          <h3>Students with Disabilities</h3>
+          <p>
+            Students with disabilities, including mental health conditions such
+            as depression, social anxiety, or OCD, can reach out to{" "}
             <a
               href="https://studentlife.utoronto.ca/department/accessibility-services/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              accessibility services
+              Accessibility Services
             </a>{" "}
-            for a broad range of accommodations services and supports,
-            including:
+            for accommodations and supports, including:
           </p>
-          <ul className="list-disc pl-6 mb-4">
-            <li>Disability related supports and strategies</li>
-            <li>
-              Accommodations related to course work and in-course components
-            </li>
-            <li>Test and exam accommodations and resources</li>
-            <li>Opportunities to engage with peers through student socials</li>
+          <ul>
+            <li>Disability-related supports and strategies</li>
+            <li>Coursework accommodations</li>
+            <li>Test and exam accommodations</li>
+            <li>Opportunities for student socials</li>
           </ul>
-          <p className="mb-4">
+          <p>
             Please visit the{" "}
             <a
               href="https://studentlife.utoronto.ca/department/accessibility-services/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              accessibility services website
+              Accessibility Services website
             </a>{" "}
-            for more information about supports, services and how to register.
-            To book an appointment, please call <strong>416-978-8060</strong> or
-            email{" "}
+            for more information. To book an appointment, call{" "}
+            <strong>416-978-8060</strong> or email{" "}
             <a
               href="mailto:accessibility.services@utoronto.ca"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
               accessibility.services@utoronto.ca
             </a>
             .
           </p>
         </section>
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">
-            Student mental health website
-          </h2>
-          <p className="mb-4">
+        <section>
+          <h3>Student Mental Health Website</h3>
+          <p>
             The University recently launched a new{" "}
             <a
               href="https://mentalhealth.utoronto.ca/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-indigo-600 hover:text-indigo-800"
             >
-              student mental health website
+              Student Mental Health Website
             </a>{" "}
-            to help you find mental health supports across the tri-campus. The
-            website features a robust search and filter function that allows you
-            to match your needs with the many types of supports available across
-            the University and its community partners.
+            to help you find supports across the tri-campus. Its robust search
+            and filter function allows you to match your needs with available
+            resources.
           </p>
-          <p className="mb-4">
-            March 17, 2021 -- The CSSU speaks on behalf of Computer Science
-            Students at the Business Board of the UofT Governing Council, on the
-            subject of the 2021-2022 Tuition Schedules.
+          <p>
+            March 17, 2021 – The CSSU spoke on behalf of Computer Science
+            Students at the Business Board of the UofT Governing Council
+            regarding the 2021-2022 Tuition Schedules.
           </p>
-          <p className="mb-4">
-            Didn&apos;t find what you were looking for? See our{" "}
-            <Link legacyBehavior href="/posts/faq">
-              <a className="text-blue-600 hover:underline">FAQ</a>
-            </Link>
+          <p>
+            Didn&apos;t find what you were looking for? Visit our{" "}
+            <a
+              href="/posts/faq"
+              className="text-indigo-600 hover:text-indigo-800"
+            >
+              FAQ
+            </a>
             .
           </p>
         </section>
       </section>
-    </article>
+    </InformationPage>
   );
 }

@@ -64,7 +64,7 @@ export default function About() {
           Bahen Centre for Information Technology
         </a>{" "}
         or email us at <a href="mailto:executive@cssu.ca">executive@cssu.ca</a>.{" "}
-        <a href="/ba2250">See Office Hours.</a>
+        <a href="/ba2250">See Office Hours.</a>q
       </p>
 
       {/* Executive Council */}
