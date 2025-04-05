@@ -479,11 +479,6 @@ export default function ResourcesPage() {
             resources.
           </p>
           <p>
-            March 17, 2021 – The CSSU spoke on behalf of Computer Science
-            Students at the Business Board of the UofT Governing Council
-            regarding the 2021-2022 Tuition Schedules.
-          </p>
-          <p>
             Didn&apos;t find what you were looking for? Visit our{" "}
             <a
               href="/posts/faq"
