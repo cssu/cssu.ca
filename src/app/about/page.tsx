@@ -64,7 +64,7 @@ export default function About() {
           Bahen Centre for Information Technology
         </a>{" "}
         or email us at <a href="mailto:executive@cssu.ca">executive@cssu.ca</a>.{" "}
-        <a href="/ba2250">See Office Hours.</a>q
+        <a href="/ba2250">See Office Hours.</a>
       </p>
 
       {/* Executive Council */}
@@ -111,7 +111,6 @@ export default function About() {
           position="VP Internal"
           linkedin="https://www.linkedin.com/in/edison-yao/"
           imageUrl=""
-{/*           imageUrl="/people/EdisonYao.jpg" */}
         />
         <ProfileCard
           fullName="Aviraj Newatia"
