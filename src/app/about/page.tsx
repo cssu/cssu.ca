@@ -7,7 +7,7 @@ const frontMatter = {
   title: "About",
   date: "2024-06-16",
   hideLastModified: false,
-  lastModified: "2025-04-04",
+  lastModified: "2025-05-02",
   summary: "About the Computer Science Student Union",
 };
 
@@ -81,21 +81,22 @@ export default function About() {
           position="Co-President"
           github="https://github.com/praticodes"
           linkedin="https://www.linkedin.com/in/cynthia-sa-5776b0192/"
+          imageUrl="/people/CynthiaSa.webp"
         />
         <ProfileCard
           fullName="Pratibha Thakur"
           position="Co-President"
           github="https://github.com/praticodes"
           linkedin="https://www.linkedin.com/in/thakur-pratibha"
-          imageUrl="/people/PratibhaThakur.png"
+          imageUrl="/people/PratibhaThakur.webp"
         />
       </ProfileContainer>
       <ProfileContainer>
         <ProfileCard
           fullName="Aditya Gautam"
           position="Treasurer"
-          github=""
-          linkedin=""
+          github="https://github.com/Autumn-AG"
+          linkedin="https://www.linkedin.com/in/adityagautam-ag/"
           imageUrl=""
         />
         <ProfileCard
@@ -103,42 +104,44 @@ export default function About() {
           github="https://github.com/YheChen"
           position="VP External"
           linkedin="https://www.linkedin.com/in/yanzhenchen/"
-          imageUrl="/people/YanzhenChen.jpg"
+          imageUrl="/people/YanzhenChen.webp"
         />
         <ProfileCard
           fullName="Edison Yao"
           github="https://github.com/DojimaRyu"
           position="VP Internal"
           linkedin="https://www.linkedin.com/in/edison-yao/"
-          imageUrl="/people/EdisonYao.jpg"
+          imageUrl="/people/EdisonYao.webp"
         />
         <ProfileCard
           fullName="Lily Phan"
           position="VP Academic"
-          github=""
-          linkedin=""
-          imageUrl=""
+          github="https://github.com/pH-li"
+          linkedin="https://www.linkedin.com/in/lilyphan48/"
+          imageUrl="/people/LilyPhan.webp"
         />
       </ProfileContainer>
       <ProfileContainer>
         <ProfileCard
           fullName="Alisa Iskakova"
           position="VP Social"
-          github=""
-          linkedin=""
-          imageUrl=""
+          github="https://github.com/alisa-isk"
+          linkedin="https://www.linkedin.com/in/alisa-iskakova-b278022b7/"
+          imageUrl="/people/AlisaIskakova.webp"
         />
         <ProfileCard
           fullName="Zachary Muir"
           position="VP Staff"
+          github="https://github.com/hydrabeer"
           linkedin="https://www.linkedin.com/in/zachmuir/"
+          imageUrl="/people/ZacharyMuir.webp"
         />
         <ProfileCard
           fullName="Colleen Chang"
           position="VP Marketing"
           github="https://github.com/chexerboxer"
           linkedin="https://www.linkedin.com/in/colleenxychang/"
-          imageUrl="/people/ColleenChang.png"
+          imageUrl="/people/ColleenChang.webp"
         />
         <ProfileCard
           fullName="Avery Ng"
@@ -156,7 +159,7 @@ export default function About() {
         yet to appoint all members of the General Council for the 2025-26
         academic year. Keep an eye out for updates to the application process.
       </p>
-      <ProfileContainer>
+      {/* <ProfileContainer>
         <ProfileCard
           fullName="Vishnu Nittoor"
           position="Associate, Academic Committee"
@@ -169,7 +172,7 @@ export default function About() {
           fullName="Alan Su"
           position="Associate, Academic Committee"
         />
-      </ProfileContainer>
+      </ProfileContainer> */}
 
       {/* Office Operations */}
       <h2>Office Operations</h2>

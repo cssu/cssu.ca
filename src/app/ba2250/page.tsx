@@ -79,7 +79,7 @@ export default function BA2250() {
         lounge volunteer.
       </p>
 
-      <h2>Schedule (Winter 2025)</h2>
+      <h2>Schedule (Summer 2025)</h2>
       <table>
         <thead>
           <tr>
