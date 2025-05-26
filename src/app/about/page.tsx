@@ -63,7 +63,7 @@ export default function About() {
         >
           Bahen Centre for Information Technology
         </a>{" "}
-        or email us at <a href="mailto:executive@cssu.ca">executive@cssu.ca</a>.{" "}
+        or email us at <a href="mailto:cssu@cdf.toronto.edu">cssu@cdf.toronto.edu</a>.{" "}
         <a href="/ba2250">See Office Hours.</a>
       </p>
 
