@@ -63,7 +63,7 @@ export default function About() {
         >
           Bahen Centre for Information Technology
         </a>{" "}
-        or email us at <a href="mailto:executive@cssu.ca">executive@cssu.ca</a>.{" "}
+        or email us at <a href="mailto:cssu@cdf.toronto.edu">cssu@cdf.toronto.edu</a>.{" "}
         <a href="/ba2250">See Office Hours.</a>
       </p>
 
@@ -178,12 +178,25 @@ export default function About() {
       <h2>Office Operations</h2>
       <p>
         The CSSU proudly maintains a student lounge in BA 2250 in which students
-        can hang out, network, play games, ask questions, and study. Office
-        Operations volunteers, or Office Ops, help manage the lounge,
+        can hang out, network, play games, ask questions, and study. We have a variety
+        of amenities, including but not limited to free menstrual and safe sex supplies,
+        drinks (coffee, tea, hot cocoa and French Vanilla powder), coat racks for the 
+        winter, digital lockers (available on a first-come-first-serve basis), and 
+        video game consoles. The lounge is also known for <a href="https://www.youtube.com/watch?v=f9Q58Rnzz88&t=73s"
+                                                            >very cheap ice cream sandwiches.</a>
+      </p>
+      <p>
+        Office Operations volunteers, or Office Ops, help manage the lounge,
         kitchenette, gaming centre, and study spaces. They also assist in
         answering questions and directing students to appropriate resources.
         Typically, Executive and General Council members also serve Office Ops
-        shifts. <a href="/ba2250">See Office Hours.</a>
+        shifts. While our lounge operating hours depend on availability, they
+        generally follow a <a href="/ba2250">semester based schedule</a>.
+      </p>
+      <p>
+        University students are welcome to volunteer to keep the lounge running.
+        As an added perk, you can get to know a lot of people within the Computer
+        Science undergraduate community. Applications open on an as-needed basis.
       </p>
 
       {/* Feedback Form */}
