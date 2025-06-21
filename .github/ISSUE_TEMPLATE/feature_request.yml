@@ -1,0 +1,33 @@
+---
+name: Feature request
+title: "[Feature Request] your title goes here"
+description: "for when you want to see something new added to the CSSU website"
+labels: "enhancement"
+assignees: JasonBarahan
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe your feature. How does it work?"
+      placeholder: "This feature allows me to mine cryptocurrency using your servers!"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: "Describe why you think we should add this feature."
+      placeholder: "We should add this feature because mining crypto makes me richer."
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation
+      description: "OPTIONAL. This is if you'd like to see a feature implemented in a specific way."
+      placeholder: "We can implement this feature by downloading and running this cool executable file."
+    validations:
+      required: false
+---
+

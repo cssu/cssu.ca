@@ -1,0 +1,33 @@
+---
+name: Site issue
+description: "for when you see something on the site that isn't working"
+title: "[Site issue] your title goes here"
+labels: "bug"
+assignees: JasonBarahan
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe your issue here. What were you trying to do? What happened instead? Please also include a link to the page if applicable."
+      placeholder: "I was trying to see what upcoming events there are, but the site is too slow!"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Reproduction steps
+      description: "How did you encounter the bug? State the device you are using, the browser you are using, and what you did that triggered the bug."
+      placeholder: "I was using Safari on my iPhone 14, clicked on the Events section on the site, and it took 14 seconds to load all the content"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: additional_details
+      description: "OPTIONAL. Add any more details you wish to share."
+      placeholder: "I was on the subway when I tried doing this... that shouldn't affect anything, right?"
+    validations:
+      required: false
+---
+
