@@ -1,0 +1,16 @@
+---
+name: Update
+description: "for when content on the site needs to be added or updated"
+title: "[Update] your title goes here"
+assignees: JasonBarahan
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe the content that needs to be added or updated in detail. Feel free to be really specific."
+      placeholder: "Example: The CSSU will be holding their annual semi-formal on March 22 at Old Victoria. [add more details]"
+    validations:
+      required: true
+---
+
