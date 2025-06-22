@@ -228,6 +228,13 @@ export default function Community() {
           imageUrl="/rcgs/utwd.png"
         />
         <ProfileCard
+          fullName="WHWC"
+          position="UofT Weblogging Clubc"
+          website="https://uoftwebloggingclub.neocities.org/"
+          instagram="https://www.instagram.com/weblogging.homebrew.club"
+          imageUrl="/rcgs/uoft_weblogging.webp"
+        />
+        <ProfileCard
           fullName="WICS"
           position="UofT Women in Computer Science"
           website="https://uoftwics.netlify.app/"
