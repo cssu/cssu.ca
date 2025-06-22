@@ -229,7 +229,7 @@ export default function Community() {
         />
         <ProfileCard
           fullName="WHWC"
-          position="UofT Weblogging Clubc"
+          position="UofT Weblogging Club"
           website="https://uoftwebloggingclub.neocities.org/"
           instagram="https://www.instagram.com/weblogging.homebrew.club"
           imageUrl="/rcgs/uoft_weblogging.webp"
