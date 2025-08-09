@@ -130,13 +130,6 @@ export default function About() {
           imageUrl="/people/AlisaIskakova.webp"
         />
         <ProfileCard
-          fullName="Zachary Muir"
-          position="VP Staff"
-          github="https://github.com/hydrabeer"
-          linkedin="https://www.linkedin.com/in/zachmuir/"
-          imageUrl="/people/ZacharyMuir.webp"
-        />
-        <ProfileCard
           fullName="Colleen Chang"
           position="VP Marketing"
           github="https://github.com/chexerboxer"
