@@ -50,7 +50,9 @@ export default function InformationPage({
               <span className="font-mono">
                 Last modified:&nbsp;
                 {new Date(
-                  metadata.lastModified ? metadata.lastModified : metadata.date
+                  // Date-only strings parse as UTC midnight, which shows the
+                  // previous day in Toronto; a time suffix makes it local.
+                  `${metadata.lastModified ?? metadata.date}T00:00:00`
                 ).toLocaleDateString("en-GB", {
                   year: "numeric",
                   month: "long",

@@ -10,8 +10,8 @@ export type NavigationLink = {
 
 export const NAVIGATION_LINKS: NavigationLink[] = [
   {
-    href: "/ba2250/",
-    text: "BA2250",
+    href: "/lounge/",
+    text: "BA2285",
   },
   {
     href: "/about/",

@@ -2,7 +2,7 @@ import InformationPage from "@/components/InformationPage";
 import type { Metadata } from "next";
 
 const frontMatter = {
-  title: "BA2250",
+  title: "BA2285",
   date: "2024-04-06",
   hideLastModified: true,
   summary: "The Undergraduate Computer Science Lounge",
@@ -13,9 +13,13 @@ export const metadata: Metadata = {
   description: frontMatter.summary || frontMatter.title || "",
 };
 
-export default function BA2250() {
+export default function BA2285() {
   return (
     <InformationPage metadata={frontMatter}>
+      <h2>
+        We&apos;ve moved! As of October 19, 2026, the lounge is in BA2285, not
+        BA2250.
+      </h2>
       <p>
         The CSSU proudly maintains a student lounge in{" "}
         <a
@@ -24,7 +28,7 @@ export default function BA2250() {
           rel="noopener noreferrer"
           className="text-blue-500"
         >
-          BA2250
+          BA2285
         </a>{" "}
         in which students can hang out, network, play games, and ask questions.
         We have a snack store, a gaming centre, study spaces, and more! Office
@@ -39,8 +43,7 @@ export default function BA2250() {
           free/loan shelf.
         </li>
         <li>
-          Kitchenette with fridge, sink, microwave, kettle, and basic utensils
-          and tools.
+          Fridge, microwave, and kettle, plus basic utensils and tools.
         </li>
         <li>
           Entertainment/gaming centre, with a variety of modern, arcade, retro,
@@ -119,8 +122,7 @@ export default function BA2250() {
           volunteer.
         </li>
         <li>
-          Clean the microwave, counter, and other kitchen utensils after you use
-          them.
+          Clean the microwave and any utensils after you use them.
         </li>
         <li>
           Do not leave controllers lying loosely; please put them back on the
@@ -145,7 +147,7 @@ export default function BA2250() {
         <em>
           If you&apos;re a volunteer, see the{" "}
           <a
-            href="../ba2250-volunteering/"
+            href="../lounge-volunteering/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500"

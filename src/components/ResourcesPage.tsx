@@ -230,7 +230,7 @@ export default function ResourcesPage() {
             </ul>
           </li>
           <li>
-            <a href="/ba2250" className="text-indigo-600 hover:text-indigo-800">
+            <a href="/lounge" className="text-indigo-600 hover:text-indigo-800">
               CSSU Student Lounge – <strong>open now!</strong>
             </a>
           </li>

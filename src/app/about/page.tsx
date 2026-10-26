@@ -22,7 +22,7 @@ const frontMatter = {
   title: "About",
   date: "2026-01-16",
   hideLastModified: false,
-  lastModified: "2026-01-16",
+  lastModified: "2026-10-26",
   summary: "About the Computer Science Student Union",
 };
 
@@ -85,7 +85,7 @@ export default function About() {
           Bahen Centre for Information Technology
         </a>{" "}
         or email us at <a href={`mailto:${APP_CONFIG.email}`}>{APP_CONFIG.email}</a>.{" "}
-        <a href="/ba2250">See Office Hours.</a>
+        <a href="/lounge">See Office Hours.</a>
       </p>
       </div>
 
@@ -200,11 +200,11 @@ export default function About() {
       </p>
       <p>
         Office Operations volunteers, or Office Ops, help manage the lounge,
-        kitchenette, gaming centre, and study spaces. They also assist in
+        lounge equipment, gaming centre, and study spaces. They also assist in
         answering questions and directing students to appropriate resources.
         Typically, Executive and General Council members also serve Office Ops
         shifts. While our lounge operating hours depend on availability, they
-        generally follow a <a href="/ba2250">semester based schedule</a>.
+        generally follow a <a href="/lounge">semester based schedule</a>.
       </p>
       <p>
         University students are welcome to volunteer to keep the lounge running.
