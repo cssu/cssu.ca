@@ -57,7 +57,7 @@ export default function FAQPage() {
             join the clubs, reach out anyway! The organizers and your peers can
             be invaluable resources. To get involved with the CSSU, you can
             attend events, volunteer for{" "}
-            <Link legacyBehavior href="/ba2250">
+            <Link legacyBehavior href="/lounge">
               <a className="text-blue-600 hover:underline">Office Operations</a>
             </Link>
             , apply to join{" "}

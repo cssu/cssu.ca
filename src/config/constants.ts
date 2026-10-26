@@ -7,7 +7,7 @@ export const APP_CONFIG = {
   name: "CSSU @ UofT",
   fullName: "Computer Science Student Union at the University of Toronto",
   email: "cssu@cdf.toronto.edu",
-  officeRoom: "BA2250",
+  officeRoom: "BA2285",
   officeLink: "https://goo.gl/maps/16JTD3pr2KKMkCTE7",
   constitutionPath: "/constitution.pdf",
 } as const;

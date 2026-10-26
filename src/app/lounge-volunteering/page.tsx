@@ -2,7 +2,7 @@ import InformationPage from "@/components/InformationPage";
 import type { Metadata } from "next";
 
 const frontMatter = {
-  title: "Volunteering in BA2250",
+  title: "Volunteering in BA2285",
   date: "2024-01-24",
   hideLastModified: true,
   summary: "Volunteering in the Undergraduate Computer Science Lounge",
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   description: frontMatter.summary || frontMatter.title || "",
 };
 
-export default function BA2250Volunteering() {
+export default function BA2285Volunteering() {
   return (
     <InformationPage metadata={frontMatter}>
       <p>
-        The CSSU proudly maintains a student lounge in BA 2250 in which students
+        The CSSU proudly maintains a student lounge in BA 2285 in which students
         can hang out, network, play games and ask questions. We have a snack
         store, gaming centre, study spaces and more! Office operations
         volunteers manage the lounge, assist in answering questions, and direct
@@ -52,8 +52,8 @@ export default function BA2250Volunteering() {
         <li>Volunteers will have 8AM-9PM access on weekdays.</li>
         <li>
           Members of the Executive Council shall have 24-hour access to the
-          lounge (BA2250) and storage room (BA2285). This may not be the case
-          when changes in position occur.
+          lounge (BA2285). This may not be the case when changes in position
+          occur.
         </li>
       </ul>
 
@@ -68,7 +68,7 @@ export default function BA2250Volunteering() {
           fridge.
         </li>
         <li>
-          Ice-cream sandwiches are stored in the freezer in the kitchenette.
+          Ice-cream sandwiches are stored in the freezer.
         </li>
         <li>
           Volunteers are expected to make sales on Square. Log in to the iPad,
@@ -114,9 +114,9 @@ export default function BA2250Volunteering() {
         </li>
       </ul>
 
-      <h2>Kitchenette</h2>
+      <h2>Fridge &amp; Microwave</h2>
       <ul>
-        <li>Students are free to use the microwave, kettle, and sink.</li>
+        <li>Students are free to use the microwave and kettle.</li>
         <li>
           The silver refrigerator is open for use given that the users
           understand they can only pick up their items when there&apos;s a
@@ -168,12 +168,8 @@ export default function BA2250Volunteering() {
           are also welcome.
         </li>
         <li>
-          Let the Executive Council know if you need anything from the storage
-          room.
-        </li>
-        <li>
           Ensure that everyone is comfortable and observing the{" "}
-          <a href="../ba2250" target="_blank" rel="noopener noreferrer">
+          <a href="../lounge" target="_blank" rel="noopener noreferrer">
             code of conduct
           </a>
           .
